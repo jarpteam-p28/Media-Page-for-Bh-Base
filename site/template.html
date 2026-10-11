@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<style>
+  :root { --ink:#1a1a1a; --accent:#c2185b; --quiet:#6b6b6b; --line:#eee; --bg:#fff; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: Georgia, 'Times New Roman', serif; color:var(--ink); background:var(--bg); }
+  header { padding: 20px 24px; border-bottom: 1px solid var(--line); display:flex; justify-content:space-between; align-items:center; }
+  header a.brand { font-family: Helvetica, Arial, sans-serif; font-weight:700; letter-spacing:0.5px; color:var(--ink); text-decoration:none; font-size:1.1rem; }
+  nav a { font-family: Helvetica, Arial, sans-serif; color:var(--quiet); text-decoration:none; margin-left:16px; font-size:0.9rem; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; }
+  .eyebrow { font-family: Helvetica, Arial, sans-serif; color:var(--accent); font-weight:700; font-size:0.8rem; letter-spacing:1px; text-transform:uppercase; }
+  h1 { font-size: 2rem; line-height:1.2; margin: 8px 0 4px; }
+  .meta { font-family: Helvetica, Arial, sans-serif; color:var(--quiet); font-size:0.85rem; margin-bottom: 28px; }
+  article h2 { font-size:1.3rem; margin-top: 2em; }
+  article p { font-size:1.08rem; line-height:1.7; }
+  article a { color: var(--accent); }
+  .disclosure { font-family: Helvetica, Arial, sans-serif; font-size:0.82rem; color:var(--quiet); border-top:1px solid var(--line); margin-top:48px; padding-top:16px; }
+  .card-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap:20px; }
+  .card { border:1px solid var(--line); border-radius:8px; padding:16px; text-decoration:none; color:var(--ink); }
+  .card h3 { font-size:1.05rem; margin:4px 0; font-family: Helvetica, Arial, sans-serif; }
+  .card .eyebrow { font-size:0.7rem; }
+  footer { text-align:center; padding:24px; font-family: Helvetica, Arial, sans-serif; font-size:0.8rem; color:var(--quiet); }
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="/">{{SITE_NAME}}</a>
+  <nav>{{NAV}}</nav>
+</header>
+<main>
+{{CONTENT}}
+</main>
+<footer>&copy; {{YEAR}} {{SITE_NAME}}</footer>
+</body>
+</html>

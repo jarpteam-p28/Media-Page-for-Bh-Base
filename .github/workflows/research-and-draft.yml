@@ -1,0 +1,48 @@
+name: Research and draft
+
+# Runs on a schedule, finds trending stories per niche, drafts an article for
+# each, and opens a pull request so Pablo reviews and merges by hand -- that
+# merge IS the human approval step. Nothing in this repo auto-publishes.
+
+on:
+  schedule:
+    - cron: "0 13 * * *"   # 9am US Eastern (UTC-4) -- adjust if you want a different time
+  workflow_dispatch: {}      # lets you trigger it manually from the Actions tab too
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  research-and-draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run research agent
+        run: python3 agents/research_agent.py
+
+      - name: Run writer agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 agents/writer_agent.py
+
+      - name: Run review check
+        run: python3 agents/review_check.py --all > review_report.md || true
+
+      - name: Open pull request for review
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "New draft(s): $(date +%Y-%m-%d)"
+          branch: drafts/$(date +%Y-%m-%d)-${{ github.run_id }}
+          title: "New draft(s) for review - $(date +%Y-%m-%d)"
+          body-path: review_report.md
+          add-paths: |
+            content/drafts/**

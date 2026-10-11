@@ -1,0 +1,35 @@
+# One entry per content vertical. Add a new niche by adding a new block here --
+# the agents loop over this file, they don't hardcode topics.
+#
+# slug          : used for folder names, filenames, and site URL paths
+# voice         : which persona/voice writes this niche ("rosanna" | "narrator")
+# search_terms  : phrases used to pull trending items (Google News RSS + Reddit)
+# subreddits    : optional, for Reddit-sourced trend discovery
+# audience      : one line, who this is for -- keeps the writer agent's "door" honest
+# disclosures   : extra disclaimer lines required on every article in this niche
+
+niches:
+  - slug: womens-confidence-dating
+    name: "Women's Confidence & Dating"
+    voice: rosanna
+    audience: "Women 25-45 navigating dating, situationships, and boundaries"
+    search_terms:
+      - "dating advice trend"
+      - "situationship"
+      - "relationship red flags"
+      - "dating app burnout"
+    subreddits:
+      - dating_advice
+      - TwoXChromosomes
+      - datingoverthirty
+    disclosures:
+      - "Rosanna is an AI-created persona. This content is educational, not therapy or professional advice."
+      - "If you are in an unsafe or abusive relationship, contact the National Domestic Violence Hotline: 1-800-799-7233."
+
+  # - slug: example-second-niche
+  #   name: "Example Second Niche"
+  #   voice: narrator
+  #   audience: "..."
+  #   search_terms: ["...", "..."]
+  #   subreddits: ["..."]
+  #   disclosures: ["..."]

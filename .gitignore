@@ -1,0 +1,5 @@
+dist/
+content/drafts/_candidates/
+__pycache__/
+*.pyc
+.DS_Store

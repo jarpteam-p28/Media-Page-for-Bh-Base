@@ -1,0 +1,65 @@
+name: Promote approved draft
+
+# This is the actual "publish" trigger. Merging a drafts/* PR from
+# research-and-draft.yml IS the human approval step -- when you merge it,
+# this workflow moves the new draft file(s) from content/drafts/<niche>/ into
+# content/published/<niche>/ and pushes that to main.
+#
+# Cloudflare Pages / Netlify / GitHub Pages (whichever you connect, see
+# README.md) watch pushes to main and rebuild the site automatically from
+# `python3 site/build.py` -- so this workflow is the only thing standing
+# between "you clicked merge" and "it's live." Nothing publishes without
+# that merge.
+#
+# If you want to edit the draft before approving: do it in the PR's "Files
+# changed" tab (GitHub lets you edit a file directly in a PR) before you
+# merge it. If you want to reject it: close the PR without merging and
+# nothing happens.
+
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  contents: write
+
+jobs:
+  promote:
+    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'drafts/')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Move approved draft(s) to content/published
+        run: |
+          set -e
+          git diff --name-only --diff-filter=A \
+            "${{ github.event.pull_request.base.sha }}" \
+            "${{ github.event.pull_request.merge_commit_sha }}" \
+            -- 'content/drafts/*/*.md' > changed_drafts.txt || true
+
+          if [ ! -s changed_drafts.txt ]; then
+            echo "No new draft files in this PR -- nothing to promote."
+            exit 0
+          fi
+
+          mkdir -p content/published
+          while IFS= read -r draft_path; do
+            [ -f "$draft_path" ] || continue
+            dest_path="${draft_path/content\/drafts/content\/published}"
+            mkdir -p "$(dirname "$dest_path")"
+            sed -i 's/^status: draft$/status: approved/' "$draft_path"
+            git mv "$draft_path" "$dest_path"
+            echo "Promoted: $draft_path -> $dest_path"
+          done < changed_drafts.txt
+
+      - name: Commit and push
+        run: |
+          git config user.name "media-pipeline-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --cached --quiet && echo "Nothing to commit" || \
+            (git commit -m "Promote approved draft(s) from PR #${{ github.event.pull_request.number }}" && git push origin main)

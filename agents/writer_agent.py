@@ -1,0 +1,184 @@
+#!/usr/bin/env python3
+"""
+Writer agent -- Stage 2 of the pipeline.
+
+Reads content/drafts/_candidates/<slug>.json (made by research_agent.py),
+picks the strongest candidate per niche, and calls the Anthropic API to draft
+a full article. The system prompt below distills the house rules from several
+skills in the anthropic-skills library so every draft follows them even
+though the automated run never "invokes a skill" the way a chat session does:
+
+  - seo-article        structure, answer-first, specific attributable facts
+  - claim-sourcing      no number without a traceable source; hedge to match evidence
+  - human-voice         sounds like a person, not an AI, in the niche's chosen voice
+  - plain-language-gate reads at full scroll speed, no jargon, 20-50 y/o audience
+  - ai-persona-limits   an AI persona voice (e.g. Rosanna) never invents a biography,
+                        never diagnoses a real person, stays second-person
+  - pre-send-check      a mechanical self-check pass before the draft is saved
+
+The output is a DRAFT, not a publish. It is written to
+content/drafts/<slug>/<date>-<slug-of-title>.md with YAML frontmatter and is
+meant to be opened as a pull request for a human (Pablo) to read, edit, and
+approve by merging -- see .github/workflows/research-and-draft.yml.
+
+Requires env var ANTHROPIC_API_KEY. Model is configurable via ANTHROPIC_MODEL
+(defaults to a current Claude model) so this doesn't need code changes when
+model names update.
+"""
+import datetime
+import json
+import os
+import pathlib
+import re
+import sys
+
+import anthropic
+import yaml
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+NICHES_FILE = ROOT / "config" / "niches.yaml"
+CANDIDATES_DIR = ROOT / "content" / "drafts" / "_candidates"
+DRAFTS_DIR = ROOT / "content" / "drafts"
+
+MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-5")
+
+VOICE_NOTES = {
+    "rosanna": (
+        "Voice: Rosanna. She is an AI-created persona, disclosed as such. She speaks "
+        "directly to the reader (second person), never invents personal anecdotes or a "
+        "biography, never diagnoses a named real person, and never gives advice that "
+        "tells someone to stay in or manage a genuinely unsafe situation -- that routes "
+        "to a professional/hotline instead. She is direct, a little dry, never cutesy, "
+        "never uses more than one exclamation point per article. She says the thing a "
+        "friend would say if the friend weren't being polite."
+    ),
+    "narrator": (
+        "Voice: a faceless, neutral narrator. Plain, confident, zero first-person "
+        "anecdotes, no persona backstory. States things plainly and lets the facts carry "
+        "the authority."
+    ),
+}
+
+SYSTEM_PROMPT_TEMPLATE = """You are drafting one article for a media site, in the niche "{niche_name}".
+Audience: {audience}
+
+{voice_note}
+
+STRUCTURE (from the seo-article house rules):
+- Title: phrase it as the question/angle a reader would actually type or feel.
+- First two sentences: answer the core question directly. Do not bury the answer.
+- Body: one H2 per sub-question, in the order a reader would naturally ask them.
+- One idea per paragraph -- a paragraph should stand alone if quoted out of context.
+- Define any term on first use.
+- End with ONE next step/offer, never three.
+
+FACTS AND CITATIONS (from the claim-sourcing house rules):
+- Every statistic or research claim must name a real, checkable source (author/org, year,
+  publication) with a URL if you have one. If you are not certain a specific number is
+  real, do NOT state it as a specific number -- say it in words ("many people report...")
+  instead of inventing a figure.
+- Match claim strength to evidence strength: "one study found" vs "research suggests" vs
+  "the evidence indicates" are not interchangeable -- use the weakest phrasing that is
+  still accurate for what you actually know.
+- If you are not sure a claim is true, mark it inline as [VERIFY: <what to check>] rather
+  than guessing. A human reviews every draft before it publishes, so flagging is safe --
+  inventing is not.
+
+VOICE AND READABILITY (from human-voice / plain-language-gate house rules):
+- Write so a reader aged 20-50 gets it on the first pass, no re-reading required.
+- No corporate throat-clearing, no "in today's fast-paced world," no listicle padding.
+- Avoid the tells of AI-written text: no "it's important to note," no triplet lists for
+  their own sake, no overuse of em-dashes, no hollow transitions.
+- Contractions are fine. Short sentences are fine. This should read like a person wrote it
+  in one sitting, not like a template was filled in.
+
+REQUIRED DISCLOSURES for this niche (include naturally, not as sterile legal boilerplate):
+{disclosures}
+
+OUTPUT FORMAT: Markdown with YAML frontmatter:
+---
+title: "<title>"
+slug: "<url-safe-slug>"
+niche: "{niche_slug}"
+voice: "{voice}"
+source_story: "<the url of the candidate story this was inspired by>"
+status: draft
+---
+<article body in markdown, with an inline Sources section at the end listing every
+source you cited, named with author/org and year, with URLs>
+"""
+
+
+def slugify(text: str) -> str:
+    text = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+    return text[:80]
+
+
+def pick_candidate(candidates: list) -> dict | None:
+    # Simple heuristic for now: prefer Reddit items with more upvotes (real audience
+    # signal), fall back to the first Google News item. A human can always override by
+    # hand-editing content/drafts/_candidates/<slug>.json before running this script.
+    reddit_items = [c for c in candidates if c.get("upvotes") is not None]
+    if reddit_items:
+        return max(reddit_items, key=lambda c: c.get("upvotes", 0))
+    return candidates[0] if candidates else None
+
+
+def run():
+    client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env
+    niches = yaml.safe_load(NICHES_FILE.read_text())["niches"]
+
+    for niche in niches:
+        slug = niche["slug"]
+        cand_file = CANDIDATES_DIR / f"{slug}.json"
+        if not cand_file.exists():
+            print(f"[skip] no candidates file for {slug}, run research_agent.py first", file=sys.stderr)
+            continue
+
+        candidates = json.loads(cand_file.read_text())["candidates"]
+        chosen = pick_candidate(candidates)
+        if not chosen:
+            print(f"[skip] no candidates for {slug}", file=sys.stderr)
+            continue
+
+        voice = niche["voice"]
+        disclosures = "\n".join(f"- {d}" for d in niche.get("disclosures", []))
+        system_prompt = SYSTEM_PROMPT_TEMPLATE.format(
+            niche_name=niche["name"],
+            audience=niche["audience"],
+            voice_note=VOICE_NOTES.get(voice, ""),
+            disclosures=disclosures,
+            niche_slug=slug,
+            voice=voice,
+        )
+
+        user_prompt = (
+            f"Source story to draw from:\n"
+            f"Title: {chosen['title']}\n"
+            f"URL: {chosen['url']}\n"
+            f"Snippet: {chosen.get('snippet', '')}\n\n"
+            f"Write the article now. Use this story as the trigger/angle, not as your "
+            f"only source -- bring in whatever else you know that is genuinely sourceable, "
+            f"and flag anything you're unsure of with [VERIFY: ...] instead of guessing."
+        )
+
+        resp = client.messages.create(
+            model=MODEL,
+            max_tokens=4000,
+            system=system_prompt,
+            messages=[{"role": "user", "content": user_prompt}],
+        )
+        draft_md = resp.content[0].text
+
+        title_match = re.search(r'title:\s*"([^"]+)"', draft_md)
+        title = title_match.group(1) if title_match else chosen["title"]
+        date_str = datetime.date.today().isoformat()
+        out_dir = DRAFTS_DIR / slug
+        out_dir.mkdir(parents=True, exist_ok=True)
+        out_path = out_dir / f"{date_str}-{slugify(title)}.md"
+        out_path.write_text(draft_md)
+        print(f"[ok] drafted {slug}: {out_path}")
+
+
+if __name__ == "__main__":
+    run()
