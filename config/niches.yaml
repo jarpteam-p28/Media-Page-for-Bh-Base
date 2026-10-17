@@ -2,7 +2,10 @@
 # the agents loop over this file, they don't hardcode topics.
 #
 # slug          : used for folder names, filenames, and site URL paths
-# voice         : which persona/voice writes this niche ("narrator")
+# voice         : which persona/voice writes this niche ("narrator" | "rosanna").
+#                 Rosanna is an AI persona: if a niche uses her, add the line
+#                 "Rosanna is an AI-created persona. This content is educational,
+#                 not therapy or professional advice." to its disclosures.
 # search_terms  : phrases used to pull trending items (Google News RSS + Reddit)
 # subreddits    : optional, for Reddit-sourced trend discovery
 # audience      : one line, who this is for -- keeps the writer agent's "door" honest

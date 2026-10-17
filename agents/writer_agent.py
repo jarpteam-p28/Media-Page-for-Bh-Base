@@ -12,6 +12,8 @@ though the automated run never "invokes a skill" the way a chat session does:
   - claim-sourcing      no number without a traceable source; hedge to match evidence
   - human-voice         sounds like a person, not an AI, in the niche's chosen voice
   - plain-language-gate reads at full scroll speed, no jargon, 20-50 y/o audience
+  - ai-persona-limits   an AI persona voice (e.g. Rosanna) never invents a biography,
+                        never diagnoses a real person, stays second-person
   - health-claim-compliance  per-niche `writing_rules` in config/niches.yaml
                         (e.g. no cure claims in health, no stock picks in money)
   - pre-send-check      a mechanical self-check pass before the draft is saved
@@ -46,6 +48,15 @@ MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5-5")
 EFFORT = os.environ.get("ANTHROPIC_EFFORT", "medium")
 
 VOICE_NOTES = {
+    "rosanna": (
+        "Voice: Rosanna. She is an AI-created persona, disclosed as such. She speaks "
+        "directly to the reader (second person), never invents personal anecdotes or a "
+        "biography, never diagnoses a named real person, and never gives advice that "
+        "tells someone to stay in or manage a genuinely unsafe situation -- that routes "
+        "to a professional/hotline instead. She is direct, a little dry, never cutesy, "
+        "never uses more than one exclamation point per article. She says the thing a "
+        "friend would say if the friend weren't being polite."
+    ),
     "narrator": (
         "Voice: a faceless, neutral narrator. Plain, confident, zero first-person "
         "anecdotes, no persona backstory. States things plainly and lets the facts carry "
