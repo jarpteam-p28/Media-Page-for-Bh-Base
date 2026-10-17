@@ -2,17 +2,88 @@
 # the agents loop over this file, they don't hardcode topics.
 #
 # slug          : used for folder names, filenames, and site URL paths
-# voice         : which persona/voice writes this niche ("rosanna" | "narrator")
+# voice         : who writes the main article. Default and recommended: "narrator".
+#                 Also available: "rosanna", "destiny", "expert" (AI personas -- if one
+#                 writes a main article, add an AI-persona line to that niche's disclosures).
+# columnists    : AI personas who add a short opinion under each article, in this
+#                 order ("rosanna" | "destiny" | "expert"). Labeled "AI persona" on the site.
 # search_terms  : phrases used to pull trending items (Google News RSS + Reddit)
 # subreddits    : optional, for Reddit-sourced trend discovery
 # audience      : one line, who this is for -- keeps the writer agent's "door" honest
-# disclosures   : extra disclaimer lines required on every article in this niche
+# disclosures   : disclaimer lines required on every article in this niche
+#                 (the writer copies them word-for-word into a closing note)
+# writing_rules : optional extra rules for the writer, for niches that need more care
 
 niches:
-  - slug: womens-confidence-dating
-    name: "Women's Confidence & Dating"
-    voice: rosanna
-    audience: "Women 25-45 navigating dating, situationships, and boundaries"
+  - slug: health-holistic-trends
+    name: "Health & Holistic Trends"
+    voice: narrator
+    columnists: [expert]
+    audience: "Adults 25-55 curious about wellness trends, natural remedies, and what actually works"
+    search_terms:
+      - "wellness trend"
+      - "holistic health"
+      - "natural remedy study"
+      - "supplement research"
+      - "TikTok health trend"
+    subreddits:
+      - Supplements
+      - nutrition
+      - Biohackers
+    disclosures:
+      - "This article is for general education only and is not medical advice. Talk to a doctor or other qualified health professional before changing your diet, supplements, medication, or treatment."
+    writing_rules:
+      - "Report what a trend claims, then what the evidence actually shows. Say plainly when evidence is weak, early, or missing."
+      - "Never say a remedy cures, treats, heals, reverses, or prevents a disease. No promised results."
+      - "Never suggest stopping or replacing prescribed medication or medical treatment."
+      - "Mention known risks, side effects, and drug interactions when they exist."
+
+  - slug: viral-human-interest
+    name: "Viral & Human Interest"
+    voice: narrator
+    columnists: [rosanna, destiny]
+    audience: "Everyday readers 20-55 who want the story everyone is talking about, told clearly"
+    search_terms:
+      - "viral story"
+      - "heartwarming"
+      - "goes viral"
+      - "internet reacts"
+    subreddits:
+      - UpliftingNews
+      - nottheonion
+      - MadeMeSmile
+    disclosures: []
+    writing_rules:
+      - "Stick to what has been reported by named, credible outlets. Do not add details, quotes, or motives that aren't in the sources."
+      - "Be careful with private individuals: no home addresses, workplaces, or details that could identify a non-public person beyond what the original coverage made public."
+      - "Do not present an unconfirmed viral claim as fact; say it is unconfirmed."
+
+  - slug: money-everyday-life
+    name: "Money & Everyday Life"
+    voice: narrator
+    columnists: [expert]
+    audience: "US households 25-55 trying to stretch their money and make sense of prices, bills, and jobs"
+    search_terms:
+      - "cost of living"
+      - "grocery prices"
+      - "save money tips"
+      - "consumer alert"
+      - "personal finance news"
+    subreddits:
+      - personalfinance
+      - povertyfinance
+      - Frugal
+    disclosures:
+      - "This article is for general information only and is not financial, tax, or legal advice. Consider speaking with a qualified professional about your own situation."
+    writing_rules:
+      - "Never tell readers to buy or sell specific stocks, crypto, or other investments."
+      - "Give prices, rates, and dates only with a named source and date, since they change quickly."
+
+  - slug: dating-relationships
+    name: "Dating & Relationships"
+    voice: narrator
+    columnists: [rosanna, destiny, expert]
+    audience: "Adults 25-45 navigating dating, situationships, and boundaries"
     search_terms:
       - "dating advice trend"
       - "situationship"
@@ -20,16 +91,11 @@ niches:
       - "dating app burnout"
     subreddits:
       - dating_advice
-      - TwoXChromosomes
       - datingoverthirty
+      - relationship_advice
     disclosures:
-      - "Rosanna is an AI-created persona. This content is educational, not therapy or professional advice."
+      - "This article is educational and is not therapy or professional advice."
       - "If you are in an unsafe or abusive relationship, contact the National Domestic Violence Hotline: 1-800-799-7233."
-
-  # - slug: example-second-niche
-  #   name: "Example Second Niche"
-  #   voice: narrator
-  #   audience: "..."
-  #   search_terms: ["...", "..."]
-  #   subreddits: ["..."]
-  #   disclosures: ["..."]
+    writing_rules:
+      - "Never diagnose or label a real, named person (for example as a narcissist)."
+      - "If a situation sounds unsafe, point to the hotline or a professional instead of coaching the reader through it."

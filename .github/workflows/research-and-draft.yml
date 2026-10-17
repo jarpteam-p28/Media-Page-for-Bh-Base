@@ -34,6 +34,11 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 agents/writer_agent.py
 
+      - name: Find a free photo for each draft
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}   # optional; Openverse is used without it
+        run: python3 agents/image_agent.py
+
       - name: Run review check
         run: python3 agents/review_check.py --all > review_report.md || true
 
@@ -52,3 +57,4 @@ jobs:
           body-path: review_report.md
           add-paths: |
             content/drafts/**
+            content/images/**

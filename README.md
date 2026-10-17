@@ -66,7 +66,24 @@ Everything is driven by `config/niches.yaml` -- add a new block there (slug,
 voice, audience, search terms, subreddits, required disclosures) and the
 research + writer agents pick it up automatically on the next run. No code
 changes needed for a new topic, only a new voice (see `VOICE_NOTES` in
-`agents/writer_agent.py`) if it's not Rosanna or the plain narrator.
+`agents/writer_agent.py`) if it's not Rosanna or the plain narrator. To have
+Rosanna write a topic, set `voice: rosanna` on it and add her disclosure line
+("Rosanna is an AI-created persona...") to that topic's `disclosures`.
+
+## Voices and columnists
+
+Every main article is written by the **narrator** (faceless, evidence first),
+like the lead story in a magazine. Under it, **AI-persona columnists** each give
+a short opinion in their own voice, labeled "AI persona" on the site:
+
+- **Rosanna**: the friend who tells you the truth
+- **Destiny**: the one who already knew
+- **The Expert**: shows the reasoning, names the research
+
+Which columnists weigh in on which topic is set by `columnists:` in
+`config/niches.yaml`. The voice definitions live in `VOICE_NOTES` in
+`agents/writer_agent.py`. The takes cost one extra API call per article
+(about 1-2 cents).
 
 ## Running it locally (to test before trusting the schedule)
 
@@ -89,7 +106,7 @@ python3 site/build.py && open dist/index.html   # preview the built site
   read, easy to change later, nothing to upgrade or break.
 - **The writer agent's system prompt bakes in rules from the house content
   skills** (seo-article structure, claim-sourcing citation discipline,
-  human-voice/plain-language-gate tone, ai-persona-limits for Rosanna) so
+  human-voice/plain-language-gate tone, per-niche writing_rules for health, money and other sensitive topics) so
   drafts already follow them before a human ever looks at them -- review is
   about catching what slipped through, not teaching the model the rules from
   scratch every time.
