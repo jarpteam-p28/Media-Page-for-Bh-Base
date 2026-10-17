@@ -101,6 +101,8 @@ slug: "<url-safe-slug>"
 niche: "{niche_slug}"
 voice: "{voice}"
 source_story: "<the url of the candidate story this was inspired by>"
+summary: "<one-sentence teaser for the homepage, max 25 words>"
+image_query: "<2-4 word stock-photo search for a generic scene that fits the story; no real people's names, no brands>"
 status: draft
 ---
 <article body in markdown, with an inline Sources section at the end listing every
@@ -197,6 +199,8 @@ def run():
         out_dir = DRAFTS_DIR / slug
         out_dir.mkdir(parents=True, exist_ok=True)
         out_path = out_dir / f"{date_str}-{slugify(title)}.md"
+        if draft_md.startswith("---\n") and not re.search(r"^date:", draft_md, re.MULTILINE):
+            draft_md = f'---\ndate: "{date_str}"\n' + draft_md[len("---\n"):]
         out_path.write_text(draft_md)
         print(f"[ok] drafted {slug}: {out_path}")
 

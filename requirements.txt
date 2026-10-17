@@ -2,3 +2,4 @@ requests>=2.31
 pyyaml>=6.0
 anthropic>=1.15
 markdown>=3.6
+pillow>=10.0
