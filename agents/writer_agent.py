@@ -12,8 +12,8 @@ though the automated run never "invokes a skill" the way a chat session does:
   - claim-sourcing      no number without a traceable source; hedge to match evidence
   - human-voice         sounds like a person, not an AI, in the niche's chosen voice
   - plain-language-gate reads at full scroll speed, no jargon, 20-50 y/o audience
-  - ai-persona-limits   an AI persona voice (e.g. Rosanna) never invents a biography,
-                        never diagnoses a real person, stays second-person
+  - health-claim-compliance  per-niche `writing_rules` in config/niches.yaml
+                        (e.g. no cure claims in health, no stock picks in money)
   - pre-send-check      a mechanical self-check pass before the draft is saved
 
 The output is a DRAFT, not a publish. It is written to
@@ -46,15 +46,6 @@ MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5-5")
 EFFORT = os.environ.get("ANTHROPIC_EFFORT", "medium")
 
 VOICE_NOTES = {
-    "rosanna": (
-        "Voice: Rosanna. She is an AI-created persona, disclosed as such. She speaks "
-        "directly to the reader (second person), never invents personal anecdotes or a "
-        "biography, never diagnoses a named real person, and never gives advice that "
-        "tells someone to stay in or manage a genuinely unsafe situation -- that routes "
-        "to a professional/hotline instead. She is direct, a little dry, never cutesy, "
-        "never uses more than one exclamation point per article. She says the thing a "
-        "friend would say if the friend weren't being polite."
-    ),
     "narrator": (
         "Voice: a faceless, neutral narrator. Plain, confident, zero first-person "
         "anecdotes, no persona backstory. States things plainly and lets the facts carry "
@@ -95,7 +86,12 @@ VOICE AND READABILITY (from human-voice / plain-language-gate house rules):
 - Contractions are fine. Short sentences are fine. This should read like a person wrote it
   in one sitting, not like a template was filled in.
 
-REQUIRED DISCLOSURES for this niche (include naturally, not as sterile legal boilerplate):
+EXTRA RULES for this niche:
+{writing_rules}
+
+REQUIRED DISCLOSURES for this niche: end the article body (just before Sources) with a
+short italic note that contains each line below word-for-word. You may also mention them
+naturally earlier where they fit.
 {disclosures}
 
 OUTPUT FORMAT: Markdown with YAML frontmatter:
@@ -154,11 +150,13 @@ def run():
             continue
 
         voice = niche["voice"]
-        disclosures = "\n".join(f"- {d}" for d in niche.get("disclosures", []))
+        disclosures = "\n".join(f"- {d}" for d in niche.get("disclosures") or []) or "- None."
+        writing_rules = "\n".join(f"- {r}" for r in niche.get("writing_rules") or []) or "- None."
         system_prompt = SYSTEM_PROMPT_TEMPLATE.format(
             niche_name=niche["name"],
             audience=niche["audience"],
             voice_note=VOICE_NOTES.get(voice, ""),
+            writing_rules=writing_rules,
             disclosures=disclosures,
             niche_slug=slug,
             voice=voice,
