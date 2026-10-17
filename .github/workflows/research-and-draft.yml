@@ -37,12 +37,18 @@ jobs:
       - name: Run review check
         run: python3 agents/review_check.py --all > review_report.md || true
 
+      # `with:` inputs are not run through a shell, so $(date ...) would be
+      # passed literally (and break the branch name). Compute it here instead.
+      - name: Get today's date
+        id: today
+        run: echo "date=$(date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
       - name: Open pull request for review
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: "New draft(s): $(date +%Y-%m-%d)"
-          branch: drafts/$(date +%Y-%m-%d)-${{ github.run_id }}
-          title: "New draft(s) for review - $(date +%Y-%m-%d)"
+          commit-message: "New draft(s): ${{ steps.today.outputs.date }}"
+          branch: drafts/${{ steps.today.outputs.date }}-${{ github.run_id }}
+          title: "New draft(s) for review - ${{ steps.today.outputs.date }}"
           body-path: review_report.md
           add-paths: |
             content/drafts/**

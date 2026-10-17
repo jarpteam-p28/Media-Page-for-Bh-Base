@@ -40,7 +40,10 @@ NICHES_FILE = ROOT / "config" / "niches.yaml"
 CANDIDATES_DIR = ROOT / "content" / "drafts" / "_candidates"
 DRAFTS_DIR = ROOT / "content" / "drafts"
 
-MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-5")
+MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5-5")
+# How hard the model thinks before writing: low | medium | high | xhigh | max.
+# "medium" keeps a daily article to a few cents; raise it if drafts feel thin.
+EFFORT = os.environ.get("ANTHROPIC_EFFORT", "medium")
 
 VOICE_NOTES = {
     "rosanna": (
@@ -114,6 +117,15 @@ def slugify(text: str) -> str:
     return text[:80]
 
 
+def extract_markdown(resp) -> str:
+    # The response can include thinking blocks before the text, so join only the
+    # text blocks, then drop a ```markdown fence if the model wrapped its output in one
+    # (the fence would hide the frontmatter from site/build.py).
+    text = "".join(b.text for b in resp.content if b.type == "text").strip()
+    fenced = re.fullmatch(r"```[a-zA-Z]*\n(.*)\n```", text, re.DOTALL)
+    return fenced.group(1).strip() if fenced else text
+
+
 def pick_candidate(candidates: list) -> dict | None:
     # Simple heuristic for now: prefer Reddit items with more upvotes (real audience
     # signal), fall back to the first Google News item. A human can always override by
@@ -162,13 +174,24 @@ def run():
             f"and flag anything you're unsure of with [VERIFY: ...] instead of guessing."
         )
 
-        resp = client.messages.create(
+        # fallbacks="default": if the model declines on policy grounds, the API
+        # retries on Anthropic's default fallback model inside the same call.
+        resp = client.beta.messages.create(
             model=MODEL,
-            max_tokens=4000,
+            max_tokens=16000,
+            output_config={"effort": EFFORT},
+            betas=["server-side-fallback-2026-07-01"],
+            fallbacks="default",
             system=system_prompt,
             messages=[{"role": "user", "content": user_prompt}],
         )
-        draft_md = resp.content[0].text
+        if resp.stop_reason == "refusal":
+            print(f"[skip] model declined to write {slug} from {chosen['url']}", file=sys.stderr)
+            continue
+        if resp.stop_reason == "max_tokens":
+            print(f"[skip] draft for {slug} was cut off before it finished", file=sys.stderr)
+            continue
+        draft_md = extract_markdown(resp)
 
         title_match = re.search(r'title:\s*"([^"]+)"', draft_md)
         title = title_match.group(1) if title_match else chosen["title"]
