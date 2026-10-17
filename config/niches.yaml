@@ -2,10 +2,11 @@
 # the agents loop over this file, they don't hardcode topics.
 #
 # slug          : used for folder names, filenames, and site URL paths
-# voice         : which persona/voice writes this niche ("narrator" | "rosanna").
-#                 Rosanna is an AI persona: if a niche uses her, add the line
-#                 "Rosanna is an AI-created persona. This content is educational,
-#                 not therapy or professional advice." to its disclosures.
+# voice         : who writes the main article. Default and recommended: "narrator".
+#                 Also available: "rosanna", "destiny", "expert" (AI personas -- if one
+#                 writes a main article, add an AI-persona line to that niche's disclosures).
+# columnists    : AI personas who add a short opinion under each article, in this
+#                 order ("rosanna" | "destiny" | "expert"). Labeled "AI persona" on the site.
 # search_terms  : phrases used to pull trending items (Google News RSS + Reddit)
 # subreddits    : optional, for Reddit-sourced trend discovery
 # audience      : one line, who this is for -- keeps the writer agent's "door" honest
@@ -17,6 +18,7 @@ niches:
   - slug: health-holistic-trends
     name: "Health & Holistic Trends"
     voice: narrator
+    columnists: [expert]
     audience: "Adults 25-55 curious about wellness trends, natural remedies, and what actually works"
     search_terms:
       - "wellness trend"
@@ -39,6 +41,7 @@ niches:
   - slug: viral-human-interest
     name: "Viral & Human Interest"
     voice: narrator
+    columnists: [rosanna, destiny]
     audience: "Everyday readers 20-55 who want the story everyone is talking about, told clearly"
     search_terms:
       - "viral story"
@@ -58,6 +61,7 @@ niches:
   - slug: money-everyday-life
     name: "Money & Everyday Life"
     voice: narrator
+    columnists: [expert]
     audience: "US households 25-55 trying to stretch their money and make sense of prices, bills, and jobs"
     search_terms:
       - "cost of living"
@@ -78,6 +82,7 @@ niches:
   - slug: dating-relationships
     name: "Dating & Relationships"
     voice: narrator
+    columnists: [rosanna, destiny, expert]
     audience: "Adults 25-45 navigating dating, situationships, and boundaries"
     search_terms:
       - "dating advice trend"

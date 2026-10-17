@@ -70,6 +70,21 @@ changes needed for a new topic, only a new voice (see `VOICE_NOTES` in
 Rosanna write a topic, set `voice: rosanna` on it and add her disclosure line
 ("Rosanna is an AI-created persona...") to that topic's `disclosures`.
 
+## Voices and columnists
+
+Every main article is written by the **narrator** (faceless, evidence first),
+like the lead story in a magazine. Under it, **AI-persona columnists** each give
+a short opinion in their own voice, labeled "AI persona" on the site:
+
+- **Rosanna**: the friend who tells you the truth
+- **Destiny**: the one who already knew
+- **The Expert**: shows the reasoning, names the research
+
+Which columnists weigh in on which topic is set by `columnists:` in
+`config/niches.yaml`. The voice definitions live in `VOICE_NOTES` in
+`agents/writer_agent.py`. The takes cost one extra API call per article
+(about 1-2 cents).
+
 ## Running it locally (to test before trusting the schedule)
 
 ```bash

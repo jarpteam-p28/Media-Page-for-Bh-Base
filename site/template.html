@@ -80,17 +80,27 @@
   .hero { margin:0 0 22px; }
   .hero figcaption { font-size:0.75rem; color:var(--quiet); padding-top:6px; }
   .hero figcaption a { text-decoration:underline; }
-  .body { font-family:var(--serif); font-size:1.12rem; line-height:1.7; }
+  .body { font-family:var(--serif); font-size:1.12rem; line-height:1.7; overflow-wrap:anywhere; }
   .body h2 { font-family:var(--sans); font-size:1.3rem; line-height:1.25; margin:1.8em 0 0.4em; }
   .body a { color:var(--brand); text-decoration:underline; }
   .body em { color:#444; }
+  .takes { margin-top:40px; border-top:4px solid var(--ink); padding-top:10px; }
+  .takes h2 { font-size:1.15rem; text-transform:uppercase; letter-spacing:0.5px; margin:4px 0 4px; }
+  .takes-note { color:var(--quiet); font-size:0.8rem; margin:0 0 16px; }
+  .take { border-left:5px solid var(--c); background:var(--soft); padding:14px 16px; margin-bottom:16px; }
+  .take-head { display:flex; gap:12px; align-items:center; margin-bottom:6px; }
+  .avatar { flex:0 0 40px; height:40px; border-radius:50%; background:var(--c); color:#fff; font:700 1.1rem var(--serif); display:flex; align-items:center; justify-content:center; }
+  .take-head strong { font-size:1rem; color:var(--c); }
+  .badge { display:inline-block; font-size:0.65rem; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; border:1px solid var(--quiet); color:var(--quiet); border-radius:3px; padding:1px 5px; vertical-align:2px; }
+  .tagline { margin:2px 0 0; font-size:0.8rem; color:var(--quiet); }
+  .take-text p { font-family:var(--serif); font-size:1.02rem; line-height:1.6; margin:0.5em 0 0; }
   .more { margin-top:44px; }
   .more h2 { font-size:1.05rem; text-transform:uppercase; border-top:4px solid; padding-top:8px; margin:0 0 14px; }
 
   footer { border-top:3px solid var(--brand); background:var(--soft); text-align:center; padding:24px 16px; font-size:0.8rem; color:var(--quiet); }
 
   @media (max-width: 900px) {
-    .home-top, .article-wrap { grid-template-columns:1fr; }
+    .home-top, .article-wrap { grid-template-columns:minmax(0, 1fr); }
     .grid-4 { grid-template-columns:repeat(2, 1fr); }
     .grid-3 { grid-template-columns:repeat(2, 1fr); }
   }

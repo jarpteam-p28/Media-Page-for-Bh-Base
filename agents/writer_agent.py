@@ -47,21 +47,87 @@ MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5-5")
 # "medium" keeps a daily article to a few cents; raise it if drafts feel thin.
 EFFORT = os.environ.get("ANTHROPIC_EFFORT", "medium")
 
+# The four house voices (from the human-voice skill). The narrator writes every main
+# article by default; the others appear as "columnists" giving a short take on it
+# (see `columnists` in config/niches.yaml). Rosanna, Destiny and the Expert are
+# AI-created personas and are labeled that way on the site.
 VOICE_NOTES = {
-    "rosanna": (
-        "Voice: Rosanna. She is an AI-created persona, disclosed as such. She speaks "
-        "directly to the reader (second person), never invents personal anecdotes or a "
-        "biography, never diagnoses a named real person, and never gives advice that "
-        "tells someone to stay in or manage a genuinely unsafe situation -- that routes "
-        "to a professional/hotline instead. She is direct, a little dry, never cutesy, "
-        "never uses more than one exclamation point per article. She says the thing a "
-        "friend would say if the friend weren't being polite."
-    ),
     "narrator": (
-        "Voice: a faceless, neutral narrator. Plain, confident, zero first-person "
-        "anecdotes, no persona backstory. States things plainly and lets the facts carry "
-        "the authority."
+        "Voice: a faceless narrator, evidence first, like a good documentary: steady, "
+        "specific, slightly understated, sure of the facts and honest about their limits. "
+        "No 'I', no persona. Mechanism, not promise. At least one concrete specific (a year, "
+        "a number, a named study). Hedges ('often', 'in one study') only where the evidence "
+        "is soft. Short declarative sentences, with the occasional longer one that explains."
     ),
+    "rosanna": (
+        "Voice: Rosanna, the friend who tells you the truth. An AI-created persona, disclosed "
+        "as such. Calm, direct; talks to the reader in second person. Short lines, hard stops, "
+        "fragments are fine. Says the embarrassing part out loud, understands why you stayed, "
+        "never scolds. Light spiritual (timing, purpose), never religious. First person only "
+        "for opinion ('Here's what I'd tell you'), never for a past she didn't live. Her "
+        "signature reversal ('He's not confused. He's comfortable.') at most once. Never "
+        "diagnoses a named real person; unsafe situations go to a professional or hotline."
+    ),
+    "destiny": (
+        "Voice: Destiny, the one who already knew. An AI-created persona, disclosed as such. "
+        "Slow, deliberate, knowing; warm with an edge, a little theatrical, never silly. Speaks "
+        "about signs and types as if describing someone in the room. Certain in tone but never "
+        "promises specific events, money, health or love outcomes. Sensual vocabulary (shadow, "
+        "heat, gold, quiet, sharp), never cosmic filler. Ends on a knowing line, not an "
+        "instruction."
+    ),
+    "expert": (
+        "Voice: the Expert, a professor who actually explains. An AI-created persona, disclosed "
+        "as such. Precise, calm, a little dry, never lecturing. Explains why, not just what. "
+        "Names the researcher and year when it matters, and only if certain. Says plainly what "
+        "isn't known ('Nobody has tested that directly'). Concrete comparisons, not abstract "
+        "ones. Never 'studies show' without saying which."
+    ),
+}
+
+COLUMNIST_NAMES = {"rosanna": "Rosanna", "destiny": "Destiny", "expert": "The Expert"}
+
+TAKES_SYSTEM_TEMPLATE = """You write the "Our columnists weigh in" section that runs under a
+magazine article in the niche "{niche_name}". Each columnist reacts to the article in their
+own voice with an opinion: what they'd tell the reader, what the article gets at, what they
+would push back on. 60-150 words each. Each take must sound clearly different from the others.
+
+THE COLUMNISTS (write exactly one take for each, in this order):
+{voices}
+
+RULES FOR EVERY TAKE:
+- These are AI-created personas. No invented biography, memories, clients, or experiences.
+- Opinion and perspective only. Do not add new statistics, studies or facts that are not in
+  the article. If one is truly needed, mark it [VERIFY: ...].
+- Never diagnose or label a real, named person.
+- Never promise results, and never give medical, financial or legal instructions beyond what
+  the article already says.
+- No stock phrases (delve, journey, unlock, empower, game-changer, truly, honestly), no
+  colon reveals ("Here's the truth: ..."), no emoji, no lists of three for their own sake.
+- End each take on its most specific line, not a summary.
+
+EXTRA RULES for this niche:
+{writing_rules}
+"""
+
+TAKES_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "takes": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "voice": {"type": "string", "enum": list(COLUMNIST_NAMES)},
+                    "text": {"type": "string"},
+                },
+                "required": ["voice", "text"],
+                "additionalProperties": False,
+            },
+        }
+    },
+    "required": ["takes"],
+    "additionalProperties": False,
 }
 
 SYSTEM_PROMPT_TEMPLATE = """You are drafting one article for a media site, in the niche "{niche_name}".
@@ -135,6 +201,38 @@ def extract_markdown(resp) -> str:
     return fenced.group(1).strip() if fenced else text
 
 
+def write_takes(client, niche: dict, article_md: str, writing_rules: str) -> list:
+    columnists = [c for c in niche.get("columnists") or [] if c in COLUMNIST_NAMES]
+    if not columnists:
+        return []
+    voices = "\n".join(f"- {c}: {VOICE_NOTES[c]}" for c in columnists)
+    resp = client.beta.messages.create(
+        model=MODEL,
+        max_tokens=16000,
+        output_config={"effort": EFFORT, "format": {"type": "json_schema", "schema": TAKES_SCHEMA}},
+        betas=["server-side-fallback-2026-07-01"],
+        fallbacks="default",
+        system=TAKES_SYSTEM_TEMPLATE.format(niche_name=niche["name"], voices=voices,
+                                            writing_rules=writing_rules),
+        messages=[{"role": "user", "content": f"The article:\n\n{article_md}"}],
+    )
+    if resp.stop_reason in ("refusal", "max_tokens"):
+        print(f"[skip] columnist takes for {niche['slug']}: {resp.stop_reason}", file=sys.stderr)
+        return []
+    text = "".join(b.text for b in resp.content if b.type == "text")
+    takes = json.loads(text)["takes"]
+    # keep only the columnists this niche asked for, once each, in config order
+    by_voice = {t["voice"]: t["text"].strip() for t in takes if t.get("text", "").strip()}
+    return [{"voice": c, "text": by_voice[c]} for c in columnists if c in by_voice]
+
+
+def add_takes(draft_md: str, takes: list) -> str:
+    _, fm_text, body = draft_md.split("---", 2)
+    fm = yaml.safe_load(fm_text) or {}
+    fm["takes"] = takes
+    return "---\n" + yaml.safe_dump(fm, sort_keys=False, allow_unicode=True, width=1000) + "---" + body
+
+
 def pick_candidate(candidates: list) -> dict | None:
     # Simple heuristic for now: prefer Reddit items with more upvotes (real audience
     # signal), fall back to the first Google News item. A human can always override by
@@ -162,7 +260,7 @@ def run():
             print(f"[skip] no candidates for {slug}", file=sys.stderr)
             continue
 
-        voice = niche["voice"]
+        voice = niche.get("voice") or "narrator"
         disclosures = "\n".join(f"- {d}" for d in niche.get("disclosures") or []) or "- None."
         writing_rules = "\n".join(f"- {r}" for r in niche.get("writing_rules") or []) or "- None."
         system_prompt = SYSTEM_PROMPT_TEMPLATE.format(
@@ -212,6 +310,15 @@ def run():
         out_path = out_dir / f"{date_str}-{slugify(title)}.md"
         if draft_md.startswith("---\n") and not re.search(r"^date:", draft_md, re.MULTILINE):
             draft_md = f'---\ndate: "{date_str}"\n' + draft_md[len("---\n"):]
+
+        # The columnists' takes are a bonus: if they fail, the article still goes out.
+        try:
+            takes = write_takes(client, niche, draft_md, writing_rules)
+            if takes:
+                draft_md = add_takes(draft_md, takes)
+        except Exception as e:
+            print(f"[warn] columnist takes failed for {slug}: {e}", file=sys.stderr)
+
         out_path.write_text(draft_md)
         print(f"[ok] drafted {slug}: {out_path}")
 

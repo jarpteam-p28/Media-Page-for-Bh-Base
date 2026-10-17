@@ -46,6 +46,14 @@ SECTION_COLORS = {
 }
 FALLBACK_COLORS = ["#6a1b9a", "#00838f", "#5d4037", "#455a64"]
 
+# The AI-persona columnists whose short takes appear under an article (the `takes`
+# field written by agents/writer_agent.py).
+COLUMNISTS = {
+    "rosanna": {"name": "Rosanna", "tagline": "The friend who tells you the truth", "color": "#c2185b"},
+    "destiny": {"name": "Destiny", "tagline": "The one who already knew", "color": "#6a1b9a"},
+    "expert": {"name": "The Expert", "tagline": "Shows the reasoning, names the research", "color": "#1565c0"},
+}
+
 e = html.escape  # every value from frontmatter goes through this before reaching HTML
 
 
@@ -160,6 +168,25 @@ def write(path: pathlib.Path, text: str):
     (path / "index.html").write_text(text)
 
 
+def takes_html(a: dict) -> str:
+    boxes = []
+    for t in a.get("takes") or []:
+        c = COLUMNISTS.get(t.get("voice"))
+        if not c or not t.get("text"):
+            continue
+        boxes.append(
+            f'<div class="take" style="--c:{c["color"]}">'
+            f'<div class="take-head"><span class="avatar">{e(c["name"].removeprefix("The ")[0])}</span>'
+            f'<div><strong>{e(c["name"])}</strong> <span class="badge">AI persona</span>'
+            f'<p class="tagline">{e(c["tagline"])}</p></div></div>'
+            f'<div class="take-text">{markdown.markdown(e(t["text"]))}</div></div>')
+    if not boxes:
+        return ""
+    return ('<section class="takes"><h2>Our columnists weigh in</h2>'
+            '<p class="takes-note">Our columnists are AI-created personas. Their takes are opinion, '
+            'not professional advice.</p>' + "".join(boxes) + "</section>")
+
+
 def build_article(template, sections, articles, a):
     s = sections[a["_niche"]]
     body_html = markdown.markdown(a["_body"], extensions=["extra"])
@@ -180,7 +207,7 @@ def build_article(template, sections, articles, a):
         f'{nice_date(a["_date"])}</time></p>'
         f'<div class="share"><a data-share="facebook">Facebook</a><a data-share="x">X</a>'
         f'<a data-share="email">Email</a><button type="button" data-share="copy">Copy link</button></div>'
-        f'{hero}<div class="body">{body_html}</div></div>'
+        f'{hero}<div class="body">{body_html}</div>{takes_html(a)}</div>'
         f'{latest_list(articles, sections)}</div>{more_html}'
     )
     write(DIST_DIR / a["_niche"] / a["slug"],
