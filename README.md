@@ -66,7 +66,9 @@ Everything is driven by `config/niches.yaml` -- add a new block there (slug,
 voice, audience, search terms, subreddits, required disclosures) and the
 research + writer agents pick it up automatically on the next run. No code
 changes needed for a new topic, only a new voice (see `VOICE_NOTES` in
-`agents/writer_agent.py`) if it's not the plain narrator.
+`agents/writer_agent.py`) if it's not Rosanna or the plain narrator. To have
+Rosanna write a topic, set `voice: rosanna` on it and add her disclosure line
+("Rosanna is an AI-created persona...") to that topic's `disclosures`.
 
 ## Running it locally (to test before trusting the schedule)
 
