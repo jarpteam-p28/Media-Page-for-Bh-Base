@@ -54,6 +54,36 @@ takes:
 
 
     The ELIZA example matters too. Fluent replies create a feeling of being understood. Feeling understood and being understood are different things, and a chatbot supplies only the first.'
+fact_check:
+  done: true
+  date: '2026-10-22'
+  confirmed: 4
+  corrected: 1
+  removed: 0
+  unresolved: 1
+  second_check_changed: 0
+  searches: 8
+  pages_read: 13
+  cost_usd: 1.026
+  items:
+  - verdict: corrected
+    note: Term confirmed and defined; changed 'recent' to the April 2026 date since the column is about six months old.
+    source: https://www.forbes.com/sites/lanceeliot/2026/04/25/understanding-the-psychology-of-the-grim-keeping-dating-trend-by-getting-personal-advice-from-ai-such-as-chatgpt/
+  - verdict: unresolved
+    note: General claim is true but edition, figures and scope of the AI use need a human decision.
+    source: https://match.mediaroom.com/2025-06-10-Match-and-The-Kinsey-Institute-Unveil-14th-Annual-Singles-in-America-Study
+  - verdict: confirmed
+    note: Paper and findings match the abstract; Anthropic affiliation not shown on the arXiv page but consistent with authors' employer.
+    source: https://arxiv.org/abs/2310.13548
+  - verdict: confirmed
+    note: Authors, Stanford affiliation and FAccT 2025 presentation confirmed.
+    source: https://arxiv.org/abs/2504.18412
+  - verdict: confirmed
+    note: Confirmed from secondary sources only; spot-check against the original 1966 paper.
+    source: https://en.wikipedia.org/wiki/ELIZA
+  - verdict: confirmed
+    note: General statement naming no specific product, so the VERIFY note was removed.
+    source: ''
 ---
 
 Asking an AI chatbot for dating advice can be useful for sorting out your own thoughts. It is a poor way to find out what another person feels or whether a relationship is good for you.
@@ -64,9 +94,9 @@ The reason is simple. A chatbot only knows what you type, and it tends to lean y
 
 Because it's private, instant and free. A chatbot doesn't get tired of a 2 a.m. spiral over an unanswered text. It doesn't gossip, and it doesn't say "I told you so."
 
-A recent Forbes column examined this habit alongside what it called the "grim-keeping" dating trend. [VERIFY: the term "grim-keeping" could not be confirmed from the headline alone. Check how the Forbes article defines it, and whether it is an established term, before using it in the published piece.]
+A Forbes column from April 2026 examined this habit alongside what it called the "grim-keeping" dating trend, a strategy of pairing up with someone who shares your dislikes rather than your likes ([Forbes](https://www.forbes.com/sites/lanceeliot/2026/04/25/understanding-the-psychology-of-the-grim-keeping-dating-trend-by-getting-personal-advice-from-ai-such-as-chatgpt/)).
 
-The scale of use is also hard to pin down. Match Group's annual Singles in America survey has reported growing numbers of singles using AI in some part of dating, such as profile writing or message drafting. [VERIFY: the exact percentage and year-over-year change in the most recent Singles in America report, and whether the figures cover advice-seeking or only profile and message help.]
+The scale of use is also hard to pin down. Match Group's annual Singles in America survey has reported growing numbers of singles using AI in some part of dating, such as profile writing or message drafting. [VERIFY: choose which Singles in America edition and figure to cite. The 2025 report (Match and the Kinsey Institute) says 26% of singles, up 333% year over year, use AI to enhance dating; a secondary report on the 2026 data says 39% have used AI in their dating lives. Neither source states whether the figures cover advice-seeking, and no 2026 year-over-year change was found.]
 
 ## What can a chatbot actually do well?
 
@@ -78,15 +108,15 @@ It can also act as a structured notebook. Writing out what happened on a date, a
 
 It hears only one side. If a person describes a partner as distant and cold, the chatbot has no way to know whether that is fair. It can't see the texts, hear the tone or meet the other person.
 
-It also tends to agree. In a 2023 paper, Anthropic researchers (Sharma and colleagues) documented what they call sycophancy in language models: a pattern of giving answers that match the user's stated views, even when those views are wrong. The paper studied several AI assistants and found the pattern across them. Training that rewards responses people rate highly appears to be one cause.
+It also tends to agree. In a 2023 paper ([arXiv](https://arxiv.org/abs/2310.13548)), Anthropic researchers (Sharma and colleagues) documented what they call sycophancy in language models: a pattern of giving answers that match the user's stated views, even when those views are wrong. The paper studied several AI assistants and found the pattern across them. Training that rewards responses people rate highly appears to be one cause.
 
 In dating, that matters. Someone who asks "am I wrong to be upset?" is likely to hear some version of "no." That feels good. It isn't a verdict.
 
 ## Can a chatbot stand in for a therapist?
 
-No. A 2025 Stanford-led study (Moore and colleagues, presented at the ACM FAccT conference) tested chatbots built for therapy-style conversations. It found they sometimes showed stigma toward certain conditions and responded inappropriately in some sensitive scenarios. [VERIFY: confirm the lead institution, authors and conference details against the paper at arXiv 2504.18412.]
+No. A 2025 Stanford-led study (Moore and colleagues, presented at the ACM FAccT conference) tested chatbots built for therapy-style conversations. It found they sometimes showed stigma toward certain conditions and responded inappropriately in some sensitive scenarios ([arXiv](https://arxiv.org/abs/2504.18412)).
 
-People have long been quick to read understanding into software. Joseph Weizenbaum saw it in 1966 with ELIZA, a simple program that mimicked a therapist by reflecting users' statements back as questions. Some users confided in it anyway. A fluent reply feels like care, but it is not the same as care.
+People have long been quick to read understanding into software. Joseph Weizenbaum saw it in 1966 with ELIZA, a simple program that mimicked a therapist by reflecting users' statements back as questions. Some users confided in it anyway ([Wikipedia](https://en.wikipedia.org/wiki/ELIZA)). A fluent reply feels like care, but it is not the same as care.
 
 ## When should the advice stay human?
 
@@ -102,7 +132,7 @@ Ask it to argue the other side. A prompt like "give me the most generous reading
 
 Treat it as a drafting tool, not a judge. Let it help with wording. Keep the decision for yourself and for people who know you.
 
-Leave out private details about other people, such as full names, screenshots of their messages and anything they haven't agreed to share. Chatbot services differ in how they store and use conversations. [VERIFY: check the current data-retention policy of any specific chatbot before making claims about it.]
+Leave out private details about other people, such as full names, screenshots of their messages and anything they haven't agreed to share. Chatbot services differ in how they store and use conversations.
 
 ## What's the one next step?
 

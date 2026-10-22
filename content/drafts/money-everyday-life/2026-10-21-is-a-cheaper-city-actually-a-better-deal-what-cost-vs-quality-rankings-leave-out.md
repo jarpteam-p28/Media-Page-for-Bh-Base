@@ -16,17 +16,50 @@ image_credit: Brian Gratwicke
 image_credit_url: https://commons.wikimedia.org/w/index.php?curid=8419288
 image_license: CC BY 2.0
 image_source: https://upload.wikimedia.org/wikipedia/commons/a/a4/Panama_city_panoramic_view_from_the_top_of_Ancon_hill.jpg
+fact_check:
+  done: true
+  date: '2026-10-22'
+  confirmed: 4
+  corrected: 1
+  removed: 0
+  unresolved: 2
+  second_check_changed: 0
+  searches: 8
+  pages_read: 15
+  cost_usd: 0.8
+  items:
+  - verdict: confirmed
+    note: Confirmed the chart exists, covers 99 cities, and uses Numbeo data; added the provider and the percentile detail.
+    source: https://www.visualcapitalist.com/cp/quality-of-life-vs-cost-in-99-cities-across-the-americas/
+  - verdict: corrected
+    note: Changed 'survey-based' to 'crowdsourced' and confirmed the chart used Numbeo.
+    source: https://www.visualcapitalist.com/cp/quality-of-life-vs-cost-in-99-cities-across-the-americas/
+  - verdict: unresolved
+    note: BEA's pages imply a national baseline of 100 but the literal 'set at 100' wording was not found; replacement keeps the claim and links the source, but the exact baseline wording needs a human check.
+    source: https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area
+  - verdict: confirmed
+    note: BEA's Feb 2026 release says housing rents are often the main driver of RPP differences.
+    source: https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024
+  - verdict: unresolved
+    note: Glasmeier is confirmed as creator, but no source names colleagues or co-creators.
+    source: https://livingwage.mit.edu/
+  - verdict: confirmed
+    note: Site describes local wage estimates by county, metro or state for 12 family types.
+    source: https://livingwage.mit.edu/
+  - verdict: confirmed
+    note: Methodology describes a minimum but adequate budget without savings, eating out or leisure.
+    source: https://livingwage.mit.edu/pages/methodology
 ---
 
 Not automatically. A cheaper city only stretches your money if your income holds up and the things you value come with it. Rankings that pair cost with quality of life are a useful first filter, but they average out the details that decide whether a move helps a household.
 
-Visual Capitalist recently published a chart comparing quality of life against cost across 99 cities in the Americas. [VERIFY: the chart's underlying data provider, year, and any specific city rankings before citing them; the source link supplied only the headline.] Charts like this follow a common pattern, and the pattern is worth understanding before it shapes a decision about where to live.
+Visual Capitalist recently published a chart comparing quality of life against cost across 99 cities in the Americas ([Visual Capitalist](https://www.visualcapitalist.com/cp/quality-of-life-vs-cost-in-99-cities-across-the-americas/)). It draws on Numbeo data, and both axes are percentile rankings within the sample. Charts like this follow a common pattern, and the pattern is worth understanding before it shapes a decision about where to live.
 
 ## What do cost-versus-quality rankings actually measure?
 
 They combine two scores that come from very different kinds of data. Cost is usually built from prices for a basket of goods: rent, groceries, transport, restaurant meals. Quality of life is usually built from indexes covering things like safety, health care, pollution, commute times, and climate.
 
-Some of these inputs are survey-based. Numbeo, a widely used cost and quality database, relies on user-submitted data, which makes it broad but uneven. [VERIFY: whether the Visual Capitalist chart used Numbeo or another source.] The result is a good snapshot of perception and rough prices. It is not a measurement of what a particular family will spend.
+Some of these inputs are crowdsourced. Numbeo, a widely used cost and quality database, relies on user-submitted data ([Numbeo](https://www.numbeo.com/cost-of-living/)), which makes it broad but uneven. Visual Capitalist's chart used Numbeo and notes that the data reflects contributors' experiences rather than a representative survey. The result is a good snapshot of perception and rough prices. It is not a measurement of what a particular family will spend.
 
 ## Does a lower cost of living mean a lower quality of life?
 
@@ -36,7 +69,7 @@ The useful reading of such a chart is the outliers: places where quality is high
 
 ## Why does housing explain so much of the gap?
 
-Rent and home prices are the largest and most variable piece of most budgets. The U.S. Bureau of Economic Analysis publishes Regional Price Parities, which compare the overall price level in each state and metro area to the national average, set at 100. Its work has generally found that housing costs account for much of the difference between high-price and low-price areas. [VERIFY: current BEA wording and the latest release year for this claim.]
+Rent and home prices are the largest and most variable piece of most budgets. The U.S. Bureau of Economic Analysis publishes Regional Price Parities, which compare the overall price level in each state and metro area to the national average, set at 100 ([BEA](https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area)). Its work has generally found that housing costs account for much of the difference between high-price and low-price areas; BEA's 2024 data release says housing rents are often the main driver in differences in RPPs ([BEA](https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024)).
 
 That matters because housing is also the cost you can least easily shop around. Groceries and gas vary modestly from place to place. A rent gap of several hundred dollars a month can swamp both.
 
@@ -44,7 +77,7 @@ That matters because housing is also the cost you can least easily shop around. 
 
 Income. A city with a low price index is only cheaper to you if your pay does not drop by more than your costs do. Remote workers who keep a coastal salary can come out well ahead. Workers who must take a local job often find that wages fall along with prices.
 
-The MIT Living Wage Calculator, created by Amy Glasmeier and colleagues, helps with this. It estimates the hourly wage a worker needs to cover basic expenses in a given county or metro area, by household size. It uses a modest budget with no room for savings or extras, so it sets a floor, not a target.
+The [MIT Living Wage Calculator](https://livingwage.mit.edu/), created by Amy Glasmeier, helps with this. [VERIFY: whether other people deserve credit as co-creators; sources only name Glasmeier.] It estimates the hourly wage a worker needs to cover basic expenses in a given county or metro area, by household size ([MIT Living Wage Calculator](https://livingwage.mit.edu/)). It uses a modest budget with no room for savings or extras, so it sets a floor, not a target ([MIT methodology](https://livingwage.mit.edu/pages/methodology)).
 
 Moving costs, tax differences, and distance from family also fall outside most rankings. Each can be worth real money, and none appears in a city score.
 
