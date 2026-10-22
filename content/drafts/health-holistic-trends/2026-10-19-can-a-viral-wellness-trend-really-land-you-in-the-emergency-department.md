@@ -16,17 +16,59 @@ image_credit: Unknown
 image_credit_url: https://www.rawpixel.com/image/5903663/scattered-pills-free-public-domain-cc0-photo
 image_license: Public domain
 image_source: https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg5NTU1MzAtaW1hZ2Uta3d2dXFtaWMuanBn.jpg
+fact_check:
+  done: true
+  date: '2026-10-22'
+  confirmed: 1
+  corrected: 3
+  removed: 0
+  unresolved: 6
+  second_check_changed: 0
+  searches: 10
+  pages_read: 14
+  cost_usd: 1.108
+  items:
+  - verdict: corrected
+    note: Checker read the Yahoo story in full; replaced the placeholder with the named trend, body and figures. Editors should confirm they want to name peptides and check the NSW Health release.
+    source: https://au.news.yahoo.com/viral-wellness-trend-behind-ed-041133551.html
+  - verdict: corrected
+    note: Geller is at the CDC but several co-authors are FDA staff; wording adjusted.
+    source: https://www.nejm.org/doi/pdf/10.1056/NEJMsa1504267
+  - verdict: confirmed
+    note: Abstract gives 23,005 visits and 2,154 hospitalizations a year; used the more precise figure.
+    source: https://www.nejm.org/doi/pdf/10.1056/NEJMsa1504267
+  - verdict: unresolved
+    note: Only partial abstract read; the symptom wording and energy figure were not seen, so unsupported details were removed and flagged.
+    source: https://www.nejm.org/doi/pdf/10.1056/NEJMsa1504267
+  - verdict: unresolved
+    note: Case count, journal and authors confirmed; the black pepper pairing claim was not verified.
+    source: https://www.amjmed.com/article/S0002-9343(23)00611-3/fulltext
+  - verdict: unresolved
+    note: Birth control and transplant drug (cyclosporine) examples confirmed; mechanism wording not seen.
+    source: https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth
+  - verdict: unresolved
+    note: No TGA page was read; the statement is US-style and needs an Australian check.
+    source: ''
+  - verdict: unresolved
+    note: No source reached for the hyponatremia claim.
+    source: ''
+  - verdict: unresolved
+    note: Citation details confirmed but the DOI/URL was not opened.
+    source: ''
+  - verdict: corrected
+    note: Replaced the Google News RSS link with the Yahoo URL the checker read in full.
+    source: https://au.news.yahoo.com/viral-wellness-trend-behind-ed-041133551.html
 ---
 
 Yes, wellness products and practices can send people to an emergency department, and the records show it happens regularly. Usually the cause isn't a mysterious new danger. It's a familiar one: too much of something, an unregulated product, or an interaction with a medication.
 
-[VERIFY: The source story's headline ("Viral 'wellness' trend behind ED surge," Yahoo News Australia) gives no detail in the snippet available. Confirm that "ED" means emergency department, and name the specific trend, the hospital or health service, and any figures from the original report before publishing. This draft deliberately does not name the trend or quote its numbers.]
+The story behind this question comes from New South Wales, Australia. NSW Health reported 1,180 emergency department presentations linked to unapproved peptide products such as BPC-157, GHK-Cu, TB-500, retatrutide and CJC-1295 over 15 months. Monthly presentations rose from 5 in July 2025 to 217 in September 2026, a rise of about 4,240%. Health officials linked the increase to aggressive wellness marketing, including on social media ([Yahoo News Australia](https://au.news.yahoo.com/viral-wellness-trend-behind-ed-041133551.html)).
 
 ## What does the evidence say about supplements and emergency visits?
 
-The best-known data comes from the United States. A 2015 study in *The New England Journal of Medicine*, led by Andrew Geller and colleagues at the Centers for Disease Control and Prevention (CDC), analyzed injury surveillance records from 2004 to 2013. It estimated roughly 23,000 emergency department visits a year for adverse events linked to dietary supplements. [VERIFY: confirm the 23,005 annual estimate and the roughly 2,000 hospitalizations figure against the paper.]
+The best-known data comes from the United States. A 2015 study in *The New England Journal of Medicine*, led by Andrew Geller of the Centers for Disease Control and Prevention (CDC) with colleagues including FDA researchers, analyzed injury surveillance records from 2004 to 2013. It estimated roughly 23,000 emergency department visits a year for adverse events linked to dietary supplements (23,005, based on 3,667 cases), and about 2,150 hospitalizations a year ([NEJM](https://www.nejm.org/doi/pdf/10.1056/NEJMsa1504267)).
 
-The study found that herbal and complementary products, especially those marketed for weight loss and energy, accounted for a large share of visits among young adults. Symptoms included heart palpitations, chest pain, and a racing pulse.
+The study found that herbal and complementary products accounted for about two-thirds (65.9%) of visits for adverse events from a single supplement, and weight-loss products alone for 25.5%. Visits frequently involved young adults aged 20 to 34. [VERIFY: confirm the "increased energy" product share and the palpitations, chest pain and racing pulse symptoms against the full NEJM text; this version drops them until checked.]
 
 This is surveillance data, not a controlled trial. It shows that harm happens and roughly where. It can't say how likely any one product is to cause it.
 
@@ -34,13 +76,13 @@ This is surveillance data, not a controlled trial. It shows that harm happens an
 
 There are a few repeating mechanisms.
 
-**Dose.** Natural doesn't mean mild. Turmeric is a kitchen spice, but concentrated turmeric supplements, often paired with black pepper extract to boost absorption, have been linked to liver injury. A 2023 case series from the Drug-Induced Liver Injury Network, published in *The American Journal of Medicine* (Halegoua-DeMarzio and colleagues), described ten such cases. [VERIFY: confirm case count, journal, and author details.] Ten cases is a small number. It's a warning signal, not a rate.
+**Dose.** Natural doesn't mean mild. Turmeric is a kitchen spice, but concentrated turmeric supplements have been linked to liver injury. [VERIFY: confirm that turmeric supplements are often paired with black pepper extract (piperine); not checked.] A 2023 case series from the Drug-Induced Liver Injury Network, published in *The American Journal of Medicine* (Halegoua-DeMarzio and colleagues), described ten such cases over 12 years ([Am J Med](https://www.amjmed.com/article/S0002-9343(23)00611-3/fulltext)). Ten cases is a small number. It's a warning signal, not a rate.
 
-**Interactions.** St John's wort, an herbal product sold for low mood, speeds up how the body breaks down certain drugs. That can lower the effect of some medications, including some birth control pills and some drugs used after organ transplants. The U.S. National Center for Complementary and Integrative Health documents this.
+**Interactions.** St John's wort, an herbal product sold for low mood, speeds up how the body breaks down certain drugs. That can lower the effect of some medications, including some birth control pills and some drugs used after organ transplants. The U.S. National Center for Complementary and Integrative Health documents this ([NCCIH](https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth)). [VERIFY: confirm the NCCIH wording on the mechanism, that St John's wort speeds up drug breakdown; the page was only seen to say it can weaken many medicines.]
 
-**Quality.** Supplements aren't tested for safety and effectiveness before sale in the way prescription drugs are. What's on the label and what's in the bottle can differ. [VERIFY: check how the Australian Therapeutic Goods Administration regulates supplements, since the source story is Australian, and describe it accurately.]
+**Quality.** Supplements aren't tested for safety and effectiveness before sale in the way prescription drugs are. What's on the label and what's in the bottle can differ. [VERIFY: check tga.gov.au for how the Australian TGA regulates complementary medicines, which it does assess in some ways, and rewrite this for Australia. The peptides in the NSW story are not TGA-approved.]
 
-**Too much of a good thing.** Even water can cause harm. Drinking very large amounts in a short time can dilute blood sodium, a condition called hyponatremia. It's rare, but it's the kind of risk a "more is better" trend can create.
+**Too much of a good thing.** Even water can cause harm. Drinking very large amounts in a short time can dilute blood sodium, a condition called hyponatremia. It's rare, but it's the kind of risk a "more is better" trend can create. [VERIFY: add a source for the hyponatremia statement, such as Mayo Clinic or NHS, or cut it.]
 
 ## Why do trends outrun the evidence?
 
@@ -71,7 +113,7 @@ Before starting any new supplement or protocol, take the product label to a phar
 
 ## Sources
 
-- Yahoo News Australia, "Viral 'wellness' trend behind ED surge" (original report; details not verified): https://news.google.com/rss/articles/CBMie0FVX3lxTE1qUklvR3BuM3g5OWNGU3VpSnA1RFd1cDVaeW1hLW5jRXJUWXB4emFuLXNfeE9HbTFTNEF2R2Fob2JKYmp5aUhxTm9CeVVlZnJUcGJQa1lXX0pHazRqOGE3Y0VkdzhEcmxBQ0JQSVFERFRQb1VOLXIwZFp6MA?oc=5
+- Yahoo News Australia, "Viral 'wellness' trend behind ED surge": https://au.news.yahoo.com/viral-wellness-trend-behind-ed-041133551.html
 - Geller AI, et al. (2015). "Emergency Department Visits for Adverse Events Related to Dietary Supplements." *The New England Journal of Medicine*, 373:1531–1540. https://www.nejm.org/doi/full/10.1056/NEJMsa1504267
-- Halegoua-DeMarzio D, et al. (2023). "Liver Injury Associated with Turmeric—A Growing Problem: Ten Cases from the Drug-Induced Liver Injury Network." *The American Journal of Medicine*. [VERIFY: add DOI/URL]
+- Halegoua-DeMarzio D, et al. (2023). "Liver Injury Associated with Turmeric—A Growing Problem: Ten Cases from the Drug-Induced Liver Injury Network." *The American Journal of Medicine*, 136:200-206. [VERIFY: confirm the DOI/URL; the candidate https://www.amjmed.com/article/S0002-9343(22)00740-9/pdf could not be opened.]
 - National Center for Complementary and Integrative Health (NCCIH). "St. John's Wort and Depression: In Depth." https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth
