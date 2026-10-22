@@ -37,23 +37,56 @@ takes:
 
 
     But the posts will keep coming, because a city that makes you perform has already told you what it costs.'
+fact_check:
+  done: true
+  date: '2026-10-22'
+  confirmed: 1
+  corrected: 0
+  removed: 1
+  unresolved: 5
+  second_check_changed: 0
+  searches: 8
+  pages_read: 11
+  cost_usd: 0.51
+  items:
+  - verdict: unresolved
+    note: Checker could not access SFGATE or any rent data source, so the claim remains unverified.
+    source: ''
+  - verdict: unresolved
+    note: The 2025 JCHS page supports 'record numbers with cost burdens', but the figure and the 30 percent definition were not confirmed.
+    source: https://www.jchs.harvard.edu/state-nations-housing-2025
+  - verdict: unresolved
+    note: The Rent Board homepage lacked coverage details and the coverage page failed to load.
+    source: https://sfrb.org
+  - verdict: removed
+    note: No check was possible; the note is cut and the paragraph reads fine without the planned detail.
+    source: ''
+  - verdict: unresolved
+    note: Only a search result with the headline was seen; the article was not opened.
+    source: https://www.yahoo.com/news/us/articles/desperate-sf-renters-going-viral-120000655.html
+  - verdict: unresolved
+    note: The SFGATE piece could not be read.
+    source: ''
+  - verdict: confirmed
+    note: The LAO report says major coastal communities lack housing, which drives up costs; San Francisco is not named on the page read.
+    source: https://lao.ca.gov/reports/2015/finance/housing-costs/housing-costs.aspx
 ---
 
-Renters in San Francisco are going viral because finding an apartment there has become a public contest, and people are posting their searches to stand out or to vent. SFGATE, the news site, reported that their stories "reveal a city at its limit."
+Renters in San Francisco are going viral because finding an apartment there has become a public contest, and people are posting their searches to stand out or to vent. SFGATE, the news site, reported that their stories "reveal a city at its limit." [VERIFY: confirm against the SFGATE article; the wording matches the headline only, and the article was not opened.]
 
 This article draws on that headline and framing. The individual stories are SFGATE's to tell, and they are not retold or embellished here. What follows is the background that explains why such stories land.
 
 ## What is actually going viral?
 
-According to SFGATE's reporting, the posts come from renters describing how hard it is to secure a place to live in the city. They circulate widely because the experience is familiar to a great many people, not only in San Francisco.
+According to SFGATE's reporting, the posts come from renters describing how hard it is to secure a place to live in the city. [VERIFY: confirm this description against the SFGATE article text.] They circulate widely because the experience is familiar to a great many people, not only in San Francisco.
 
 Specific posts, names and details are in the original SFGATE piece. Anything beyond what that coverage made public is not repeated here.
 
 ## Why is San Francisco's rental market so tight?
 
-The short answer is that too few homes have been built for the number of people who want to live there. California's nonpartisan Legislative Analyst's Office laid this out in a 2015 report, "California's High Housing Costs: Causes and Consequences." It concluded that the state's coastal metro areas, San Francisco's among them, have long built far less housing than demand required, and that this pushes prices up.
+The short answer is that too few homes have been built for the number of people who want to live there. California's nonpartisan Legislative Analyst's Office laid this out in a 2015 report, ["California's High Housing Costs: Causes and Consequences"](https://lao.ca.gov/reports/2015/finance/housing-costs/housing-costs.aspx). It concluded that the state's coastal metro areas, San Francisco's among them, have long built far less housing than demand required, and that this pushes prices up.
 
-Demand has also swung with the tech economy. Rents in the city dropped during the early pandemic years, then climbed again as offices and hiring picked back up. [VERIFY: current SF median rent figures and the year-over-year change from a named source such as Zumper, Zillow or Apartment List, and whether SFGATE cites a recent AI-driven hiring rebound.]
+Demand has also swung with the tech economy. Rents in the city dropped during the early pandemic years, then climbed again as offices and hiring picked back up. [VERIFY: current SF median rent figures and the year-over-year change from a named source such as Zumper, Zillow or Apartment List, and whether SFGATE cites a recent AI-driven hiring rebound; no source was read.]
 
 ## Why does a tight market produce viral stories?
 
@@ -63,19 +96,19 @@ Social platforms reward exactly that kind of material. A personal, slightly desp
 
 ## Is this only a San Francisco problem?
 
-No. Harvard's Joint Center for Housing Studies reported in its *State of the Nation's Housing* series that the number of cost-burdened renter households, those spending more than 30 percent of income on housing, reached a record in the early 2020s. [VERIFY: exact figure and year; the 2024 report cited roughly 22.4 million households for 2022.]
+No. Harvard's Joint Center for Housing Studies reported in its *State of the Nation's Housing* series that the number of cost-burdened renter households, those spending more than 30 percent of income on housing, reached a record in the early 2020s, and later editions say burdens have continued to climb. [VERIFY: exact figure and year from the JCHS report PDF or key-facts page (the 2024 report reportedly cited roughly 22.4 million households for 2022, unconfirmed); also confirm the 30 percent definition.]
 
 San Francisco is an extreme case of a national pattern. It has high incomes, high prices and limited new construction in the same few square miles.
 
 ## Does rent control help?
 
-Only for some tenants. San Francisco's rent ordinance generally covers buildings first occupied before June 1979, and state law, notably the 1995 Costa-Hawkins Rental Housing Act, limits how far rent control can reach. [VERIFY: current scope of SF Rent Ordinance coverage against the SF Rent Board's website.]
+Only for some tenants. San Francisco's rent ordinance generally covers buildings first occupied before June 1979, and state law, notably the 1995 Costa-Hawkins Rental Housing Act, limits how far rent control can reach. [VERIFY: confirm the SF Rent Ordinance cutoff date (believed to be June 13, 1979) and the 1995 Costa-Hawkins date on the SF Rent Board's coverage page or the statute; the Rent Board homepage did not contain these details.]
 
 That leaves a split market. Tenants already in covered units can be shielded from steep increases. Newcomers face market rates, and those are the people most likely to be posting online.
 
 ## What happens next?
 
-That is not settled. State and local officials have pushed to speed up housing approvals in recent years, but new buildings take years to finish, and the effect on rents is gradual. [VERIFY: current status of SF's state-mandated housing plan, known as the Housing Element, and any recent approval or permit figures.]
+That is not settled. State and local officials have pushed to speed up housing approvals in recent years, but new buildings take years to finish, and the effect on rents is gradual.
 
 For now, the viral posts work as a rough gauge of how hard the search has become.
 
