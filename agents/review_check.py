@@ -73,10 +73,29 @@ def check_draft(path: pathlib.Path) -> str:
     slug = path.parent.name
     niche = load_niche(slug) or {}
 
-    report = [f"### Review check: `{path.relative_to(ROOT)}`", ""]
+    try:
+        shown = path.resolve().relative_to(ROOT)
+    except ValueError:  # a draft checked out somewhere else (e.g. by fact-check-existing.yml)
+        shown = "/".join(path.parts[-4:])
+    report = [f"### Review check: `{shown}`", ""]
 
     word_count = len(re.findall(r"\w+", body))
     report.append(f"- Word count: **{word_count}**")
+
+    fm = yaml.safe_load(text.split("---", 2)[1]) if text.startswith("---") else {}
+    fc = (fm or {}).get("fact_check") or {}
+    if fc.get("done"):
+        report.append(
+            f"- 🔎 **Fact-check (2 independent checks):** {fc.get('confirmed', 0)} confirmed, "
+            f"{fc.get('corrected', 0)} corrected, {fc.get('removed', 0)} removed, "
+            f"{fc.get('unresolved', 0)} still need you · {fc.get('searches', 0)} searches, "
+            f"{fc.get('pages_read', 0)} pages read, ~${fc.get('cost_usd', 0):.2f}")
+        for item in fc.get("items", []):
+            if item.get("verdict") in ("corrected", "removed", "unresolved"):
+                src = f" ([source]({item['source']}))" if item.get("source") else ""
+                report.append(f"    - {item['verdict']}: {item.get('note', '')}{src}")
+    else:
+        report.append("- Fact-check: not run on this draft.")
 
     verifies = re.findall(r"\[VERIFY:[^\]]*\]", text)
     if verifies:

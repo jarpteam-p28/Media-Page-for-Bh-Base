@@ -36,6 +36,14 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 agents/writer_agent.py
 
+      # Off until switched on: set the repo variable FACT_CHECK_ENABLED to "true"
+      # (Settings -> Secrets and variables -> Actions -> Variables).
+      - name: Fact-check each draft (two independent checks with web search)
+        if: vars.FACT_CHECK_ENABLED == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 agents/fact_check_agent.py
+
       - name: Find a free photo for each draft
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}   # optional; Openverse is used without it
