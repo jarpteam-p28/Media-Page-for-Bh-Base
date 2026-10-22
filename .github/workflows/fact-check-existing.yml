@@ -1,0 +1,74 @@
+name: Fact-check an existing draft PR
+
+# Run by hand (Actions tab -> "Fact-check an existing draft PR" -> Run workflow) to
+# fact-check drafts that were written before the fact-checker existed. It checks out
+# the draft PR's branch, runs the fact-checker from main on its drafts, commits the
+# checked drafts back to that PR, and refreshes the PR's review notes.
+# Cost: roughly 20-35 cents per article (web searches + tokens).
+
+on:
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: "Draft PR number"
+        required: true
+      files:
+        description: "Optional: only these draft files (space-separated, e.g. content/drafts/money-everyday-life/x.md). Empty = all drafts in the PR."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fact-check:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: main
+
+      - name: Find the PR's branch
+        id: pr
+        run: echo "branch=$(gh pr view '${{ inputs.pr }}' -R '${{ github.repository }}' --json headRefName -q .headRefName)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.pr.outputs.branch }}
+          path: pr
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r main/requirements.txt
+
+      - name: Fact-check the drafts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FILES: ${{ inputs.files }}
+        run: |
+          cd pr
+          if [ -n "$FILES" ]; then targets="$FILES"; else targets=$(ls content/drafts/*/*.md); fi
+          python3 ../main/agents/fact_check_agent.py $targets
+
+      - name: Refresh the review notes
+        run: |
+          cd pr
+          : > ../review_report.md
+          for f in content/drafts/*/*.md; do python3 ../main/agents/review_check.py "$f" >> ../review_report.md; echo >> ../review_report.md; done
+          gh pr edit '${{ inputs.pr }}' -R '${{ github.repository }}' --body-file ../review_report.md
+
+      - name: Save the checked drafts to the PR
+        run: |
+          cd pr
+          git config user.name "media-pipeline-bot"
+          git config user.email "actions@github.com"
+          git add content/drafts
+          git diff --cached --quiet && exit 0
+          git commit -m "Fact-check drafts"
+          git push origin HEAD:${{ steps.pr.outputs.branch }}
