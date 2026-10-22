@@ -45,9 +45,27 @@ image_credit: Richard Hurd from Green Bay, USA
 image_credit_url: https://commons.wikimedia.org/w/index.php?curid=96656748
 image_license: CC BY 2.0
 image_source: https://upload.wikimedia.org/wikipedia/commons/a/af/Three_young_women_Wisconsin_Badgers_fans_with_phones_10-12-2013_252_%2810240585543%29.jpg
+fact_check:
+  done: true
+  date: '2026-10-22'
+  confirmed: 0
+  corrected: 0
+  removed: 0
+  unresolved: 2
+  second_check_changed: 0
+  searches: 8
+  pages_read: 3
+  cost_usd: 0.242
+  items:
+  - verdict: unresolved
+    note: No source could be opened; a Yahoo snippet hints the format differs from what is described.
+    source: ''
+  - verdict: unresolved
+    note: Athletic page and Google News link could not be opened.
+    source: ''
 ---
 
-A goal scored by the former Arsenal midfielder Mesut Özil is circulating online again, this time alongside images of Woody from *Toy Story* and SpongeBob SquarePants. That much comes from the headline of a piece by The Athletic, the sports site owned by The New York Times, which says the goal is going viral "again (sort of)."
+A goal scored by the former Arsenal midfielder Mesut Özil is circulating online again, this time alongside images of Woody from *Toy Story* and SpongeBob SquarePants. [VERIFY: confirm against the opened Athletic piece. A Yahoo Sports snippet suggests the posts are AI recreations of the goal with cartoon characters as scorers, not images shown alongside it.] That much comes from the headline of a piece by The Athletic, the sports site owned by The New York Times, which says the goal is going viral "again (sort of)." [VERIFY: check the headline wording, publication date and ownership on the Athletic page itself.]
 
 The coverage this draft rests on is that headline and a one-line description. The specific goal, the format of the meme and the reason for the revival are not confirmed here. [VERIFY: which Özil goal the article covers, which club and year, and how Woody and SpongeBob are used in the posts.]
 
