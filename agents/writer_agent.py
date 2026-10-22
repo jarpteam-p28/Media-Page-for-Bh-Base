@@ -28,6 +28,7 @@ Requires env var ANTHROPIC_API_KEY. Model is configurable via ANTHROPIC_MODEL
 model names update.
 """
 import datetime
+import email.utils
 import json
 import os
 import pathlib
@@ -41,6 +42,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 NICHES_FILE = ROOT / "config" / "niches.yaml"
 CANDIDATES_DIR = ROOT / "content" / "drafts" / "_candidates"
 DRAFTS_DIR = ROOT / "content" / "drafts"
+COVERED_FILE = ROOT / "content" / "state" / "covered.json"
+COVERED_DAYS = 90  # don't repeat a story within this many days
 
 MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5-5")
 # How hard the model thinks before writing: low | medium | high | xhigh | max.
@@ -97,6 +100,8 @@ THE COLUMNISTS (write exactly one take for each, in this order):
 
 RULES FOR EVERY TAKE:
 - These are AI-created personas. No invented biography, memories, clients, or experiences.
+- Do not introduce yourself, say your name, or say you are an AI or an AI persona. The site
+  already shows each columnist's name and an "AI persona" label. Start with the opinion.
 - Opinion and perspective only. Do not add new statistics, studies or facts that are not in
   the article. If one is truly needed, mark it [VERIFY: ...].
 - Never diagnose or label a real, named person.
@@ -201,6 +206,20 @@ def extract_markdown(resp) -> str:
     return fenced.group(1).strip() if fenced else text
 
 
+# Backstop for the "don't introduce yourself" rule: drops an opening like
+# "Rosanna here." / "Destiny here, an AI persona, and I'll say..." / "I'm an AI persona, and".
+INTRO_RE = re.compile(
+    r"^\s*(?:(?:Rosanna|Destiny|(?:The )?Expert) here\b[^.]*?(?:\.\s*|,\s*(?:an AI persona,?\s*)?(?:and\s+)?)"
+    r"|I'?m an AI persona[,.]?\s*(?:and\s+)?)+",
+    re.IGNORECASE,
+)
+
+
+def strip_intro(text: str) -> str:
+    text = INTRO_RE.sub("", text.strip())
+    return text[:1].upper() + text[1:]
+
+
 def write_takes(client, niche: dict, article_md: str, writing_rules: str) -> list:
     columnists = [c for c in niche.get("columnists") or [] if c in COLUMNIST_NAMES]
     if not columnists:
@@ -222,7 +241,7 @@ def write_takes(client, niche: dict, article_md: str, writing_rules: str) -> lis
     text = "".join(b.text for b in resp.content if b.type == "text")
     takes = json.loads(text)["takes"]
     # keep only the columnists this niche asked for, once each, in config order
-    by_voice = {t["voice"]: t["text"].strip() for t in takes if t.get("text", "").strip()}
+    by_voice = {t["voice"]: strip_intro(t["text"]) for t in takes if t.get("text", "").strip()}
     return [{"voice": c, "text": by_voice[c]} for c in columnists if c in by_voice]
 
 
@@ -233,19 +252,54 @@ def add_takes(draft_md: str, takes: list) -> str:
     return "---\n" + yaml.safe_dump(fm, sort_keys=False, allow_unicode=True, width=1000) + "---" + body
 
 
-def pick_candidate(candidates: list) -> dict | None:
-    # Simple heuristic for now: prefer Reddit items with more upvotes (real audience
-    # signal), fall back to the first Google News item. A human can always override by
-    # hand-editing content/drafts/_candidates/<slug>.json before running this script.
-    reddit_items = [c for c in candidates if c.get("upvotes") is not None]
+def load_covered() -> list:
+    # Stories already drafted, so the same one isn't picked again tomorrow. Drafts
+    # waiting in unmerged PRs aren't on main, so this log is the robot's memory; the
+    # workflow commits it to main after every run.
+    if not COVERED_FILE.exists():
+        return []
+    cutoff = (datetime.date.today() - datetime.timedelta(days=COVERED_DAYS)).isoformat()
+    return [c for c in json.loads(COVERED_FILE.read_text()) if c.get("date", "") >= cutoff]
+
+
+def title_words(title: str) -> set:
+    title = re.sub(r"\s+-\s+[^-]+$", "", title)  # Google News appends " - Outlet name"
+    return {w for w in re.findall(r"[a-z0-9']+", title.lower()) if len(w) > 2}
+
+
+def is_covered(candidate: dict, covered: list) -> bool:
+    words = title_words(candidate.get("title", ""))
+    for c in covered:
+        if candidate.get("url") and candidate["url"] == c.get("url"):
+            return True
+        seen = title_words(c.get("title", ""))
+        if words and seen and len(words & seen) / len(words | seen) >= 0.5:
+            return True
+    return False
+
+
+def published_at(candidate: dict) -> float:
+    try:
+        return email.utils.parsedate_to_datetime(candidate.get("published", "")).timestamp()
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def pick_candidate(candidates: list, covered: list) -> dict | None:
+    # Skip anything already covered. Then prefer Reddit items with the most upvotes (real
+    # audience signal), else the most recently published news item. A human can always
+    # override by hand-editing content/drafts/_candidates/<slug>.json before running this.
+    fresh = [c for c in candidates if not is_covered(c, covered)]
+    reddit_items = [c for c in fresh if c.get("upvotes") is not None]
     if reddit_items:
         return max(reddit_items, key=lambda c: c.get("upvotes", 0))
-    return candidates[0] if candidates else None
+    return max(fresh, key=published_at) if fresh else None
 
 
 def run():
     client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env
     niches = yaml.safe_load(NICHES_FILE.read_text())["niches"]
+    covered = load_covered()
 
     for niche in niches:
         slug = niche["slug"]
@@ -255,9 +309,9 @@ def run():
             continue
 
         candidates = json.loads(cand_file.read_text())["candidates"]
-        chosen = pick_candidate(candidates)
+        chosen = pick_candidate(candidates, covered)
         if not chosen:
-            print(f"[skip] no candidates for {slug}", file=sys.stderr)
+            print(f"[skip] no new stories for {slug} (everything found was already covered)", file=sys.stderr)
             continue
 
         voice = niche.get("voice") or "narrator"
@@ -321,6 +375,11 @@ def run():
 
         out_path.write_text(draft_md)
         print(f"[ok] drafted {slug}: {out_path}")
+        covered.append({"date": date_str, "niche": slug, "url": chosen["url"],
+                        "title": chosen["title"], "article": title})
+
+    COVERED_FILE.parent.mkdir(parents=True, exist_ok=True)
+    COVERED_FILE.write_text(json.dumps(covered, indent=2) + "\n")
 
 
 if __name__ == "__main__":
