@@ -45,25 +45,37 @@ def load_niche(slug: str) -> dict | None:
     return next((n for n in niches if n["slug"] == slug), None)
 
 
-def check_url(url: str) -> bool:
+# Sites that refuse automated checks (login walls, bot blockers, rate limits) answer
+# with these codes. That says nothing about whether the link works for a reader.
+BLOCKED_CODES = {401, 403, 405, 429, 999}
+
+
+def check_url(url: str) -> str:
+    """Returns "ok", "dead", or "blocked" (the site wouldn't let a robot check it)."""
     try:
         resp = requests.head(url, timeout=10, allow_redirects=True,
                               headers={"User-Agent": "Mozilla/5.0"})
         if resp.status_code >= 400:
             resp = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
-        return resp.status_code < 400
     except Exception:
-        return False
+        return "dead"
+    if resp.status_code < 400:
+        return "ok"
+    return "blocked" if resp.status_code in BLOCKED_CODES else "dead"
 
 
 def check_draft(path: pathlib.Path) -> str:
     text = path.read_text()
+    # The frontmatter holds the photo's source link, the columnists' takes, etc. Links,
+    # word count and style checks look at the article body only, so the photo link
+    # isn't reported as a "source" and the --- lines aren't counted as dashes.
+    body = text.split("---", 2)[2] if text.startswith("---") else text
     slug = path.parent.name
     niche = load_niche(slug) or {}
 
     report = [f"### Review check: `{path.relative_to(ROOT)}`", ""]
 
-    word_count = len(re.findall(r"\w+", text))
+    word_count = len(re.findall(r"\w+", body))
     report.append(f"- Word count: **{word_count}**")
 
     verifies = re.findall(r"\[VERIFY:[^\]]*\]", text)
@@ -74,16 +86,22 @@ def check_draft(path: pathlib.Path) -> str:
     else:
         report.append("- No [VERIFY:] flags left by the writer.")
 
-    urls = re.findall(r"https?://[^\s)\]]+", text)
-    dead = [u for u in urls if not check_url(u)]
+    urls = sorted({u.rstrip(".,;:'\"") for u in re.findall(r"https?://[^\s)\]>]+", body)})
+    results = {u: check_url(u) for u in urls}
+    dead = [u for u, r in results.items() if r == "dead"]
+    blocked = [u for u, r in results.items() if r == "blocked"]
     if dead:
         report.append(f"- ⚠️ **{len(dead)} source link(s) did not resolve:**")
         for u in dead:
             report.append(f"    - {u}")
     else:
-        report.append(f"- All {len(urls)} linked source(s) resolved.")
+        report.append(f"- All {len(urls) - len(blocked)} checkable source link(s) resolved.")
+    if blocked:
+        report.append(f"- ℹ️ {len(blocked)} site(s) block automated checks; open these yourself if in doubt:")
+        for u in blocked:
+            report.append(f"    - {u}")
 
-    missing_disclosures = [d for d in niche.get("disclosures", []) if d[:25] not in text]
+    missing_disclosures = [d for d in niche.get("disclosures") or [] if d[:25] not in body]
     if missing_disclosures:
         report.append("- ⚠️ **Required disclosure missing or reworded past recognition:**")
         for d in missing_disclosures:
@@ -91,8 +109,8 @@ def check_draft(path: pathlib.Path) -> str:
     else:
         report.append("- Required disclosures present.")
 
-    tells = [t for t in AI_TELLS if re.search(t, text, re.IGNORECASE)]
-    em_dash_count = text.count("—") + text.count("--")
+    tells = [t for t in AI_TELLS if re.search(t, body, re.IGNORECASE)]
+    em_dash_count = body.count("—") + body.count("--")
     if tells or em_dash_count > 6:
         report.append("- ⚠️ **Possible AI-writing tells:**")
         for t in tells:

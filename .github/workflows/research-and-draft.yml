@@ -42,6 +42,17 @@ jobs:
       - name: Run review check
         run: python3 agents/review_check.py --all > review_report.md || true
 
+      # Save the list of stories already drafted straight to main (it's a log, not
+      # content), so tomorrow's run skips them even while today's PR waits for review.
+      - name: Remember which stories were covered
+        run: |
+          git config user.name "media-pipeline-bot"
+          git config user.email "actions@github.com"
+          git add content/state/covered.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Log stories covered on $(date +%Y-%m-%d)"
+          git push origin HEAD:main || echo "::warning::Could not save the covered-stories log; tomorrow may repeat a story."
+
       # `with:` inputs are not run through a shell, so $(date ...) would be
       # passed literally (and break the branch name). Compute it here instead.
       - name: Get today's date
