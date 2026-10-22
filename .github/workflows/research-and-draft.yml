@@ -6,7 +6,9 @@ name: Research and draft
 
 on:
   schedule:
-    - cron: "0 13 * * *"   # 9am US Eastern (UTC-4) -- adjust if you want a different time
+    # Sunday, Monday and Thursday at 13:00 UTC: 9am US Eastern in summer time, 8am in winter.
+    # (0 = Sunday, 1 = Monday, 4 = Thursday.)
+    - cron: "0 13 * * 0,1,4"
   workflow_dispatch: {}      # lets you trigger it manually from the Actions tab too
 
 permissions:
