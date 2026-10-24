@@ -47,13 +47,18 @@ fact_check:
   - verdict: unresolved
     note: No current CPI values were obtained.
     source: ''
+image: /images/money-everyday-life/2026-10-20-inflation-has-cooled-so-why-do-prices-still-feel-so-high-what-southern-europe-sh.jpg
+image_credit: Simmremmai
+image_credit_url: https://commons.wikimedia.org/wiki/File:HK_Westwood_Wellcome_Shop_interior_aisle_corridor_%E8%B3%BC%E7%89%A9%E6%89%8B%E6%8E%A8%E8%BB%8A_shopping_carts_April-2012.jpg
+image_license: CC BY-SA 3.0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/HK_Westwood_Wellcome_Shop_interior_aisle_corridor_%E8%B3%BC%E7%89%A9%E6%89%8B%E6%8E%A8%E8%BB%8A_shopping_carts_April-2012.jpg/1280px-HK_Westwood_Wellcome_Shop_interior_aisle_corridor_%E8%B3%BC%E7%89%A9%E6%89%8B%E6%8E%A8%E8%BB%8A_shopping_carts_April-2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ---
 
 Prices still feel high because a falling inflation rate does not bring prices back down. It only means they are rising more slowly than before. The same thing is playing out on both sides of the Atlantic, and Europe's recent affordability protests are a visible example.
 
 ## What is happening in France, Italy, Spain and Portugal?
 
-Cost of living has become a political problem across southern Europe. Al Jazeera recently ran an explainer asking how it has changed in France, Italy, Spain and Portugal ([Al Jazeera](https://www.aljazeera.com/news/2026/10/19/how-has-the-cost-of-living-changed-in-france-italy-spain-and-portugal)). Business Insider and DW have covered protests in France framed around affordability. [VERIFY: confirm both the Business Insider and DW articles exist and cover affordability-framed protests in France.]
+Cost of living has become a political problem across southern Europe. Al Jazeera recently ran an explainer asking how it has changed in France, Italy, Spain and Portugal ([Al Jazeera](https://www.aljazeera.com/news/2026/10/19/how-has-the-cost-of-living-changed-in-france-italy-spain-and-portugal)). Business Insider has also covered the protests in France, describing growing anger over the cost of living ([Business Insider](https://www.businessinsider.com/france-cost-of-living-protests-stats-anger-affordability-2026-10)).
 
 The details differ by country. The pattern is familiar to Americans: a sharp price jump, then a slowdown that brings little relief.
 
@@ -65,21 +70,23 @@ Prices only fall when there is deflation, which is rare and usually comes with e
 
 ## How big was the price shock?
 
-Euro area inflation peaked at 10.6% in October 2022, according to Eurostat, the European Union's statistics agency ([Eurostat](https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/b6953137-786e-ed9c-5ee2-6812c0f8f07f)). [VERIFY: confirm that later monthly Eurostat releases (November 2022 onward) stayed below 10.6%, so October is the true peak.] US consumer prices peaked at an annual rate of 9.1% in June 2022, according to the US Bureau of Labor Statistics (BLS) ([BLS](https://www.bls.gov/opub/ted/2022/consumer-prices-up-9-1-percent-over-the-year-ended-june-2022-largest-increase-in-40-years.htm)).
+Euro area annual inflation reached 10.6% in October 2022, according to Eurostat, the European Union's statistics agency ([Eurostat](https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/b6953137-786e-ed9c-5ee2-6812c0f8f07f)). It then eased to 10.1% in November 2022 and 9.2% in December 2022, making October the highest reading of that year ([Eurostat](https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-18012023-ap)). US consumer prices rose 9.1% in the 12 months to June 2022, the largest 12-month increase since the period ending November 1981, according to the US Bureau of Labor Statistics (BLS) ([BLS](https://www.bls.gov/opub/ted/2022/consumer-prices-up-9-1-percent-over-the-year-ended-june-2022-largest-increase-in-40-years.htm)).
 
-Individual countries ran differently. Italy and Spain each saw double-digit annual rates at some point in 2022 by Eurostat's harmonized measure ([Eurostat](https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/b6953137-786e-ed9c-5ee2-6812c0f8f07f)).
+Individual countries ran differently. Italy and Spain each saw double-digit annual rates at some point in 2022 by Eurostat's harmonized measure: Italy reached 12.6% in October 2022 and Spain 10.7% in July 2022 ([Eurostat](https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/b6953137-786e-ed9c-5ee2-6812c0f8f07f)).
 
-Europe was hit especially hard by energy. Russia's 2022 invasion of Ukraine disrupted natural gas supplies, and many European households faced much larger heating and electricity bills. [VERIFY: add a source for the gas supply disruption and higher household energy bills; Eurostat shows energy was the largest contributor to euro area inflation in October 2022 but does not mention Russia or gas.]
+Europe was hit especially hard by energy. In October 2022, energy made the largest contribution to euro area inflation, according to Eurostat ([Eurostat](https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/b6953137-786e-ed9c-5ee2-6812c0f8f07f)). The International Energy Agency linked the gas crisis to Russia's February 2022 invasion of Ukraine and to Russia's sharp cuts in pipeline gas deliveries to Europe, which pushed gas prices to extreme levels ([IEA](https://www.iea.org/reports/gas-market-report-q4-2022)).
 
 ## Why does it matter whether wages keep up?
 
 What decides how a household feels is the gap between price growth and pay growth. If prices rise 15% over a few years and pay rises 10%, the household is worse off even though both numbers went up.
 
-This is why affordability anger can persist after headline inflation fades. Rent, food and utilities take a large share of a budget, so increases there are noticed first and forgiven last. Housing is a major piece. Economists generally find that lower-income households spend a bigger share of income on necessities, so they feel the same price increase more heavily. [VERIFY: find a source for this, such as BLS Consumer Expenditure Survey Table 1101 (spending by income quintile); if none can be found, soften or cut the sentence.]
+This is why affordability anger can persist after headline inflation fades. Rent, food and utilities take a large share of a budget, so increases there are noticed first and forgiven last. Housing is a major piece. Lower-income households tend to spend a bigger share of their budgets on necessities, so they feel the same price increase more heavily. In BLS Consumer Expenditure Survey data for 2000, the lowest-income fifth of households put almost 30% of total spending toward housing, compared with 22% for the highest-income fifth ([BLS](https://www.bls.gov/opub/ted/2003/jun/wk4/art02.htm)).
 
 ## Is the US situation the same?
 
-In outline, yes. US prices are well above their early-2020 level, and the BLS publishes the exact figures. [VERIFY: run the BLS CPI Inflation Calculator for the cumulative change since January 2020 and record the date, or leave the figure out.] Whether your own budget is better or worse depends on your pay, your rent or mortgage, and what you buy most.
+In outline, yes. US prices are well above their early-2020 level. The BLS consumer price index for all urban consumers stood at 336.940 in September 2026, about 30.6% above its January 2020 level of 257.971 ([BLS, September 2026](https://www.bls.gov/news.release/archives/cpi_10142026.htm); [BLS historical table](https://www.bls.gov/regions/midwest/data/consumerpriceindexhistorical_us_table.pdf)).
+
+Inflation has also picked up again recently. US prices rose 3.7% in the 12 months to September 2026, up from 3.4% in the 12 months to August, according to the BLS release of 14 October 2026 ([BLS](https://www.bls.gov/news.release/archives/cpi_10142026.htm)). Euro area annual inflation was 3.8% in September 2026, up from 3.2% in August, according to Eurostat's release of 16 October 2026 ([Eurostat](https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-16102026-ap)). Whether your own budget is better or worse depends on your pay, your rent or mortgage, and what you buy most.
 
 The national average is a poor guide to your household. Someone who rents in a fast-rising market and drives a lot will have a different experience than a homeowner with a fixed-rate mortgage.
 
@@ -93,9 +100,14 @@ One concrete step: pull your bills for your three biggest spending categories (u
 
 ## Sources
 
-- Al Jazeera, "How has the cost of living changed in France, Italy, Spain and Portugal?" (accessed via Google News): https://news.google.com/rss/articles/CBMisAFBVV95cUxOY3RPNkJUcTdmYmYwUHJnemJNUkM5c09tMkRqQ2R1bklaQmVKM0lYVUpSenU4TFNvak4tS2gwV0ZVRFBCZjZSU0p3dWhnWTJFeHMzelNxUVhnWUlHQ0hWYXlwR0hNcjJGVVBIdlJJc2ZuQ3hvN0k3YWtENHlCZXNBVDloUDlLQ0R6QVY0Y1Y5VlltNUhlYXZLRjd0LW13bzVRWklqOVVwcFNqbkVPRjVvbtIBtgFBVV95cUxOZEpBdDlzY2E5Zi1VdXBBQkJ1M2J3VFJXcjdGbjR2bk12Y2M4TlJscVNFemM1VG9rU21ZQ1cxdmVTNU9aaEExU2JyYlI1QmNvcXB5UkVlOHVvUDRVMTBvZ1BjZ29JZE0zY3VtOFlOMGdXWUtFd0pBaFl6MXVZRlBUeXZ6dDlvNTJQSnliX3lfd0gzaEl6MWZvZ0xMem1qSVlKN0Zkb0VEMGlmNTZqTnFONldldkdwZw?oc=5
-- Business Insider, "4 figures that help explain the affordability crisis behind France's protests" (headline referenced only).
-- DW, "Weekend of fiery protests in France raises questions, costs millions" (headline referenced only).
-- Eurostat, euro area annual inflation (HICP), 2022: https://ec.europa.eu/eurostat/web/hicp
-- US Bureau of Labor Statistics, Consumer Price Index: https://www.bls.gov/cpi/
+- Al Jazeera, "How has the cost of living changed in France, Italy, Spain and Portugal?" (19 October 2026): https://www.aljazeera.com/news/2026/10/19/how-has-the-cost-of-living-changed-in-france-italy-spain-and-portugal
+- Business Insider, "4 figures that help explain the affordability crisis behind France's protests" (19 October 2026; read via the DNYUZ reprint at https://dnyuz.com/2026/10/19/4-figures-that-help-explain-the-affordability-crisis-behind-frances-protests/): https://www.businessinsider.com/france-cost-of-living-protests-stats-anger-affordability-2026-10
+- Eurostat, "Annual inflation up to 10.6% in the euro area" (October 2022 data, released 17 November 2022): https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/b6953137-786e-ed9c-5ee2-6812c0f8f07f
+- Eurostat, "Annual inflation down to 9.2% in the euro area" (December 2022 data, released 18 January 2023): https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-18012023-ap
+- Eurostat, "Annual inflation up to 3.8% in the euro area" (September 2026 data, released 16 October 2026): https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-16102026-ap
+- US Bureau of Labor Statistics, The Economics Daily, 9.1% consumer price rise over the year ended June 2022: https://www.bls.gov/opub/ted/2022/consumer-prices-up-9-1-percent-over-the-year-ended-june-2022-largest-increase-in-40-years.htm
+- US Bureau of Labor Statistics, Consumer Price Index news release, September 2026 (released 14 October 2026): https://www.bls.gov/news.release/archives/cpi_10142026.htm
+- US Bureau of Labor Statistics, CPI-U historical table (U.S. city average): https://www.bls.gov/regions/midwest/data/consumerpriceindexhistorical_us_table.pdf
+- US Bureau of Labor Statistics, The Economics Daily, spending shares by income quintile (June 2003; 2000 data): https://www.bls.gov/opub/ted/2003/jun/wk4/art02.htm
+- International Energy Agency, Gas Market Report, Q4-2022: https://www.iea.org/reports/gas-market-report-q4-2022
 - US Bureau of Labor Statistics, CPI Inflation Calculator: https://www.bls.gov/data/inflation_calculator.htm
