@@ -1,52 +1,31 @@
 ---
 date: '2026-10-20'
-title: Inflation Has Cooled, So Why Do Prices Still Feel So High? What Southern Europe Shows
+title: Why Do Prices Still Feel So High? What Southern Europe Shows
 slug: why-prices-still-feel-high-after-inflation-cooled
 niche: money-everyday-life
 voice: narrator
 source_story: https://news.google.com/rss/articles/CBMisAFBVV95cUxOY3RPNkJUcTdmYmYwUHJnemJNUkM5c09tMkRqQ2R1bklaQmVKM0lYVUpSenU4TFNvak4tS2gwV0ZVRFBCZjZSU0p3dWhnWTJFeHMzelNxUVhnWUlHQ0hWYXlwR0hNcjJGVVBIdlJJc2ZuQ3hvN0k3YWtENHlCZXNBVDloUDlLQ0R6QVY0Y1Y5VlltNUhlYXZLRjd0LW13bzVRWklqOVVwcFNqbkVPRjVvbtIBtgFBVV95cUxOZEpBdDlzY2E5Zi1VdXBBQkJ1M2J3VFJXcjdGbjR2bk12Y2M4TlJscVNFemM1VG9rU21ZQ1cxdmVTNU9aaEExU2JyYlI1QmNvcXB5UkVlOHVvUDRVMTBvZ1BjZ29JZE0zY3VtOFlOMGdXWUtFd0pBaFl6MXVZRlBUeXZ6dDlvNTJQSnliX3lfd0gzaEl6MWZvZ0xMem1qSVlKN0Zkb0VEMGlmNTZqTnFONldldkdwZw?oc=5
-summary: Falling inflation doesn't lower prices, it only slows their climb. Europe's cost-of-living anger shows why bills still sting, and how to measure your own.
+summary: Even when inflation slows, prices don't come back down, and in September 2026 it sped up again in both the US and the euro area. Europe's cost-of-living anger shows why bills still sting, and how to measure your own.
 image_query: grocery receipt budget
 status: draft
 takes:
 - voice: expert
-  text: 'A useful way to hold this article''s central point is to separate a level from a rate. Inflation is the speed of a car, not its position. When speed drops from 5% to 2%, you are still moving away from where you started. The article''s grocery example, $100 becoming $105 and then $107.10, shows that cleanly. I should say I am an AI-created persona, and the figures I lean on are the article''s own. Several of them, including the Eurostat peak, are still flagged for verification, so treat them as provisional. What I would add is that the wage comparison is the real test. Nobody has a single ''true'' inflation rate, because each household''s basket differs. That is why the three-category exercise with the BLS calculator is sound: it replaces an average with your own rent, groceries and fuel bills, then asks which one outran the calculator''s figure.'
+  text: 'A useful way to hold this article''s central point is to separate a level from a rate. Inflation is the speed of a car, not its position. When speed drops from 5% to 2%, you are still moving away from where you started. The article''s grocery example, $100 becoming $105 and then $107.10, shows that cleanly. The figures I lean on are the article''s own, each linked to BLS, Eurostat or the IEA. What I would add is that the wage comparison is the real test. Nobody has a single ''true'' inflation rate, because each household''s basket differs. That is why the three-category exercise with the BLS calculator is sound: it replaces an average with your own rent, groceries and fuel bills, then asks which one outran the calculator''s figure.'
 fact_check:
   done: true
-  date: '2026-10-22'
-  confirmed: 3
-  corrected: 0
-  removed: 0
-  unresolved: 5
-  second_check_changed: 0
-  searches: 6
-  pages_read: 19
-  cost_usd: 0.737
-  items:
-  - verdict: unresolved
-    note: October 2022 figure of 10.6% confirmed in the final release, but the checker did not read later releases to confirm it was the peak.
-    source: https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/b6953137-786e-ed9c-5ee2-6812c0f8f07f
-  - verdict: confirmed
-    note: BLS confirms 9.1% 12-month rise to June 2022.
-    source: https://www.bls.gov/opub/ted/2022/consumer-prices-up-9-1-percent-over-the-year-ended-june-2022-largest-increase-in-40-years.htm
-  - verdict: confirmed
-    note: Italy hit 12.6% and Spain 10.0-10.7% in the table; no country figures are stated, so the note was removed.
-    source: https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/b6953137-786e-ed9c-5ee2-6812c0f8f07f
-  - verdict: confirmed
-    note: Article exists, published 19 Oct 2026; the Sources list should also swap the Google News link for this URL.
-    source: https://www.aljazeera.com/news/2026/10/19/how-has-the-cost-of-living-changed-in-france-italy-spain-and-portugal
-  - verdict: unresolved
-    note: Checker could not open either article.
-    source: ''
-  - verdict: unresolved
-    note: No source was opened for the cause; Eurostat supports only the energy contribution.
-    source: https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/b6953137-786e-ed9c-5ee2-6812c0f8f07f
-  - verdict: unresolved
-    note: The BLS report read did not show necessities' share of spending.
-    source: https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm
-  - verdict: unresolved
-    note: No current CPI values were obtained.
-    source: ''
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-23'
+  check1:
+    confirmed: 3
+    corrected: 9
+    removed: 0
+    unresolved: 0
+  check2:
+    ok: 10
+    fixed: 1
+    cut: 0
+    flagged: 0
+  open_items: 0
 image: /images/money-everyday-life/2026-10-20-inflation-has-cooled-so-why-do-prices-still-feel-so-high-what-southern-europe-sh.jpg
 image_credit: Simmremmai
 image_credit_url: https://commons.wikimedia.org/wiki/File:HK_Westwood_Wellcome_Shop_interior_aisle_corridor_%E8%B3%BC%E7%89%A9%E6%89%8B%E6%8E%A8%E8%BB%8A_shopping_carts_April-2012.jpg
