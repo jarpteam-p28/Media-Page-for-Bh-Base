@@ -69,7 +69,7 @@ Al Jazeera reported [protests in Belgium, Italy, Portugal and France](https://ww
 
 ## What are the protesters actually angry about?
 
-The common thread is the gap between what things cost and what people earn. In Lisbon, where tens of thousands marched at the call of the CGTP union, the demands centered on higher wages and pensions and against rising housing and fuel costs. In France, the Interior Ministry put turnout at about 550,000 ([Al Jazeera](https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france); [Reuters](https://www.staradvertiser.com/2026/10/17/breaking-news/mass-protests-in-france-spiral-into-worst-riots-in-years/)).
+The common thread is the gap between what things cost and what people earn. In Portugal, an estimated tens of thousands marched against the cost of living and low wages, according to [Al Jazeera](https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france). A photo caption in the same report says a Lisbon march called by the CGTP trade union focused mainly on higher wages and pensions, as well as rising housing and fuel costs. In France, the Interior Ministry put turnout at about 550,000 ([Al Jazeera](https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france); [Reuters](https://www.staradvertiser.com/2026/10/17/breaking-news/mass-protests-in-france-spiral-into-worst-riots-in-years/)).
 
 Energy is a big part of the European story. Household electricity and gas prices in the EU were already rising before Russia invaded Ukraine in February 2022, and reached record highs in the second half of 2022, according to [Eurostat](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20230426-2).
 
@@ -85,11 +85,11 @@ When the rate falls, prices stop climbing so fast. They do not fall back. A hous
 
 Wages tend to be reset slowly, often once a year or under multi-year contracts, while prices can change in weeks. In a sudden price jump, real wages, meaning pay after adjusting for inflation, can fall for a while even if paychecks are growing.
 
-The OECD, the club of mostly wealthy economies, reported in its Employment Outlook 2023, published in July 2023, that real wages fell in the first quarter of 2023 in 30 of the 34 countries with available data, by an average of 3.8 percent ([HR Review](https://hrreview.co.uk/?p=371528)). Whether wages have since caught up varies by country and by job.
+The OECD, the club of mostly wealthy economies, said on 11 July 2023, when it released its Employment Outlook 2023, that real annual wage growth was negative in the first quarter of 2023 in 30 of the 34 countries with available data, with an average decline of 3.8 percent ([OECD](https://www.oecd.org/en/about/news/press-releases/2023/07/oecd-job-markets-remain-tight-though-inflation-is-hitting-real-wages.html)). Whether wages have since caught up varies by country and by job.
 
 ## Does this apply to US households?
 
-In shape, yes. In degree, it varies. Real average hourly earnings for US employees fell 0.7 percent from September 2025 to September 2026, according to the [Bureau of Labor Statistics](https://www.bls.gov/news.release/archives/realer_10142026.htm) release of 14 October 2026.
+In shape, yes. In degree, it varies. Real average hourly earnings for US private-sector employees fell 0.7 percent from September 2025 to September 2026, according to the [Bureau of Labor Statistics](https://www.bls.gov/news.release/archives/realer_10142026.htm) release of 14 October 2026.
 
 ## What can a household do with this?
 
@@ -110,4 +110,4 @@ The most useful move is to look at your own numbers, starting with the categorie
 - Eurostat, euro area annual inflation release, 17 November 2022: https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/
 - US Bureau of Labor Statistics, Consumer Price Index release for June 2022, 13 July 2022: https://www.bls.gov/news.release/archives/cpi_07132022.htm
 - US Bureau of Labor Statistics, Real Earnings release for September 2026, 14 October 2026: https://www.bls.gov/news.release/archives/realer_10142026.htm
-- HR Review, 13 July 2023 (report on the OECD Employment Outlook 2023; the OECD's own pages returned 403): https://hrreview.co.uk/?p=371528
+- OECD, "OECD job markets remain tight though inflation is hitting real wages," press release, 11 July 2023: https://www.oecd.org/en/about/news/press-releases/2023/07/oecd-job-markets-remain-tight-though-inflation-is-hitting-real-wages.html (read via archived copy: https://web.archive.org/web/20230713050237/https://www.oecd.org/newsroom/oecd-job-markets-remain-tight-though-inflation-is-hitting-real-wages.htm)
