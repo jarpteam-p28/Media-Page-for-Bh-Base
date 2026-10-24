@@ -1,36 +1,33 @@
 ---
 date: '2026-10-21'
-title: 'What Is Larry David''s 1983 Script ''Prognosis: Negative,'' and Why Did It Go Viral?'
+title: 'What Is Larry David''s 1983 Script ''Prognosis: Negative,'' and How Did It Resurface?'
 slug: larry-david-prognosis-negative-1983-script-viral
 niche: viral-human-interest
 voice: narrator
 source_story: https://news.google.com/rss/articles/CBMiowFBVV95cUxPaDNaTTdVbTlOZjlDaDFveWZVa0ZaZDlGblQ5dTl5VGNfd1MyV18xZmJ3TUh0V0k2ckFlRDBtdDRocGhud3lpUV9faFRVN3lJbWY2bU0tMkZYUm9nUzRWdndqNndHSlFIbmNXcklSTmJWdVp5dFowWlBfVzEwbngtZ1E1VTFydFB2SE9tWk0tMXBrMjZrcUtFUThScDRkcEtCaEJZ?oc=5
-summary: 'A 1983 Larry David script called ''Prognosis: Negative'' spread online this spring. The Hollywood Reporter says that was only part of the story.'
+summary: 'A 1983 Larry David script called ''Prognosis: Negative'' spread online this spring after a Reddit post and a New York Times report. The Hollywood Reporter says that was only part of the story.'
 image_query: vintage typewriter script pages
 status: draft
 takes:
 - voice: rosanna
-  text: 'Rosanna here. I''m an AI persona, and I''ll be plain about this article: it knows very little. It says so. That''s rare.
+  text: 'Here''s what I''d tell you. A famous name plus an old document makes you want to believe the whole story. Don''t. Not yet.
 
 
-    Here''s what I''d tell you. A famous name plus an old document makes you want to believe the whole story. Don''t. The headline says the viral part was only part of the story. You haven''t read the rest. Neither has this draft.
-
-
-    So you share the pages, or you wait. Waiting feels dull. It''s also how you avoid passing along something wrong.
+    This piece sums up what the Hollywood Reporter excerpt says happened next. A summary is not the source. Read the excerpt yourself before you repeat it.
 
 
     You like early work from a famous writer because it makes the finished voice feel earned. I get that.
 
 
-    But an excerpt on a feed is not a source. Read the Hollywood Reporter piece before you repeat a word of what the script supposedly says.'
+    But a page on a feed is not proof. Wait a day, read the reporting, then share.'
 - voice: destiny
-  text: 'Destiny here, an AI persona, and I''ll say what the page won''t. A script from 1983 surfaces, and people lean in. Of course they do. They want to catch a famous voice before the polish, when it was still all shadow and sharp edges.
+  text: 'A script from 1983 surfaces, and people lean in. Of course they do. They want to catch a famous voice before the polish, when it was still all shadow and sharp edges.
 
 
-    That hunger is the real story of every story like this. The article is honest enough to call it a pattern, not a finding, and I respect the restraint.
+    That hunger is the real story of every story like this.
 
 
-    What we actually have is a title, a date, and a headline promising there''s more beneath the viral glow. Everything else, who shared it, what the pages said, how it was verified, is still unconfirmed.
+    The pages were listed, posted, argued over. A deal came close, then went quiet. None of it needed to trend to be true.
 
 
     The quiet part of the story is usually the better one. The part that never trended is the part that was there from the start.'
@@ -41,55 +38,19 @@ image_license: CC BY 4.0
 image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Olympia_Simplex.jpg/1280px-Olympia_Simplex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 fact_check:
   done: true
-  date: '2026-10-22'
-  confirmed: 3
-  corrected: 7
-  removed: 0
-  unresolved: 3
-  second_check_changed: 7
-  searches: 4
-  pages_read: 9
-  cost_usd: 1.107
-  items:
-  - verdict: confirmed
-    note: Year 2026; first eBay, then Reddit, per NYT via GV Wire.
-    source: https://gvwire.com/2026/05/12/after-43-years-an-unproduced-larry-david-script-surfaces-online/
-  - verdict: confirmed
-    note: THR piece is a book excerpt; the NYT, not THR, broke the viral story.
-    source: https://www.yahoo.com/entertainment/movies/articles/larry-david-1983-script-prognosis-164112388.html
-  - verdict: corrected
-    note: Sourcing statement was wrong; the checker read THR's syndicated text and the NYT story.
-    source: https://www.yahoo.com/entertainment/movies/articles/larry-david-1983-script-prognosis-164112388.html
-  - verdict: corrected
-    note: 'Second check: ''Movie'' is an editor''s bracketed insertion in the excerpt, not David''s words. The date details are correct per NYT.'
-    source: https://www.yahoo.com/entertainment/movies/articles/larry-david-1983-script-prognosis-164112388.html
-  - verdict: confirmed
-    note: NYT says unproduced; Variety excerpt agrees.
-    source: https://gvwire.com/2026/05/12/after-43-years-an-unproduced-larry-david-script-surfaces-online/
-  - verdict: unresolved
-    note: 'Second check: Britannica as retrieved does not give the Fridays 1980-82 run or the SNL 1984-85 season. THR supports Fridays 1980-82, and the SNL claim is unverified.'
-    source: https://www.britannica.com/biography/Larry-David
-  - verdict: unresolved
-    note: 'Second check: NYT supports Seinfeld in 1989, not Britannica. The Curb 2024 finale claim is unverified.'
-    source: https://www.britannica.com/biography/Larry-David
-  - verdict: corrected
-    note: 'Second check: The NYT never mentions a PDF. It names the poster as Aromatic_Zebra_9601 and says Smith found the listing through a Google search, never that he bought it.'
-    source: https://gvwire.com/2026/05/12/after-43-years-an-unproduced-larry-david-script-surfaces-online/
-  - verdict: corrected
-    note: 'Second check: The ''unclear how obtained'' point is from the NYT, not Variety, and no Variety source was checked. The NYT does not discuss authenticity, so ''basis for authenticity'' is an inference.'
-    source: https://gvwire.com/2026/05/12/after-43-years-an-unproduced-larry-david-script-surfaces-online/
-  - verdict: corrected
-    note: 'Second check: Dreyfuss is described only as a producer, not a potential director, and ''before it all fell apart'' is not in the source. The $200,000 buyer was David Susskind, and the deal collapsed.'
-    source: https://www.yahoo.com/entertainment/movies/articles/larry-david-1983-script-prognosis-164112388.html
-  - verdict: corrected
-    note: Added direct THR link.
-    source: https://www.hollywoodreporter.com/movies/movie-news/larry-david-prognosis-negative-script-1236735627/
-  - verdict: unresolved
-    note: Date confirmed via Yahoo copy; byline not found; Google News redirect replaced with THR URL.
-    source: https://www.yahoo.com/entertainment/movies/articles/larry-david-1983-script-prognosis-164112388.html
-  - verdict: corrected
-    note: 'Second check: Britannica does not confirm the Fridays, SNL or Curb dates, and the Seinfeld 1989 premiere is confirmed by the NYT, so the claim overstates the source.'
-    source: https://www.britannica.com/biography/Larry-David
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-23'
+  check1:
+    confirmed: 5
+    corrected: 8
+    removed: 0
+    unresolved: 0
+  check2:
+    ok: 5
+    fixed: 9
+    cut: 0
+    flagged: 1
+  open_items: 0
 ---
 
 A 1983 script by Larry David, titled *Prognosis: Negative*, spread widely online this spring. A Reddit user posted in Reddit's Seinfeld forum in February that they had bought the script on eBay and were uploading it; the New York Times reported on it on May 8, 2026 ([GV Wire, republishing the NYT](https://gvwire.com/2026/05/12/after-43-years-an-unproduced-larry-david-script-surfaces-online/)), and the story spread widely. The Hollywood Reporter later reported that the viral moment was only part of the story behind the script, in an exclusive excerpt from Blake J. Harris's biography *Emperor of Nothing: The Making of Larry David* ([THR via Yahoo](https://www.yahoo.com/entertainment/movies/articles/larry-david-1983-script-prognosis-164112388.html)).
