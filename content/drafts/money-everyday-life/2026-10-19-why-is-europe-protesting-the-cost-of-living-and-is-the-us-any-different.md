@@ -65,19 +65,19 @@ fact_check:
 
 People in several European countries took to the streets over the cost of living because prices rose faster than paychecks, and energy and food bills did not fall back when inflation cooled. US households are under the same kind of squeeze, though the details differ.
 
-Al Jazeera reported [protests in Belgium, Italy, Portugal and France](https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france) on 17 October 2026, describing separate, uncoordinated demonstrations. [VERIFY: Euronews and CNBC pieces were not opened. Find their dates and URLs, confirm what they say, and decide whether the CNBC French unrest is the same episode as the cost-of-living marches.]
+Al Jazeera reported [protests in Belgium, Italy, Portugal and France](https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france) on 17 October 2026, describing separate, uncoordinated demonstrations. [Euronews](https://euronews.com/2026/10/19/wages-vs-prices-the-economic-pressures-behind-europes-protests) said on 19 October 2026 that the protests did not represent a single Europe-wide movement.
 
 ## What are the protesters actually angry about?
 
-The common thread is the gap between what things cost and what people earn. In Lisbon, where tens of thousands marched at the call of the CGTP union, the demands centered on higher wages and pensions and against rising housing and fuel costs. In France, the Interior Ministry counted more than 550,000 demonstrators ([Al Jazeera](https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france)).
+The common thread is the gap between what things cost and what people earn. In Lisbon, where tens of thousands marched at the call of the CGTP union, the demands centered on higher wages and pensions and against rising housing and fuel costs. In France, the Interior Ministry put turnout at about 550,000 ([Al Jazeera](https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france); [Reuters](https://www.staradvertiser.com/2026/10/17/breaking-news/mass-protests-in-france-spiral-into-worst-riots-in-years/)).
 
-Energy is a big part of the European story. After Russia invaded Ukraine in February 2022, natural gas prices in Europe surged, and household heating and electricity bills followed.
+Energy is a big part of the European story. Household electricity and gas prices in the EU were already rising before Russia invaded Ukraine in February 2022, and reached record highs in the second half of 2022, according to [Eurostat](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20230426-2).
 
 ## Is this just inflation?
 
 Mostly, but the word hides two different things. Inflation is the rate at which prices rise. The price level is where prices sit after those rises.
 
-Eurozone inflation peaked at roughly 10 percent in autumn 2022, according to Eurostat. [VERIFY: Eurostat release not opened. Confirm the October 2022 figure (reported as 10.6%) and, if confirmed, change to "about 10.6 percent in October 2022."] US consumer prices rose 9.1 percent over the 12 months ending June 2022, the largest 12-month increase since November 1981, according to the [Bureau of Labor Statistics](https://www.bls.gov/news.release/archives/cpi_07132022.htm).
+Eurozone annual inflation reached about 10.6 percent in October 2022, according to Eurostat. [VERIFY: confirm 10.6% for October 2022 in the Eurostat release of 17 November 2022 (https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/); the PDF could not be read here.] US consumer prices rose 9.1 percent over the 12 months ending June 2022, the largest 12-month increase since November 1981, according to the [Bureau of Labor Statistics](https://www.bls.gov/news.release/archives/cpi_07132022.htm). [VERIFY: reopen the 13 July 2022 BLS release and confirm 9.1% and "since November 1981".]
 
 When the rate falls, prices stop climbing so fast. They do not fall back. A household that pays a lot more for groceries and power than it did a few years ago keeps paying it. That is why anger can persist even after the headline number improves.
 
@@ -85,11 +85,11 @@ When the rate falls, prices stop climbing so fast. They do not fall back. A hous
 
 Wages tend to be reset slowly, often once a year or under multi-year contracts, while prices can change in weeks. In a sudden price jump, real wages, meaning pay after adjusting for inflation, can fall for a while even if paychecks are growing.
 
-The OECD, the club of mostly wealthy economies, reported in 2023 that real wages were falling in most of its member countries. [VERIFY: OECD Employment Outlook 2023 was not opened. Confirm the claim, figure and period.] Whether wages have since caught up varies by country and by job.
+The OECD, the club of mostly wealthy economies, reported in 2023 that real wages were falling in most of its member countries. [VERIFY: confirm against the OECD Employment Outlook 2023 press release of 11 July 2023 (archived copy), reported as real wages falling in 30 of 34 countries in Q1 2023; cut the sentence if it cannot be confirmed.] Whether wages have since caught up varies by country and by job.
 
 ## Does this apply to US households?
 
-In shape, yes. In degree, it varies. US wage growth did outpace inflation for some workers in 2023 and later, but the evidence is mixed across income groups. [VERIFY: pull the latest BLS Real Earnings release (https://www.bls.gov/news.release/realer.nr0.htm) and cite its date.]
+In shape, yes. In degree, it varies. [VERIFY: add the latest BLS Real Earnings figure with its period and release date (https://www.bls.gov/news.release/realer.nr0.htm), reported as real average hourly earnings down 0.7% from September 2025 to September 2026 in the 14 October 2026 release.]
 
 
 
@@ -106,8 +106,8 @@ The most useful move is to look at your own numbers, starting with the categorie
 ## Sources
 
 - Al Jazeera, "Cost of living protests hit Belgium, Italy, Portugal and France," 17 October 2026: https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france
-- CNBC, "Mass protests in France spiral into worst riots in years." [VERIFY: piece not opened. Confirm title, date and direct URL, or remove.]
-- Euronews, "Europe erupts: The mounting economic pressures behind the protests." [VERIFY: piece not opened. Confirm title, date and direct URL, or remove.]
-- Eurostat, euro area annual inflation releases, 2022: https://ec.europa.eu/eurostat
-- US Bureau of Labor Statistics, Consumer Price Index releases, 2022: https://www.bls.gov/cpi/
-- OECD, Employment Outlook 2023: https://www.oecd.org/employment-outlook/
+- Reuters, "Mass protests in France spiral into worst riots in years," 17 October 2026 (reprint read at Honolulu Star-Advertiser): https://www.staradvertiser.com/2026/10/17/breaking-news/mass-protests-in-france-spiral-into-worst-riots-in-years/
+- Euronews, "Protests spread across Europe: Cost-of-living pressures behind the demonstrations," Angela Barnes, 19 October 2026: https://euronews.com/2026/10/19/wages-vs-prices-the-economic-pressures-behind-europes-protests
+- Eurostat, "Electricity & gas hit record prices in 2022," 26 April 2023: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20230426-2
+- Eurostat, euro area annual inflation release, 17 November 2022: https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/
+- US Bureau of Labor Statistics, Consumer Price Index release for June 2022, 13 July 2022: https://www.bls.gov/news.release/archives/cpi_07132022.htm
