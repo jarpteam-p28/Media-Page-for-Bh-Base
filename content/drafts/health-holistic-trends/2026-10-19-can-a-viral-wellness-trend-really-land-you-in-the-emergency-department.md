@@ -76,13 +76,13 @@ This is surveillance data, not a controlled trial. It shows that harm happens an
 
 There are a few repeating mechanisms.
 
-**Dose.** Natural doesn't mean mild. Turmeric is a kitchen spice, but concentrated turmeric supplements have been linked to liver injury. A 2023 case series from the Drug-Induced Liver Injury Network, published in *The American Journal of Medicine* (Halegoua-DeMarzio and colleagues), described ten such cases over 12 years ([Am J Med](https://www.amjmed.com/article/S0002-9343(23)00611-3/fulltext)). Ten cases is a small number. It's a warning signal, not a rate.
+**Dose.** Natural doesn't mean mild. Turmeric is a kitchen spice, but concentrated turmeric supplements have been linked to liver injury. A 2023 case series from the Drug-Induced Liver Injury Network, published in *The American Journal of Medicine* (Halegoua-DeMarzio and colleagues), described ten such cases, all enrolled since 2011 ([Am J Med](https://doi.org/10.1016/j.amjmed.2022.09.026)). Ten cases is a small number. It's a warning signal, not a rate.
 
 **Interactions.** St John's wort, an herbal product sold for low mood, can weaken the effect of many medications, including some birth control pills and some drugs used after organ transplants. The U.S. National Center for Complementary and Integrative Health documents this ([NCCIH](https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth)).
 
-**Quality.** Supplements aren't tested for safety and effectiveness before sale in the way prescription drugs are. What's on the label and what's in the bottle can differ. [VERIFY: not checked (checker's web access ran out): source the first sentence (e.g. NCCIH) and check tga.gov.au on how Australia regulates complementary medicines.]
+**Quality.** In the United States, the standards for selling supplements are less strict than those for prescription or over-the-counter drugs ([NCCIH](https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth)). NSW Health has also warned that a professional-looking label doesn't prove what a product contains ([Newcastle Herald](https://www.newcastleherald.com.au/story/9370838/nsw-health-warning-as-unapproved-peptide-hospital-visits-soar/)).
 
-**Too much of a good thing.** Even water can cause harm. Drinking very large amounts in a short time can dilute blood sodium, a condition called hyponatremia. It's rare, but it's the kind of risk a "more is better" trend can create. [VERIFY: not checked (checker's web access ran out): source the hyponatremia statement, e.g. Mayo Clinic or NHS, or cut it.]
+**Too much of a good thing.** Even water can cause harm. Drinking very large amounts in a short time can dilute blood sodium, a condition called hyponatremia. It's rare, but it's the kind of risk a "more is better" trend can create ([Main Line Health](https://www.mainlinehealth.org/blog/water-intoxication)).
 
 ## Why do trends outrun the evidence?
 
@@ -116,5 +116,6 @@ Before starting any new supplement or protocol, take the product label to a phar
 - Yahoo News Australia, "Viral 'wellness' trend behind ED surge": https://au.news.yahoo.com/viral-wellness-trend-behind-ed-041133551.html
 - Newcastle Herald, "NSW Health warning as unapproved peptide hospital visits soar": https://www.newcastleherald.com.au/story/9370838/nsw-health-warning-as-unapproved-peptide-hospital-visits-soar/
 - Geller AI, et al. (2015). "Emergency Department Visits for Adverse Events Related to Dietary Supplements." *The New England Journal of Medicine*, 373:1531–1540. https://doi.org/10.1056/NEJMsa1504267
-- Halegoua-DeMarzio D, et al. (2023). "Liver Injury Associated with Turmeric—A Growing Problem: Ten Cases from the Drug-Induced Liver Injury Network." *The American Journal of Medicine*, 136:200-206. [VERIFY: not checked (checker's web access ran out): confirm year, pages and link; DOI 10.1016/j.amjmed.2022.09.026 redirects to Elsevier PII S0002934322007409, not the PII linked in the body.]
+- Halegoua-DeMarzio D, et al. (2023). "Liver Injury Associated with Turmeric—A Growing Problem: Ten Cases from the Drug-Induced Liver Injury Network." *The American Journal of Medicine*, 136(2):200-206 (published online October 2022). https://doi.org/10.1016/j.amjmed.2022.09.026
 - National Center for Complementary and Integrative Health (NCCIH). "St. John's Wort and Depression: In Depth." https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth
+- Main Line Health, "What is water intoxication?" (2023): https://www.mainlinehealth.org/blog/water-intoxication
