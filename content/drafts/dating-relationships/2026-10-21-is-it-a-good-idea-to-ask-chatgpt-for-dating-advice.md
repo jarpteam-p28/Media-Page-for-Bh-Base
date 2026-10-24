@@ -94,9 +94,9 @@ The reason is simple. A chatbot only knows what you type, and it tends to lean y
 
 Because it's private, instant and free. A chatbot doesn't get tired of a 2 a.m. spiral over an unanswered text. It doesn't gossip, and it doesn't say "I told you so."
 
-A Forbes column from April 2026 examined this habit alongside what it called the "grim-keeping" dating trend, a strategy of pairing up with someone who shares your dislikes rather than your likes ([Forbes](https://www.forbes.com/sites/lanceeliot/2026/04/25/understanding-the-psychology-of-the-grim-keeping-dating-trend-by-getting-personal-advice-from-ai-such-as-chatgpt/)).
+A Forbes column from April 2026 linked this habit to the "grim-keeping" dating trend ([Forbes](https://www.forbes.com/sites/lanceeliot/2026/04/25/understanding-the-psychology-of-the-grim-keeping-dating-trend-by-getting-personal-advice-from-ai-such-as-chatgpt/)). Cambridge Dictionary defines grim-keeping as forming a relationship with someone based on disliking the same things ([Cambridge Dictionary](https://dictionaryblog.cambridge.org/?p=22888)).
 
-The scale of use is also hard to pin down. Match Group's annual Singles in America survey has reported growing numbers of singles using AI in some part of dating, such as profile writing or message drafting. [VERIFY: choose which Singles in America edition and figure to cite. The 2025 report (Match and the Kinsey Institute) says 26% of singles, up 333% year over year, use AI to enhance dating; a secondary report on the 2026 data says 39% have used AI in their dating lives. Neither source states whether the figures cover advice-seeking, and no 2026 year-over-year change was found.]
+Use is growing, though surveys measure it broadly. The 2025 Singles in America study, run by Match with the Kinsey Institute, found that 26% of singles were using AI to enhance their dating lives, a 333% increase from 2024 ([Boston Globe](https://www.bostonglobe.com/2025/06/11/lifestyle/ai-romance-love-letters/)). Reported uses include writing profiles and filtering matches; the figure does not single out asking for advice ([Fast Company](https://fastcompany.co.za/tech/2025-06-17-how-ai-is-transforming-the-dating-landscape-for-singles)).
 
 ## What can a chatbot actually do well?
 
@@ -114,13 +114,13 @@ In dating, that matters. Someone who asks "am I wrong to be upset?" is likely to
 
 ## Can a chatbot stand in for a therapist?
 
-No. A 2025 Stanford-led study (Moore and colleagues, presented at the ACM FAccT conference) tested chatbots built for therapy-style conversations. It found they sometimes showed stigma toward certain conditions and responded inappropriately in some sensitive scenarios ([arXiv](https://arxiv.org/abs/2504.18412)).
+No. A 2025 Stanford-led study (Moore and colleagues, presented at the ACM FAccT conference) tested chatbots built for therapy-style conversations. It found they sometimes showed stigma toward certain conditions and responded inappropriately in some sensitive scenarios ([arXiv](https://arxiv.org/abs/2504.18412), [Stanford HAI](https://hai.stanford.edu/news/exploring-the-dangers-of-ai-in-mental-health-care)).
 
 People have long been quick to read understanding into software. Joseph Weizenbaum saw it in 1966 with ELIZA, a simple program that mimicked a therapist by reflecting users' statements back as questions. Some users confided in it anyway ([Wikipedia](https://en.wikipedia.org/wiki/ELIZA)). A fluent reply feels like care, but it is not the same as care.
 
 ## When should the advice stay human?
 
-Some situations call for a person, not a prompt. If a partner monitors your phone, controls money, isolates you from friends, threatens you or frightens you, a chatbot is the wrong place to work it out. A trained advocate can talk through options and safety planning. The National Domestic Violence Hotline is at 1-800-799-7233.
+Some situations call for a person, not a prompt. If a partner monitors your phone, controls money, isolates you from friends, threatens you or frightens you, a chatbot is the wrong place to work it out. A trained advocate can talk through options and safety planning. The National Domestic Violence Hotline is at 1-800-799-7233 ([The Hotline](https://www.thehotline.org)).
 
 Persistent anxiety, repeated patterns that leave you hurt, or grief after a breakup that won't lift are also worth taking to a licensed therapist.
 
@@ -142,9 +142,12 @@ Before the next time you open a chatbot about a date, write down in two sentence
 
 ## Sources
 
-- Forbes, "Understanding The Psychology Of The Grim-Keeping Dating Trend By Getting Personal Advice From AI Such As ChatGPT" (trigger story): https://news.google.com/rss/articles/CBMi9wFBVV95cUxOV1ZfSXAtQ2V6OEJTREhoTzlTbHk5MG5SeXl0YVBob2ItNmJreFBGSjlvZGE2NDFsYzV4WUppbVlGZHFRd0xZZjJ1Z0VvcndsYVBlU0c3bUZQajA1VDhCOHNKQ0hSOE5zN1k3YW05RE9kOW1xSmtPdjhGbTlNaHJ2VFdsZHUwdGxqVXZWODR4eWtFOUp2WUhrcXkzeWpkNHB6T0g4M05vakZET3ViT0hEUnl3SGN1Wkx3RWZLVmlwNktBRlpTekdScDYzRGdVaExWSElTZUxCMy14bUpsSDZfaDRfb1RhcGV6c1VMb2NHR2VINXBTamJF?oc=5
+- Forbes, "Understanding The Psychology Of The Grim-Keeping Dating Trend By Getting Personal Advice From AI Such As ChatGPT" (trigger story; only headline and date confirmed, page blocks automated reading): https://www.forbes.com/sites/lanceeliot/2026/04/25/understanding-the-psychology-of-the-grim-keeping-dating-trend-by-getting-personal-advice-from-ai-such-as-chatgpt/
+- Cambridge Dictionary blog, "New words – 12 January 2026" (grim-keeping): https://dictionaryblog.cambridge.org/?p=22888
 - Sharma, M. et al. (Anthropic), "Towards Understanding Sycophancy in Language Models," 2023: https://arxiv.org/abs/2310.13548
 - Moore, J. et al., "Expressing stigma and inappropriate responses prevents LLMs from safely replacing mental health providers," 2025: https://arxiv.org/abs/2504.18412
-- Weizenbaum, J., "ELIZA: A Computer Program for the Study of Natural Language Communication Between Man and Machine," Communications of the ACM, 1966.
-- Match Group / Kinsey Institute, Singles in America survey [VERIFY: link and edition to be added once the figure is confirmed]: https://www.singlesinamerica.com
+- Stanford HAI news article on the Moore et al. study, June 11, 2025: https://hai.stanford.edu/news/exploring-the-dangers-of-ai-in-mental-health-care
+- Weizenbaum, J., "ELIZA: A Computer Program for the Study of Natural Language Communication Between Man and Machine," Communications of the ACM, January 1966 (details confirmed via https://en.wikipedia.org/wiki/ELIZA).
+- Boston Globe, report on the 2025 Singles in America study (Match and the Kinsey Institute), June 11, 2025: https://www.bostonglobe.com/2025/06/11/lifestyle/ai-romance-love-letters/
+- Fast Company (South Africa), report on the 2025 Singles in America study, June 17, 2025: https://fastcompany.co.za/tech/2025-06-17-how-ai-is-transforming-the-dating-landscape-for-singles
 - National Domestic Violence Hotline: https://www.thehotline.org
