@@ -80,11 +80,11 @@ A recent New York Times story, "Rising Costs Push Necessities Out of Reach for N
 
 ALICE stands for Asset Limited, Income Constrained, Employed. It describes households that earn more than the federal poverty line but less than the basic cost of living in their county ([United For ALICE](https://www.unitedforalice.org/Attachments/ALICEEssentials/alice-essentials-index-2025.pdf)).
 
-United Way's researchers build what they call a household survival budget for each county. It covers housing, child care, food, transportation, health care, a basic phone and internet plan, and taxes. It leaves out savings and extras such as eating out ([United Way of Wisconsin ALICE report](https://cdn.ymaws.com/www.unitedwaywi.org/resource/resmgr/alice/2026_state_of_alice_report.pdf)).
+United Way's researchers build what they call a household survival budget for each county. It covers housing, child care, food, transportation, health care, basic home internet and a smartphone plan, and taxes. It leaves out savings and extras such as eating out ([United Way of Wisconsin ALICE report](https://cdn.ymaws.com/www.unitedwaywi.org/resource/resmgr/alice/2026_state_of_alice_report.pdf)).
 
 In United Way's ALICE reports, 42% of US households fell below that line in 2023 ([United For ALICE](https://www.unitedforalice.org/Attachments/ALICEEssentials/alice-essentials-index-2025.pdf)) and 41% in 2024 ([United Way of Wisconsin ALICE report](https://cdn.ymaws.com/www.unitedwaywi.org/resource/resmgr/alice/2026_state_of_alice_report.pdf)). That group combines households officially in poverty with ALICE households, who sit above the poverty line ([United For ALICE](https://www.unitedforalice.org/Attachments/ALICEEssentials/alice-essentials-index-2025.pdf)).
 
-The official poverty line helps explain why the ALICE number is so much higher. It was designed in 1963-64 around the cost of a minimal food plan, multiplied by three for families of three or more ([HHS](https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines/further-resources-poverty-measurement-poverty-lines-their-history/history-poverty-thresholds)), and it does not adjust for local living costs except in Alaska and Hawaii ([United Way of Wisconsin ALICE report](https://cdn.ymaws.com/www.unitedwaywi.org/resource/resmgr/alice/2026_state_of_alice_report.pdf)).
+The official poverty line helps explain why the ALICE number is so much higher. It was designed in 1963-64 around the cost of the Agriculture Department's cheapest food plan, multiplied by three for families of three or more (two-person and one-person households were figured differently) ([HHS](https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines/further-resources-poverty-measurement-poverty-lines-their-history/history-poverty-thresholds)). The federal poverty level also does not vary with local living costs, apart from slightly higher levels for Alaska and Hawaii ([United Way of Wisconsin ALICE report](https://cdn.ymaws.com/www.unitedwaywi.org/resource/resmgr/alice/2026_state_of_alice_report.pdf)).
 
 ## Why do costs outrun paychecks?
 
@@ -102,13 +102,13 @@ Child care is another major cost for households with young children. In most sta
 
 Food, car costs, and health care add to the pile. Car repair costs have climbed noticeably: the CPI for motor vehicle maintenance and repair rose 5.8% over the 12 months to September 2026 ([BLS](https://www.bls.gov/news.release/cpi.htm)).
 
-None of these can be skipped. That is why a raise of a few percent can still leave a household behind: the bills that grew fastest are the ones with no off switch.
+None of these can be skipped. That is why a raise of a few percent can still leave a household behind: the biggest bills are the ones with no off switch.
 
 ## Why does a thin cushion make it worse?
 
-A household that is just covering the basics has no room for a surprise. The Federal Reserve's annual Survey of Household Economics and Decisionmaking found that 63% of adults would cover a $400 emergency expense using cash or its equivalent in the 2025 survey, unchanged from 2024 ([Federal Reserve Board](https://www.federalreserve.gov/newsevents/pressreleases/other20260513a.htm)); the remaining 37% would not.
+A household that is just covering the basics has no room for a surprise. The Federal Reserve's annual Survey of Household Economics and Decisionmaking found that 63% of adults would cover a $400 emergency expense using cash or its equivalent in the 2025 survey, unchanged from 2024 ([Federal Reserve Board](https://www.federalreserve.gov/newsevents/pressreleases/other20260513a.htm)); the remaining 37% would not cover it that way.
 
-When a car breaks down or a medical bill arrives, that gap goes onto a credit card or a missed payment. Interest and late fees then make the next month harder. The pattern is a mechanism, not a character flaw: a small shock meets a small buffer.
+When a car breaks down or a medical bill arrives, that gap can end up on a credit card or as a missed payment, and interest or late fees can make the next month harder. The pattern is a mechanism, not a character flaw: a small shock meets a small buffer.
 
 ## What can a household do with this information?
 
