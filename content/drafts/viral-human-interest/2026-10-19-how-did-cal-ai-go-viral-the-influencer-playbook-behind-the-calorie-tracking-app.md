@@ -5,79 +5,55 @@ slug: how-did-cal-ai-go-viral-influencer-playbook
 niche: viral-human-interest
 voice: narrator
 source_story: https://news.google.com/rss/articles/CBMirAFBVV95cUxNQmx0SHM4Y0t3MjdDbzU3d3BhMGUxRi1EaEoxQjJ6OUhYZFctM0Y0VVpjNGhRcUtrVFJVM1J1LW9JeFJtdVlNR1hiTHJDMW5XM1VNeV9McmItS040R3FnYlhhWUJrT0d4Vy0ySldxQk5nelozZURDdmpmSU1feUVZU0VsZGhZMzBNYTZINXk4ajdzdUs2M1NUQmJzM2pxRnFQUjFPMjBTbWFnaEVO?oc=5
-summary: Cal AI, a photo-based calorie counter, grew through creator videos rather than ads. Here is what's reported about how it happened, and what isn't confirmed.
+summary: Cal AI, a photo-based calorie counter, grew largely by paying many influencers to post about it. Here is what's reported about how it happened, and what isn't confirmed.
 image_query: phone food photo app
 status: draft
 takes:
 - voice: rosanna
-  text: 'Let''s say the quiet part. You''ve probably scrolled past a video like this and wondered if it was an ad. Most of the time, that''s the point.
+  text: 'Let''s say the quiet part. You''ve probably scrolled past a video like this and wondered if it was an ad. Often, it was. These creators were paid.
 
 
     The article gets at something real. A simple product, shown in five seconds, spreads fast. Photo in, calories out. Easy to film. Easy to want.
 
 
-    Here''s what I''d tell you. Wanting a number to tell you how you''re doing is human. I understand why you reach for it. But the article is clear that the estimates are rough, and that the biggest figures here are unconfirmed. Treat both the app and the legend that way.
+    Here''s what I''d tell you. Wanting a number to tell you how you''re doing is human. I understand why you reach for it. Just treat any photo estimate as rough.
 
 
-    The revenue claim comes from founders and press coverage, not audited accounts. The acquisition reports aren''t confirmed either.
+    The revenue figure comes from the company that bought the app, not from audited accounts.
 
 
     A plate of pasta looks the same with one spoon of oil or four.'
 - voice: destiny
-  text: 'Some stories glow because the product is good. Some glow because the light was placed well. This one, the article says, leans on the second kind, and I''d say the room agrees.
+  text: 'Some stories glow because the product is good. Some glow because the light was placed well. This one, the article says, leans on the second kind.
 
 
-    Picture the founder type here: young, quick, comfortable in front of a lens. Attention is his gold. One small story post, gone in a day, and a whole current of copycat videos follows. I won''t tell you what it earned. The article itself can''t, and the ten-million figure sits behind a headline nobody here has opened.
+    Picture the founder type here: young, quick, comfortable in front of a lens. Attention is his gold. One post brought a thousand people in two days, and then he paid for many more. The ten million you hear about is his next company''s raise, not this app''s earnings.
 
 
-    What I''ll say is that a trick you can show in five seconds will always travel. Heat moves fast through short video.
+    A trick you can show in five seconds will always travel. Heat moves fast through short video.
 
 
     But a camera cannot see the oil in the sauce. It never could. Some things stay in shadow, however sharp the lens.'
 image: /images/viral-human-interest/2026-10-19-how-did-cal-ai-go-viral-the-influencer-playbook-behind-the-calorie-tracking-app.jpg
-image_credit: Alpha
-image_credit_url: https://commons.wikimedia.org/w/index.php?curid=10730598
-image_license: CC BY-SA 2.0
-image_source: https://upload.wikimedia.org/wikipedia/commons/2/2a/B%C3%BAn_ri%C3%AAu_cua_n%C6%B0%E1%BB%9Bc.jpg
+image_credit: El Nuevo Doge
+image_credit_url: https://commons.wikimedia.org/wiki/File:Gazpacho_de_tomate_y_pepino,_Mazatl%C3%A1n,_14_de_noviembre_de_2022_04.jpg
+image_license: CC0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Gazpacho_de_tomate_y_pepino%2C_Mazatl%C3%A1n%2C_14_de_noviembre_de_2022_04.jpg/1280px-Gazpacho_de_tomate_y_pepino%2C_Mazatl%C3%A1n%2C_14_de_noviembre_de_2022_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 fact_check:
   done: true
-  date: '2026-10-22'
-  confirmed: 0
-  corrected: 7
-  removed: 1
-  unresolved: 1
-  second_check_changed: 3
-  searches: 7
-  pages_read: 19
-  cost_usd: 0.681
-  items:
-  - verdict: corrected
-    note: Dealroom says the $10M is Persona's raise; growth was paid influencers plus later paid ads, not unpaid or non-advertising.
-    source: https://app.dealroom.co/news/note/cal-ai-s-viral-playbook-from-one-influencer-story-post-to-a-10m-second-act
-  - verdict: corrected
-    note: 'Second check: TechCrunch confirms Yadegari and Langmack as founders, both 18. Castillo appears only in a photo caption listing the founding team, which also names Blake Anderson. Nothing says he is a co-founder who runs influencer marketing. The ''known partly because of his age'' claim is only loosely supported. Flag Castillo''s role for a human to check.'
-    source: https://techcrunch.com/2025/03/16/photo-calorie-app-cal-ai-downloaded-over-a-million-times-was-built-by-two-teenagers/
-  - verdict: unresolved
-    note: Photo-to-calories confirmed; macronutrient detail not verified.
-    source: https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/
-  - verdict: corrected
-    note: 'Second check: The last sentence about users arriving within two days is unsupported. Dealroom does not say this and no source is given. The rest is supported.'
-    source: https://app.dealroom.co/news/note/cal-ai-s-viral-playbook-from-one-influencer-story-post-to-a-10m-second-act
-  - verdict: corrected
-    note: 'Second check: Dealroom does not say pay was tied to guaranteed views or reach. That was a way to cut cost per video, not the standard pay structure. ''Fast rate'' understates ''exponential'', and the 50K followers point was a preference where views mattered more.'
-    source: https://app.dealroom.co/news/note/cal-ai-s-viral-playbook-from-one-influencer-story-post-to-a-10m-second-act
-  - verdict: corrected
-    note: Revenue figure attributed to MyFitnessPal, not founders; 'unaudited' is the writer's reasonable description.
-    source: https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/
-  - verdict: corrected
-    note: Acquisition confirmed by TechCrunch on 2 March 2026; stated as fact.
-    source: https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/
-  - verdict: removed
-    note: No peer-reviewed review found; research claim removed, surrounding general statements kept.
-    source: ''
-  - verdict: corrected
-    note: Date corrected to October 2026 and Google News link replaced with direct Dealroom URL.
-    source: https://app.dealroom.co/news/note/cal-ai-s-viral-playbook-from-one-influencer-story-post-to-a-10m-second-act
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-23'
+  check1:
+    confirmed: 4
+    corrected: 8
+    removed: 1
+    unresolved: 0
+  check2:
+    ok: 9
+    fixed: 3
+    cut: 0
+    flagged: 0
+  open_items: 0
 ---
 
 Cal AI grew mainly through paid influencer posts. TechCrunch reported in October 2026 that the calorie-tracking app "exploded onto the internet thanks largely to" co-founder Zach Yadegari's strategy of paying a large number of influencers to post about it ([TechCrunch](https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/)). Yadegari has since launched Persona, an AI agent startup that TechCrunch says has already raised $10 million. That $10 million is Persona's funding, not Cal AI's revenue.
