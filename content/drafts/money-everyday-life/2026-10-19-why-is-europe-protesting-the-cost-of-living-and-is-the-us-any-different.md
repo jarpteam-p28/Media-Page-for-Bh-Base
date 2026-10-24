@@ -12,10 +12,10 @@ takes:
 - voice: expert
   text: 'The article''s most useful move is separating two things people routinely blur: the inflation rate and the price level. A rate is a speed. A level is a location. Think of a car that slowed from 90 to 40 miles an hour. It is still moving away from where it started, and it is not driving back. That is why anger outlasts a falling headline number. I would add one caution. The article says wages lag because they are reset slowly, which is a sound mechanism, but whether pay has caught up differs by country, industry and contract, and a single national average cannot settle it for any one household. The comparison of European and US pressures, energy and food against housing, health insurance and childcare, is flagged for verification, and I would treat it as a hypothesis until those spending data are checked. Your own statements will tell you more than either continent''s average.'
 image: /images/money-everyday-life/2026-10-19-why-is-europe-protesting-the-cost-of-living-and-is-the-us-any-different.jpg
-image_credit: JJ Harrison
-image_credit_url: https://commons.wikimedia.org/w/index.php?curid=147477157
-image_license: CC BY-SA 4.0
-image_source: https://upload.wikimedia.org/wikipedia/commons/8/82/Red-billed_Scimitar_Babbler_0A2A9191_%28cropped%29.jpg
+image_credit: Garry Knight from London, England
+image_credit_url: https://commons.wikimedia.org/wiki/File:Cost_of_Living_Protests_-_008_(51877465769).jpg
+image_license: CC0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Cost_of_Living_Protests_-_008_%2851877465769%29.jpg/1280px-Cost_of_Living_Protests_-_008_%2851877465769%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 fact_check:
   done: true
   date: '2026-10-22'
@@ -63,7 +63,7 @@ fact_check:
     source: ''
 ---
 
-People in several European countries took to the streets over the cost of living because prices rose faster than paychecks, and energy and food bills did not fall back when inflation cooled. US households are under the same kind of squeeze, though the details differ.
+People in several European countries took to the streets over the cost of living because prices rose faster than paychecks, and prices did not fall back when inflation cooled. US households are under the same kind of squeeze, though the details differ.
 
 Al Jazeera reported [protests in Belgium, Italy, Portugal and France](https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france) on 17 October 2026, describing separate, uncoordinated demonstrations. [Euronews](https://euronews.com/2026/10/19/wages-vs-prices-the-economic-pressures-behind-europes-protests) said on 19 October 2026 that the protests did not represent a single Europe-wide movement.
 
@@ -77,7 +77,7 @@ Energy is a big part of the European story. Household electricity and gas prices
 
 Mostly, but the word hides two different things. Inflation is the rate at which prices rise. The price level is where prices sit after those rises.
 
-Eurozone annual inflation reached about 10.6 percent in October 2022, according to Eurostat. [VERIFY: confirm 10.6% for October 2022 in the Eurostat release of 17 November 2022 (https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/); the PDF could not be read here.] US consumer prices rose 9.1 percent over the 12 months ending June 2022, the largest 12-month increase since November 1981, according to the [Bureau of Labor Statistics](https://www.bls.gov/news.release/archives/cpi_07132022.htm). [VERIFY: reopen the 13 July 2022 BLS release and confirm 9.1% and "since November 1981".]
+Eurozone annual inflation reached 10.6 percent in October 2022, according to [Eurostat](https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/). US consumer prices rose 9.1 percent over the 12 months ending June 2022, the largest 12-month increase since November 1981, according to the [Bureau of Labor Statistics](https://www.bls.gov/news.release/archives/cpi_07132022.htm).
 
 When the rate falls, prices stop climbing so fast. They do not fall back. A household that pays a lot more for groceries and power than it did a few years ago keeps paying it. That is why anger can persist even after the headline number improves.
 
@@ -85,13 +85,11 @@ When the rate falls, prices stop climbing so fast. They do not fall back. A hous
 
 Wages tend to be reset slowly, often once a year or under multi-year contracts, while prices can change in weeks. In a sudden price jump, real wages, meaning pay after adjusting for inflation, can fall for a while even if paychecks are growing.
 
-The OECD, the club of mostly wealthy economies, reported in 2023 that real wages were falling in most of its member countries. [VERIFY: confirm against the OECD Employment Outlook 2023 press release of 11 July 2023 (archived copy), reported as real wages falling in 30 of 34 countries in Q1 2023; cut the sentence if it cannot be confirmed.] Whether wages have since caught up varies by country and by job.
+The OECD, the club of mostly wealthy economies, reported in its Employment Outlook 2023, published in July 2023, that real wages fell in the first quarter of 2023 in 30 of the 34 countries with available data, by an average of 3.8 percent ([HR Review](https://hrreview.co.uk/?p=371528)). Whether wages have since caught up varies by country and by job.
 
 ## Does this apply to US households?
 
-In shape, yes. In degree, it varies. [VERIFY: add the latest BLS Real Earnings figure with its period and release date (https://www.bls.gov/news.release/realer.nr0.htm), reported as real average hourly earnings down 0.7% from September 2025 to September 2026 in the 14 October 2026 release.]
-
-
+In shape, yes. In degree, it varies. Real average hourly earnings for US employees fell 0.7 percent from September 2025 to September 2026, according to the [Bureau of Labor Statistics](https://www.bls.gov/news.release/archives/realer_10142026.htm) release of 14 October 2026.
 
 ## What can a household do with this?
 
@@ -111,3 +109,5 @@ The most useful move is to look at your own numbers, starting with the categorie
 - Eurostat, "Electricity & gas hit record prices in 2022," 26 April 2023: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20230426-2
 - Eurostat, euro area annual inflation release, 17 November 2022: https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf/
 - US Bureau of Labor Statistics, Consumer Price Index release for June 2022, 13 July 2022: https://www.bls.gov/news.release/archives/cpi_07132022.htm
+- US Bureau of Labor Statistics, Real Earnings release for September 2026, 14 October 2026: https://www.bls.gov/news.release/archives/realer_10142026.htm
+- HR Review, 13 July 2023 (report on the OECD Employment Outlook 2023; the OECD's own pages returned 403): https://hrreview.co.uk/?p=371528
