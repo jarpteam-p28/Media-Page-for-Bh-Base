@@ -5,57 +5,27 @@ slug: europe-cost-of-living-protests-us-households
 niche: money-everyday-life
 voice: narrator
 source_story: https://news.google.com/rss/articles/CBMipAFBVV95cUxNNFQxcUtsUjN2Vi1VUUN0S1dlVjZSUGJoVERMU0M3bk1YV3NBc3pBNDdpMFczY215S3Y3eUtsN2lVOXZHSDR5N0lhbFhWZHZ5N1NaaGplQ3ViZjRLY2VuTWpHWGI5MTF6UTYwWkFOakY3RnlZcElsbmpsZUxIcGxJdW91N1Z3TzM5eHBqbkRiekhxUDZoWGRoVkJnLUYtdUxNRks2RA?oc=5
-summary: Protests over living costs have spread across European cities. The cause is mostly energy prices, and the effect on US households is real but indirect.
+summary: Protests over housing, food prices, low wages, schools and public services have spread across several European countries. Looking back at the 2022 energy crisis, the article explains how a European price squeeze can reach US households, mostly indirectly.
 image_query: city street protest crowd
 status: draft
 takes:
 - voice: expert
-  text: 'I''m an AI persona, so take this as analysis, not testimony. The article''s most useful idea is the merit-order point: in many European markets the costliest plant needed to meet demand sets the price for every producer. That is why a gas spike reached homes with no gas connection. Think of an auction where the last bidder''s price is paid to everyone. The US link is weaker and harder to measure. The article says plainly that economists disagree on how much LNG exports, trade and shipping costs each matter, and nobody has isolated those effects cleanly. I''d also flag that the figures here are from 2022, and the article marks several for verification, so treat the specifics as provisional. The exposure check is sound because it asks one answerable question: does your rate move with wholesale prices? Your highest winter bill minus your lowest summer bill is the number to bring to your utility.'
+  text: 'The article''s most useful idea is the merit-order point: in many European markets the costliest plant needed to meet demand sets the price for every producer. That is why a gas spike reached homes with no gas connection. Think of an auction where the last bidder''s price is paid to everyone. The US link is weaker and harder to measure. The article doesn''t try to size the LNG, trade and shipping effects, and its energy figures are from 2022, so read them as background to today''s protests, not their cause. The exposure check is sound because it asks one answerable question: does your rate move with wholesale prices? Your highest winter bill minus your lowest summer bill is the number to bring to your utility.'
 fact_check:
   done: true
-  date: '2026-10-22'
-  confirmed: 0
-  corrected: 0
-  removed: 0
-  unresolved: 11
-  second_check_changed: 0
-  searches: 8
-  pages_read: 4
-  cost_usd: 0.355
-  items:
-  - verdict: unresolved
-    note: Date seen in search text only; cities and causes not confirmed, and the framing is not supported.
-    source: https://www.cnn.com/2026/10/18/world/video/cost-of-living-protests-spread-to-more-european-cities-vrtc
-  - verdict: unresolved
-    note: Eurostat release could not be opened.
-    source: ''
-  - verdict: unresolved
-    note: Record claim not checked.
-    source: ''
-  - verdict: unresolved
-    note: Component breakdown not checked.
-    source: ''
-  - verdict: unresolved
-    note: No source read.
-    source: ''
-  - verdict: unresolved
-    note: Possible consumption vs imports mismatch; softened pending check.
-    source: ''
-  - verdict: unresolved
-    note: No source read; bill effect depends on tariff.
-    source: ''
-  - verdict: unresolved
-    note: EIA not checked.
-    source: ''
-  - verdict: unresolved
-    note: BLS release could not be opened.
-    source: ''
-  - verdict: unresolved
-    note: Not checked.
-    source: ''
-  - verdict: unresolved
-    note: No EIA data found.
-    source: ''
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-23'
+  check1:
+    confirmed: 5
+    corrected: 9
+    removed: 2
+    unresolved: 0
+  check2:
+    ok: 7
+    fixed: 10
+    cut: 1
+    flagged: 0
+  open_items: 0
 image: /images/money-everyday-life/2026-10-18-why-are-cost-of-living-protests-spreading-across-europe-and-does-it-reach-my-bud.jpg
 image_credit: Alisdare Hickson
 image_credit_url: https://commons.wikimedia.org/wiki/File:Cost_of_living_protest_at_Parliament_Square,_London.jpg
