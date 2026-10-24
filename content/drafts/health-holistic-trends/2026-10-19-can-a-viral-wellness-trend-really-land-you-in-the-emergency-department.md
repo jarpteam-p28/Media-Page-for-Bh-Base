@@ -62,13 +62,13 @@ fact_check:
 
 Yes, wellness products and practices can send people to an emergency department, and the records show it happens regularly. Usually the cause isn't a mysterious new danger. It's a familiar one: too much of something, an unregulated product, or an interaction with a medication.
 
-The story behind this question comes from New South Wales, Australia. NSW Health surveillance data counted 1,180 emergency department presentations that mentioned unapproved peptide use between July 1, 2025 and September 30, 2026. Products may claim to contain peptides such as BPC-157, GHK-Cu, TB-500, retatrutide or CJC-1295, none of which is approved in Australia. Monthly presentations rose from 5 in July 2025 to 217 in September 2026 ([Newcastle Herald](https://www.newcastleherald.com.au/story/9370838/nsw-health-warning-as-unapproved-peptide-hospital-visits-soar/)), an increase Yahoo News Australia put at 4,240%. NSW Health linked the use of unapproved products to aggressive wellness marketing, including on social media ([Yahoo News Australia](https://au.news.yahoo.com/viral-wellness-trend-behind-ed-041133551.html)).
+The story behind this question comes from New South Wales, Australia. NSW Health surveillance data counted 1,180 emergency department presentations associated with peptide use between July 1, 2025 and September 30, 2026. Products may claim to contain peptides such as BPC-157, GHK-Cu, TB-500, retatrutide or CJC-1295, none of which is currently approved in Australia for any purpose. Monthly presentations rose from five in July 2025 to more than 217 in September 2026 ([NSW Health](https://www.health.nsw.gov.au/news/Pages/20261019_00.aspx)), an increase Yahoo News Australia put at 4,240% ([Yahoo News Australia](https://au.news.yahoo.com/viral-wellness-trend-behind-ed-041133551.html)). About 18% of presentations led to a hospital admission ([Newcastle Herald](https://www.newcastleherald.com.au/story/9370838/nsw-health-warning-as-unapproved-peptide-hospital-visits-soar/)). NSW Health says these products have been marketed through social media ([NSW Health](https://www.health.nsw.gov.au/news/Pages/20261019_00.aspx)).
 
 ## What does the evidence say about supplements and emergency visits?
 
 The best-known data comes from the United States. A 2015 study in *The New England Journal of Medicine*, led by Andrew Geller of the Centers for Disease Control and Prevention (CDC) with colleagues including FDA researchers, analyzed injury surveillance records from 2004 to 2013. It estimated roughly 23,000 emergency department visits a year for adverse events linked to dietary supplements (23,005, based on 3,667 cases), and about 2,154 hospitalizations a year ([NEJM](https://doi.org/10.1056/NEJMsa1504267)).
 
-The study found that herbal and complementary products accounted for about two-thirds (65.9%) of visits for adverse events from a single supplement, products for weight loss for 25.5%, and products for increased energy for 10.0%. Young adults aged 20 to 34 accounted for 28.0% of visits. Weight-loss or energy products were implicated in 71.8% of supplement-related visits for palpitations, chest pain or a racing heartbeat ([Europe PMC abstract](https://europepmc.org/article/MED/26465986)).
+The study found that herbal and complementary products accounted for about two-thirds (65.9%) of visits for adverse events from a single supplement, products for weight loss for 25.5%, and products for increased energy for 10.0%. Young adults aged 20 to 34 accounted for 28.0% of visits. Weight-loss or energy products accounted for 71.8% of supplement-related adverse events involving palpitations, chest pain or a racing heartbeat ([Europe PMC abstract](https://europepmc.org/article/MED/26465986)).
 
 This is surveillance data, not a controlled trial. It shows that harm happens and roughly where. It can't say how likely any one product is to cause it.
 
@@ -76,11 +76,11 @@ This is surveillance data, not a controlled trial. It shows that harm happens an
 
 There are a few repeating mechanisms.
 
-**Dose.** Natural doesn't mean mild. Turmeric is a kitchen spice, but concentrated turmeric supplements have been linked to liver injury. A 2023 case series from the Drug-Induced Liver Injury Network, published in *The American Journal of Medicine* (Halegoua-DeMarzio and colleagues), described ten such cases, all enrolled since 2011 ([Am J Med](https://doi.org/10.1016/j.amjmed.2022.09.026)). Ten cases is a small number. It's a warning signal, not a rate.
+**Dose.** Natural doesn't mean mild. Turmeric is a kitchen spice, but turmeric products sold as supplements have been linked to liver injury. A 2023 case series from the Drug-Induced Liver Injury Network, published in *The American Journal of Medicine* (Halegoua-DeMarzio and colleagues), described ten such cases, all enrolled since 2011 ([Am J Med](https://doi.org/10.1016/j.amjmed.2022.09.026)). Ten cases is a small number. It's a warning signal, not a rate.
 
 **Interactions.** St John's wort, an herbal product sold for low mood, can weaken the effect of many medications, including some birth control pills and some drugs used after organ transplants. The U.S. National Center for Complementary and Integrative Health documents this ([NCCIH](https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth)).
 
-**Quality.** In the United States, the standards for selling supplements are less strict than those for prescription or over-the-counter drugs ([NCCIH](https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth)). NSW Health has also warned that a professional-looking label doesn't prove what a product contains ([Newcastle Herald](https://www.newcastleherald.com.au/story/9370838/nsw-health-warning-as-unapproved-peptide-hospital-visits-soar/)).
+**Quality.** In the United States, the standards for selling supplements are less strict than those for prescription or over-the-counter drugs ([NCCIH](https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth)). NSW Health has also warned that a professional-looking label doesn't prove what a product contains ([NSW Health](https://www.health.nsw.gov.au/news/Pages/20261019_00.aspx)).
 
 **Too much of a good thing.** Even water can cause harm. Drinking very large amounts in a short time can dilute blood sodium, a condition called hyponatremia. It's rare, but it's the kind of risk a "more is better" trend can create ([Main Line Health](https://www.mainlinehealth.org/blog/water-intoxication)).
 
@@ -113,6 +113,7 @@ Before starting any new supplement or protocol, take the product label to a phar
 
 ## Sources
 
+- NSW Health, "NSW Health warns of surge in hospital presentations linked to peptide use" (19 October 2026): https://www.health.nsw.gov.au/news/Pages/20261019_00.aspx
 - Yahoo News Australia, "Viral 'wellness' trend behind ED surge": https://au.news.yahoo.com/viral-wellness-trend-behind-ed-041133551.html
 - Newcastle Herald, "NSW Health warning as unapproved peptide hospital visits soar": https://www.newcastleherald.com.au/story/9370838/nsw-health-warning-as-unapproved-peptide-hospital-visits-soar/
 - Geller AI, et al. (2015). "Emergency Department Visits for Adverse Events Related to Dietary Supplements." *The New England Journal of Medicine*, 373:1531–1540. https://doi.org/10.1056/NEJMsa1504267
