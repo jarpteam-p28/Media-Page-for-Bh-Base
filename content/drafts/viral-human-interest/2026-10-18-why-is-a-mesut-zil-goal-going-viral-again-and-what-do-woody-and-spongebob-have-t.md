@@ -1,39 +1,33 @@
 ---
 date: '2026-10-18'
-title: Why Is a Mesut Özil Goal Going Viral Again, and What Do Woody and SpongeBob Have to Do With It?
-slug: mesut-ozil-goal-viral-again-woody-spongebob
+title: Why Is a 2016 Mesut Özil Goal Going Viral? AI Videos Put Woody, Shrek and El Chavo in His Place
+slug: mesut-ozil-2016-goal-ai-videos-woody-shrek
 niche: viral-human-interest
 voice: narrator
 source_story: https://news.google.com/rss/articles/CBMikAFBVV95cUxNRmt2QWpTNjhFa2piQVRmTkhQeUpqNWdEZmktM2Y1WllMRThXUEYtZFhEVlNZRnBEODYxZkRaa01SSlBSemc2cmJTemdERVNDNUlVX3NMMGV3dWNiN3Q4VEt1THA0bEZkbnctN3FlZFJ0QWYyb1lsRWxPcjJITnpoMElySEZOdkZfdlRVa1huWFU?oc=5
-summary: A Mesut Özil goal is back in feeds, tangled up with Woody and SpongeBob. Here is what's confirmed, and what isn't.
+summary: AI videos are recreating Mesut Özil's 2016 winner for Arsenal with cartoon characters such as Woody, Shrek and El Chavo del 8 as the scorer. Here is what's confirmed, and what isn't.
 image_query: football stadium crowd phone
 status: draft
 takes:
 - voice: rosanna
-  text: 'Here''s what I''d tell you. You don''t know which goal this is yet. Neither does this article. It says so, twice.
+  text: 'Here''s what I''d tell you. The goal is real: a 2016 Arsenal winner. The cartoon version is new.
 
 
-    So don''t repeat the joke as if you got it. Read The Athletic''s piece first.
+    So don''t pass the joke along as if it were match footage. Read the reports first.
 
 
     I get the pull. A clip, a cartoon, a caption. It feels like being in on something. Everyone is laughing, so you laugh.
 
 
-    But "going viral again (sort of)" is a quiet admission. Maybe it isn''t everywhere. Maybe it''s just loud in the corner of the internet you live in.
+    But a joke that loud can feel bigger than it is. Maybe it''s just loud in the corner of the internet you live in.
 
 
-    That''s worth noticing. Your feed is not the world.
-
-
-    The most honest line in the whole piece is the one with no view count attached.'
+    That''s worth noticing. Your feed is not the world.'
 - voice: destiny
   text: 'Some things come back because they were never finished with us. A goal like this one sits in the archive, patient, until someone dresses it in a new costume.
 
 
-    Now it wears Woody and SpongeBob. We can''t say exactly how. The article won''t pretend to know, and neither will I.
-
-
-    But look at the "sort of." That''s the sharpest phrase in the headline. It tells you the revival is not a blaze, more a low heat under old ash. A playmaker remembered for passes, and here is his rare goal, caught in a stranger''s light.
+    Now it wears Woody and Shrek, stitched into his run by a machine. A late winner, caught in a stranger''s light.
 
 
     The internet loves a gold-plated joke it can''t quite explain.
@@ -47,22 +41,19 @@ image_license: CC BY 2.0
 image_source: https://upload.wikimedia.org/wikipedia/commons/a/af/Three_young_women_Wisconsin_Badgers_fans_with_phones_10-12-2013_252_%2810240585543%29.jpg
 fact_check:
   done: true
-  date: '2026-10-22'
-  confirmed: 0
-  corrected: 0
-  removed: 0
-  unresolved: 2
-  second_check_changed: 0
-  searches: 8
-  pages_read: 3
-  cost_usd: 0.242
-  items:
-  - verdict: unresolved
-    note: No source could be opened; a Yahoo snippet hints the format differs from what is described.
-    source: ''
-  - verdict: unresolved
-    note: Athletic page and Google News link could not be opened.
-    source: ''
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-23'
+  check1:
+    confirmed: 2
+    corrected: 6
+    removed: 2
+    unresolved: 1
+  check2:
+    ok: 2
+    fixed: 5
+    cut: 1
+    flagged: 1
+  open_items: 1
 ---
 
 A goal scored by the former Arsenal midfielder Mesut Özil is circulating online again, this time in AI-made videos in which cartoon and film characters take Özil's place and re-enact the goal. [Fox Sports México](https://www.foxsports.com.mx/2026/10/16/mitico-gol-de-mesut-ozil-revive-gracias-a-la-ia-chavo-del-8-woody-y-sherk-toman-su-lugar/) names Woody from *Toy Story*, El Chavo del 8 and Shrek, and [Sopitas](https://www.sopitas.com/?p=1959836) refers to versions featuring SpongeBob (Bob Esponja), Shrek and El Chavo del 8. The trend also drew a piece from The Athletic, the sports site owned by [The New York Times Company](https://en.wikipedia.org/wiki/The_Athletic), whose headline says the goal is going viral "again (sort of)." [VERIFY: The Athletic piece is paywalled and could not be opened; confirm its headline wording and publication date on the page itself.]
