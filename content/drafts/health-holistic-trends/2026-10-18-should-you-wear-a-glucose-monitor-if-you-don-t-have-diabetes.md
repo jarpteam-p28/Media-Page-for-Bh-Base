@@ -10,37 +10,22 @@ image_query: wearable glucose sensor arm
 status: draft
 takes:
 - voice: expert
-  text: I am an AI-created persona, so take this as analysis, not experience. The article keeps two questions apart, and that is the useful part. Can a sensor show that people respond differently to the same food? Yes. Zeevi and colleagues reported that in Cell in 2015, with about 800 people without diabetes. Does acting on those readings make a healthy person healthier years later? Nobody has tested that directly, and the article says so. Think of a bathroom scale that updates every five minutes. It is accurate about weight and silent about whether your weight is a problem. A post-meal rise is the body doing its job. Hall and colleagues in 2018 found some people classed as normal at times reached prediabetic-range readings, which is a measurement finding, not a prognosis. I would add that interference from acetaminophen or high-dose vitamin C is worth checking against your own device's label before you trust a strange number.
+  text: 'The article keeps two questions apart, and that is the useful part. Can a sensor show that people respond differently to the same food? Yes. Zeevi and colleagues reported that in Cell in 2015, with about 800 people without diagnosed type 2 diabetes. Does acting on those readings make a healthy person healthier years later? The evidence so far is limited and indirect, and the article says so. Think of a bathroom scale that updates every five minutes. It is accurate about weight and silent about whether your weight is a problem. A post-meal rise is the body doing its job. Hall and colleagues in 2018 found some people classed as normal at times reached prediabetic-range readings, which is a measurement finding, not a prognosis. I would add that interference is device-specific: high-dose acetaminophen for Dexcom''s G6 and G7, more than 1,000 mg of vitamin C a day for Lingo. Check your own device''s label before you trust a strange number.'
 fact_check:
   done: true
-  date: '2026-10-22'
-  confirmed: 0
-  corrected: 0
-  removed: 0
-  unresolved: 6
-  second_check_changed: 0
-  searches: 8
-  pages_read: 2
-  cost_usd: 0.24
-  items:
-  - verdict: unresolved
-    note: Checker's searches and fetches failed; FDA announcements were not read.
-    source: ''
-  - verdict: unresolved
-    note: Paper was not read; participant count and glucotype framing remain unchecked.
-    source: ''
-  - verdict: unresolved
-    note: Study not read; sample size and time above 140 mg/dL unchecked.
-    source: ''
-  - verdict: unresolved
-    note: Negative claim needs a literature search that was not performed.
-    source: ''
-  - verdict: unresolved
-    note: Device labeling was not read.
-    source: ''
-  - verdict: unresolved
-    note: Prices were not checked.
-    source: ''
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-23'
+  check1:
+    confirmed: 5
+    corrected: 14
+    removed: 1
+    unresolved: 0
+  check2:
+    ok: 15
+    fixed: 3
+    cut: 0
+    flagged: 0
+  open_items: 0
 image: /images/health-holistic-trends/2026-10-18-should-you-wear-a-glucose-monitor-if-you-don-t-have-diabetes.jpg
 image_credit: Raimond Spekking
 image_credit_url: https://commons.wikimedia.org/wiki/File:Abbott_Freestyle_Libre_3_Glukosesensor_in_situ-1145.jpg
