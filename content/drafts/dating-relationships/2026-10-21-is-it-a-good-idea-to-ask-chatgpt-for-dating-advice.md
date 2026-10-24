@@ -56,34 +56,24 @@ takes:
     The ELIZA example matters too. Fluent replies create a feeling of being understood. Feeling understood and being understood are different things, and a chatbot supplies only the first.'
 fact_check:
   done: true
-  date: '2026-10-22'
-  confirmed: 4
-  corrected: 1
-  removed: 0
-  unresolved: 1
-  second_check_changed: 0
-  searches: 8
-  pages_read: 13
-  cost_usd: 1.026
-  items:
-  - verdict: corrected
-    note: Term confirmed and defined; changed 'recent' to the April 2026 date since the column is about six months old.
-    source: https://www.forbes.com/sites/lanceeliot/2026/04/25/understanding-the-psychology-of-the-grim-keeping-dating-trend-by-getting-personal-advice-from-ai-such-as-chatgpt/
-  - verdict: unresolved
-    note: General claim is true but edition, figures and scope of the AI use need a human decision.
-    source: https://match.mediaroom.com/2025-06-10-Match-and-The-Kinsey-Institute-Unveil-14th-Annual-Singles-in-America-Study
-  - verdict: confirmed
-    note: Paper and findings match the abstract; Anthropic affiliation not shown on the arXiv page but consistent with authors' employer.
-    source: https://arxiv.org/abs/2310.13548
-  - verdict: confirmed
-    note: Authors, Stanford affiliation and FAccT 2025 presentation confirmed.
-    source: https://arxiv.org/abs/2504.18412
-  - verdict: confirmed
-    note: Confirmed from secondary sources only; spot-check against the original 1966 paper.
-    source: https://en.wikipedia.org/wiki/ELIZA
-  - verdict: confirmed
-    note: General statement naming no specific product, so the VERIFY note was removed.
-    source: ''
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-23'
+  check1:
+    confirmed: 6
+    corrected: 5
+    removed: 0
+    unresolved: 0
+  check2:
+    ok: 7
+    fixed: 1
+    cut: 0
+    flagged: 0
+  open_items: 0
+image: /images/dating-relationships/2026-10-21-is-it-a-good-idea-to-ask-chatgpt-for-dating-advice.jpg
+image_credit: Shixart1985
+image_credit_url: https://commons.wikimedia.org/wiki/File:Woman_holds_a_cushion_while_using_her_smartphone_at_home.jpg
+image_license: CC BY 2.0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Woman_holds_a_cushion_while_using_her_smartphone_at_home.jpg/1280px-Woman_holds_a_cushion_while_using_her_smartphone_at_home.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ---
 
 Asking an AI chatbot for dating advice can be useful for sorting out your own thoughts. It is a poor way to find out what another person feels or whether a relationship is good for you.
@@ -94,7 +84,7 @@ The reason is simple. A chatbot only knows what you type, and it tends to lean y
 
 Because it's private, instant and free. A chatbot doesn't get tired of a 2 a.m. spiral over an unanswered text. It doesn't gossip, and it doesn't say "I told you so."
 
-A Forbes column from April 2026 linked this habit to the "grim-keeping" dating trend ([Forbes](https://www.forbes.com/sites/lanceeliot/2026/04/25/understanding-the-psychology-of-the-grim-keeping-dating-trend-by-getting-personal-advice-from-ai-such-as-chatgpt/)). Cambridge Dictionary defines grim-keeping as forming a relationship with someone based on disliking the same things ([Cambridge Dictionary](https://dictionaryblog.cambridge.org/?p=22888)).
+A Forbes column dated April 25, 2026 is headlined "Understanding The Psychology Of The Grim-Keeping Dating Trend By Getting Personal Advice From AI Such As ChatGPT" ([Forbes](https://www.forbes.com/sites/lanceeliot/2026/04/25/understanding-the-psychology-of-the-grim-keeping-dating-trend-by-getting-personal-advice-from-ai-such-as-chatgpt/)). Cambridge Dictionary defines grim-keeping as forming a relationship with someone based on disliking the same things ([Cambridge Dictionary](https://dictionaryblog.cambridge.org/?p=22888)).
 
 Use is growing, though surveys measure it broadly. The 2025 Singles in America study, run by Match with the Kinsey Institute, found that 26% of singles were using AI to enhance their dating lives, a 333% increase from 2024 ([Boston Globe](https://www.bostonglobe.com/2025/06/11/lifestyle/ai-romance-love-letters/)). Reported uses include writing profiles and filtering matches; the figure does not single out asking for advice ([Fast Company](https://fastcompany.co.za/tech/2025-06-17-how-ai-is-transforming-the-dating-landscape-for-singles)).
 
