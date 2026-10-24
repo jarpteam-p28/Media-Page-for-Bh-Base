@@ -65,15 +65,15 @@ fact_check:
     source: ''
 ---
 
-A goal scored by the former Arsenal midfielder Mesut Özil is circulating online again, this time in AI-made videos in which cartoon and film characters, among them Woody from *Toy Story*, SpongeBob SquarePants, Shrek and El Chavo del 8, take Özil's place and re-enact the goal, according to [Fox Sports México](https://www.foxsports.com.mx/2026/10/16/mitico-gol-de-mesut-ozil-revive-gracias-a-la-ia-chavo-del-8-woody-y-sherk-toman-su-lugar/) and [Sopitas](https://www.sopitas.com/?p=1959836). The trend also drew a piece from The Athletic, the sports site owned by [The New York Times Company](https://en.wikipedia.org/wiki/The_Athletic), whose headline says the goal is going viral "again (sort of)." [VERIFY: The Athletic piece is paywalled and could not be opened; confirm its headline wording and publication date on the page itself.]
+A goal scored by the former Arsenal midfielder Mesut Özil is circulating online again, this time in AI-made videos in which cartoon and film characters take Özil's place and re-enact the goal. [Fox Sports México](https://www.foxsports.com.mx/2026/10/16/mitico-gol-de-mesut-ozil-revive-gracias-a-la-ia-chavo-del-8-woody-y-sherk-toman-su-lugar/) names Woody from *Toy Story*, El Chavo del 8 and Shrek, and [Sopitas](https://www.sopitas.com/?p=1959836) refers to versions featuring SpongeBob (Bob Esponja), Shrek and El Chavo del 8. The trend also drew a piece from The Athletic, the sports site owned by [The New York Times Company](https://en.wikipedia.org/wiki/The_Athletic), whose headline says the goal is going viral "again (sort of)." [VERIFY: The Athletic piece is paywalled and could not be opened; confirm its headline wording and publication date on the page itself.]
 
-The goal is the one Özil scored for Arsenal away at Ludogorets in the Champions League on 1 November 2016, the late winner in a 3-2 comeback, according to Fox Sports México and Sopitas. [Sky Sports](https://www.skysports.com/football/news/11670/10641000/ludogorets-2-3-arsenal-arsene-wengers-side-fight-back-from-two-goals-down-to-book-place-in-last-16) reported at the time that Özil lifted the ball over goalkeeper Milan Borjan, went past two defenders and slid it into an empty net. The reason for the revival, beyond the AI videos themselves, is not confirmed here.
+The goal is the one Özil scored for Arsenal away at Ludogorets in the Champions League on 1 November 2016, the winner in a 3-2 victory, according to Fox Sports México and Sopitas. [Sky Sports](https://www.skysports.com/football/news/11670/10641000/ludogorets-2-3-arsenal-arsene-wengers-side-fight-back-from-two-goals-down-to-book-place-in-last-16) reported at the time that Arsenal had come back from two goals down, and that three minutes from time Özil lifted the ball over goalkeeper Milan Borjan, went round two defenders and slid it into an empty net. The reason for the revival, beyond the AI videos themselves, is not confirmed here.
 
 ## Who is Mesut Özil, and why would one of his goals travel?
 
-Özil is a German-born playmaker of Turkish descent who was part of Germany's squad that won the 2014 World Cup, and he played in the final. He played for Schalke 04, Werder Bremen, Real Madrid, Arsenal (2013–2021), Fenerbahçe and İstanbul Başakşehir, and announced his retirement in March 2023 ([career record](https://en.wikipedia.org/wiki/Mesut_%C3%96zil)).
+Özil is a playmaker born in Gelsenkirchen, Germany, with Turkish roots, according to [Anadolu Agency](https://aa.com.tr/en/sports/profile-world-class-player-at-fenerbahce-mesut-ozil/2122130). He won the 2014 World Cup with Germany and played in the final against Argentina, according to [Sports Illustrated](https://www.si.com/soccer/2014/07/14/germany-argentina-world-cup-final-tactics). He played for Schalke 04, Werder Bremen, Real Madrid, Arsenal, Fenerbahçe and İstanbul Başakşehir, and announced his retirement on 22 March 2023, [CBS Sports](https://www.cbssports.com/soccer/news/mesut-ozil-retires-former-arsenal-real-madrid-and-germany-star-announces-its-time-to-leave-the-big-stage) reported. Anadolu Agency reported that he joined Arsenal in 2013 and left for Fenerbahçe in January 2021.
 
-His reputation was built on passing rather than scoring. That tends to make his goals memorable, since they were rarer than his assists. It also made him a frequent subject of fan debate and humor, which is fertile ground for memes.
+He was known mainly as a playmaker who created chances for others, which can make his own goals stand out.
 
 ## What does "going viral again (sort of)" mean?
 
@@ -94,7 +94,9 @@ The Fox Sports México and Sopitas reports linked below describe the goal and ho
 ## Sources
 
 - Fox Sports México, "Mítico gol de Mesut Özil REVIVE gracias a la IA; Chavo del 8, Woody y Sherk toman su lugar," 16 October 2026. https://www.foxsports.com.mx/2026/10/16/mitico-gol-de-mesut-ozil-revive-gracias-a-la-ia-chavo-del-8-woody-y-sherk-toman-su-lugar/
-- Sopitas, report on the Özil AI goal videos. https://www.sopitas.com/?p=1959836
+- Sopitas, "La historia detrás del meme: El gol de Özil que inspiró los videos hechos con IA," 21 October 2026. https://www.sopitas.com/?p=1959836
 - Sky Sports, "Ludogorets 2-3 Arsenal: Arsene Wenger's side fight back from two goals down to book place in last 16," 2 November 2016. https://www.skysports.com/football/news/11670/10641000/ludogorets-2-3-arsenal-arsene-wengers-side-fight-back-from-two-goals-down-to-book-place-in-last-16
-- Wikipedia, "Mesut Özil" (career record). https://en.wikipedia.org/wiki/Mesut_%C3%96zil
+- Anadolu Agency, profile of Mesut Özil on his move to Fenerbahçe, 25 January 2021. https://aa.com.tr/en/sports/profile-world-class-player-at-fenerbahce-mesut-ozil/2122130
+- Sports Illustrated, tactical analysis of the Germany-Argentina 2014 World Cup final, 14 July 2014. https://www.si.com/soccer/2014/07/14/germany-argentina-world-cup-final-tactics
+- CBS Sports, "Mesut Ozil retires: Former Arsenal, Real Madrid and Germany star announces 'it's time to leave the big stage'," 22 March 2023. https://www.cbssports.com/soccer/news/mesut-ozil-retires-former-arsenal-real-madrid-and-germany-star-announces-its-time-to-leave-the-big-stage
 - Wikipedia, "The Athletic" (ownership). https://en.wikipedia.org/wiki/The_Athletic
