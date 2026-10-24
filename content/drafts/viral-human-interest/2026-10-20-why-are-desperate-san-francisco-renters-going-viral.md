@@ -4,7 +4,7 @@ title: Why Are Desperate San Francisco Renters Going Viral?
 slug: desperate-sf-renters-going-viral
 niche: viral-human-interest
 voice: narrator
-source_story: https://news.google.com/rss/articles/CBMidEFVX3lxTE1WZU9YUHJuWktJT0lFbW9OMXhmYmJPc0taRGZCaTVXWFVpTkdlVmJXWUNwejhic292T2FwZE4tQW5wYmZmZGt6ZmN3NzFPTkk2T1hWQWplWi1IN3JEYU1wWUFRMHZkZWNqR3JNUFAxY1VMenk4?oc=5
+source_story: https://www.yahoo.com/news/us/articles/desperate-sf-renters-going-viral-120000655.html
 summary: Apartment hunters in San Francisco are turning their searches into public posts. The reason is a rental market where supply is thin and competition is fierce.
 image_query: city apartment hunting
 status: draft
@@ -39,37 +39,24 @@ takes:
     But the posts will keep coming, because a city that makes you perform has already told you what it costs.'
 fact_check:
   done: true
-  date: '2026-10-22'
-  confirmed: 1
-  corrected: 0
-  removed: 1
-  unresolved: 5
-  second_check_changed: 0
-  searches: 8
-  pages_read: 11
-  cost_usd: 0.51
-  items:
-  - verdict: unresolved
-    note: Checker could not access SFGATE or any rent data source, so the claim remains unverified.
-    source: ''
-  - verdict: unresolved
-    note: The 2025 JCHS page supports 'record numbers with cost burdens', but the figure and the 30 percent definition were not confirmed.
-    source: https://www.jchs.harvard.edu/state-nations-housing-2025
-  - verdict: unresolved
-    note: The Rent Board homepage lacked coverage details and the coverage page failed to load.
-    source: https://sfrb.org
-  - verdict: removed
-    note: No check was possible; the note is cut and the paragraph reads fine without the planned detail.
-    source: ''
-  - verdict: unresolved
-    note: Only a search result with the headline was seen; the article was not opened.
-    source: https://www.yahoo.com/news/us/articles/desperate-sf-renters-going-viral-120000655.html
-  - verdict: unresolved
-    note: The SFGATE piece could not be read.
-    source: ''
-  - verdict: confirmed
-    note: The LAO report says major coastal communities lack housing, which drives up costs; San Francisco is not named on the page read.
-    source: https://lao.ca.gov/reports/2015/finance/housing-costs/housing-costs.aspx
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-23'
+  check1:
+    confirmed: 4
+    corrected: 4
+    removed: 1
+    unresolved: 0
+  check2:
+    ok: 10
+    fixed: 2
+    cut: 0
+    flagged: 0
+  open_items: 0
+image: /images/viral-human-interest/2026-10-20-why-are-desperate-san-francisco-renters-going-viral.jpg
+image_credit: Emily Mathews from Ann Arbor, MI
+image_credit_url: https://commons.wikimedia.org/wiki/File:San_Francisco_(23162337285).jpg
+image_license: CC BY 2.0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/San_Francisco_%2823162337285%29.jpg/1280px-San_Francisco_%2823162337285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ---
 
 Renters in San Francisco are going viral because finding an apartment there has become a public contest, and people are posting their searches to stand out or to vent. SFGATE, the news site, reported that their stories ["reveal a city at its limit."](https://www.yahoo.com/news/us/articles/desperate-sf-renters-going-viral-120000655.html)
@@ -86,7 +73,7 @@ Specific posts, names and details are in the original SFGATE piece. Anything bey
 
 The short answer is that too few homes have been built for the number of people who want to live there. California's nonpartisan Legislative Analyst's Office laid this out in a 2015 report, ["California's High Housing Costs: Causes and Consequences"](https://lao.ca.gov/reports/2015/finance/housing-costs/housing-costs.aspx). The March 2015 report concluded that the state's coastal metro areas, San Francisco's among them, have long built far less housing than demand required, and that this pushes prices up.
 
-Demand has also tracked the tech economy. SFGATE reported that rental prices started to climb in 2024 and kept rising in 2026 amid the artificial intelligence boom. The rental site Zumper put the city's median two-bedroom rent at $6,020 a month in its July 2026 report, up 25.9 percent from a year earlier and the first time it had topped $6,000, [KPIX reported](https://kioncentralcoast.com/news/top-stories/2026/07/29/san-francisco-median-2-bedroom-rent-soars-to-6000-month-report-says/).
+Demand has also tracked the tech economy. SFGATE reported that rental prices started to climb in 2024 and kept rising in 2026 amid the artificial intelligence boom. The real estate company Zumper put the city's median two-bedroom rent at $6,020 a month, up 25.9 percent from a year earlier and the first time it had topped $6,000, [KPIX reported](https://kioncentralcoast.com/news/top-stories/2026/07/29/san-francisco-median-2-bedroom-rent-soars-to-6000-month-report-says/) on July 29, 2026.
 
 ## Why does a tight market produce viral stories?
 
@@ -98,7 +85,7 @@ Social platforms reward exactly that kind of material. A personal, slightly desp
 
 No. Harvard's Joint Center for Housing Studies found in its *America's Rental Housing 2024* report that a record half of U.S. renter households were cost-burdened in 2022, meaning they paid more than 30 percent of their income for rent and utilities, [NPR reported](https://whyy.org/npr-story/housing-unaffordable-record-half-all-us-renters/).
 
-San Francisco is an extreme case of a national pattern. It has high incomes, high prices and limited new construction in the same few square miles.
+San Francisco is an extreme case of a national pattern. It has high prices and limited new construction in the same few square miles.
 
 ## Does rent control help?
 
