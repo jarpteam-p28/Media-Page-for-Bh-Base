@@ -59,7 +59,7 @@ Visual Capitalist recently published a chart comparing quality of life against c
 
 They combine two scores that come from very different kinds of data. Cost is usually built from prices for a basket of goods: rent, groceries, transport, restaurant meals. Quality of life is usually built from indexes covering things like safety, health care, pollution, commute times, and climate.
 
-Some of these inputs are crowdsourced. Numbeo, a widely used cost and quality database, relies on user-submitted data ([Numbeo](https://www.numbeo.com/cost-of-living/)), which makes it broad but uneven. Visual Capitalist's chart used Numbeo and notes that the data reflects contributors' experiences rather than a representative survey. The result is a good snapshot of perception and rough prices. It is not a measurement of what a particular family will spend.
+Some of these inputs are crowdsourced. Numbeo, a cost and quality database, combines crowdsourced reports with automated market-data collection ([Numbeo](https://www.numbeo.com/cost-of-living/)), which makes it broad but uneven. Visual Capitalist's chart used Numbeo and notes that the data reflects contributors' experiences rather than a representative survey ([Visual Capitalist](https://www.visualcapitalist.com/cp/quality-of-life-vs-cost-in-99-cities-across-the-americas/)). The result is a good snapshot of perception and rough prices. It is not a measurement of what a particular family will spend.
 
 ## Does a lower cost of living mean a lower quality of life?
 
@@ -69,7 +69,7 @@ The useful reading of such a chart is the outliers: places where quality is high
 
 ## Why does housing explain so much of the gap?
 
-Rent and home prices are the largest and most variable piece of most budgets. The U.S. Bureau of Economic Analysis publishes Regional Price Parities, which compare the overall price level in each state and metro area to the national average, set at 100 ([BEA](https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area)). Its work has generally found that housing costs account for much of the difference between high-price and low-price areas; BEA's 2024 data release says housing rents are often the main driver in differences in RPPs ([BEA](https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024)).
+Housing is the largest piece of the average household budget, at 33.4 percent of spending in 2024 ([BLS](https://www.bls.gov/opub/ted/2026/housing-and-transportation-accounted-for-50-percent-of-household-spending-in-2024.htm)), and rents vary widely from place to place. The U.S. Bureau of Economic Analysis publishes Regional Price Parities, which express the price level in each state and metro area as a percentage of the overall national price level ([BEA](https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area)). BEA's release on 2024 data says housing rents are often the main driver in differences in RPPs ([BEA](https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024)).
 
 That matters because housing is also the cost you can least easily shop around. Groceries and gas vary modestly from place to place. A rent gap of several hundred dollars a month can swamp both.
 
@@ -77,7 +77,7 @@ That matters because housing is also the cost you can least easily shop around. 
 
 Income. A city with a low price index is only cheaper to you if your pay does not drop by more than your costs do. Remote workers who keep a coastal salary can come out well ahead. Workers who must take a local job often find that wages fall along with prices.
 
-The [MIT Living Wage Calculator](https://livingwage.mit.edu/), created by Amy Glasmeier, helps with this. [VERIFY: whether other people deserve credit as co-creators; sources only name Glasmeier.] It estimates the hourly wage a worker needs to cover basic expenses in a given county or metro area, by household size ([MIT Living Wage Calculator](https://livingwage.mit.edu/)). It uses a modest budget with no room for savings or extras, so it sets a floor, not a target ([MIT methodology](https://livingwage.mit.edu/pages/methodology)).
+The [MIT Living Wage Calculator](https://livingwage.mit.edu/), from Amy K. Glasmeier and the Massachusetts Institute of Technology, helps with this. It estimates the hourly wage a worker needs to cover basic expenses in a given county, metro area, or state, for 12 family types that vary by number of adults and children ([MIT Living Wage Calculator](https://livingwage.mit.edu/)). It uses a modest budget with no room for savings or extras, so it sets a floor, not a target ([MIT methodology](https://livingwage.mit.edu/pages/methodology)).
 
 Moving costs, tax differences, and distance from family also fall outside most rankings. Each can be worth real money, and none appears in a city score.
 
@@ -95,7 +95,10 @@ Open the MIT Living Wage Calculator, look up your current county and one you are
 
 ## Sources
 
-- Visual Capitalist, "Quality of Life vs. Cost in 99 Cities Across the Americas" (headline only reviewed; details unverified): https://news.google.com/rss/articles/CBMimAFBVV95cUxNSHBzODYzcWJXdERROFZBbTgyM2J1TDZDWGcwNkdjd2tvTVNFZWpOQXhOQ05VR1dXdS1ObUNCZFFQbnNKVmlwQ05MbGRsNnZQYnNZa2tBeHBxa1ZtaGtWZ0tuQkhTazdvQ0VIeHVLVXFtYzNkSDJyVUhndEhyRG81Z3F4bG9aMldKUDFHNWNNNkRoNVZGYUZHRA?oc=5
+- Visual Capitalist, "Quality of Life vs. Cost in 99 Cities Across the Americas" (Oct. 19, 2026): https://www.visualcapitalist.com/cp/quality-of-life-vs-cost-in-99-cities-across-the-americas/
 - U.S. Bureau of Economic Analysis, Regional Price Parities: https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area
+- U.S. Bureau of Economic Analysis, "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024" (Feb. 19, 2026): https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024
+- U.S. Bureau of Labor Statistics, "Housing and transportation accounted for 50 percent of household spending in 2024": https://www.bls.gov/opub/ted/2026/housing-and-transportation-accounted-for-50-percent-of-household-spending-in-2024.htm
 - Glasmeier, A. K., Massachusetts Institute of Technology, Living Wage Calculator: https://livingwage.mit.edu
-- Numbeo, Cost of Living methodology: https://www.numbeo.com/cost-of-living/
+- MIT Living Wage Calculator, Methodology: https://livingwage.mit.edu/pages/methodology
+- Numbeo, Cost of Living: https://www.numbeo.com/cost-of-living/
