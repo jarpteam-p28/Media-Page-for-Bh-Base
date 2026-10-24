@@ -84,7 +84,7 @@ Cal AI grew mainly through paid influencer posts. TechCrunch reported in October
 
 ## What is Cal AI?
 
-Cal AI is a smartphone app that estimates the calories in a meal from a photo. The user snaps the plate, and the app logs calories and macros (protein, carbohydrates and fat) ([TechCrunch](https://techcrunch.com/2025/03/16/photo-calorie-app-cal-ai-downloaded-over-a-million-times-was-built-by-two-teenagers/)). When TechCrunch profiled the company in March 2025, its co-founders were Zach Yadegari and Henry Langmack, both 18, and Blake Anderson, 24.
+Cal AI is a smartphone app that estimates the calories in a meal from a photo. The user snaps the plate, and the app logs calories and macros (protein, carbohydrates and fat) ([TechCrunch](https://techcrunch.com/2025/03/16/photo-calorie-app-cal-ai-downloaded-over-a-million-times-was-built-by-two-teenagers/)). When TechCrunch profiled the company in March 2025, its co-founders were Zach Yadegari and Henry Langmack, both 18, Blake Anderson, 24, and Jake Castillo, 28, the chief operating officer, who ran influencer marketing.
 
 The pitch is speed. Older trackers made users search a database and type in each food. A photo shortcut removes most of that friction.
 
@@ -94,13 +94,13 @@ According to TechCrunch, the first sign of traction came when one influencer's p
 
 ## What was the actual playbook?
 
-Reporting on Cal AI describes a strategy built on volume and paid deals. Yadegari said the team responded to that first post by "paying as many people as possible to start posting for us." He told TechCrunch the team negotiated rates with influencers, promising set payouts for a certain scale of reach, and favored creators with "very tight communities."
+Reporting on Cal AI describes a strategy built on volume and paid deals. After that early result, Yadegari said, the team started "recruiting influencers as fast as we could — paying as many people as possible to start posting for us." He told TechCrunch the team negotiated rates with influencers, promising set payouts for a certain scale of reach, and favored creators with "very tight communities."
 
 The mechanism is simple. The app's core trick can be shown in five seconds: photo in, calories out. That makes it unusually well suited to short video.
 
 ## How much money is involved?
 
-MyFitnessPal told TechCrunch in March 2026 that Cal AI had over $30 million in annual revenue and over 15 million downloads in under two years ([TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/)). That figure comes from the buyer, not from audited accounts, and earlier TechCrunch coverage noted it could not validate the founders' own download and revenue claims.
+MyFitnessPal told TechCrunch in March 2026 that Cal AI had over $30 million in annual revenue and over 15 million downloads in under two years ([TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/)). That figure comes from the buyer, not from audited accounts, and earlier TechCrunch coverage noted it could not validate Yadegari's own download and revenue claims ([TechCrunch](https://techcrunch.com/2025/03/16/photo-calorie-app-cal-ai-downloaded-over-a-million-times-was-built-by-two-teenagers/)).
 
 MyFitnessPal's acquisition of Cal AI was announced in March 2026; the terms were not disclosed ([TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/)).
 
