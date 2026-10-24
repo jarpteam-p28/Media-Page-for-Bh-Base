@@ -25,7 +25,7 @@ fact_check:
     fixed: 7
     cut: 0
     flagged: 1
-  open_items: 1
+  open_items: 0
 image: /images/health-holistic-trends/2026-10-21-do-enzyme-baths-actually-work-what-we-know-about-being-buried-in-fermenting-sawd.jpg
 image_credit: Choikwangmo9
 image_credit_url: https://commons.wikimedia.org/wiki/File:%EC%98%81%EC%8B%A0%EB%B6%88%EA%B0%80%EB%A7%88%EC%82%AC%EC%9A%B0%EB%82%9824%EC%8B%9C(%EA%B0%95%EC%9B%90_%EC%9B%90%EC%A3%BC%EC%8B%9C_%EC%8B%9C%EC%B2%AD%EB%A1%9C_96)3.jpg
@@ -47,7 +47,7 @@ Spas and promoters tend to describe the baths as detoxifying, circulation-boosti
 
 ## What does the evidence show?
 
-For the enzyme-specific claims, very little. The term "detox" has no clear meaning here. The liver and kidneys handle waste removal, and we found no study showing that sweating in a fermenting bath adds to that. A search of [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22enzyme+bath%22+OR+%22kouso+buro%22+OR+%22koso+buro%22+OR+%22fermented+sawdust%22+OR+%22rice+bran+bath%22) turned up no clinical trials of enzyme baths. [VERIFY: re-run the PubMed link and confirm it lists no human trials of enzyme baths; the second check could not reload it.]
+For the enzyme-specific claims, very little. The term "detox" has no clear meaning here. The liver and kidneys handle waste removal, and we found no study showing that sweating in a fermenting bath adds to that. A [PubMed search](https://pubmed.ncbi.nlm.nih.gov/?term=%22enzyme%20bath%22%5Btiab%5D%20OR%20%22enzyme%20baths%22%5Btiab%5D%20OR%20%22koso%20buro%22%5Btiab%5D%20OR%20%22kouso%20buro%22%5Btiab%5D%20OR%20%22fermented%20sawdust%20bath%22%5Btiab%5D%20OR%20%22rice%20bran%20bath%22%5Btiab%5D%20OR%20%22rice%20bran%20baths%22%5Btiab%5D) for those terms in study titles and abstracts, run in October 2026, returned no studies at all, so no clinical trials of enzyme baths.
 
 The heat is a different story. Passive heat exposure has been studied, mostly in saunas. A [2015 study](https://doi.org/10.1001/jamainternmed.2014.8187) in *JAMA Internal Medicine* by Laukkanen and colleagues followed 2,315 middle-aged Finnish men for a median of about 20 years and found that more frequent sauna use was associated with lower rates of fatal cardiovascular events. The study was observational, which means it can show a link but not prove that saunas caused the difference. It also looked at traditional Finnish saunas, which researchers studying the same group of men describe as having air with a relative humidity of 10 to 20% ([Kunutsor and colleagues, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9792415/)), not buried-in-sawdust baths.
 
