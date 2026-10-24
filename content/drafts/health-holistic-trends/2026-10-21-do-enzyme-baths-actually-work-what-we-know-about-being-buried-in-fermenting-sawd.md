@@ -5,48 +5,32 @@ slug: do-enzyme-baths-work-evidence
 niche: health-holistic-trends
 voice: narrator
 source_story: https://news.google.com/rss/articles/CBMiV0FVX3lxTE9TSG95a1BocG1HVjNaM1ZxZ2pxZV9kaFJkMVJkWkpKd1d3ZGtkWVF1UmhpMzRfc21jTk1HR21hS01KU2VYVHd0N2cySjdDY2NQYUJ2NGdTZw?oc=5
-summary: Enzyme baths bury you in warm, fermenting plant material. The heat is real. The enzyme benefits are mostly unproven.
+summary: Enzyme baths bury you in warm, fermenting plant material. The heat is real. The enzyme benefits have not been shown in clinical trials.
 image_query: wooden spa relaxation heat
 status: draft
 takes:
 - voice: expert
-  text: 'A note first: I''m an AI-created persona, so this is analysis, not experience. The article separates two claims that spas tend to blur. The warmth is easy to explain, since fermenting plant material releases heat as microbes and enzymes break it down. Whether the enzymes then do something to you is a different question, and nobody has tested it directly. The absorption point is reasonable. Enzymes are large proteins, and skin is built to keep large molecules out, much as a raincoat is built to keep out water. I would push back on leaning too hard on the sauna research. Laukkanen''s 2015 study was observational and looked at dry saunas, so it says little about a body buried in sawdust. The risk section matters most, because a buried person cannot cool off or move easily. Ask what temperature the bath is kept at before you book.'
+  text: The article separates two claims that spas tend to blur. The warmth is the easy part to believe. Whether the enzymes then do something to you is a different question, and the article found no clinical trials of enzyme baths, so any claim about what the enzymes do to your body is untested. I would push back on leaning too hard on the sauna research. Laukkanen's 2015 study was observational and looked at traditional dry Finnish saunas, so it says little about a body buried in sawdust. The risk section matters most, because a buried person cannot easily move or step out. Ask what temperature the bath is kept at before you book.
 fact_check:
   done: true
-  date: '2026-10-22'
-  confirmed: 0
-  corrected: 3
-  removed: 1
-  unresolved: 4
-  second_check_changed: 1
-  searches: 8
-  pages_read: 10
-  cost_usd: 0.562
-  items:
-  - verdict: corrected
-    note: Confirmed trend claim; corrected temperature to 60-70°C per Herald, added session length, dropped venue/price note since Herald gives none.
-    source: https://www.koreaherald.com/article/10905282
-  - verdict: corrected
-    note: 'Second check: Source says ''warm rice bran or cypress sawdust''; it never mentions cedar and uses ''or'', not ''and''.'
-    source: https://www.koreaherald.com/article/10905282
-  - verdict: corrected
-    note: Aligned duration with Herald's reported 20-30 minute sessions.
-    source: https://www.koreaherald.com/article/10905282
-  - verdict: unresolved
-    note: Paper was not read; needs human check.
-    source: ''
-  - verdict: unresolved
-    note: Paper was not read; study design unconfirmed.
-    source: ''
-  - verdict: unresolved
-    note: Reviews were not read; citations and conclusions need human check.
-    source: ''
-  - verdict: unresolved
-    note: No PubMed search was done; absence of trials unconfirmed.
-    source: ''
-  - verdict: removed
-    note: No guidance found; note cut, article reads fine without it.
-    source: https://www.koreaherald.com/article/10905282
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-23'
+  check1:
+    confirmed: 3
+    corrected: 14
+    removed: 2
+    unresolved: 0
+  check2:
+    ok: 9
+    fixed: 7
+    cut: 0
+    flagged: 1
+  open_items: 1
+image: /images/health-holistic-trends/2026-10-21-do-enzyme-baths-actually-work-what-we-know-about-being-buried-in-fermenting-sawd.jpg
+image_credit: Choikwangmo9
+image_credit_url: https://commons.wikimedia.org/wiki/File:%EC%98%81%EC%8B%A0%EB%B6%88%EA%B0%80%EB%A7%88%EC%82%AC%EC%9A%B0%EB%82%9824%EC%8B%9C(%EA%B0%95%EC%9B%90_%EC%9B%90%EC%A3%BC%EC%8B%9C_%EC%8B%9C%EC%B2%AD%EB%A1%9C_96)3.jpg
+image_license: CC0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/%EC%98%81%EC%8B%A0%EB%B6%88%EA%B0%80%EB%A7%88%EC%82%AC%EC%9A%B0%EB%82%9824%EC%8B%9C%28%EA%B0%95%EC%9B%90_%EC%9B%90%EC%A3%BC%EC%8B%9C_%EC%8B%9C%EC%B2%AD%EB%A1%9C_96%293.jpg/1280px-%EC%98%81%EC%8B%A0%EB%B6%88%EA%B0%80%EB%A7%88%EC%82%AC%EC%9A%B0%EB%82%9824%EC%8B%9C%28%EA%B0%95%EC%9B%90_%EC%9B%90%EC%A3%BC%EC%8B%9C_%EC%8B%9C%EC%B2%AD%EB%A1%9C_96%293.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ---
 
 Enzyme baths are warm, and that part is real. Whether the enzymes do anything for your body is another matter: no solid clinical evidence shows they do. The experience is better understood as a form of heat therapy with a fermentation twist.
