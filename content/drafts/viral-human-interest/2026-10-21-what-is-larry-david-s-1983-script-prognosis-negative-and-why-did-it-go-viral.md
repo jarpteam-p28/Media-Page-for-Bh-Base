@@ -35,10 +35,10 @@ takes:
 
     The quiet part of the story is usually the better one. The part that never trended is the part that was there from the start.'
 image: /images/viral-human-interest/2026-10-21-what-is-larry-david-s-1983-script-prognosis-negative-and-why-did-it-go-viral.jpg
-image_credit: J.S. Bach or his writer
-image_credit_url: https://commons.wikimedia.org/w/index.php?curid=110713109
-image_license: Public domain
-image_source: https://upload.wikimedia.org/wikipedia/commons/b/b0/Title_page_of_Brandenburg_Concertos.png
+image_credit: Sammlung der Medien und Wissenschaft
+image_credit_url: https://commons.wikimedia.org/wiki/File:Olympia_Simplex.jpg
+image_license: CC BY 4.0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Olympia_Simplex.jpg/1280px-Olympia_Simplex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 fact_check:
   done: true
   date: '2026-10-22'
@@ -92,33 +92,35 @@ fact_check:
     source: https://www.britannica.com/biography/Larry-David
 ---
 
-A 1983 script by Larry David, titled *Prognosis: Negative*, spread widely online this spring. The script surfaced on eBay, where a Reddit user bought it and posted it to Reddit's Seinfeld forum in February; the New York Times reported on it on May 8, 2026, and the story then went viral ([GV Wire, republishing the NYT](https://gvwire.com/2026/05/12/after-43-years-an-unproduced-larry-david-script-surfaces-online/)). The Hollywood Reporter later reported that the viral moment was only part of the story behind the script, in an exclusive excerpt from Blake J. Harris's biography *Emperor of Nothing: The Making of Larry David* ([THR via Yahoo](https://www.yahoo.com/entertainment/movies/articles/larry-david-1983-script-prognosis-164112388.html)).
+A 1983 script by Larry David, titled *Prognosis: Negative*, spread widely online this spring. A Reddit user posted in Reddit's Seinfeld forum in February that they had bought the script on eBay and were uploading it; the New York Times reported on it on May 8, 2026 ([GV Wire, republishing the NYT](https://gvwire.com/2026/05/12/after-43-years-an-unproduced-larry-david-script-surfaces-online/)), and the story spread widely. The Hollywood Reporter later reported that the viral moment was only part of the story behind the script, in an exclusive excerpt from Blake J. Harris's biography *Emperor of Nothing: The Making of Larry David* ([THR via Yahoo](https://www.yahoo.com/entertainment/movies/articles/larry-david-1983-script-prognosis-164112388.html)).
 
 This article draws on the Hollywood Reporter's excerpt and the New York Times' earlier reporting on the script.
 
 ## What is "Prognosis: Negative"?
 
-David says he started working on a script called *Prognosis: Negative*. It was never produced; the NYT calls it an unproduced screenplay ([NYT via GV Wire](https://gvwire.com/2026/05/12/after-43-years-an-unproduced-larry-david-script-surfaces-online/)).
+David says he started working on a script called *Prognosis: Negative* ([THR via Yahoo](https://www.yahoo.com/entertainment/movies/articles/larry-david-1983-script-prognosis-164112388.html)). It was never produced; the NYT calls it an unproduced screenplay ([NYT via GV Wire](https://gvwire.com/2026/05/12/after-43-years-an-unproduced-larry-david-script-surfaces-online/)).
 
-The date matters. In 1983, David was years away from his best-known work. He had been a writer and performer on ABC's sketch show *Fridays*, which ran from 1980 to 1982, and he joined *Saturday Night Live* as a writer for its 1984–85 season. [VERIFY: second check disagreed: Britannica as retrieved does not give the Fridays 1980-82 run or the SNL 1984-85 season. THR supports Fridays 1980-82, and the SNL claim is unverified.] *Seinfeld*, which he co-created with Jerry Seinfeld, premiered in 1989. *Curb Your Enthusiasm* ran on HBO from 2000 until its finale in 2024. [VERIFY: second check disagreed: NYT supports Seinfeld in 1989, not Britannica. The Curb 2024 finale claim is unverified.]
+The date matters. In 1983, David was years away from his best-known work. He had been a writer and performer on ABC's sketch show *Fridays*, which ran from 1980 to 1982, and he was a writer for *Saturday Night Live* from 1984 to 1985 ([Wikipedia](https://en.wikipedia.org/wiki/Larry_David)). *Seinfeld*, which he co-created with Jerry Seinfeld, premiered in 1989 ([NYT via GV Wire](https://gvwire.com/2026/05/12/after-43-years-an-unproduced-larry-david-script-surfaces-online/)). *Curb Your Enthusiasm* began as a one-time HBO special in 1999 before becoming a series, and HBO scheduled its series finale for April 7, 2024 ([NBC New York](https://www.nbcnewyork.com/entertainment/entertainment-news/curb-your-enthusiasm-to-air-final-season-in-2024-larry-david-confirms)).
 
 ## Why did it go viral?
 
-Delete the PDF sentence. Rewrite as: "A Reddit user named Aromatic_Zebra_9601 posted the script in February. Jeremy Smith, 24, of Rochester, N.Y., who found the listing, told the NYT it was 'truly cool' to post it."
+A Reddit user named Aromatic_Zebra_9601 posted the script in February. The NYT attributes the post to Jeremy Smith, 24, of Rochester, New York, who had found the eBay listing through a Google search; he told the paper it was "truly cool to be the one to post this lost piece of history onto the internet" ([NYT via GV Wire](https://gvwire.com/2026/05/12/after-43-years-an-unproduced-larry-david-script-surfaces-online/)).
 
 ## Is the script authentic?
 
-David declined to comment through an HBO publicist. The NYT cites Weide's recollections and meeting notes from 1983 but does not explicitly address authenticity. The account selling the script would not say how it obtained it.
+David declined to comment through an HBO publicist. The NYT cites recollections from Robert Weide, then head of development at an agency run by Hollywood talent managers, and notes from a January 1983 meeting about the script, but it does not explicitly address authenticity. The script had been put up for sale by an account offering several unpublished scripts; the NYT says it was not clear how the account obtains them, and its operator declined to comment ([NYT via GV Wire](https://gvwire.com/2026/05/12/after-43-years-an-unproduced-larry-david-script-surfaces-online/)).
 
 ## What is "the rest of the story"?
 
-The headline says the viral spread was "only part of the story." Remove the Dreyfuss 'director... before it all fell apart' claim. Replace it with: "Richard Dreyfuss, a producer, praised it but wanted a 'big rewrite.'" Resolve the VERIFY: "Producer David Susskind offered $200,000, but the deal fell through. Barry & Enright later optioned it for less." Delete the VERIFY tag.
+The headline says the viral spread was "only part of the story." According to the excerpt, Richard Dreyfuss, an actor-turned-producer, told David he loved the script but insisted it needed a "big rewrite." Producer David Susskind was willing to pay $200,000 for it; that deal closed on August 31, 1983, and fell apart on September 28. Barry & Enright Productions then optioned the script in November 1983 for a smaller sum ([THR via Yahoo](https://www.yahoo.com/entertainment/movies/articles/larry-david-1983-script-prognosis-164112388.html)).
 
 ## Where to read the original
 
-The most reliable next step is the Hollywood Reporter's own article ([Hollywood Reporter](https://www.hollywoodreporter.com/movies/movie-news/larry-david-prognosis-negative-script-1236735627/)), which carries the excerpt this summary draws on.
+The most reliable next step is the Hollywood Reporter's own article, syndicated in full on Yahoo ([THR via Yahoo](https://www.yahoo.com/entertainment/movies/articles/larry-david-1983-script-prognosis-164112388.html)), which carries the excerpt this summary draws on.
 
 ## Sources
 
-- The Hollywood Reporter, "Larry David's 1983 Script for 'Prognosis: Negative' Went Viral in the Spring. That Was Only Part of the Story." Published Oct 20, 2026, as an excerpt from Blake J. Harris's *Emperor of Nothing*. [VERIFY: byline, which was not found in the text read.] https://www.hollywoodreporter.com/movies/movie-news/larry-david-prognosis-negative-script-1236735627/
-- Career dates (*Fridays*, *Saturday Night Live*, *Seinfeld*, *Curb Your Enthusiasm*): general background, Reword to "general background; *Fridays* dates per THR; *Seinfeld* 1989 per NYT; remaining dates not independently verified."
+- The Hollywood Reporter, "Larry David's 1983 Script for 'Prognosis: Negative' Went Viral in the Spring. That Was Only Part of the Story," by Blake J. Harris, Oct 20, 2026, an excerpt from his book *Emperor of Nothing: The Making of Larry David* (read via the Yahoo syndicated copy): https://www.yahoo.com/entertainment/movies/articles/larry-david-1983-script-prognosis-164112388.html
+- The New York Times, report on the script by Sopan Deb and Benjamin Norman, May 8, 2026 (read via the GV Wire reprint): https://gvwire.com/2026/05/12/after-43-years-an-unproduced-larry-david-script-surfaces-online/
+- Wikipedia, "Larry David" (*Fridays* and *Saturday Night Live* dates): https://en.wikipedia.org/wiki/Larry_David
+- NBC New York, "'Curb Your Enthusiasm' to air final season in 2024, Larry David confirms" (1999 special; April 7, 2024 finale): https://www.nbcnewyork.com/entertainment/entertainment-news/curb-your-enthusiasm-to-air-final-season-in-2024-larry-david-confirms
