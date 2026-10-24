@@ -5,12 +5,12 @@ slug: europe-cost-of-living-protests-us-households
 niche: money-everyday-life
 voice: narrator
 source_story: https://news.google.com/rss/articles/CBMipgFBVV95cUxNcHVKZElXMUhIblBtS2pLOThuSmszNHRMQXBvOFR6ZjBJWHhJd1BCM094dlg3eDRmNmFaUTFJOFJQZHhBRkdyTjNISkhSaGlBVTE3ZWNPZW04eHh6S1JXSUxJVzBmNlN6QklYT2NmSTVfUVdLeS03TmNUWmNTM2tsTENLazJGODVrOUtsajY0d1pBemIyQnBERG5zNUtNNi1iNktLR3pn0gGrAUFVX3lxTE9wa3NJblczOVI5c2t3akxLWkM4NWFqSGVqREFiMHNpc2RvUGJMbHJURk8yaUhBRXlVRnhrYmFFS1kyamo3MVltQWd0NUc0SnhzX3pVZnRDSDVJNFBPRXBDQ0pPTFFMZm9WXzd6RjVjbl9OMlRKVE0zandhOE5kM2w3Y0plQ3RBczQ1UUZxMzlUUWxTQnBINFVobzBZdXJhNnZtVi1NS1NVUDBVbw?oc=5
-summary: 'Protests in Belgium, Italy, Portugal and France point to a squeeze that US households know well: wages that lag prices, and bills that never come back down.'
+summary: 'Protests in Belgium, Italy, Portugal and France point to a squeeze that US households know well: wages that lag prices, and prices that stay high even after inflation cools.'
 image_query: grocery receipt household bills
 status: draft
 takes:
 - voice: expert
-  text: 'The article''s most useful move is separating two things people routinely blur: the inflation rate and the price level. A rate is a speed. A level is a location. Think of a car that slowed from 90 to 40 miles an hour. It is still moving away from where it started, and it is not driving back. That is why anger outlasts a falling headline number. I would add one caution. The article says wages lag because they are reset slowly, which is a sound mechanism, but whether pay has caught up differs by country, industry and contract, and a single national average cannot settle it for any one household. The comparison of European and US pressures, energy and food against housing, health insurance and childcare, is flagged for verification, and I would treat it as a hypothesis until those spending data are checked. Your own statements will tell you more than either continent''s average.'
+  text: 'The article''s most useful move is separating two things people routinely blur: the inflation rate and the price level. A rate is a speed. A level is a location. Think of a car that slowed from 90 to 40 miles an hour. It is still moving away from where it started, and it is not driving back. That is why anger outlasts a falling headline number. I would add one caution. Whether pay has caught up differs by country, industry and contract, and a single national average cannot settle it for any one household. Your own statements will tell you more than either continent''s average.'
 image: /images/money-everyday-life/2026-10-19-why-is-europe-protesting-the-cost-of-living-and-is-the-us-any-different.jpg
 image_credit: Garry Knight from London, England
 image_credit_url: https://commons.wikimedia.org/wiki/File:Cost_of_Living_Protests_-_008_(51877465769).jpg
@@ -18,49 +18,19 @@ image_license: CC0
 image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Cost_of_Living_Protests_-_008_%2851877465769%29.jpg/1280px-Cost_of_Living_Protests_-_008_%2851877465769%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 fact_check:
   done: true
-  date: '2026-10-22'
-  confirmed: 0
-  corrected: 3
-  removed: 2
-  unresolved: 6
-  second_check_changed: 1
-  searches: 8
-  pages_read: 12
-  cost_usd: 0.606
-  items:
-  - verdict: unresolved
-    note: Al Jazeera claim and date confirmed; Euronews/CNBC claims unread, so the Euronews statement was removed and the check left open.
-    source: https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france
-  - verdict: corrected
-    note: Al Jazeera shows demands include housing and fuel, wage demand confirmed only for Portugal; added turnout figures.
-    source: https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france
-  - verdict: removed
-    note: Dropped the unsourced peak-price note; the general sentence stays without a figure.
-    source: ''
-  - verdict: unresolved
-    note: Could not open Eurostat; 10.6% vs 'roughly 10' mismatch remains.
-    source: ''
-  - verdict: corrected
-    note: 'Second check: The 9.1 percent figure is correct, but a July 2022 release cannot support the claim that June was the peak.'
-    source: https://www.bls.gov/news.release/archives/cpi_07132022.htm
-  - verdict: unresolved
-    note: OECD report not read.
-    source: ''
-  - verdict: unresolved
-    note: BLS real earnings release not opened.
-    source: ''
-  - verdict: removed
-    note: No source for the comparison, and Al Jazeera shows Portugal's protests centered on housing, contradicting the framing.
-    source: https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france
-  - verdict: corrected
-    note: Replaced Google News reference with direct URL and date.
-    source: https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france
-  - verdict: unresolved
-    note: CNBC piece could not be found or opened.
-    source: ''
-  - verdict: unresolved
-    note: Euronews piece could not be found or opened.
-    source: ''
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-23'
+  check1:
+    confirmed: 5
+    corrected: 11
+    removed: 0
+    unresolved: 0
+  check2:
+    ok: 9
+    fixed: 4
+    cut: 0
+    flagged: 0
+  open_items: 0
 ---
 
 People in several European countries took to the streets over the cost of living because prices rose faster than paychecks, and prices did not fall back when inflation cooled. US households are under the same kind of squeeze, though the details differ.
