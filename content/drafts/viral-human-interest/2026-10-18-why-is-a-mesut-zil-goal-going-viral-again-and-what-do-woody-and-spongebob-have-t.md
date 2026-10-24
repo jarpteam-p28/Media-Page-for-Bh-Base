@@ -65,13 +65,13 @@ fact_check:
     source: ''
 ---
 
-A goal scored by the former Arsenal midfielder Mesut Özil is circulating online again, this time alongside images of Woody from *Toy Story* and SpongeBob SquarePants. [VERIFY: confirm against the opened Athletic piece. A Yahoo Sports snippet suggests the posts are AI recreations of the goal with cartoon characters as scorers, not images shown alongside it.] That much comes from the headline of a piece by The Athletic, the sports site owned by The New York Times, which says the goal is going viral "again (sort of)." [VERIFY: check the headline wording, publication date and ownership on the Athletic page itself.]
+A goal scored by the former Arsenal midfielder Mesut Özil is circulating online again, this time in AI-made videos in which cartoon and film characters, among them Woody from *Toy Story*, SpongeBob SquarePants, Shrek and El Chavo del 8, take Özil's place and re-enact the goal, according to [Fox Sports México](https://www.foxsports.com.mx/2026/10/16/mitico-gol-de-mesut-ozil-revive-gracias-a-la-ia-chavo-del-8-woody-y-sherk-toman-su-lugar/) and [Sopitas](https://www.sopitas.com/?p=1959836). The trend also drew a piece from The Athletic, the sports site owned by [The New York Times Company](https://en.wikipedia.org/wiki/The_Athletic), whose headline says the goal is going viral "again (sort of)." [VERIFY: The Athletic piece is paywalled and could not be opened; confirm its headline wording and publication date on the page itself.]
 
-The coverage this draft rests on is that headline and a one-line description. The specific goal, the format of the meme and the reason for the revival are not confirmed here. [VERIFY: which Özil goal the article covers, which club and year, and how Woody and SpongeBob are used in the posts.]
+The goal is the one Özil scored for Arsenal away at Ludogorets in the Champions League on 1 November 2016, the late winner in a 3-2 comeback, according to Fox Sports México and Sopitas. [Sky Sports](https://www.skysports.com/football/news/11670/10641000/ludogorets-2-3-arsenal-arsene-wengers-side-fight-back-from-two-goals-down-to-book-place-in-last-16) reported at the time that Özil lifted the ball over goalkeeper Milan Borjan, went past two defenders and slid it into an empty net. The reason for the revival, beyond the AI videos themselves, is not confirmed here.
 
 ## Who is Mesut Özil, and why would one of his goals travel?
 
-Özil is a German-born playmaker of Turkish descent who was part of Germany's squad that won the 2014 World Cup. [VERIFY: confirm he played in the 2014 final and the squad details.] He played for Werder Bremen, Real Madrid, Arsenal and Fenerbahçe, among other clubs, and announced his retirement in 2023. [VERIFY: club list, Arsenal years (2013–2021), and retirement date.]
+Özil is a German-born playmaker of Turkish descent who was part of Germany's squad that won the 2014 World Cup, and he played in the final. He played for Schalke 04, Werder Bremen, Real Madrid, Arsenal (2013–2021), Fenerbahçe and İstanbul Başakşehir, and announced his retirement in March 2023 ([career record](https://en.wikipedia.org/wiki/Mesut_%C3%96zil)).
 
 His reputation was built on passing rather than scoring. That tends to make his goals memorable, since they were rarer than his assists. It also made him a frequent subject of fan debate and humor, which is fertile ground for memes.
 
@@ -81,17 +81,20 @@ The phrase suggests the clip is not spreading as it did the first time. Old spor
 
 ## Why Woody and SpongeBob?
 
-Cartoon characters are a common template for internet jokes because readers recognize them instantly. A frame from *Toy Story* or *SpongeBob SquarePants* can be paired with a football clip to signal a reaction, such as disbelief, smugness or mock drama. Which version is being used here, and what it is meant to say, is not something this draft can state. [VERIFY: the exact meme format described by The Athletic.]
+Cartoon characters are a common template for internet jokes because readers recognize them instantly. In this case, according to Fox Sports México and Sopitas, the characters are not shown next to the clip: AI tools swap them in for Özil, so they appear to dribble past the defenders and score the goal themselves. Sopitas reports that people make them with a CapCut template tied to a TikTok trend, or with paid AI sites.
 
 ## Is the claim that the goal is "everywhere" accurate?
 
-No view counts, share totals or platform figures have been confirmed for this draft, so none are given. The only established point is that a reputable outlet considered the revival notable enough to explain. Anything beyond that is unconfirmed.
+No view counts, share totals or platform figures have been confirmed for this draft, so none are given. The only established point is that several outlets considered the trend notable enough to explain. Anything beyond that is unconfirmed.
 
 ## Where to get the full story
 
-The Athletic's original piece is the place to see which goal it is and how the joke works. Read it there before relying on anything in this summary.
+The Fox Sports México and Sopitas reports linked below describe the goal and how the videos are made, and The Athletic has its own piece on the trend. Read them before relying on anything in this summary.
 
 ## Sources
 
-- The Athletic / The New York Times, "Woody from Toy Story, SpongeBob and why a Mesut Özil goal is going viral again (sort of)," headline and description only, date [VERIFY]. https://news.google.com/rss/articles/CBMikAFBVV95cUxNRmt2QWpTNjhFa2piQVRmTkhQeUpqNWdEZmktM2Y1WllMRThXUEYtZFhEVlNZRnBEODYxZkRaa01SSlBSemc2cmJTemdERVNDNUlVX3NMMGV3dWNiN3Q4VEt1THA0bEZkbnctN3FlZFJ0QWYyb1lsRWxPcjJITnpoMElySEZOdkZfdlRVa1huWFU?oc=5
-- Career background on Özil: general public record, to be checked against an official source such as Arsenal FC or FIFA before publishing. [VERIFY: add URLs.]
+- Fox Sports México, "Mítico gol de Mesut Özil REVIVE gracias a la IA; Chavo del 8, Woody y Sherk toman su lugar," 16 October 2026. https://www.foxsports.com.mx/2026/10/16/mitico-gol-de-mesut-ozil-revive-gracias-a-la-ia-chavo-del-8-woody-y-sherk-toman-su-lugar/
+- Sopitas, report on the Özil AI goal videos. https://www.sopitas.com/?p=1959836
+- Sky Sports, "Ludogorets 2-3 Arsenal: Arsene Wenger's side fight back from two goals down to book place in last 16," 2 November 2016. https://www.skysports.com/football/news/11670/10641000/ludogorets-2-3-arsenal-arsene-wengers-side-fight-back-from-two-goals-down-to-book-place-in-last-16
+- Wikipedia, "Mesut Özil" (career record). https://en.wikipedia.org/wiki/Mesut_%C3%96zil
+- Wikipedia, "The Athletic" (ownership). https://en.wikipedia.org/wiki/The_Athletic
