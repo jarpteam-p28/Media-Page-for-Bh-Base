@@ -80,7 +80,7 @@ Europe was hit especially hard by energy. In October 2022, energy made the large
 
 What decides how a household feels is the gap between price growth and pay growth. If prices rise 15% over a few years and pay rises 10%, the household is worse off even though both numbers went up.
 
-This is why affordability anger can persist after headline inflation fades. Rent, food and utilities take a large share of a budget, so increases there are noticed first and forgiven last. Housing is a major piece. Lower-income households tend to spend a bigger share of their budgets on necessities, so they feel the same price increase more heavily. In BLS Consumer Expenditure Survey data for 2000, the lowest-income fifth of households put almost 30% of total spending toward housing, compared with 22% for the highest-income fifth ([BLS](https://www.bls.gov/opub/ted/2003/jun/wk4/art02.htm)).
+This is why affordability anger can persist after headline inflation fades. Rent, food and utilities take a large share of a budget, so increases there are noticed first and forgiven last. Housing is a major piece. Lower-income households tend to spend a bigger share of their budgets on necessities, so they feel the same price increase more heavily. In BLS Consumer Expenditure Survey data for 2024, the latest year published, housing took 41.6% of total spending for the lowest-income fifth of households, compared with 29.3% for the highest-income fifth. Food took 15.7% and 11.3% respectively ([BLS](https://www.bls.gov/cex/tables/calendar-year/mean-item-share-average-standard-error/cu-income-quintiles-before-taxes-2024.xlsx)).
 
 ## Is the US situation the same?
 
@@ -108,6 +108,6 @@ One concrete step: pull your bills for your three biggest spending categories (u
 - US Bureau of Labor Statistics, The Economics Daily, 9.1% consumer price rise over the year ended June 2022: https://www.bls.gov/opub/ted/2022/consumer-prices-up-9-1-percent-over-the-year-ended-june-2022-largest-increase-in-40-years.htm
 - US Bureau of Labor Statistics, Consumer Price Index news release, September 2026 (released 14 October 2026): https://www.bls.gov/news.release/archives/cpi_10142026.htm
 - US Bureau of Labor Statistics, CPI-U historical table (U.S. city average): https://www.bls.gov/regions/midwest/data/consumerpriceindexhistorical_us_table.pdf
-- US Bureau of Labor Statistics, The Economics Daily, spending shares by income quintile (June 2003; 2000 data): https://www.bls.gov/opub/ted/2003/jun/wk4/art02.htm
+- US Bureau of Labor Statistics, Consumer Expenditure Surveys, Table 1101, quintiles of income before taxes: annual expenditure means and shares, 2024: https://www.bls.gov/cex/tables/calendar-year/mean-item-share-average-standard-error/cu-income-quintiles-before-taxes-2024.xlsx
 - International Energy Agency, Gas Market Report, Q4-2022: https://www.iea.org/reports/gas-market-report-q4-2022
 - US Bureau of Labor Statistics, CPI Inflation Calculator: https://www.bls.gov/data/inflation_calculator.htm
