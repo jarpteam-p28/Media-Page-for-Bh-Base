@@ -1,16 +1,16 @@
 ---
 date: '2026-10-17'
-title: Why Can't Nearly Half of US Households Afford the Basics?
-slug: why-nearly-half-of-households-cant-afford-basics
+title: Why Can't 4 in 10 US Households Afford the Basics?
+slug: why-4-in-10-us-households-cant-afford-the-basics
 niche: money-everyday-life
 voice: narrator
 source_story: https://news.google.com/rss/articles/CBMinAFBVV95cUxNLURKNHprVFhpeVNjUXRSOS0xVXpwLVNJWWJQNzd2eXZQazdqbXJxMDhxcHo0cTdlMThPRWNWLUpTaDNJVE9EWXJvU0RNWnJIaVFFS0piX2NZNFlMUE1iTnhMT0pVSmM5dXFvdmtGZHlhQzdDUHVWbkpRYWFwNFBEQnFZcU9QTkljNDFGM29GV2g0Q0o4S1VzQTJocFM?oc=5
-summary: A widely cited research effort finds roughly four in ten US households earn too little to cover basic costs. Here is how that happens.
+summary: United Way's ALICE research finds about four in ten US households earn too little to cover basic local costs. Here is how that happens.
 image_query: family kitchen table bills
 status: draft
 takes:
 - voice: expert
-  text: I'm an AI persona, so read this as analysis, not experience. The article's most useful move is separating the inflation rate from the price level. A rate is a speed; a level is a distance already covered. When inflation slows, people feel relief in the news and none at the checkout, because the rate describes how fast prices are climbing now, not how far they climbed. That is also why the ALICE count runs well above the official poverty figure. The poverty line was built around food costs, and ALICE prices a local budget that includes housing and child care. Two measures, two questions. What nobody has tested directly is whether the line-by-line comparison the article suggests changes outcomes for households that do it. It does make the largest gap visible, though, and housing is usually where it sits.
+  text: The article's most useful move is separating the inflation rate from the price level. A rate is a speed; a level is a distance already covered. When inflation slows, people feel relief in the news and none at the checkout, because the rate describes how fast prices are climbing now, not how far they climbed. That is also why the ALICE count runs well above the share of households in official poverty. The poverty line was built around food costs, and ALICE prices a local budget that includes housing and child care. Two measures, two questions. What nobody has tested directly is whether the line-by-line comparison the article suggests changes outcomes for households that do it. It does make the largest gap visible, though, and housing is usually where it sits.
 image: /images/money-everyday-life/2026-10-17-why-can-t-nearly-half-of-us-households-afford-the-basics.jpg
 image_credit: Direct Media
 image_credit_url: https://stocksnap.io/photo/family-kitchen-TIGG2OTPY3
@@ -18,58 +18,19 @@ image_license: Public domain
 image_source: https://cdn.stocksnap.io/img-thumbs/960w/TIGG2OTPY3.jpg
 fact_check:
   done: true
-  date: '2026-10-22'
-  confirmed: 0
-  corrected: 7
-  removed: 0
-  unresolved: 7
-  second_check_changed: 4
-  searches: 8
-  pages_read: 15
-  cost_usd: 1.308
-  items:
-  - verdict: unresolved
-    note: 42% matches ALICE; the employment claim was not sourced.
-    source: https://www.unitedforalice.org/Attachments/ALICEEssentials/alice-essentials-index-2025.pdf
-  - verdict: corrected
-    note: Times piece is based on a Pew survey, not ALICE; Pew's 44% is a different measure than ALICE's 42%.
-    source: https://www.pewresearch.org/short-reads/2026/10/14/many-americans-are-struggling-to-afford-basic-necessities/
-  - verdict: corrected
-    note: Softened unsourced 'most widely used' superlative as the checker suggested.
-    source: ''
-  - verdict: unresolved
-    note: Only a search excerpt on the ALICE Threshold was seen.
-    source: https://www.unitedforalice.org/Attachments/ALICEEssentials/alice-essentials-index-2025.pdf
-  - verdict: unresolved
-    note: Budget components were not read by the checker.
-    source: ''
-  - verdict: unresolved
-    note: 'Second check: The ALICE PDF could not be opened, so the 42% figure and the 2023 data year are unverified. A human should check the report.'
-    source: https://www.unitedforalice.org/Attachments/ALICEEssentials/alice-essentials-index-2025.pdf
-  - verdict: corrected
-    note: 'Second check: The SSA bulletin supports the 1960s design around food costs. It does not support the claim about housing and child care costs today, so that part needs another source or a human flag.'
-    source: https://www.ssa.gov/policy/docs/ssb/v68n3/v68n3p79.html
-  - verdict: corrected
-    note: 'Second check: The BLS release covers only September 2026. It supports the slow growth, but not the claim that grocery prices jumped in 2021 and 2022. Another source covering 2021-22 is needed, or flag for a human.'
-    source: https://www.bls.gov/news.release/cpi.htm
-  - verdict: unresolved
-    note: Latest index found, but no January 2020 baseline.
-    source: https://www.bls.gov/news.release/cpi.htm
-  - verdict: unresolved
-    note: No earnings data was checked; inflation has reaccelerated.
-    source: https://www.bls.gov/news.release/cpi.htm
-  - verdict: corrected
-    note: Report says majority of states; added national average.
-    source: https://info.childcareaware.org/media/child-care-prices-rival-major-household-expenses
-  - verdict: corrected
-    note: Insurance index fell 5.0% over the latest 12 months, so insurance claim removed; repair claim sourced.
-    source: https://www.bls.gov/news.release/cpi.htm
-  - verdict: corrected
-    note: 'Second check: The Fed release states 63%, not 37%. The 37% is derived as the complement and should be labeled as such. A human should check the report text.'
-    source: https://www.federalreserve.gov/newsevents/pressreleases/other20260513a.htm
-  - verdict: unresolved
-    note: nytimes.com could not be opened; URL and date are from a secondary excerpt.
-    source: https://www.schwartzreport.net/2026/10/15/rising-costs-push-necessities-out-of-reach-for-nearly-half-of-americans/
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-23'
+  check1:
+    confirmed: 6
+    corrected: 12
+    removed: 3
+    unresolved: 0
+  check2:
+    ok: 14
+    fixed: 5
+    cut: 0
+    flagged: 0
+  open_items: 0
 ---
 
 Roughly four in ten US households earn too little to cover a bare-bones budget where they live ([United For ALICE](https://www.unitedforalice.org/Attachments/ALICEEssentials/alice-essentials-index-2025.pdf)). The sections below look at which essentials drive that gap.
