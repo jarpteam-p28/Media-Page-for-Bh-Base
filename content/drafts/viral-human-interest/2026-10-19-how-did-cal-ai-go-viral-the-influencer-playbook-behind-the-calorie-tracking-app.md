@@ -80,31 +80,29 @@ fact_check:
     source: https://app.dealroom.co/news/note/cal-ai-s-viral-playbook-from-one-influencer-story-post-to-a-10m-second-act
 ---
 
-Cal AI grew mainly through paid influencer posts, later supplemented by paid ads. According to a Dealroom write-up ([Dealroom](https://app.dealroom.co/news/note/cal-ai-s-viral-playbook-from-one-influencer-story-post-to-a-10m-second-act)), the push began with a single paid influencer story post. The "$10M second act" in the headline is not Cal AI revenue or funding: it is the amount raised by Persona, Yadegari's next venture, a personal AI assistant.
+Cal AI grew mainly through paid influencer posts. TechCrunch reported in October 2026 that the calorie-tracking app "exploded onto the internet thanks largely to" co-founder Zach Yadegari's strategy of paying a large number of influencers to post about it ([TechCrunch](https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/)). Yadegari has since launched Persona, an AI agent startup that TechCrunch says has already raised $10 million. That $10 million is Persona's funding, not Cal AI's revenue.
 
 ## What is Cal AI?
 
-Cal AI is a smartphone app that estimates the calories in a meal from a photo. The user snaps the plate, and the app returns calories and macronutrients (protein, carbohydrates and fat). [VERIFY: confirm from a source that the app reports protein, carbohydrates and fat; sources read confirm only photo-based calorie counting.] It was founded by Zach Yadegari and Henry Langmack, who were both 18 when TechCrunch profiled them in March 2025.
+Cal AI is a smartphone app that estimates the calories in a meal from a photo. The user snaps the plate, and the app logs calories and macros (protein, carbohydrates and fat) ([TechCrunch](https://techcrunch.com/2025/03/16/photo-calorie-app-cal-ai-downloaded-over-a-million-times-was-built-by-two-teenagers/)). When TechCrunch profiled the company in March 2025, its co-founders were Zach Yadegari and Henry Langmack, both 18, and Blake Anderson, 24.
 
 The pitch is speed. Older trackers made users search a database and type in each food. A photo shortcut removes most of that friction.
 
 ## How did one influencer post start it?
 
-The Dealroom headline credits one influencer story post as the starting point. A "story" is a post on Instagram or similar platforms that disappears after 24 hours. The point of the framing is that a small, cheap moment of attention can be enough to start a chain of sign-ups and copycat content.
-
-According to Dealroom, the post brought about 1,000 downloads, and roughly 100 of those became paying users. The influencer, who was documenting a weight-loss journey, is not named, and no date is given.
+According to TechCrunch, the first sign of traction came when one influencer's post about the app brought in roughly 1,000 new users over two days. The influencer is not named. The point of the story is that a small, cheap moment of attention can be enough to start a chain of sign-ups.
 
 ## What was the actual playbook?
 
-Reporting on Cal AI describes a strategy built on volume and paid deals. According to Dealroom, growth came from paid influencer posts rather than a user-generated-content army. Cal AI recruited creators at an exponential rate for about 18 months. Yadegari favored creators with tight communities and at least 50K followers, though views mattered more. He found that creators quoting a per-post fee would often accept the same sum for several videos or a guaranteed-views deal, which cut the cost per video. A separate group of creators was later recruited to make content for paid ads.
+Reporting on Cal AI describes a strategy built on volume and paid deals. Yadegari said the team responded to that first post by "paying as many people as possible to start posting for us." He told TechCrunch the team negotiated rates with influencers, promising set payouts for a certain scale of reach, and favored creators with "very tight communities."
 
 The mechanism is simple. The app's core trick can be shown in five seconds: photo in, calories out. That makes it unusually well suited to short video.
 
 ## How much money is involved?
 
-MyFitnessPal told TechCrunch in March 2026 that Cal AI had over $30 million in annual revenue and over 15 million downloads in under two years ([TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/)). That figure comes from the buyer, not from audited accounts, and earlier TechCrunch coverage noted it could not validate the founders' own claimed figures.
+MyFitnessPal told TechCrunch in March 2026 that Cal AI had over $30 million in annual revenue and over 15 million downloads in under two years ([TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/)). That figure comes from the buyer, not from audited accounts, and earlier TechCrunch coverage noted it could not validate the founders' own download and revenue claims.
 
-MyFitnessPal acquired Cal AI, announced in March 2026; the price was not disclosed ([TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/)).
+MyFitnessPal's acquisition of Cal AI was announced in March 2026; the terms were not disclosed ([TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/)).
 
 ## Does the app actually work?
 
@@ -114,11 +112,12 @@ Users should treat the numbers as rough guides, not measurements.
 
 ## What's the takeaway?
 
-The Cal AI story shows how a simple, demonstrable product can spread through creator content faster than through paid ads. It does not prove the approach works for every product, and the most dramatic numbers deserve a check against primary sources.
+The Cal AI story shows how a simple, demonstrable product can spread quickly through paid creator content. It does not prove the approach works for every product, and the most dramatic numbers deserve a check against primary sources.
 
-The next step for readers curious about the details: read the original Dealroom piece in full and compare its figures with what the company itself has said.
+The next step for readers curious about the details: read TechCrunch's reporting in full and compare its figures with what the company itself has said.
 
 ## Sources
 
-- Dealroom, October 2026, "Cal AI's viral playbook: from one influencer story post to a $10M second act." https://app.dealroom.co/news/note/cal-ai-s-viral-playbook-from-one-influencer-story-post-to-a-10m-second-act
-- Further named coverage on founders, revenue, and any acquisition: to be added by the reviewer after the [VERIFY] items are resolved.
+- TechCrunch, 15 October 2026, report on Cal AI's paid influencer strategy (Lucas Ropek). https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/
+- TechCrunch, 16 March 2025, profile of Cal AI and its teenage founders. https://techcrunch.com/2025/03/16/photo-calorie-app-cal-ai-downloaded-over-a-million-times-was-built-by-two-teenagers/
+- TechCrunch, 2 March 2026, report on MyFitnessPal's acquisition of Cal AI. https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/
