@@ -76,7 +76,7 @@ So individual variation is well documented. That is a finding about measurement,
 
 A rise in glucose after eating is normal. The body is supposed to do it, then bring levels back down. A [2019 multicenter study](https://scholarlycommons.henryford.com/endocrinology_articles/66) in *The Journal of Clinical Endocrinology & Metabolism* (Shah and colleagues) put CGMs on 153 healthy children and adults aged 7 to 80 and described what typical readings look like. The median participant spent 2.1% of the time, about 30 minutes a day, above 140 mg/dL.
 
-Whether smaller spikes lead to better health in people with normal metabolism has not been established. Research suggests that sustained high glucose matters for people with diabetes. A [2026 review in *JAMA Internal Medicine*](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/10.1001/jamainternmed.2026.2772) found [no scientific evidence](https://www.gu.se/en/news/no-evidence-that-continuous-glucose-monitors-improve-health-in-people-without-diabetes) that CGM use improves health or prevents disease in people without diabetes.
+Whether smaller spikes lead to better health in people with normal metabolism has not been established. Research suggests that sustained high glucose matters for people with diabetes. A [2026 review in *JAMA Internal Medicine*](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/10.1001/jamainternmed.2026.2772) by Dower and colleagues found only limited and indirect evidence supporting CGM for people with prediabetes or obesity, or with type 2 diabetes not treated with glucose-lowering medicine, and concluded that CGM should be used for a specific patient problem rather than by default. In a [press release](https://www.gu.se/en/news/no-evidence-that-continuous-glucose-monitors-improve-health-in-people-without-diabetes), the University of Gothenburg, home of one of the authors, summed up the review as finding no scientific evidence that CGM improves health or prevents disease in healthy people.
 
 ## Can a CGM help anyone without diabetes?
 
@@ -90,9 +90,9 @@ There are several, and they are practical.
 
 - **Accuracy.** CGMs measure glucose in tissue fluid, not blood. Readings lag behind blood by a few minutes; Dexcom puts the average for its sensors at [about 4 minutes](https://www.dexcom.com/en-GB/faqs/sensor-vs-meter-readings).
 - **Skin reactions.** Skin irritation was among the adverse events reported in the [Stelo clinical study](https://www.fda.gov/news-events/press-announcements/fda-clears-first-over-counter-continuous-glucose-monitor).
-- **Interference.** Some substances can skew certain sensors. Dexcom warns that acetaminophen above the maximum adult dose [can make some of its sensors read high](https://www.dexcom.com/interference), and Abbott warns that more than 1,000 mg of vitamin C a day [may falsely raise Lingo readings](https://www.hellolingo.com/safety-information). Check the label for your specific device.
+- **Interference.** Some substances can skew certain sensors. Dexcom warns that acetaminophen above the maximum adult dose [can make its G6 and G7 sensors read high](https://www.dexcom.com/interference), and Abbott warns that more than 1,000 mg of vitamin C a day [may falsely raise Lingo readings](https://www.hellolingo.com/safety-information). Check the label for your specific device.
 - **Anxiety.** Constant numbers can push some people toward rigid eating. Anyone with a history of disordered eating should talk to a clinician before trying one.
-- **Cost.** Sensors are sold in small batches and the expense adds up. In October 2026, [Dexcom's Stelo site](https://www.stelo.com/en-us) listed a monthly subscription at $89, and [Abbott's Lingo site](https://www.hellolingo.com/) listed a two-week, one-sensor plan at $54.
+- **Cost.** Sensors are sold in small batches and the expense adds up. In October 2026, [Dexcom's Stelo site](https://www.stelo.com/en-us/buy-stelo-one-time) listed a one-month supply of two sensors at $99 as a one-time purchase, or $89 a month on a subscription, and [Abbott's Lingo site](https://www.hellolingo.com/) listed a two-week, one-sensor plan at $54.
 
 A CGM also cannot diagnose diabetes; Lingo's labeling says it [must not be used for diagnosis](https://www.hellolingo.com/safety-information). [Fasting glucose, A1C, or an oral glucose tolerance test](https://www.cdc.gov/diabetes/diabetes-testing/index.html), ordered by a clinician, do that. If you have [symptoms](https://www.cdc.gov/diabetes/signs-symptoms/index.html) such as unusual thirst, frequent urination, or unexplained fatigue, those tests are the route, not a consumer sensor.
 
@@ -116,5 +116,5 @@ If the curiosity is strong, bring it to a clinician first. Ask whether your fami
 - Abbott Lingo safety information: https://www.hellolingo.com/safety-information
 - Dexcom, interfering substances: https://www.dexcom.com/interference
 - Dexcom, sensor vs. meter readings FAQ: https://www.dexcom.com/en-GB/faqs/sensor-vs-meter-readings
-- Stelo and Lingo product pages (prices, October 2026): https://www.stelo.com/en-us ; https://www.hellolingo.com/
+- Stelo and Lingo product pages (prices, October 2026): https://www.stelo.com/en-us/buy-stelo-one-time ; https://www.hellolingo.com/
 - CDC, diabetes testing and symptoms: https://www.cdc.gov/diabetes/diabetes-testing/index.html ; https://www.cdc.gov/diabetes/signs-symptoms/index.html
