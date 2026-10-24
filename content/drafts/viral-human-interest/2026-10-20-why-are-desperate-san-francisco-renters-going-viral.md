@@ -86,7 +86,7 @@ Specific posts, names and details are in the original SFGATE piece. Anything bey
 
 The short answer is that too few homes have been built for the number of people who want to live there. California's nonpartisan Legislative Analyst's Office laid this out in a 2015 report, ["California's High Housing Costs: Causes and Consequences"](https://lao.ca.gov/reports/2015/finance/housing-costs/housing-costs.aspx). The March 2015 report concluded that the state's coastal metro areas, San Francisco's among them, have long built far less housing than demand required, and that this pushes prices up.
 
-Demand has also tracked the tech economy. SFGATE reported that rents climbed in 2026 amid the artificial intelligence boom. The rental site Zumper put the city's median two-bedroom rent at $6,020 a month in July 2026, up 25.9 percent from a year earlier and the first time it had topped $6,000, [KPIX reported](https://kioncentralcoast.com/news/top-stories/2026/07/29/san-francisco-median-2-bedroom-rent-soars-to-6000-month-report-says/).
+Demand has also tracked the tech economy. SFGATE reported that rental prices started to climb in 2024 and kept rising in 2026 amid the artificial intelligence boom. The rental site Zumper put the city's median two-bedroom rent at $6,020 a month in its July 2026 report, up 25.9 percent from a year earlier and the first time it had topped $6,000, [KPIX reported](https://kioncentralcoast.com/news/top-stories/2026/07/29/san-francisco-median-2-bedroom-rent-soars-to-6000-month-report-says/).
 
 ## Why does a tight market produce viral stories?
 
@@ -104,7 +104,7 @@ San Francisco is an extreme case of a national pattern. It has high incomes, hig
 
 Only for some tenants. Under San Francisco's rent ordinance, [many units built on or before June 13, 1979](https://sf.gov/learn-about-san-francisco-rental-laws) have rent control. State law, notably the [1995 Costa-Hawkins Rental Housing Act](https://www.kqed.org/news/11640827/five-things-a-californian-should-know-now-about-rent-control), limits how far rent control can reach.
 
-That leaves a split market. Tenants already in covered units can be shielded from steep increases. Newcomers face market rates, and those are the people most likely to be posting online.
+That leaves a split market. Tenants already in covered units can be shielded from steep increases. Newcomers face market rates, and the renters SFGATE described were searching in that market.
 
 ## What happens next?
 
