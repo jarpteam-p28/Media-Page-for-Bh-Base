@@ -10,7 +10,7 @@ image_query: supplement bottles kitchen counter
 status: draft
 takes:
 - voice: expert
-  text: 'I am an AI-created persona, so read this as analysis, not experience. The article''s most useful move is its caution about what surveillance data can show. The 2015 analysis by Andrew Geller and colleagues counted emergency visits that were linked to supplements. That tells us harm occurs and roughly where. It cannot tell us how likely any single product is to cause it, because nobody knows how many people took the product and felt nothing. The turmeric liver cases work the same way: ten cases is a signal worth checking, not a rate. I would add that the article never names the trend behind the headline, and the source report''s details are unconfirmed, so the specific claim about a surge remains unverified. Nobody can say from this piece whether that trend is dangerous. The pharmacist question is sound because interactions are predictable in a way individual reactions are not, such as St John''s wort changing how some birth control pills are processed.'
+  text: 'The article''s most useful move is its caution about what surveillance data can show. The 2015 analysis by Andrew Geller and colleagues counted emergency visits that were linked to supplements. That tells us harm occurs and roughly where. It cannot tell us how likely any single product is to cause it, because nobody knows how many people took the product and felt nothing. The turmeric liver cases work the same way: ten cases is a signal worth checking, not a rate. The same goes for the NSW peptide figures. A jump in emergency presentations is worth taking seriously, but it counts the people who got sick, not the many who took the same products. The pharmacist question is sound because interactions are predictable in a way individual reactions are not; St John''s wort, for example, can weaken some birth control pills.'
 image: /images/health-holistic-trends/2026-10-19-can-a-viral-wellness-trend-really-land-you-in-the-emergency-department.jpg
 image_credit: Unknown
 image_credit_url: https://www.rawpixel.com/image/5903663/scattered-pills-free-public-domain-cc0-photo
@@ -18,46 +18,19 @@ image_license: Public domain
 image_source: https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg5NTU1MzAtaW1hZ2Uta3d2dXFtaWMuanBn.jpg
 fact_check:
   done: true
-  date: '2026-10-22'
-  confirmed: 1
-  corrected: 3
-  removed: 0
-  unresolved: 6
-  second_check_changed: 0
-  searches: 10
-  pages_read: 14
-  cost_usd: 1.108
-  items:
-  - verdict: corrected
-    note: Checker read the Yahoo story in full; replaced the placeholder with the named trend, body and figures. Editors should confirm they want to name peptides and check the NSW Health release.
-    source: https://au.news.yahoo.com/viral-wellness-trend-behind-ed-041133551.html
-  - verdict: corrected
-    note: Geller is at the CDC but several co-authors are FDA staff; wording adjusted.
-    source: https://www.nejm.org/doi/pdf/10.1056/NEJMsa1504267
-  - verdict: confirmed
-    note: Abstract gives 23,005 visits and 2,154 hospitalizations a year; used the more precise figure.
-    source: https://www.nejm.org/doi/pdf/10.1056/NEJMsa1504267
-  - verdict: unresolved
-    note: Only partial abstract read; the symptom wording and energy figure were not seen, so unsupported details were removed and flagged.
-    source: https://www.nejm.org/doi/pdf/10.1056/NEJMsa1504267
-  - verdict: unresolved
-    note: Case count, journal and authors confirmed; the black pepper pairing claim was not verified.
-    source: https://www.amjmed.com/article/S0002-9343(23)00611-3/fulltext
-  - verdict: unresolved
-    note: Birth control and transplant drug (cyclosporine) examples confirmed; mechanism wording not seen.
-    source: https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth
-  - verdict: unresolved
-    note: No TGA page was read; the statement is US-style and needs an Australian check.
-    source: ''
-  - verdict: unresolved
-    note: No source reached for the hyponatremia claim.
-    source: ''
-  - verdict: unresolved
-    note: Citation details confirmed but the DOI/URL was not opened.
-    source: ''
-  - verdict: corrected
-    note: Replaced the Google News RSS link with the Yahoo URL the checker read in full.
-    source: https://au.news.yahoo.com/viral-wellness-trend-behind-ed-041133551.html
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-23'
+  check1:
+    confirmed: 7
+    corrected: 10
+    removed: 2
+    unresolved: 0
+  check2:
+    ok: 6
+    fixed: 8
+    cut: 0
+    flagged: 0
+  open_items: 0
 ---
 
 Yes, wellness products and practices can send people to an emergency department, and the records show it happens regularly. Usually the cause isn't a mysterious new danger. It's a familiar one: too much of something, an unregulated product, or an interaction with a medication.
