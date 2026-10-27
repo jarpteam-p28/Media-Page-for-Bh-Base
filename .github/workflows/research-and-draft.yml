@@ -55,13 +55,18 @@ jobs:
       # Save the list of stories already drafted straight to main (it's a log, not
       # content), so tomorrow's run skips them even while today's PR waits for review.
       - name: Remember which stories were covered
+        id: covered
         run: |
           git config user.name "media-pipeline-bot"
           git config user.email "actions@github.com"
           git add content/state/covered.json
           git diff --cached --quiet && exit 0
           git commit -m "Log stories covered on $(date +%Y-%m-%d)"
-          git push origin HEAD:main || echo "::warning::Could not save the covered-stories log; tomorrow may repeat a story."
+          if git push origin HEAD:main; then
+            echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::Could not save the covered-stories log; tomorrow may repeat a story."
+          fi
 
       # `with:` inputs are not run through a shell, so $(date ...) would be
       # passed literally (and break the branch name). Compute it here instead.
@@ -79,3 +84,13 @@ jobs:
           add-paths: |
             content/drafts/**
             content/images/**
+
+      # If the drafts never reached a PR, un-mark today's stories so a later run can
+      # write them again (otherwise they'd count as "covered" without Pablo seeing them).
+      - name: Undo the covered-stories log if the PR wasn't created
+        if: failure() && steps.covered.outputs.sha != ''
+        run: |
+          git fetch -q origin main
+          git checkout -q -B undo origin/main
+          git revert --no-edit "${{ steps.covered.outputs.sha }}"
+          git push origin HEAD:main
