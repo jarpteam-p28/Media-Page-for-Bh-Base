@@ -19,9 +19,12 @@ These fields are written into the draft's frontmatter:
 Sources, in order:
   1. Pexels (better photos) -- only if PEXELS_API_KEY is set. Free key at
      https://www.pexels.com/api/ ; add it as a repo secret named PEXELS_API_KEY.
-  2. Openverse (api.openverse.org) -- free, no key. Only images whose license
+  2. Wikimedia Commons (commons.wikimedia.org) -- free, no key. Only CC0,
+     public-domain, CC BY and CC BY-SA photos (all allow commercial use and
+     modification), landscape, at least 1000px wide.
+  3. Openverse (api.openverse.org) -- free, no key. Only images whose license
      allows commercial use AND modification are requested, so resizing and
-     cropping are fine.
+     cropping are fine. Often unreachable from GitHub's runners, so it's last.
 
 If nothing usable is found the draft is left without an image; the site shows a
 plain colored block instead. You can always swap the photo by hand in the PR.
@@ -32,6 +35,7 @@ Usage: python3 agents/image_agent.py            (all drafts missing an image)
 import io
 import os
 import pathlib
+import re
 import sys
 import time
 
@@ -78,6 +82,58 @@ def from_pexels(query: str):
         }
         for p in resp.json().get("photos", [])
     ]
+
+
+COMMONS_LICENSE_OK = re.compile(r"^(cc0|public domain|pd|cc[- ]by(-sa)?[- ]?\d)", re.IGNORECASE)
+# Skip pictures of identifiable or famous people (a real person must never illustrate a
+# story they have nothing to do with) and things that aren't photos (charts, maps, logos).
+COMMONS_SKIP = re.compile(
+    r"portrait|president|politician|minister|parliament|governor|senator|mayor|official photo|"
+    r"celebrit|actor|actress|singer|musician|athlete|footballer|player|people of|people by name|"
+    r"chart|graph|diagram|map|logo|infographic|screenshot|poster|flag|coat of arms|signature",
+    re.IGNORECASE,
+)
+
+
+def from_wikimedia(query: str):
+    resp = requests.get(
+        "https://commons.wikimedia.org/w/api.php",
+        params={
+            "action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
+            "gsrlimit": 10, "gsrsearch": f"{query} filetype:bitmap",
+            "prop": "imageinfo", "iiprop": "url|extmetadata|size|mime|commonmetadata", "iiurlwidth": MAX_WIDTH,
+        },
+        headers=HEADERS,
+        timeout=20,
+    )
+    resp.raise_for_status()
+    pages = sorted(resp.json().get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 99))
+    found = []
+    for p in pages:
+        info = p["imageinfo"][0]
+        meta = info.get("extmetadata", {})
+        license_name = meta.get("LicenseShortName", {}).get("value", "")
+        # Landscape photos only: they fill the site's wide photo slots without awkward crops.
+        if not COMMONS_LICENSE_OK.match(license_name) or info.get("width", 0) < 1000 or info["width"] < info["height"] * 1.2:
+            continue
+        if info.get("mime") != "image/jpeg":  # real photos are JPEGs; charts and scans usually aren't
+            continue
+        # Real photos carry the camera's make/model; charts, infographics and renders don't.
+        if not any(m.get("name") in ("Make", "Model") for m in info.get("commonmetadata", [])):
+            continue
+        restrictions = meta.get("Restrictions", {}).get("value", "")
+        about = " ".join([p.get("title", ""), meta.get("Categories", {}).get("value", ""),
+                          re.sub(r"<[^>]+>", " ", meta.get("ImageDescription", {}).get("value", ""))])
+        if "personality" in restrictions or "trademark" in restrictions or COMMONS_SKIP.search(about):
+            continue
+        artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip() or "Unknown"
+        found.append({
+            "download": info["thumburl"],
+            "image_credit": artist[:80],
+            "image_credit_url": info["descriptionurl"],
+            "image_license": license_name,
+        })
+    return found
 
 
 def from_openverse(query: str):
@@ -143,7 +199,7 @@ def add_image(path: pathlib.Path):
     query = fm.get("image_query") or fm.get("title", "")
     dest = IMAGES_DIR / path.parent.name / f"{path.stem}.jpg"
     for q in broader_queries(query):
-        for source in (from_pexels, from_openverse):
+        for source in (from_pexels, from_wikimedia, from_openverse):
             try:
                 options = source(q)
             except Exception as e:  # a photo is nice to have, never worth failing the run
