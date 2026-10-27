@@ -1,11 +1,11 @@
 ---
 date: '2026-10-18'
-title: Why Is a 2016 Mesut Özil Goal Going Viral? AI Videos Put Woody, Shrek and El Chavo in His Place
-slug: mesut-ozil-2016-goal-ai-videos-woody-shrek
+title: Why Is a Mesut Özil Goal Going Viral Again? Woody, SpongeBob and the AI Videos Behind It
+slug: mesut-ozil-goal-viral-again-woody-spongebob-ai
 niche: viral-human-interest
 voice: narrator
-source_story: https://news.google.com/rss/articles/CBMikAFBVV95cUxNRmt2QWpTNjhFa2piQVRmTkhQeUpqNWdEZmktM2Y1WllMRThXUEYtZFhEVlNZRnBEODYxZkRaa01SSlBSemc2cmJTemdERVNDNUlVX3NMMGV3dWNiN3Q4VEt1THA0bEZkbnctN3FlZFJ0QWYyb1lsRWxPcjJITnpoMElySEZOdkZfdlRVa1huWFU?oc=5
-summary: AI videos are recreating Mesut Özil's 2016 winner for Arsenal with cartoon characters such as Woody, Shrek and El Chavo del 8 as the scorer. Here is what's confirmed, and what isn't.
+source_story: https://www.nytimes.com/athletic/7696023/2026/10/16/mesut-ozil-ai-goal-woody-spongebob/
+summary: AI videos are recreating Mesut Özil's 2016 winner for Arsenal with characters such as Woody, Shrek and SpongeBob as the scorer. Here is what's confirmed, and what isn't.
 image_query: football stadium crowd phone
 status: draft
 takes:
@@ -53,10 +53,10 @@ fact_check:
     fixed: 5
     cut: 1
     flagged: 1
-  open_items: 1
+  open_items: 0
 ---
 
-A goal scored by the former Arsenal midfielder Mesut Özil is circulating online again, this time in AI-made videos in which cartoon and film characters take Özil's place and re-enact the goal. [Fox Sports México](https://www.foxsports.com.mx/2026/10/16/mitico-gol-de-mesut-ozil-revive-gracias-a-la-ia-chavo-del-8-woody-y-sherk-toman-su-lugar/) names Woody from *Toy Story*, El Chavo del 8 and Shrek, and [Sopitas](https://www.sopitas.com/?p=1959836) refers to versions featuring SpongeBob (Bob Esponja), Shrek and El Chavo del 8. The trend also drew a piece from The Athletic, the sports site owned by [The New York Times Company](https://en.wikipedia.org/wiki/The_Athletic), whose headline says the goal is going viral "again (sort of)." [VERIFY: The Athletic piece is paywalled and could not be opened; confirm its headline wording and publication date on the page itself.]
+A goal scored by the former Arsenal midfielder Mesut Özil is circulating online again, this time in AI-made videos in which cartoon and film characters take Özil's place and re-enact the goal. [Fox Sports México](https://www.foxsports.com.mx/2026/10/16/mitico-gol-de-mesut-ozil-revive-gracias-a-la-ia-chavo-del-8-woody-y-sherk-toman-su-lugar/) names Woody from *Toy Story*, El Chavo del 8 and Shrek, and [Sopitas](https://www.sopitas.com/?p=1959836) refers to versions featuring SpongeBob (Bob Esponja), Shrek and El Chavo del 8. The trend also drew [a piece from The Athletic](https://www.nytimes.com/athletic/7696023/2026/10/16/mesut-ozil-ai-goal-woody-spongebob/), the sports site owned by [The New York Times Company](https://en.wikipedia.org/wiki/The_Athletic), published on Oct. 16, 2026 under the headline "Woody from Toy Story, SpongeBob and why a Mesut Ozil goal is going viral again (sort of)". It lists Shrek, SpongeBob SquarePants, Walter White from *Breaking Bad* and Uncle Phil from *The Fresh Prince of Bel-Air* among the characters shown scoring the goal.
 
 The goal is the one Özil scored for Arsenal away at Ludogorets in the Champions League on 1 November 2016, the winner in a 3-2 victory, according to Fox Sports México and Sopitas. [Sky Sports](https://www.skysports.com/football/news/11670/10641000/ludogorets-2-3-arsenal-arsene-wengers-side-fight-back-from-two-goals-down-to-book-place-in-last-16) reported at the time that Arsenal had come back from two goals down, and that three minutes from time Özil lifted the ball over goalkeeper Milan Borjan, went round two defenders and slid it into an empty net. The reason for the revival, beyond the AI videos themselves, is not confirmed here.
 
@@ -90,4 +90,5 @@ The Fox Sports México and Sopitas reports linked below describe the goal and ho
 - Anadolu Agency, profile of Mesut Özil on his move to Fenerbahçe, 25 January 2021. https://aa.com.tr/en/sports/profile-world-class-player-at-fenerbahce-mesut-ozil/2122130
 - Sports Illustrated, tactical analysis of the Germany-Argentina 2014 World Cup final, 14 July 2014. https://www.si.com/soccer/2014/07/14/germany-argentina-world-cup-final-tactics
 - CBS Sports, "Mesut Ozil retires: Former Arsenal, Real Madrid and Germany star announces 'it's time to leave the big stage'," 22 March 2023. https://www.cbssports.com/soccer/news/mesut-ozil-retires-former-arsenal-real-madrid-and-germany-star-announces-its-time-to-leave-the-big-stage
+- The Athletic, "Woody from Toy Story, SpongeBob and why a Mesut Ozil goal is going viral again (sort of)," by Eduardo Tansley, 16 October 2026 (updated 17 October 2026). https://www.nytimes.com/athletic/7696023/2026/10/16/mesut-ozil-ai-goal-woody-spongebob/
 - Wikipedia, "The Athletic" (ownership). https://en.wikipedia.org/wiki/The_Athletic
