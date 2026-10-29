@@ -61,7 +61,7 @@ None of these steps fix inflation, but each one gives a budget more room.
 - **Find the three biggest line items.** For most households that means rent or mortgage, food and transportation. Look at the last two months of bank or card statements and total each one.
 - **Shift food spending toward the grocery store.** In September, restaurant prices rose 3.5% over the year and grocery prices 1.8%, per the BLS. Long told CNN many families are trading down to store brands and eating a little less meat to cover their bills.
 - **Price-check gas before filling up.** With prices drifting down slowly, stations near each other can differ.
-- **Stock up on shelf-stable staples while groceries are flat.** If diesel costs do reach food prices, as economists told CNN they might, buying a few weeks of rice, beans, canned goods or frozen vegetables now can soften the next increase. Buy only what will actually get used.
+- **Stock up on shelf-stable staples while groceries are flat.** If diesel costs do reach food prices, as CNN reported economists expect they could, buying a few weeks of rice, beans, canned goods or frozen vegetables now can soften the next increase. Buy only what will actually get used.
 - **Look at any debt with a rate that can change.** CNN reported that the September data could push the Federal Reserve toward raising interest rates. Credit cards and other variable-rate debt usually follow. Paying down the highest-rate balance first, or calling the card company to ask about a lower rate, can save money either way.
 
 ## What should a reader watch next?
