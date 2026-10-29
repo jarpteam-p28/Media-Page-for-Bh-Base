@@ -38,7 +38,7 @@ According to [Delta's own account](https://news.delta.com/curiosity-career-delta
 - drones and flight simulators at Flight Works Alabama
 - a look at the advanced manufacturing program at Bishop State Community College
 
-Before flying home, they heard from a panel of Delta and Airbus leaders and were paired with mentors. [Airbus's write-up](https://www.airbus.com/en/newsroom/stories/2026-10-airbus-delta-collaborate-for-the-26th-annual-dream-flight) describes the same four activities.
+Before heading home, they heard from a panel of Delta and Airbus leaders at Bishop State. Delta says the program also pairs students with mentors. [Airbus's write-up](https://www.airbus.com/en/newsroom/stories/2026-10-airbus-delta-collaborate-for-the-26th-annual-dream-flight) lists four similar experiences.
 
 Kurt Ford, Delta's managing director of flight training, described the mood on board to Atlanta News First: "It's a little hectic on the plane. The kids are excited."
 
