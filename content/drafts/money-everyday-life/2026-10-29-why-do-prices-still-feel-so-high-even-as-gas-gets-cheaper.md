@@ -42,7 +42,7 @@ A household can see gas tick down and still be further behind than a year ago.
 
 A little. The U.S. Energy Information Administration's [weekly survey](https://www.eia.gov/petroleum/gasdiesel/) put the average price of regular gasoline at $4.331 a gallon in the week of October 12, 2026, and $4.269 in the week of October 26. That is a drop of about six cents. The same survey shows the October 26 price was still $1.234 a gallon higher than a year earlier.
 
-Diesel is moving the other way. The EIA's average on-highway diesel price rose from $6.179 a gallon on October 12 to $6.352 on October 26. That matters even for people who never buy diesel. CNN reported that economists expect sharply higher diesel costs could push up food prices, since trucks carry most of what ends up on store shelves.
+Diesel is moving the other way. The EIA's average on-highway diesel price rose from $6.179 a gallon on October 12 to $6.352 on October 26. That matters even for people who never buy diesel. CNN reported that economists expect sharply higher diesel prices could push up food costs.
 
 ## Why do surveys say people feel both better and worse?
 
