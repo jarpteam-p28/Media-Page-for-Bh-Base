@@ -33,12 +33,12 @@ The flight left Hartsfield-Jackson Atlanta International Airport on Tuesday, Oct
 
 According to [Delta's own account](https://news.delta.com/curiosity-career-deltas-dream-flight-continues-build-aviation-talent-pipeline), the students spent the day in Mobile rotating through four activities:
 
-- a tour of the Airbus A320 final assembly line
+- a tour of the Airbus A320 final assembly line, with an aircraft-manufacturing scavenger hunt
 - aviation challenges at the Old Canteen Center
 - drones and flight simulators at Flight Works Alabama
 - a look at the advanced manufacturing program at Bishop State Community College
 
-Before flying home, they heard from a panel of Delta and Airbus leaders and were paired with mentors. [Airbus's write-up](https://www.airbus.com/en/newsroom/stories/2026-10-airbus-delta-collaborate-for-the-26th-annual-dream-flight) adds an aircraft-manufacturing scavenger hunt to the list.
+Before flying home, they heard from a panel of Delta and Airbus leaders and were paired with mentors. [Airbus's write-up](https://www.airbus.com/en/newsroom/stories/2026-10-airbus-delta-collaborate-for-the-26th-annual-dream-flight) describes the same four activities.
 
 Kurt Ford, Delta's managing director of flight training, described the mood on board to Atlanta News First: "It's a little hectic on the plane. The kids are excited."
 
@@ -54,7 +54,7 @@ The coverage points to a few reasons.
 
 The first is the story itself. A child who picked a dream at 7, during the pandemic, and five years later got to try it out on a real airliner is an easy story to root for.
 
-The second is who was around him. Delta frames the program around representation. Keyra Lynn Johnson, Delta's chief diversity, equity, inclusion and social impact officer, said in the company's account that "representation can be a powerful catalyst for unlocking potential, especially when students see people who look like them."
+The second is who was around him. Delta's account stresses representation. Keyra Lynn Johnson, Delta's chief diversity, equity, inclusion and social impact officer, said in the company's account that "representation can be a powerful catalyst for unlocking potential, especially when students see people who look like them."
 
 The third is that the program has a track record. Two pilots who flew on the very first DREAM Flight, at age 12, now fly for Delta as first officers, according to [Airbus](https://www.airbus.com/en/newsroom/stories/2026-10-airbus-delta-collaborate-for-the-26th-annual-dream-flight). William is the same age they were.
 
