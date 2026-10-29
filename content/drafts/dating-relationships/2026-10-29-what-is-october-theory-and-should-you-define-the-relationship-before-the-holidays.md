@@ -27,7 +27,7 @@ The dating version builds on that. A [blog post from the dating company NexSpark
 
 ## How is that different from cuffing season and the talking stage?
 
-Cuffing season is the older idea. The Daily Dot cites Merriam-Webster's definition: "a period of time where single people begin looking for short-term partnerships to pass the colder months of the year." The talking stage is the early, undefined stretch of texting and dates before anyone commits, a phase described in pieces such as [one from Glam](https://glam.com/921945/what-does-mean-talking-stage).
+Cuffing season is the older idea. In 2024, the Daily Dot quoted Merriam-Webster's description of it: "a period of time where single people begin looking for short-term partnerships to pass the colder months of the year." The talking stage is the early, undefined stretch of texting and dates before anyone commits, a phase described in pieces such as [one from Glam](https://glam.com/921945/what-does-mean-talking-stage).
 
 October Theory sits between the two. It is about what happens to a talking stage or a situationship when the season changes.
 
