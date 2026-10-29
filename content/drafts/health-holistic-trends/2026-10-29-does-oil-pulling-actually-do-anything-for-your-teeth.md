@@ -17,7 +17,7 @@ Oil pulling, swishing a spoonful of oil around the mouth for several minutes and
 
 ## Why is oil pulling in the news again?
 
-On October 28, 2026, CNN examined the trend under the headline [“‘Oil pulling’: Natural, stronger mouthwash or waste of time?”](https://www.cnn.com/2026/10/28/health/oil-pulling-wellness) [VERIFY: the CNN article's full text could not be loaded for this draft, so no claims or quotes from it are used here; a human should read it and confirm its conclusion about toothpaste.]
+On October 28, 2026, CNN examined the trend under the headline [“‘Oil pulling’: Natural, stronger mouthwash or waste of time?”](https://www.cnn.com/2026/10/28/health/oil-pulling-wellness)
 
 The practice is not new, and it keeps returning through short videos and wellness posts.
 
@@ -27,7 +27,7 @@ The method is simple: a spoonful of coconut, sesame or another edible oil, swish
 
 ## What does the research actually show?
 
-A large review by Jong, Ooi and Teoh, was [published in the *International Journal of Dental Hygiene*](https://pubmed.ncbi.nlm.nih.gov/37635453/) (online in 2023, in print in 2024). It gathered 25 randomized trials with 1,184 participants and pooled 21 of them.
+A large review by Jong, Ooi and Teoh was [published in the *International Journal of Dental Hygiene*](https://pubmed.ncbi.nlm.nih.gov/37635453/) (online in 2023, in print in 2024). It gathered 25 randomized trials with 1,184 participants and pooled 21 of them.
 
 The findings were mixed:
 
@@ -49,7 +49,7 @@ The ADA's consumer site, [MouthHealthy](https://www.mouthhealthy.org/all-topics-
 
 For most people, the main risk is indirect. Time spent swishing oil is not a substitute for brushing, flossing or dental checkups, and a problem like a toothache or bleeding gums needs a dentist, not a home rinse.
 
-There is also a rare but documented direct risk. Oil that is accidentally breathed into the lungs can cause a condition called exogenous lipoid pneumonia. A [2015 report in *BMC Pulmonary Medicine*](https://pubmed.ncbi.nlm.nih.gov/26518258/) described two people, a 66-year-old man and a 38-year-old woman, who developed it after months of regular sesame oil pulling. A [2018 report in *Monaldi Archives for Chest Disease*](https://www.monaldi-archives.org/index.php/macd/article/view/922) described two women, both with a history of tongue cancer, whose pneumonia did not clear until they stopped oil pulling and had their lungs washed out. Those authors advised that people at risk of choking or inhaling liquids be told about this risk.
+There is also a rare but documented direct risk. Oil that is accidentally breathed into the lungs can cause a condition called exogenous lipoid pneumonia. A [2015 report in *BMC Pulmonary Medicine*](https://pubmed.ncbi.nlm.nih.gov/26518258/) described two people, a 66-year-old man and a 38-year-old woman, who developed it after months of regular sesame oil pulling. A [2018 report in *Monaldi Archives for Chest Disease*](https://www.monaldi-archives.org/index.php/macd/article/view/922) described two women, both with a history of tongue cancer, whose pneumonia would not clear and was traced to oil pulling. Both stopped the practice and were treated with repeated washing out of the lungs. Those authors advised that people at risk of choking or inhaling liquids be told about this risk.
 
 Case reports cannot say how common the problem is. They do show that people with swallowing trouble, a past head or neck cancer, or a tendency to cough while rinsing have extra reason for caution.
 
@@ -62,7 +62,7 @@ Anyone curious about oil pulling can bring it up at the next dental visit and as
 ## Sources
 
 - CNN, "'Oil pulling': Natural, stronger mouthwash or waste of time?": https://www.cnn.com/2026/10/28/health/oil-pulling-wellness
-- PolitiFact, "No hard evidence oil pulling improves oral health": https://www.politifact.com/factchecks/2023/apr/28/facebook-posts/no-hard-evidence-oil-pulling-improves-oral-health/
+- PolitiFact, "No hard evidence 'oil pulling' improves oral health, but some signs it could help": https://www.politifact.com/factchecks/2023/apr/28/facebook-posts/no-hard-evidence-oil-pulling-improves-oral-health/
 - PubMed, "The effect of oil pulling in comparison with chlorhexidine and other mouthwash interventions in promoting oral health: A systematic review and meta-analysis" (Jong, Ooi, Teoh, *Int J Dent Hyg* 2024;22(1):78-94): https://pubmed.ncbi.nlm.nih.gov/37635453/
 - The Dental Elf, "Oil pulling for oral health": https://www.nationalelfservice.net/dentistry/oral-health-other-health-conditions/oil-pulling-oral-health/
 - PubMed, "Effectiveness of Oil Pulling for Improving Oral Health: A Meta-Analysis" (Peng et al., *Healthcare* 2022): https://pubmed.ncbi.nlm.nih.gov/36292438/
