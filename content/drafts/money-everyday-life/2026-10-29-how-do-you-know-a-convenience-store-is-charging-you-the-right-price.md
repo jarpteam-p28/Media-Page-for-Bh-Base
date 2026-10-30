@@ -4,18 +4,33 @@ title: How Do You Know a Convenience Store Is Charging You the Right Price?
 slug: convenience-store-price-check-consumer-alert
 niche: money-everyday-life
 voice: narrator
-source_story: https://news.google.com/rss/articles/CBMingFBVV95cUxPVkpLMXkyVHBwa1g1cEZVNlIzVzU4R3JQejFIaVE4SWlFS2dLUHFyWDYyeElYQTJVUURkSDFueVRnbDZQOFVvYndldzQ5TjlDNksxRzdUc2lBSGJ2QXRUMG9jYlRXNE5sbURvS2k2aVdtOXRodGpLcWwwaXlZUmlzOVZLelhVUlctQmhkLUNkaFBhdkE1UlBzQ083RU1kZw?oc=5
-summary: 'A consumer alert about a Pittsburgh-area store is a reminder: small price errors are easy to miss. Here is how to catch them and where to report.'
+source_story: https://patch.com/pennsylvania/pittsburgh/consumer-alert-issued-pittsburgh-area-convenience-store
+summary: A Pittsburgh-area convenience store alert this week was about health violations, not prices. Here is how to check that you are charged the shelf price, and where to report it in Pennsylvania.
 image_query: convenience store checkout receipt
 status: draft
 takes:
 - voice: expert
-  text: 'The article''s most useful move is separating what a receipt can show from what it can''t. A mismatch between shelf tag and register proves the two numbers disagree. It says nothing about intent, and the piece is careful not to pretend otherwise. That matters, because the usual causes are dull: a tag not updated, a promotion that ended, an item scanned under the wrong code. Nobody outside the store can tell those apart from a deliberate overcharge on one transaction. Repetition is what changes the picture, which is why the advice to photograph the tag and keep the receipt is sound. One photo is an anecdote. Several, with dates, are something an agency can sort. I''d also hold the Pittsburgh alert at arm''s length until the alert itself is read, since the article admits it doesn''t yet know what it said. Check the tag against the receipt before you leave the counter, while the cashier can still fix it.'
+  text: A receipt proves only that the shelf tag and the register disagree. It can't tell you why. The usual causes are dull, a tag not updated, a promotion that ended, an item scanned under the wrong code, and nobody outside the store can tell those apart from a deliberate overcharge on a single sale. Repetition is what changes the picture. The Dollar General settlement makes the point well, since the state's allegations rested on inspection results, more than 40 percent of them failed between 2019 and 2023, not on one shopper's receipt. One photo of a shelf tag is an anecdote. Several, with dates and receipts, are something a weights and measures office can sort. Compare the tag with the receipt before you leave the counter, while the cashier can still fix it.
 image: /images/money-everyday-life/2026-10-29-how-do-you-know-a-convenience-store-is-charging-you-the-right-price.jpg
-image_credit: Eric Fischer
-image_credit_url: https://commons.wikimedia.org/wiki/File:Milk_and_eggs_are_sold_without_refrigeration_(18808189245).jpg
-image_license: CC BY 2.0
-image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Milk_and_eggs_are_sold_without_refrigeration_%2818808189245%29.jpg/1280px-Milk_and_eggs_are_sold_without_refrigeration_%2818808189245%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+image_credit: Andy Li
+image_credit_url: https://commons.wikimedia.org/wiki/File:E-paper_shelf_labels_in_Intermarch%C3%A9_Express,_rue_%C3%89cuy%C3%A8re,_Rouen_2026-05-11.jpg
+image_license: CC0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/E-paper_shelf_labels_in_Intermarch%C3%A9_Express%2C_rue_%C3%89cuy%C3%A8re%2C_Rouen_2026-05-11.jpg/1280px-E-paper_shelf_labels_in_Intermarch%C3%A9_Express%2C_rue_%C3%89cuy%C3%A8re%2C_Rouen_2026-05-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+fact_check:
+  done: true
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-30'
+  check1:
+    confirmed: 4
+    corrected: 9
+    removed: 1
+    unresolved: 0
+  check2:
+    ok: 9
+    fixed: 4
+    cut: 0
+    flagged: 1
+  open_items: 0
 ---
 
 You can't know for certain, but you can check in about ten seconds. Compare the price on the shelf tag with the price on your receipt, and keep the receipt until you've done it.
@@ -52,13 +67,15 @@ Fuel works the same way. The price on the pump or the sign should match what you
 
 ## What if the prices don't match?
 
-Ask the cashier to correct it, and point to the tag. Many stores will fix an honest mismatch on the spot. Some state laws or store policies go further, such as giving the item free or at a discount. In Pennsylvania, the [Bucks County consumer protection office has said](https://levittownnow.com/2014/07/27/consumer-corner-does-pricing-error-allow-for-free-item/) that state law does not require a free item, but that the store should charge the price shown on the shelf tag or sign.
+Ask the cashier to correct it, and point to the tag. Many stores will fix an honest mismatch on the spot. Some store policies go further, such as giving the item free or at a discount. In Pennsylvania, the Bucks County consumer protection office [said in 2014](https://levittownnow.com/2014/07/27/consumer-corner-does-pricing-error-allow-for-free-item/) that state law does not require a free item, but that the store should charge the price shown on the shelf tag or sign.
+
+Pennsylvania's Attorney General has also gone after overcharging at the register. In December 2025, Dollar General agreed to pay the state $1.55 million to resolve allegations that it charged shoppers higher prices at checkout, [CBS Pittsburgh reported](https://www.cbsnews.com/pittsburgh/news/dollar-general-pennsylvania-settlement-overcharging). The state said the company failed more than 40 percent of pricing accuracy inspections between 2019 and 2023. As part of the deal, the company agreed to post notices at its registers saying the lowest posted price will be honored.
 
 If the store refuses, or the same problem repeats, you can file a complaint. In Pennsylvania, that means the county weights and measures office where one exists, such as Allegheny County's, or the state Department of Agriculture for scanners, scales, and pumps. The Attorney General's Bureau of Consumer Protection also takes complaints. Include the store address, the date, the receipt, and your photo.
 
 ## Does a consumer alert mean the store did something wrong?
 
-It depends on the alert. A consumer alert is a warning to the public, and what it implies depends on the agency and the facts. The McKees Mart alert followed a health inspection that found violations, according to Patch, and the store can have it removed by showing the problems are fixed. It says nothing about the store's prices. A shopper should read the alert itself rather than the headline alone.
+It depends on the alert. A consumer alert is a warning to the public, and what it implies depends on the agency and the facts. The McKees Mart alert followed a health inspection that found violations, according to Patch, and to have the alert removed, the store must provide records of additional pest control visits. It says nothing about the store's prices. A shopper should read the alert itself rather than the headline alone.
 
 *This article is for general information only and is not financial, tax, or legal advice. Consider speaking with a qualified professional about your own situation.*
 
@@ -72,4 +89,5 @@ It depends on the alert. A consumer alert is a warning to the public, and what i
 - Pennsylvania Department of Agriculture, Weights and Measures: https://www.pa.gov/agencies/pda/consumer-protection/weights-measures
 - Allegheny County, Weights and Measures: https://www.alleghenycounty.us/Government/Departments-and-Offices/Department-Directory/Weights-and-Measures
 - LevittownNow, "Consumer Corner: Does Pricing Error Allow for Free Item?" (July 27, 2014), answer from Bucks County Department of Consumer Protection: https://levittownnow.com/2014/07/27/consumer-corner-does-pricing-error-allow-for-free-item/
+- CBS Pittsburgh, "Dollar General to pay Pennsylvania $1.5 million after overcharging customers" (Dec. 9, 2025): https://www.cbsnews.com/pittsburgh/news/dollar-general-pennsylvania-settlement-overcharging
 - Pennsylvania Office of Attorney General, Bureau of Consumer Protection complaint form: https://www.attorneygeneral.gov/wp-content/uploads/BCP_Complaint_Form.pdf
