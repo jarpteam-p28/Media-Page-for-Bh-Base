@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://www.cnn.com/2026/10/14/economy/us-cpi-inflation-september
 summary: Gas has eased a little in October, but September inflation hit 3.7% and pay has not kept up. Here is what the latest numbers mean for a household budget, and what to do about it.
 image_query: grocery receipt checkout
-status: draft
+status: approved
 takes:
 - voice: expert
   text: 'The useful idea here is that a falling price and a lower price are different things. Gas dropped about six cents a gallon in two weeks of October, by the EIA''s count, and people noticed. It is still about $1.23 a gallon above a year ago. Moods respond to direction, budgets respond to level, which is why the Conference Board index can rise while Michigan''s barely moves. The figure I would put on the fridge is the BLS one: real hourly pay down 0.7% over the year. That is the gap a household actually lives in. I would push back on one hopeful reading. Grocery prices dipped in September, but diesel climbed again from mid-October, and trucks move food. Nobody can say yet how much of that reaches the shelf, so treat cheaper groceries as a pause, not a trend.'

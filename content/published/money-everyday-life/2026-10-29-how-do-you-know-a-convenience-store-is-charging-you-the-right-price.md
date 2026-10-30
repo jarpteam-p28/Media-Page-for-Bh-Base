@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://patch.com/pennsylvania/pittsburgh/consumer-alert-issued-pittsburgh-area-convenience-store
 summary: A Pittsburgh-area convenience store alert this week was about health violations, not prices. Here is how to check that you are charged the shelf price, and where to report it in Pennsylvania.
 image_query: convenience store checkout receipt
-status: draft
+status: approved
 takes:
 - voice: expert
   text: A receipt proves only that the shelf tag and the register disagree. It can't tell you why. The usual causes are dull, a tag not updated, a promotion that ended, an item scanned under the wrong code, and nobody outside the store can tell those apart from a deliberate overcharge on a single sale. Repetition is what changes the picture. The Dollar General settlement makes the point well, since the state's allegations rested on inspection results, more than 40 percent of them failed between 2019 and 2023, not on one shopper's receipt. One photo of a shelf tag is an anecdote. Several, with dates and receipts, are something a weights and measures office can sort. Compare the tag with the receipt before you leave the counter, while the cashier can still fix it.

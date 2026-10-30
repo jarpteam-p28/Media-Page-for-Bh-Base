@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://www.gmanetwork.com/lifestyle/food/140512/why-filipinos-cant-get-enough-of-these-red-flags/story
 summary: Red flags make great content and sometimes feel oddly attractive. Psychology offers a few reasons, and a way to tell a joke from a warning.
 image_query: couple coffee conversation
-status: draft
+status: approved
 takes:
 - voice: rosanna
   text: 'You know the feeling. The text that takes six hours. The warmth that shows up just as you''re about to leave. You tell yourself it''s chemistry.

@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://organiser.org/2026/09/23/382158/bharat/ayurveda-day-2026-ayurveda-for-a-healthier-tomorrow-brings-ancient-wisdom-modern-research-innovation-together/
 summary: Ayurveda is old, popular and has its own official day in India. The evidence for its remedies is thin and mixed, and some products carry real risks.
 image_query: ayurvedic herbs spices
-status: draft
+status: approved
 takes:
 - voice: expert
   text: 'The article separates two questions that usually get blurred: whether the theory is testable, and whether a given product does anything. The doshas fall in the first group. No instrument measures vata, pitta or kapha, so the framework can be respected as tradition without being treated as a finding. The products are testable, and the record there is thin. One trial of two herbal formulations against glucosamine and celecoxib, Chopra and colleagues in 2013, is a starting point. Glucosamine is itself a modest benchmark, so matching it is like beating a slow runner. The safety evidence is firmer than the benefit evidence, which is an awkward position for any product. Saper''s 2008 JAMA work on metal contamination is the reason I would take the pharmacist advice seriously. A pharmacist can at least check what is in a product and what it might interact with; that is a check on contents, not a verdict on benefit.'

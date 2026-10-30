@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://nexspark.com/blog/october-theory-dating
 summary: October Theory says undefined relationships either get serious or fade before the holidays. It is a social-media idea, not a research finding, but it can be a useful nudge to ask a clear question.
 image_query: autumn couple coffee
-status: draft
+status: approved
 takes:
 - voice: rosanna
   text: You don't need a theory to tell you it's time. If you're reading articles about October, you already want an answer. That's allowed. The calendar isn't the problem. The waiting is. Ask the question while things are good, not after the third cancelled plan, and ask it like you can handle either reply. Because you can. If the answer is "I don't know," that is an answer too. And if the holidays come and you're still not invited to anything real, believe the silence. They're not confused. They're comfortable. You're the one who gets to decide whether that's comfortable for you.

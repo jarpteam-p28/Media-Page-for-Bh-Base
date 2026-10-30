@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://goodmorningamerica.com/video/137493900
 summary: A 12-year-old aspiring pilot from metro Atlanta won people over online after Delta's annual DREAM Flight. Here is what the coverage says about him, and what the program is.
 image_query: airplane cockpit sunrise
-status: draft
+status: approved
 takes:
 - voice: rosanna
   text: Here's what I'd tell you. Notice what this kid did before anyone was watching. He was seven. The pandemic hit. He looked at planes and decided. Nobody handed him a stage. He just knew the words already when the stage showed up. That's the part people skip when they share the clip. The charm is real. The homework came first. And one more thing, gently. He's twelve. Enjoy the video, cheer him on, and leave it there. You don't need his school or his street to be happy for him. Let him have a childhood with a good story in it, not a following.

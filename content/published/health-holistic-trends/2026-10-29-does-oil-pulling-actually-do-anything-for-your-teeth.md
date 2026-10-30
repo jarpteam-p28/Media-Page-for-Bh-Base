@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://www.cnn.com/2026/10/28/health/oil-pulling-wellness
 summary: Swishing coconut or sesame oil may lower mouth bacteria in short, small studies. The evidence is weak, it does not replace brushing and flossing, and inhaling the oil carries a rare but real lung risk.
 image_query: coconut oil jar
-status: draft
+status: approved
 takes:
 - voice: expert
   text: The trials behind oil pulling share a design problem worth understanding. The main comparisons described here are against other rinses. Beating an ordinary mouthwash in studies lasting a few weeks is a narrow result. The comparison against a strong rinse, chlorhexidine, went the other way on plaque. Then there is quality. When Jong and colleagues judged 24 of 25 trials at high risk of bias, that was not a technicality. It means the numbers could move a lot once someone runs a large, careful trial, and nobody has. The lung cases are rare, and four patients across two reports tell us little about how often it happens. They do tell us the mechanism is real, which matters more for anyone at risk of inhaling liquids. A spoonful of oil is cheap. Twenty minutes taken from brushing and flossing is not.
