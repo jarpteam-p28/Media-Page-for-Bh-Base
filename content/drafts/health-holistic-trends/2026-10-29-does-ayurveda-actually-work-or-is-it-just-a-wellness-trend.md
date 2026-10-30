@@ -22,9 +22,7 @@ Ayurveda is a traditional system of medicine from India with a long history, but
 
 ## Why is Ayurveda in the news?
 
-Ayurveda Day is an annual observance promoted by India's Ministry of Ayush, which began it in 2016. Since a 2025 government notification, it falls on September 23 each year, and the 11th Ayurveda Day was held on September 23, 2026 ([Organiser](https://organiser.org/2026/09/23/382158/bharat/ayurveda-day-2026-ayurveda-for-a-healthier-tomorrow-brings-ancient-wisdom-modern-research-innovation-together/)). A Telugu Times headline reports that the Consulate General of India in Los Angeles marked Ayurveda Day 2026 with an emphasis on holistic health and sustainable living. [VERIFY: the Telugu Times article behind this headline could not be found online; confirm it exists or cut this sentence.]
-
-Events like this show how far the practice has traveled from where it began.
+Ayurveda Day is an annual observance promoted by India's Ministry of Ayush, which began it in 2016. Since a 2025 government notification, it falls on September 23 each year, and the 11th Ayurveda Day was held on September 23, 2026 ([Organiser](https://organiser.org/2026/09/23/382158/bharat/ayurveda-day-2026-ayurveda-for-a-healthier-tomorrow-brings-ancient-wisdom-modern-research-innovation-together/)).
 
 ## What does Ayurveda claim?
 
@@ -34,7 +32,7 @@ The doshas are a traditional framework. They are not anatomical structures, and 
 
 ## What does the research show?
 
-The evidence is sparse and mixed. The U.S. National Center for Complementary and Integrative Health (NCCIH) says that few well-designed clinical trials and systematic research reviews suggest Ayurvedic approaches are effective, and that there is little scientific evidence on Ayurveda's value for many health issues ([NCCIH](https://www.nccih.nih.gov/health/ayurvedic-medicine-in-depth)).
+The evidence is sparse and mixed. The U.S. National Center for Complementary and Integrative Health (NCCIH) says that few well-designed clinical trials and systematic research reviews suggest Ayurvedic approaches are effective. It notes that a few studies suggest Ayurvedic preparations may help with osteoarthritis pain and type 2 diabetes symptoms, but that most of those trials are small or not well designed, and that there is little scientific evidence on Ayurveda's value for other health issues ([NCCIH](https://www.nccih.nih.gov/health/ayurvedic-medicine-in-depth)).
 
 There are individual trials. In one randomized, double-blind trial of 440 people with knee osteoarthritis, two Ayurvedic herbal formulations performed about as well as glucosamine, a common supplement, and celecoxib, a prescription anti-inflammatory drug, over 24 weeks (Chopra et al., 2013, *Rheumatology*). A single trial of this kind is a starting point. It does not show that the treatment is effective, particularly because NCCIH says it is still uncertain whether glucosamine helps knee osteoarthritis symptoms ([NCCIH](https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis)).
 
@@ -42,7 +40,7 @@ Lifestyle elements, such as regular meals, sleep routines and gentle movement, a
 
 ## Is Ayurveda safe?
 
-The main documented risk is contamination. In a 2008 study in *JAMA*, researchers bought Ayurvedic products online and tested them. Of 193 products tested, 20.7%, or about one in five, contained detectable lead, mercury or arsenic (Saper et al., 2008). An earlier *JAMA* study from 2004 found a similar share, 14 of 70 products, among products bought in the Boston area.
+The main documented risk is contamination. In a 2008 study in *JAMA*, researchers bought Ayurvedic products online and tested them. Of 193 products tested, 20.7%, or about one in five, contained detectable lead, mercury or arsenic (Saper et al., 2008). An earlier *JAMA* study from 2004 found a similar share, 14 of 70 products, among products bought in the Boston area (Saper et al., 2004).
 
 Some Ayurvedic preparations include metals, minerals or gems, and the U.S. Food and Drug Administration warns that the presence of metals in some Ayurvedic products makes them potentially harmful ([NCCIH](https://www.nccih.nih.gov/health/ayurvedic-medicine-in-depth)). The FDA also does not have the authority to approve dietary supplements before they are marketed ([FDA](https://www.fda.gov/food/information-consumers-using-dietary-supplements/questions-and-answers-dietary-supplements)).
 
