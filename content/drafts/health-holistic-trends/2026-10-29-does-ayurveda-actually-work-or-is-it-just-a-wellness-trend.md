@@ -4,18 +4,33 @@ title: Does Ayurveda actually work, or is it just a wellness trend?
 slug: does-ayurveda-actually-work
 niche: health-holistic-trends
 voice: narrator
-source_story: https://news.google.com/rss/articles/CBMijwJBVV95cUxOYzdIdlNZaU1pRk0zVDJYSHo0MmItdTVNcFJWVzQwdmw2N080MG5MV21rN0dCQXp3Y2RVcHBXVkZoaEJNNmFkcUh2emR5c2pQX2hsc1JDNVc4NkRqSGlybno2M2xVd3RZUUhxejJPTHAwQUo3WUEyVXRSeHY2amhpSXI5OTFxNk14YnVZQ1plRmFwTHhKalFkTEhmQVE4NWpMYlRSVnN0cWIwMU1hd0NqVGU5S2JDdThsQUZfSnJzbkl4aVdnMDhPSER3Q0lSd18wRkJxVnpjM0VyMHJSbjZneFhEc3dIblViNVJCQldIOV9Uc3VZdU8xWG5ScmJPWUVLNTFONXpzRWRJR2x6UTRz?oc=5
-summary: Ayurveda is old, popular and celebrated worldwide. The evidence for its remedies is thin and mixed, and some products carry real risks.
+source_story: https://organiser.org/2026/09/23/382158/bharat/ayurveda-day-2026-ayurveda-for-a-healthier-tomorrow-brings-ancient-wisdom-modern-research-innovation-together/
+summary: Ayurveda is old, popular and has its own official day in India. The evidence for its remedies is thin and mixed, and some products carry real risks.
 image_query: ayurvedic herbs spices
 status: draft
 takes:
 - voice: expert
-  text: 'The article separates two questions that usually get blurred: whether the theory is testable, and whether a given product does anything. The doshas fall in the first group. No instrument measures vata, pitta or kapha, so the framework can be respected as tradition without being treated as a finding. The products are testable, and the record there is thin. One trial of a herbal formulation against glucosamine, Chopra and colleagues in 2013, is a starting point. Glucosamine is itself a modest benchmark, so matching it is like beating a slow runner. The safety evidence is firmer than the benefit evidence, which is an awkward position for any product. Saper''s 2008 JAMA work on metal contamination is the reason I would take the pharmacist advice seriously. Nobody has tested whether third-party seals reduce the contamination risk in Ayurvedic products specifically, so treat a seal as a partial check on contents, not a verdict on benefit.'
+  text: 'The article separates two questions that usually get blurred: whether the theory is testable, and whether a given product does anything. The doshas fall in the first group. No instrument measures vata, pitta or kapha, so the framework can be respected as tradition without being treated as a finding. The products are testable, and the record there is thin. One trial of two herbal formulations against glucosamine and celecoxib, Chopra and colleagues in 2013, is a starting point. Glucosamine is itself a modest benchmark, so matching it is like beating a slow runner. The safety evidence is firmer than the benefit evidence, which is an awkward position for any product. Saper''s 2008 JAMA work on metal contamination is the reason I would take the pharmacist advice seriously. A pharmacist can at least check what is in a product and what it might interact with; that is a check on contents, not a verdict on benefit.'
 image: /images/health-holistic-trends/2026-10-29-does-ayurveda-actually-work-or-is-it-just-a-wellness-trend.jpg
 image_credit: Mahakmittal061
 image_credit_url: https://commons.wikimedia.org/wiki/File:AYURVEDIC_HERB...._Found_mainly_in_South_India.JPG
 image_license: CC BY-SA 4.0
 image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/AYURVEDIC_HERB...._Found_mainly_in_South_India.JPG/1280px-AYURVEDIC_HERB...._Found_mainly_in_South_India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+fact_check:
+  done: true
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-30'
+  check1:
+    confirmed: 6
+    corrected: 10
+    removed: 3
+    unresolved: 1
+  check2:
+    ok: 11
+    fixed: 2
+    cut: 2
+    flagged: 0
+  open_items: 0
 ---
 
 Ayurveda is a traditional system of medicine from India with a long history, but modern evidence that its remedies work is limited and uneven. Some practices, like diet and daily routine, overlap with ordinary health advice. Some herbal products have been studied only lightly, and a few have documented safety problems.
