@@ -4,7 +4,7 @@ title: Why Are We So Drawn to Dating 'Red Flags'?
 slug: why-are-we-drawn-to-dating-red-flags
 niche: dating-relationships
 voice: narrator
-source_story: https://news.google.com/rss/articles/CBMipgFBVV95cUxQNVRnT3hydGlOWnBweTZGSVBlQXVRS2NySk1HZnB6Si1jVlFLVFdsT0oxR0FGLUticEotTnIzV2E1d0ZYR1NLRm4zc0VBVjBlYnRCeFVRMlY2blp2VlJyNE5GSzViLUlWZVdPWGhFUi1YTFoyNlJ5QXlwelQ1VUVxSTNEWUR0cU5SRXFZVi1VWkQwX0ZYb1paaWFiQUhGWHdmdWpKSjlR?oc=5
+source_story: https://www.gmanetwork.com/lifestyle/food/140512/why-filipinos-cant-get-enough-of-these-red-flags/story
 summary: Red flags make great content and sometimes feel oddly attractive. Psychology offers a few reasons, and a way to tell a joke from a warning.
 image_query: couple coffee conversation
 status: draft
@@ -44,7 +44,7 @@ takes:
   text: 'The article''s most useful move is separating two questions that the red flag trend blurs: why is the content popular, and why does the behavior attract us?
 
 
-    The first is a claim about social humor, and the article admits nobody has measured it. Fair. The second has some evidence behind it, though it is thinner than it sounds. Whitchurch, Wilson and Gilbert (2011) tested uncertainty on a narrow sample in a lab. Dutton and Aron''s bridge study (1974) has been debated and only partly replicated. Treat both as hypotheses with some support, not laws.
+    The first is a claim about social humor, and the article admits it is an observation, not a measured finding. Fair. The second has some evidence behind it, though it is thinner than it sounds. Whitchurch, Wilson and Gilbert (2011) tested uncertainty on a narrow sample using Facebook profiles. Dutton and Aron''s bridge study (1974) has been debated, and a 1979 paper reported four failures to replicate it. Treat both as hypotheses with some support, not laws.
 
 
     What I''d add is a comparison. Intensity works like a smoke alarm that goes off for burnt toast and for fires alike. It tells you something happened, not what. That is why the article''s test, how someone responds when you raise a concern calmly, carries more information than how the first month felt.
@@ -56,11 +56,26 @@ image_credit: Shixart1985
 image_credit_url: https://commons.wikimedia.org/wiki/File:Elderly_couple_enjoys_coffee_together_in_a_cozy_living_room.jpg
 image_license: CC BY 2.0
 image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Elderly_couple_enjoys_coffee_together_in_a_cozy_living_room.jpg/1280px-Elderly_couple_enjoys_coffee_together_in_a_cozy_living_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+fact_check:
+  done: true
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-30'
+  check1:
+    confirmed: 6
+    corrected: 6
+    removed: 0
+    unresolved: 0
+  check2:
+    ok: 12
+    fixed: 0
+    cut: 0
+    flagged: 0
+  open_items: 0
 ---
 
 People are drawn to red flags for two separate reasons. Talking about them is fun and shared, and in real life, uncertainty and obstacles can make a person feel more compelling than they are.
 
-A red flag, in dating, is a behavior that suggests a relationship may become unhealthy or unkind. The term has become a staple of social media jokes, quizzes, and group chats. A [GMA Network lifestyle piece](https://www.gmanetwork.com/lifestyle/food/140512/why-filipinos-cant-get-enough-of-these-red-flags/story) looked at how the term has taken on a lighter, funnier meaning in the Philippines, through collectible flaglets and a spicy food favorite.
+A red flag, in dating, is a behavior that suggests a relationship may become unhealthy or unkind. The term has become a staple of social media jokes, quizzes, and group chats.
 
 ## Why does red flag content spread so easily?
 
@@ -104,7 +119,6 @@ Before your next date or conversation, write down one specific behavior you woul
 
 ## Sources
 
-- GMA Network, "Why Filipinos can't get enough of these 'red flags'" (story that prompted this article): https://www.gmanetwork.com/lifestyle/food/140512/why-filipinos-cant-get-enough-of-these-red-flags/story
 - Whitchurch, E. R., Wilson, T. D., & Gilbert, D. T. (2011). "He loves me, he loves me not…": Uncertainty can increase romantic attraction. *Psychological Science*, 22(2), 172–175. https://doi.org/10.1177/0956797610393745
 - Dutton, D. G., & Aron, A. P. (1974). Some evidence for heightened sexual attraction under conditions of high anxiety. *Journal of Personality and Social Psychology*, 30(4), 510–517. https://doi.org/10.1037/h0037031
 - Kenrick, D. T., Cialdini, R. B., & Linder, D. E. (1979). Misattribution under fear-producing circumstances: Four failures to replicate. *Personality and Social Psychology Bulletin*, 5(3), 329–334. https://doi.org/10.1177/014616727900500312 (listed in the FORRT replication atlas: https://forrt.org/flora-replication-atlas/doi/10.1037/h0037031/)
