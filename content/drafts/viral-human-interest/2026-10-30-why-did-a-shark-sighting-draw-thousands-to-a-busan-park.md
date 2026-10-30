@@ -5,19 +5,34 @@ slug: busan-shark-sighting-crowds
 niche: viral-human-interest
 voice: narrator
 source_story: https://www.koreaherald.com/article/10881053
-summary: A 3-meter shark got stuck in a canal at a Busan waterfront park in September 2026, drew more than a million visitors and plenty of memes. It turned out to be an endangered dusky shark, and getting it back to sea has been hard.
+summary: A shark about 3 meters long got stuck in a canal at a Busan waterfront park in September 2026, drew more than a million visitors and plenty of memes. It turned out to be an endangered dusky shark, and getting it back to sea has been hard.
 image_query: Busan port waterfront
 status: draft
 takes:
 - voice: rosanna
   text: Here's what I'd tell you. You're allowed to love this story. A shark shows up where it shouldn't, a whole city stops to look, and somebody online worries about whether it's eating. That's not silly. That's people paying attention. But notice the part that's easy to skip. She's not visiting. She's stuck. More than a month in a canal, no sign of regular meals, water getting colder. The crowds were the fun part. The nets, the divers, the three tries are the real story. If you go see something like this, keep your distance and keep it short. Thirty minutes was the ask in Busan. That's a fair trade for a wild animal that never asked to be famous.
 - voice: destiny
-  text: Some creatures arrive quietly and leave a mark much larger than themselves. This one slid into a narrow canal in the heat of September and a whole port city turned toward the water. Look at what people did with her. They named her after the place. They made her an ambassador. They built jokes around her, a shark-shaped stadium, a free aquarium. That is how a city tells you what it longs for. She is a dusky shark, endangered, slow to grow, slow to breed. Rare things do not stay on schedule. She left once, under a gold evening sky, and by night she had slipped back in. Some guests know exactly where they feel safe.
+  text: Some creatures arrive quietly and leave a mark much larger than themselves. This one slid into a narrow canal in mid-September and a whole port city turned toward the water. Look at what people did with her. They named her after the place. They made her an ambassador. They built jokes around her, a shark-shaped stadium, a free aquarium. That is how a city tells you what it longs for. She is a dusky shark, endangered, slow to grow, slow to breed. Rare things do not stay on schedule. She left once, just before six in the evening, and by night she had slipped back in. Some guests know exactly where they feel safe.
 image: /images/viral-human-interest/2026-10-30-why-did-a-shark-sighting-draw-thousands-to-a-busan-park.jpg
 image_credit: VN.NguyenDucDuy
 image_credit_url: https://commons.wikimedia.org/wiki/File:Sky_Capsule_train_at_Haeundae_Blueline_Park,_Busan.jpg
 image_license: CC BY-SA 4.0
 image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Sky_Capsule_train_at_Haeundae_Blueline_Park%2C_Busan.jpg/1280px-Sky_Capsule_train_at_Haeundae_Blueline_Park%2C_Busan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+fact_check:
+  done: true
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-30'
+  check1:
+    confirmed: 30
+    corrected: 4
+    removed: 0
+    unresolved: 0
+  check2:
+    ok: 12
+    fixed: 9
+    cut: 0
+    flagged: 0
+  open_items: 0
 ---
 
 A large shark wandered into a narrow canal at North Port Waterfront Park in Busan, South Korea, on September 18, 2026, and could not find its way out. Crowds came to watch almost immediately: South Korean media, citing local authorities, put the first weekend at about 20,000 visitors. The shark turned into a meme and an official city mascot. On October 22, the Associated Press reported that Busan officials put the number of visitors at more than 1.7 million.
