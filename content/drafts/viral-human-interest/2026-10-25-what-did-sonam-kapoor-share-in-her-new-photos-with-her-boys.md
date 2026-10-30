@@ -38,7 +38,7 @@ image_license: Public domain
 image_source: https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg2MzUyNTUtaW1hZ2Uta3d2djh1bHMuanBn.jpg
 ---
 
-Sonam Kapoor, the Bollywood actor, has shared a set of photos and videos with her two sons on Instagram, and NDTV described them as a peek into her life as a mother. The outlet's headline calls the pictures "heartwarming." The post was also covered by the news agency IANS and by [India.com](https://www.india.com/entertainment/bollywood/sonam-kapoor-shares-glimpse-of-life-with-her-sons-a-house-in-chaos-and-a-very-full-heart-8539095/) on October 25, 2026.
+Sonam Kapoor, the Bollywood actor, has shared a set of photos and a video with her two sons on Instagram, and NDTV described them as a peek into her life as a mother. The outlet's headline calls the pictures "heartwarming." The post was also covered by the news agency IANS and by [India.com](https://www.india.com/entertainment/bollywood/sonam-kapoor-shares-glimpse-of-life-with-her-sons-a-house-in-chaos-and-a-very-full-heart-8539095/) on October 25, 2026.
 
 ## Who is Sonam Kapoor, and why do these photos get attention?
 
@@ -48,7 +48,7 @@ The couple's first son, Vayu, was born on August 20, 2022, which they announced 
 
 ## What do the photos actually show?
 
-The post mixes photos and short videos. One video shows toys scattered across the floor of her home. Her main caption, as quoted by [India.com](https://www.india.com/entertainment/bollywood/sonam-kapoor-shares-glimpse-of-life-with-her-sons-a-house-in-chaos-and-a-very-full-heart-8539095/) and [IANS](https://hiindia.com/sonam-kapoor-gives-a-glimpse-of-her-chaotic-home-says-life-lately-is-all-about-her-boys/), reads: "Toy cars everywhere, a house in chaos, and a very full heart. Life lately is wonderful… just watch where you step."
+The post mixes photos and a video. The video shows toys scattered across the floor of her home. Her main caption, as quoted by [India.com](https://www.india.com/entertainment/bollywood/sonam-kapoor-shares-glimpse-of-life-with-her-sons-a-house-in-chaos-and-a-very-full-heart-8539095/) and [IANS](https://hiindia.com/sonam-kapoor-gives-a-glimpse-of-her-chaotic-home-says-life-lately-is-all-about-her-boys/), reads: "Toy cars everywhere, a house in chaos, and a very full heart. Life lately is wonderful… just watch where you step."
 
 Text on one photo of her with her younger son reads "Life lately is all about my boys." Other frames show her making cupcakes with her elder son and taking both boys for a walk, and one carries the line "Missing my Anand so much," a reference to her husband.
 
