@@ -10,11 +10,26 @@ image_query: autumn couple coffee
 status: draft
 takes:
 - voice: rosanna
-  text: 'You don''t need a theory to tell you it''s time. If you''re reading articles about October, you already want an answer. That''s allowed. The calendar isn''t the problem. The waiting is. Ask the question while things are good, not after the third cancelled plan, and ask it like you can handle either reply. Because you can. If the answer is "I don''t know," that is an answer too. And if the holidays come and you''re still not invited to anything real, believe the silence. They''re not confused. They''re comfortable. You''re the one who gets to decide whether that''s comfortable for you.'
+  text: You don't need a theory to tell you it's time. If you're reading articles about October, you already want an answer. That's allowed. The calendar isn't the problem. The waiting is. Ask the question while things are good, not after the third cancelled plan, and ask it like you can handle either reply. Because you can. If the answer is "I don't know," that is an answer too. And if the holidays come and you're still not invited to anything real, believe the silence. They're not confused. They're comfortable. You're the one who gets to decide whether that's comfortable for you.
 - voice: destiny
-  text: 'Autumn has always been a season of sorting. The light goes gold, then thin, and people start counting who will be at the table. That is all October Theory is, really: a feeling with a hashtag. The research in the article is quiet about months and loud about expectations, and expectations are where the heat lives. Some connections tighten when the air turns sharp. Others were only ever summer things, easy and warm and gone. The calendar doesn''t choose between them. It just turns the lights up, and you see more clearly what was already in the room.'
+  text: 'Autumn has always been a season of sorting. The light goes gold, then thin, and people start counting who will be at the table. That is all October Theory is, really: a feeling with a hashtag. The research in the article says less about October than about expectations, and expectations are where the heat lives. Some connections tighten when the air turns sharp. Others were only ever summer things, easy and warm and gone. The calendar doesn''t choose between them. It just turns the lights up, and you see more clearly what was already in the room.'
 - voice: expert
-  text: 'The article is right to separate the trend from the evidence. The 2010 Facebook chart counted phrases in status updates, which tells you when people announced breakups, not when relationships actually ended or why. The divorce work from Brines and Serafini is stronger, but it covers married couples and court filings in Washington state, a very different population from two people three months into texting. Eastwick''s campus numbers, 35 percent partnered in September and about 38 percent later in the year, show how small the seasonal swing can be. Nobody has tested whether undefined relationships end more often before the holidays. What the evidence does support is the idea that holidays raise expectations, and raised expectations make vague arrangements harder to ignore.'
+  text: The article is right to separate the trend from the evidence. The 2010 Facebook chart counted phrases in status updates, which tells you when people announced breakups, not when relationships actually ended or why. The divorce work from Brines and Serafini is stronger, but it covers married couples and court filings in Washington state, a very different population from two people three months into texting. Eastwick's campus numbers, 35 percent partnered in September and about 38 percent in January and April, show how small the seasonal swing can be. Nobody has tested whether undefined relationships end more often before the holidays. What the evidence does support is the idea that holidays raise expectations, and raised expectations make vague arrangements harder to ignore.
+fact_check:
+  done: true
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-30'
+  check1:
+    confirmed: 12
+    corrected: 0
+    removed: 0
+    unresolved: 0
+  check2:
+    ok: 11
+    fixed: 1
+    cut: 0
+    flagged: 0
+  open_items: 0
 ---
 
 October Theory is a social-media idea, not a research finding. It holds that an undefined relationship tends to become serious or quietly end in the run-up to the holidays. There is no study showing that October decides anything. The real pressure is simpler: holidays make it harder to stay vague about where someone fits.
