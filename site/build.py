@@ -34,6 +34,7 @@ IMAGES_DIR = ROOT / "content" / "images"
 NICHES_FILE = ROOT / "config" / "niches.yaml"
 TEMPLATE_PATH = ROOT / "site" / "template.html"
 DIST_DIR = ROOT / "dist"
+LEGAL_DIR = ROOT / "content" / "legal"  # privacy, terms, disclaimer (markdown)
 STATIC_DIR = ROOT / "site" / "static"  # logo, mascot and icons, copied as-is to /dist/static
 
 SITE_NAME = "The Savvy Rabbit"
@@ -153,6 +154,9 @@ def render(template: str, **kwargs) -> str:
     return out
 
 
+LEGAL_LINKS = []  # (slug, title) of the legal pages that were built; filled in by load_legal_pages()
+
+
 def page(template, sections, *, title, description, content, active="", og_image="/static/sage-badge.png"):
     og = f'<meta property="og:image" content="{e(og_image)}">' if og_image else ""
     return render(
@@ -163,6 +167,7 @@ def page(template, sections, *, title, description, content, active="", og_image
         SITE_NAME=e(SITE_NAME),
         TAGLINE=e(TAGLINE),
         PUBLISHER=e(PUBLISHER),
+        LEGAL_LINKS="".join(f' · <a href="/{s}/">{e(n)}</a>' for s, n in LEGAL_LINKS),
         NAV=nav_html(sections, active),
         YEAR=str(datetime.date.today().year),
         CONTENT=content,
@@ -200,6 +205,30 @@ def checked_badge(a: dict) -> str:
     return ('<p class="checked"><span class="tick">✓</span> <strong>Checked twice.</strong> Two independent '
             'fact-checks against the original sources, then approved by an editor. '
             '<a href="/about/#how-we-check">How we check</a></p>')
+
+
+def load_legal_pages():
+    # A page that still has a "[FILL IN" blank (address, contact email...) is not built,
+    # so an unfinished policy never goes live.
+    pages = []
+    for md_path in sorted(LEGAL_DIR.glob("*.md")):
+        _, fm_text, body = md_path.read_text().split("---", 2)
+        fm = yaml.safe_load(fm_text) or {}
+        if "[FILL IN" in body:
+            print(f"[skip] {md_path.name}: still has [FILL IN] blanks, not published")
+            continue
+        pages.append((fm, body))
+        LEGAL_LINKS.append((fm["slug"], fm["title"]))
+    return pages
+
+
+def build_legal(template, sections, fm, body):
+    updated = fm.get("updated")
+    when = f'<p class="byline">Last updated {nice_date(updated)}</p>' if isinstance(updated, datetime.date) else ""
+    content = (f'<div class="about legal"><h1>{e(fm["title"])}</h1>{when}'
+               f'<div class="body">{markdown.markdown(body.strip(), extensions=["extra"])}</div></div>')
+    write(DIST_DIR / fm["slug"], page(template, sections, title=f'{fm["title"]} | {SITE_NAME}',
+                                      description=f'{fm["title"]} for {SITE_NAME}', content=content))
 
 
 def build_about(template, sections):
@@ -320,6 +349,7 @@ def main():
 
     template = TEMPLATE_PATH.read_text()
     sections = load_sections()
+    legal_pages = load_legal_pages()
     articles = load_articles(sections)
 
     for a in articles:
@@ -328,6 +358,8 @@ def main():
         build_section(template, sections, articles, s)
     build_home(template, sections, articles)
     build_about(template, sections)
+    for fm, body in legal_pages:
+        build_legal(template, sections, fm, body)
 
     print(f"[ok] built {len(articles)} article(s) in {len(sections)} section(s) -> {DIST_DIR}")
 
