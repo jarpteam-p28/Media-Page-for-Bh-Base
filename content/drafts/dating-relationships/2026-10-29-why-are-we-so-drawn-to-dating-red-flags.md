@@ -60,7 +60,7 @@ image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Elderly_c
 
 People are drawn to red flags for two separate reasons. Talking about them is fun and shared, and in real life, uncertainty and obstacles can make a person feel more compelling than they are.
 
-A red flag, in dating, is a behavior that suggests a relationship may become unhealthy or unkind. The term has become a staple of social media jokes, quizzes, and group chats. A GMA Network piece asked why Filipinos in particular can't get enough of them. [VERIFY: the GMA article's actual claims, data, and any experts quoted; this draft worked from the headline only and does not describe its contents.]
+A red flag, in dating, is a behavior that suggests a relationship may become unhealthy or unkind. The term has become a staple of social media jokes, quizzes, and group chats. A [GMA Network lifestyle piece](https://www.gmanetwork.com/lifestyle/food/140512/why-filipinos-cant-get-enough-of-these-red-flags/story) looked at how the term has taken on a lighter, funnier meaning in the Philippines, through collectible flaglets and a spicy food favorite.
 
 ## Why does red flag content spread so easily?
 
@@ -72,15 +72,15 @@ That is an observation about how humor works socially, not a measured finding. N
 
 ## Why can a red flag feel attractive?
 
-Part of the answer is uncertainty. In a 2011 experiment published in *Psychological Science*, Erin Whitchurch, Timothy Wilson, and Daniel Gilbert told female college students that some men had liked them, others had not, and others might have. The students were most drawn to the men whose feelings were left unclear. The researchers suggested that uncertainty keeps a person thinking about the other person.
+Part of the answer is uncertainty. In a 2011 experiment published in *Psychological Science*, Erin Whitchurch, Timothy Wilson, and Daniel Gilbert showed college women the Facebook profiles of male students and told them the men liked them a lot, liked them only an average amount, or might have liked them either way. The students were most drawn to the men whose feelings were left unclear. The researchers suggested that uncertainty keeps a person thinking about the other person.
 
 That is one study, in a narrow sample, and the lab setting was far from a real relationship. But it fits a pattern many people describe: the hot-and-cold partner is harder to stop thinking about than the steady one.
 
 ## Does a strong feeling mean a strong match?
 
-Not necessarily. In 1974, Donald Dutton and Arthur Aron ran what became a well-known field study. Men crossing a high, wobbly suspension bridge in British Columbia were more likely to contact a female interviewer afterward than men crossing a low, stable bridge. The proposed explanation is misattribution of arousal: a racing heart from fear gets read as attraction.
+Not necessarily. In 1974, Donald Dutton and Arthur Aron ran what became a well-known field study. Men approached by a female interviewer on a fear-arousing suspension bridge in British Columbia were more likely to try to contact her afterward than men approached on a bridge that did not arouse fear. The proposed explanation is misattribution of arousal: a racing heart from fear gets read as attraction.
 
-The study has been debated and only partly replicated, so it is better treated as a useful idea than a rule. The idea is simple, though. Intensity and compatibility are different things, and the body does not always label them correctly.
+The study has been debated, and a 1979 paper reported four attempts that did not reproduce its attraction finding, so it is better treated as a useful idea than a rule. The idea is simple, though. Intensity and compatibility are different things, and the body does not always label them correctly.
 
 A related finding is the "Romeo and Juliet effect." In a 1972 study, Richard Driscoll and colleagues found that couples who reported more parental interference also reported more intense love, at least in that sample. Obstacles can raise the emotional temperature without making the match any better.
 
@@ -104,8 +104,9 @@ Before your next date or conversation, write down one specific behavior you woul
 
 ## Sources
 
-- GMA Network, "Why Filipinos can't get enough of these 'red flags'" (story that prompted this article; contents not summarized here): https://news.google.com/rss/articles/CBMipgFBVV95cUxQNVRnT3hydGlOWnBweTZGSVBlQXVRS2NySk1HZnB6Si1jVlFLVFdsT0oxR0FGLUticEotTnIzV2E1d0ZYR1NLRm4zc0VBVjBlYnRCeFVRMlY2blp2VlJyNE5GSzViLUlWZVdPWGhFUi1YTFoyNlJ5QXlwelQ1VUVxSTNEWUR0cU5SRXFZVi1VWkQwX0ZYb1paaWFiQUhGWHdmdWpKSjlR?oc=5
-- Whitchurch, E. R., Wilson, T. D., & Gilbert, D. T. (2011). "He loves me, he loves me not…": Uncertainty can increase romantic attraction. *Psychological Science*, 22(2), 172–175. https://doi.org/10.1177/0956797610391911 [VERIFY: DOI and sample description]
-- Dutton, D. G., & Aron, A. P. (1974). Some evidence for heightened sexual attraction under conditions of high anxiety. *Journal of Personality and Social Psychology*, 30(4), 510–517. https://doi.org/10.1037/h0037031 [VERIFY: DOI]
-- Driscoll, R., Davis, K. E., & Lipetz, M. E. (1972). Parental interference and romantic love: The Romeo and Juliet effect. *Journal of Personality and Social Psychology*, 24(1), 1–10. https://doi.org/10.1037/h0033373 [VERIFY: DOI]
+- GMA Network, "Why Filipinos can't get enough of these 'red flags'" (story that prompted this article): https://www.gmanetwork.com/lifestyle/food/140512/why-filipinos-cant-get-enough-of-these-red-flags/story
+- Whitchurch, E. R., Wilson, T. D., & Gilbert, D. T. (2011). "He loves me, he loves me not…": Uncertainty can increase romantic attraction. *Psychological Science*, 22(2), 172–175. https://doi.org/10.1177/0956797610393745
+- Dutton, D. G., & Aron, A. P. (1974). Some evidence for heightened sexual attraction under conditions of high anxiety. *Journal of Personality and Social Psychology*, 30(4), 510–517. https://doi.org/10.1037/h0037031
+- Kenrick, D. T., Cialdini, R. B., & Linder, D. E. (1979). Misattribution under fear-producing circumstances: Four failures to replicate. *Personality and Social Psychology Bulletin*, 5(3), 329–334. https://doi.org/10.1177/014616727900500312 (listed in the FORRT replication atlas: https://forrt.org/flora-replication-atlas/doi/10.1037/h0037031/)
+- Driscoll, R., Davis, K. E., & Lipetz, M. E. (1972). Parental interference and romantic love: The Romeo and Juliet effect. *Journal of Personality and Social Psychology*, 24(1), 1–10. https://doi.org/10.1037/h0033373
 - National Domestic Violence Hotline: https://www.thehotline.org
