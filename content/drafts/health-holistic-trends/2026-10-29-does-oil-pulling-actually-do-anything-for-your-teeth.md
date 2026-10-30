@@ -5,12 +5,27 @@ slug: does-oil-pulling-work
 niche: health-holistic-trends
 voice: narrator
 source_story: https://www.cnn.com/2026/10/28/health/oil-pulling-wellness
-summary: Swishing coconut or sesame oil may lower mouth bacteria a little in short, small studies. The evidence is weak, it does not replace brushing and flossing, and inhaling the oil carries a rare but real lung risk.
+summary: Swishing coconut or sesame oil may lower mouth bacteria in short, small studies. The evidence is weak, it does not replace brushing and flossing, and inhaling the oil carries a rare but real lung risk.
 image_query: coconut oil jar
 status: draft
 takes:
 - voice: expert
-  text: 'The trials behind oil pulling share a design problem worth understanding. The comparisons described here are against other rinses, not against good brushing with fluoride toothpaste. Beating an ordinary mouthwash in a study of 30 days or less is a narrow result. The one comparison against a strong rinse, chlorhexidine, went the other way on plaque. Then there is quality. When Jong and colleagues judged 24 of 25 trials at high risk of bias, that was not a technicality. It means the numbers could move a lot once someone runs a large, careful trial, and nobody has. The lung cases are rare, and four patients across two reports tell us little about how often it happens. They do tell us the mechanism is real, which matters more for anyone who chokes or coughs easily. A spoonful of oil is cheap. Twenty minutes taken from brushing and flossing is not.'
+  text: The trials behind oil pulling share a design problem worth understanding. The main comparisons described here are against other rinses. Beating an ordinary mouthwash in studies lasting a few weeks is a narrow result. The comparison against a strong rinse, chlorhexidine, went the other way on plaque. Then there is quality. When Jong and colleagues judged 24 of 25 trials at high risk of bias, that was not a technicality. It means the numbers could move a lot once someone runs a large, careful trial, and nobody has. The lung cases are rare, and four patients across two reports tell us little about how often it happens. They do tell us the mechanism is real, which matters more for anyone at risk of inhaling liquids. A spoonful of oil is cheap. Twenty minutes taken from brushing and flossing is not.
+fact_check:
+  done: true
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-30'
+  check1:
+    confirmed: 14
+    corrected: 2
+    removed: 0
+    unresolved: 0
+  check2:
+    ok: 16
+    fixed: 3
+    cut: 0
+    flagged: 0
+  open_items: 0
 ---
 
 Oil pulling, swishing a spoonful of oil around the mouth for several minutes and then spitting it out, has some research behind it, but not much, and most of that research is weak. Short, small trials suggest it may lower the number of bacteria in saliva. There is no good evidence that it beats a normal routine of brushing with fluoride toothpaste and flossing, and the American Dental Association does not recommend it.
