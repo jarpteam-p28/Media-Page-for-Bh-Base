@@ -44,7 +44,7 @@ Our articles link to other websites as sources and for further reading. We don't
 
 ## Affiliate links and sponsorships
 
-Some links in our content may in the future be affiliate links, and we may earn a commission if you buy through them, at no additional cost to you. Where a link or article involves a commission or a sponsor, we will say so clearly next to it.
+Some links in our content may be affiliate links, and we may earn a commission if you buy through them, at no additional cost to you. Where an article involves a commission or a sponsor, we say so clearly at the top of it, before any such link. See our [Affiliate Disclosure](/affiliate-disclosure/).
 
 ## Acceptable use
 
@@ -64,10 +64,11 @@ We may update these terms. When we do, we will change the date at the top of thi
 
 ## Governing law
 
-These terms are governed by the laws of [FILL IN: state where BH Base LLC is registered], United States, without regard to its conflict-of-law rules.
+These terms are governed by the laws of the State of Florida, United States, without regard to its conflict-of-law rules.
 
 ## Contact
 
-BH Base LLC
-[FILL IN: mailing address]
-Email: [FILL IN: contact email]
+BH Base LLC  
+1431 Simpson Road #1091  
+Kissimmee, FL 34744, United States  
+Email: [bhbasellc@gmail.com](mailto:bhbasellc@gmail.com)

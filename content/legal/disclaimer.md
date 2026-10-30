@@ -28,12 +28,17 @@ We report what named, credible outlets have published, and we say when something
 
 Rosanna, Destiny and The Expert are AI-created personas, labeled "AI persona" wherever they appear. Their takes are opinion. They are not real people and do not hold professional credentials.
 
+## Affiliate links
+
+Some links in our content may be affiliate links, and we may earn a commission if you buy through them, at no additional cost to you. Articles that contain affiliate links or sponsored content say so at the top. See our [Affiliate Disclosure](/affiliate-disclosure/).
+
 ## Accuracy
 
 Every article is checked twice against its sources and approved by a person before publication. Even so, we can make mistakes, and information can change. If you spot an error, please tell us and we will correct it.
 
 ## Contact
 
-BH Base LLC
-[FILL IN: mailing address]
-Email: [FILL IN: contact email]
+BH Base LLC  
+1431 Simpson Road #1091  
+Kissimmee, FL 34744, United States  
+Email: [bhbasellc@gmail.com](mailto:bhbasellc@gmail.com)

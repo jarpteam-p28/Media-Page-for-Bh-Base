@@ -50,6 +50,7 @@ If we change this policy, we will update the date at the top of this page. Signi
 
 ## Contact
 
-BH Base LLC
-[FILL IN: mailing address]
-Email: [FILL IN: contact email]
+BH Base LLC  
+1431 Simpson Road #1091  
+Kissimmee, FL 34744, United States  
+Email: [bhbasellc@gmail.com](mailto:bhbasellc@gmail.com)

@@ -40,6 +40,7 @@ STATIC_DIR = ROOT / "site" / "static"  # logo, mascot and icons, copied as-is to
 SITE_NAME = "The Savvy Rabbit"
 TAGLINE = "Smart Reads. Better Living."
 PUBLISHER = "BH Base LLC"
+CONTACT_EMAIL = "bhbasellc@gmail.com"
 
 # One color per section, used for its tab, labels and photo placeholders.
 SECTION_COLORS = {
@@ -167,6 +168,7 @@ def page(template, sections, *, title, description, content, active="", og_image
         SITE_NAME=e(SITE_NAME),
         TAGLINE=e(TAGLINE),
         PUBLISHER=e(PUBLISHER),
+        CONTACT_EMAIL=e(CONTACT_EMAIL),
         LEGAL_LINKS="".join(f' · <a href="/{s}/">{e(n)}</a>' for s, n in LEGAL_LINKS),
         NAV=nav_html(sections, active),
         YEAR=str(datetime.date.today().year),
@@ -196,6 +198,20 @@ def takes_html(a: dict) -> str:
     return ('<section class="takes"><h2>Our columnists weigh in</h2>'
             '<p class="takes-note">Our columnists are AI-created personas. Their takes are opinion, '
             'not professional advice.</p>' + "".join(boxes) + "</section>")
+
+
+def affiliate_note(a: dict) -> str:
+    # Set `affiliate: true` (or `sponsored: true`) in an article's frontmatter when it has
+    # affiliate links or sponsored content. The FTC expects the disclosure BEFORE the links,
+    # so it goes above the photo and body.
+    if a.get("sponsored"):
+        text = "This article is sponsored content."
+    elif a.get("affiliate"):
+        text = ("This article contains affiliate links. If you buy through them, we may earn a "
+                "commission at no extra cost to you.")
+    else:
+        return ""
+    return f'<p class="affiliate">{text} <a href="/affiliate-disclosure/">Learn more</a></p>'
 
 
 def checked_badge(a: dict) -> str:
@@ -261,7 +277,14 @@ def build_about(template, sections):
   <p>Our articles are for general information only. They are not medical, financial, legal or professional
   advice. Talk to a qualified professional about your own situation.</p>
   <h2>Corrections</h2>
-  <p>If we get something wrong, we fix it and say so on the story.</p>
+  <p>If we get something wrong, we fix it and say so on the story. Spotted a mistake? Email
+  <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>.</p>
+  <h2>Affiliate links</h2>
+  <p>Some links may be affiliate links, which means we may earn a commission if you buy through them, at no
+  extra cost to you. Any article with affiliate links or sponsored content says so at the top.
+  <a href="/affiliate-disclosure/">Read our affiliate disclosure</a>.</p>
+  <h2>Contact</h2>
+  <p>Questions, tips and business inquiries: <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a></p>
   <p class="publisher">{e(SITE_NAME)} is published by {e(PUBLISHER)}.</p>
 </div>"""
     write(DIST_DIR / "about", page(template, sections, title=f"About | {SITE_NAME}",
@@ -286,7 +309,7 @@ def build_article(template, sections, articles, a):
         f'<div class="article-wrap"><div class="article-main">{label(s)}'
         f'<h1>{e(a["title"])}</h1>{standfirst}'
         f'<p class="byline">By {e(SITE_NAME)} Staff · <time datetime="{a["_date"].isoformat()}">'
-        f'{nice_date(a["_date"])}</time></p>{checked_badge(a)}'
+        f'{nice_date(a["_date"])}</time></p>{affiliate_note(a)}{checked_badge(a)}'
         f'<div class="share"><a data-share="facebook">Facebook</a><a data-share="x">X</a>'
         f'<a data-share="email">Email</a><button type="button" data-share="copy">Copy link</button></div>'
         f'{hero}<div class="body">{body_html}</div>{takes_html(a)}</div>'
