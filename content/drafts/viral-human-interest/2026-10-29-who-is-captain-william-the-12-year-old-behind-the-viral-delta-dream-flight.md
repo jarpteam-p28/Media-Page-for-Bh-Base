@@ -10,9 +10,24 @@ image_query: airplane cockpit sunrise
 status: draft
 takes:
 - voice: rosanna
-  text: 'Here''s what I''d tell you. Notice what this kid did before anyone was watching. He was seven. The pandemic hit. He looked at planes and decided. Nobody handed him a stage. He just knew the words already when the stage showed up. That''s the part people skip when they share the clip. The charm is real. The homework came first. And one more thing, gently. He''s twelve. Enjoy the video, cheer him on, and leave it there. You don''t need his school or his street to be happy for him. Let him have a childhood with a good story in it, not a following.'
+  text: Here's what I'd tell you. Notice what this kid did before anyone was watching. He was seven. The pandemic hit. He looked at planes and decided. Nobody handed him a stage. He just knew the words already when the stage showed up. That's the part people skip when they share the clip. The charm is real. The homework came first. And one more thing, gently. He's twelve. Enjoy the video, cheer him on, and leave it there. You don't need his school or his street to be happy for him. Let him have a childhood with a good story in it, not a following.
 - voice: destiny
-  text: 'Watch the hands of a boy who has already chosen. Five years of looking at the sky, and then one morning in October he is aboard a real aircraft, speaking its language like it was always his. That is not luck. That is a want that went quiet and patient and sharp. And look who was flying the plane. A crew that looked back at him. A child sees that and something settles into gold. Strangers online felt it too, which is why they kept watching. Some people find their place. Some people get shown the door to it, and walk through as if they had the key all along.'
+  text: Watch the hands of a boy who has already chosen. Five years of looking at the sky, and then one day in October he is aboard a real aircraft, speaking its language like it was always his. That is not luck. That is a want that went quiet and patient and sharp. And look who was flying the plane. A crew that looked back at him. A child sees that and something settles into gold. Strangers online felt it too, which is why they kept watching. Some people find their place. Some people get shown the door to it, and walk through as if they had the key all along.
+fact_check:
+  done: true
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-30'
+  check1:
+    confirmed: 18
+    corrected: 3
+    removed: 0
+    unresolved: 0
+  check2:
+    ok: 18
+    fixed: 1
+    cut: 0
+    flagged: 0
+  open_items: 0
 ---
 
 "Captain William" is William Hobson, a 12-year-old aspiring pilot who, according to ABC News, won people over online with his aviation knowledge and in-flight lingo aboard Delta Air Lines' DREAM Flight in October 2026. The flight is an annual Delta program that takes students on a one-day aviation trip. This year it carried about 160 students from Atlanta to an Airbus aircraft plant in Mobile, Alabama.
