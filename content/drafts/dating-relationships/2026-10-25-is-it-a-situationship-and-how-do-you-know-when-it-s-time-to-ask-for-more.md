@@ -63,6 +63,11 @@ fact_check:
     cut: 2
     flagged: 0
   open_items: 0
+image: /images/dating-relationships/2026-10-25-is-it-a-situationship-and-how-do-you-know-when-it-s-time-to-ask-for-more.jpg
+image_credit: Luke Chesser lukechesser
+image_credit_url: https://commons.wikimedia.org/wiki/File:Coffee_in_Montreal_(Unsplash).jpg
+image_license: CC0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Coffee_in_Montreal_%28Unsplash%29.jpg/1280px-Coffee_in_Montreal_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ---
 
 A situationship is a romantic or sexual connection that both people treat as real but neither has defined. If you can't say what you are to each other, and asking feels risky, you're probably in one.
