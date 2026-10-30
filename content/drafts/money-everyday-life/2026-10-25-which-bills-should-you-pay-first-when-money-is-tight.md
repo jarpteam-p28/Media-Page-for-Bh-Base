@@ -24,7 +24,7 @@ The order isn't about which bill is biggest or which lender is loudest. It is ab
 
 ## What counts as essential?
 
-The Consumer Financial Protection Bureau (CFPB), the federal agency that oversees lenders, publishes a [prioritizing bills worksheet](https://www.kansaslegalservices.org/sites/kansaslegalservices.org/files/cfpb_your-money-your-goals_prioritizing_bills_tool_2018-11_ADA_0.pdf) built on this idea. It tells readers to identify what they need to pay to protect their housing and income, keep their insurance, and meet any court-ordered obligations. Its list includes rent or mortgage, gas, electric and water bills, transportation to get to work, child care, and car, health, and renters or home insurance.
+The Consumer Financial Protection Bureau (CFPB), the federal agency that oversees lenders, publishes a [prioritizing bills worksheet](https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_prioritizing-bills_tool.pdf) built on this idea. It tells readers to identify what they need to pay to protect their housing and income, keep their insurance, and meet any court-ordered obligations. The bills it groups under housing, getting to work, and insurance include rent or mortgage, gas, electric and water bills, transportation to get to work, child care, and car, health, and renters or home insurance.
 
 The test is simple. If losing it would put you out of your home, cut off your heat, or stop you reaching your job, it goes first.
 
@@ -64,7 +64,7 @@ Write down every bill you owe on a single page. Next to each, note the due date 
 
 ## Sources
 
-- Consumer Financial Protection Bureau, "Prioritizing bills tool" (Your Money, Your Goals toolkit, 2018), copy hosted by Kansas Legal Services: https://www.kansaslegalservices.org/sites/kansaslegalservices.org/files/cfpb_your-money-your-goals_prioritizing_bills_tool_2018-11_ADA_0.pdf
+- Consumer Financial Protection Bureau, "Prioritizing bills" tool (Your Money, Your Goals toolkit): https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_prioritizing-bills_tool.pdf
 - Federal Trade Commission, "Vehicle Repossession": https://consumer.ftc.gov/articles/vehicle-repossession
 - Consumer Financial Protection Bureau, "Can a debt collector take or garnish my wages or benefits?": https://www.consumerfinance.gov/ask-cfpb/can-a-debt-collector-take-or-garnish-my-wages-or-benefits-en-1439/
 - Consumer Financial Protection Bureau, Regulation X, mortgage servicing, 12 CFR 1024.41 (loss mitigation; 120-day rule): https://www.consumerfinance.gov/rules-policy/regulations/1024/41/
