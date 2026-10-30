@@ -55,7 +55,7 @@ takes:
 
 A situationship is a romantic or sexual connection that both people treat as real but neither has defined. If you can't say what you are to each other, and asking feels risky, you're probably in one.
 
-The word is everywhere right now. A film called *Situationship*, from director Roberto Nascimento, was recently covered by FilmInk. [VERIFY: confirm release details and plot from the FilmInk article before mentioning the film beyond its title.] The fact that the term now headlines films says something. It names an experience many adults recognize but have no formal word for.
+The word is everywhere right now. *Situationship*, a series of 26 one-minute vertical episodes directed by Roberto Nascimento, recently launched on YouTube and TikTok, [FilmInk reported](https://www.filmink.com.au/roberto-nascimento-comes-out-with-situationship/). The fact that the term now headlines screen projects says something. It names an experience many adults recognize but have no formal word for.
 
 ## What counts as a situationship?
 
@@ -67,13 +67,13 @@ That last part separates a situationship from early dating. Three weeks in, not 
 
 ## Why do these connections last so long?
 
-Part of the answer is inertia. In a 2006 paper in *Family Relations*, Scott Stanley, Galena Rhoades and Howard Markman described "sliding versus deciding." Couples often move into bigger commitments, such as sharing a home, through a series of small steps rather than a clear choice. The paper was about cohabitation, not situationships. But the mechanism carries over. When no one decides, the default quietly becomes the relationship.
+Part of the answer is inertia. In a [2006 paper in *Family Relations*](https://doi.org/10.1111/j.1741-3729.2006.00418.x), Scott Stanley, Galena Rhoades and Howard Markman described "sliding versus deciding." Couples often move into bigger commitments, such as sharing a home, through a series of small steps rather than a clear choice. The paper was about cohabitation, not situationships. But the mechanism carries over. When no one decides, the default quietly becomes the relationship.
 
 Ambiguity also protects both people in the short term. Nobody has to risk hearing "no" or "not like that." The cost shows up later, usually unevenly.
 
 ## Do situationships tend to be stable or on-and-off?
 
-Often they cycle. A 2009 qualitative study by Rene Dailey and colleagues, published in the *Journal of Social and Personal Relationships*, looked at on-again/off-again relationships. Participants described repeated breakups and reunions, along with uncertainty about where they stood. A related line of research by Kelly Halpern-Meekin and colleagues (2013, *Journal of Adolescent Research*) calls this "relationship churning" in young adults. [VERIFY: confirm journal and year for the Halpern-Meekin paper.]
+Often they cycle. A [2009 qualitative study](https://doi.org/10.1177/0265407509351035) by René Dailey and colleagues, published in the *Journal of Social and Personal Relationships*, looked at on-again/off-again relationships. Participants described repeated breakups and reunions, along with uncertainty about where they stood. A related line of research by Sarah Halpern-Meekin and colleagues ([2013, *Journal of Adolescent Research*](https://doi.org/10.1177/0743558412464524)) calls this "relationship churning" in young adults.
 
 These studies concern on-and-off romantic relationships generally, not situationships by name. They suggest, but don't prove, that undefined connections can drift into the same stop-start pattern.
 
@@ -107,7 +107,7 @@ Before you have the conversation, write down in one sentence what you want from 
 
 ## Sources
 
-- FilmInk, "Roberto Nascimento comes out with SITUATIONSHIP": https://news.google.com/rss/articles/CBMigAFBVV95cUxOU3h2WTF5dWZoYXZ3RklTSGw0OXdqVTZsX2lzclFxOW5wMnNZMkhrdnQxT3JOOWxhR0ZrSFYySFk3Q1B4cnRoakFMSUJKeFAyLUxZQmxtZGJ4eG1BRVRHU1dvMjI3THNZQTFxUHY5NlBpaHR6alc4T0IwaXljMDlVaw?oc=5
-- Stanley, S. M., Rhoades, G. K., & Markman, H. J. (2006). "Sliding versus deciding: Inertia and the premarital cohabitation effect." *Family Relations*, 55(4), 499–509.
-- Dailey, R. M., Pfiester, A., Jin, B., Beck, G., & Clark, G. (2009). "On-again/off-again dating relationships: How are they different from other dating relationships?" *Personal Relationships*, 16(1), 23–47. [VERIFY: exact title and journal; there is also a related 2009 qualitative paper by Dailey, Rossetto, Pfiester & Surra in the *Journal of Social and Personal Relationships*. Confirm which one to cite.]
-- Halpern-Meekin, S., Manning, W. D., Giordano, P. C., & Longmore, M. A. (2013). "Relationship churning in emerging adulthood." *Journal of Adolescent Research*. [VERIFY: volume and pages.]
+- FilmInk, "Roberto Nascimento comes out with SITUATIONSHIP": https://www.filmink.com.au/roberto-nascimento-comes-out-with-situationship/
+- Stanley, S. M., Rhoades, G. K., & Markman, H. J. (2006). "Sliding versus deciding: Inertia and the premarital cohabitation effect." *Family Relations*, 55(4), 499–509. https://doi.org/10.1111/j.1741-3729.2006.00418.x
+- Dailey, R. M., Rossetto, K. R., Pfiester, A., & Surra, C. A. (2009). "A qualitative analysis of on-again/off-again romantic relationships: 'It's up and down, all around.'" *Journal of Social and Personal Relationships*, 26(4), 443–466. https://doi.org/10.1177/0265407509351035
+- Halpern-Meekin, S., Manning, W. D., Giordano, P. C., & Longmore, M. A. (2013). "Relationship churning in emerging adulthood: On/off relationships and sex with an ex." *Journal of Adolescent Research*, 28(2), 166–188. https://doi.org/10.1177/0743558412464524
