@@ -12,10 +12,10 @@ takes:
 - voice: expert
   text: 'The article''s most useful move is separating what a receipt can show from what it can''t. A mismatch between shelf tag and register proves the two numbers disagree. It says nothing about intent, and the piece is careful not to pretend otherwise. That matters, because the usual causes are dull: a tag not updated, a promotion that ended, an item scanned under the wrong code. Nobody outside the store can tell those apart from a deliberate overcharge on one transaction. Repetition is what changes the picture, which is why the advice to photograph the tag and keep the receipt is sound. One photo is an anecdote. Several, with dates, are something an agency can sort. I''d also hold the Pittsburgh alert at arm''s length until the alert itself is read, since the article admits it doesn''t yet know what it said. Check the tag against the receipt before you leave the counter, while the cashier can still fix it.'
 image: /images/money-everyday-life/2026-10-29-how-do-you-know-a-convenience-store-is-charging-you-the-right-price.jpg
-image_credit: Nate Boyer
-image_credit_url: https://commons.wikimedia.org/wiki/File:Corner_store_in_Piperville,_Ontario.jpg
-image_license: CC BY-SA 4.0
-image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Corner_store_in_Piperville%2C_Ontario.jpg/1280px-Corner_store_in_Piperville%2C_Ontario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+image_credit: Eric Fischer
+image_credit_url: https://commons.wikimedia.org/wiki/File:Milk_and_eggs_are_sold_without_refrigeration_(18808189245).jpg
+image_license: CC BY 2.0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Milk_and_eggs_are_sold_without_refrigeration_%2818808189245%29.jpg/1280px-Milk_and_eggs_are_sold_without_refrigeration_%2818808189245%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ---
 
 You can't know for certain, but you can check in about ten seconds. Compare the price on the shelf tag with the price on your receipt, and keep the receipt until you've done it.
