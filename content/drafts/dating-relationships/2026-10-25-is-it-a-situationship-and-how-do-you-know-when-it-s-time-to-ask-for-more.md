@@ -55,7 +55,7 @@ takes:
 
 A situationship is a romantic or sexual connection that both people treat as real but neither has defined. If you can't say what you are to each other, and asking feels risky, you're probably in one.
 
-The word is everywhere right now. *Situationship*, a series of 26 one-minute vertical episodes directed by Roberto Nascimento, recently launched on YouTube and TikTok, [FilmInk reported](https://www.filmink.com.au/roberto-nascimento-comes-out-with-situationship/). The fact that the term now headlines screen projects says something. It names an experience many adults recognize but have no formal word for.
+It's an informal word for an experience many adults recognize but that has no formal label.
 
 ## What counts as a situationship?
 
@@ -107,7 +107,6 @@ Before you have the conversation, write down in one sentence what you want from 
 
 ## Sources
 
-- FilmInk, "Roberto Nascimento comes out with SITUATIONSHIP": https://www.filmink.com.au/roberto-nascimento-comes-out-with-situationship/
 - Stanley, S. M., Rhoades, G. K., & Markman, H. J. (2006). "Sliding versus deciding: Inertia and the premarital cohabitation effect." *Family Relations*, 55(4), 499–509. https://doi.org/10.1111/j.1741-3729.2006.00418.x
 - Dailey, R. M., Rossetto, K. R., Pfiester, A., & Surra, C. A. (2009). "A qualitative analysis of on-again/off-again romantic relationships: 'It's up and down, all around.'" *Journal of Social and Personal Relationships*, 26(4), 443–466. https://doi.org/10.1177/0265407509351035
 - Halpern-Meekin, S., Manning, W. D., Giordano, P. C., & Longmore, M. A. (2013). "Relationship churning in emerging adulthood: On/off relationships and sex with an ex." *Journal of Adolescent Research*, 28(2), 166–188. https://doi.org/10.1177/0743558412464524
