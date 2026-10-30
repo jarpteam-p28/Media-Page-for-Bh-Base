@@ -16,6 +16,21 @@ image_credit: Jacek Halicki
 image_credit_url: https://commons.wikimedia.org/wiki/File:2023_Stetoskop.jpg
 image_license: CC BY-SA 4.0
 image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/2023_Stetoskop.jpg/1280px-2023_Stetoskop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+fact_check:
+  done: true
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-30'
+  check1:
+    confirmed: 17
+    corrected: 2
+    removed: 0
+    unresolved: 0
+  check2:
+    ok: 16
+    fixed: 0
+    cut: 0
+    flagged: 0
+  open_items: 0
 ---
 
 Open enrollment for 2027 health coverage on HealthCare.gov runs from November 1, 2026 to January 15, 2027, according to the Centers for Medicare & Medicaid Services (CMS). Insurers have asked for a median premium increase of 15% for 2027, a second year of double-digit increases, according to KFF. Anyone planning to let last year's plan renew automatically has good reason to check the new numbers first.
