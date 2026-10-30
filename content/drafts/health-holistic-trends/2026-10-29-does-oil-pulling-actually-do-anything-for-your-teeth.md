@@ -35,7 +35,7 @@ The findings were mixed:
 - Chlorhexidine, a prescription-strength antiseptic rinse, reduced plaque more than oil pulling did.
 - The authors rated the overall quality of the evidence as "very low."
 
-A [summary by the Dental Elf](https://www.nationalelfservice.net/dentistry/oral-health-other-health-conditions/oil-pulling-oral-health/), an evidence-based dentistry blog, adds context. Of the 25 trials, 24 were at high risk of bias in at least one area. They were small, with 20 to 90 people each, and lasted no more than 30 days. The gum benefit over regular mouthwash rested on just two studies. Sesame and coconut oil were the most-tested oils.
+A [summary by the Dental Elf](https://www.nationalelfservice.net/dentistry/oral-health-other-health-conditions/oil-pulling-oral-health/), an evidence-based dentistry blog, adds context. Of the 25 trials, 24 were at high risk of bias in at least one area. They were small, with 20 to 90 people each, and short: the review itself reports that the trials lasted 7 to 45 days. The gum benefit over regular mouthwash rested on just two studies. Sesame and coconut oil were the most-tested oils.
 
 Two other reviews point the same way. A 2022 meta-analysis of nine randomized trials by Peng and colleagues in [*Healthcare*](https://pubmed.ncbi.nlm.nih.gov/36292438/) found lower bacterial counts in saliva, but no clear difference in plaque or gum scores. A 2020 review in [*Heliyon*](https://research.manchester.ac.uk/en/publications/the-effect-of-oil-pulling-with-coconut-oil-to-improve-dental-hygi/) looked only at coconut oil. It found four trials with 182 people in total, each lasting one to two weeks. Those trials reported lower bacteria and plaque scores, but the authors called the evidence limited, with mixed study quality and a high risk of bias.
 
@@ -49,9 +49,9 @@ The ADA's consumer site, [MouthHealthy](https://www.mouthhealthy.org/all-topics-
 
 For most people, the main risk is indirect. Time spent swishing oil is not a substitute for brushing, flossing or dental checkups, and a problem like a toothache or bleeding gums needs a dentist, not a home rinse.
 
-There is also a rare but documented direct risk. Oil that is accidentally breathed into the lungs can cause a condition called exogenous lipoid pneumonia. A [2015 report in *BMC Pulmonary Medicine*](https://pubmed.ncbi.nlm.nih.gov/26518258/) described two people, a 66-year-old man and a 38-year-old woman, who developed it after months of regular sesame oil pulling. A [2018 report in *Monaldi Archives for Chest Disease*](https://www.monaldi-archives.org/index.php/macd/article/view/922) described two women, both with a history of tongue cancer, whose pneumonia would not clear and was traced to oil pulling. Both stopped the practice and were treated with repeated washing out of the lungs. Those authors advised that people at risk of choking or inhaling liquids be told about this risk.
+There is also a rare but documented direct risk. Oil that is accidentally breathed into the lungs can cause a condition called exogenous lipoid pneumonia. A [2015 report in *BMC Pulmonary Medicine*](https://pubmed.ncbi.nlm.nih.gov/26518258/) described two people, a 66-year-old man and a 38-year-old woman, who developed it after months of regular sesame oil pulling. A [2018 report in *Monaldi Archives for Chest Disease*](https://www.monaldi-archives.org/index.php/macd/article/view/922) described two women, both with a history of tongue cancer, whose pneumonia would not clear and was traced to oil pulling. Both stopped the practice and were treated with repeated washing out of the lungs. Those authors advised that people, especially those at risk of inhaling liquids into the lungs, be properly informed of this risk.
 
-Case reports cannot say how common the problem is. They do show that people with swallowing trouble, a past head or neck cancer, or a tendency to cough while rinsing have extra reason for caution.
+Case reports cannot say how common the problem is. They do suggest that people at higher risk of inhaling liquids, such as those with swallowing trouble, have extra reason for caution.
 
 ## What is a sensible next step?
 
