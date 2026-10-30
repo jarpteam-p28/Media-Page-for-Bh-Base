@@ -11,6 +11,11 @@ status: draft
 takes:
 - voice: expert
   text: 'The most useful number in this article is not the 15%. It is the 400% line. A median increase describes insurers, not households. If your income sits under that line, the tax credit is built to cap your share of the benchmark plan at a set percentage of income, so a rising sticker price is partly absorbed. Above the line, nothing absorbs it. That is why two neighbors on the same plan can open very different renewal letters. The second point people underrate is the income estimate. With the repayment caps gone starting in tax year 2026, an estimate that turns out too low gets settled in full at tax time. A raise, a side job, a spouse going back to work: put it in the application now, while it only changes a monthly bill.'
+image: /images/money-everyday-life/2026-10-30-health-insurance-open-enrollment-2027-what-to-check-before-you-renew.jpg
+image_credit: Jacek Halicki
+image_credit_url: https://commons.wikimedia.org/wiki/File:2023_Stetoskop.jpg
+image_license: CC BY-SA 4.0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/2023_Stetoskop.jpg/1280px-2023_Stetoskop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ---
 
 Open enrollment for 2027 health coverage on HealthCare.gov runs from November 1, 2026 to January 15, 2027, according to the Centers for Medicare & Medicaid Services (CMS). Insurers have asked for a median premium increase of 15% for 2027, a second year of double-digit increases, according to KFF. Anyone planning to let last year's plan renew automatically has good reason to check the new numbers first.
@@ -35,7 +40,7 @@ These were proposed rates. Final prices vary by state, insurer and plan, and the
 
 The tax credit that lowers monthly premiums still exists, but it is smaller and narrower than it was from 2021 through 2025.
 
-**There is an income cutoff again.** The IRS's 2027 table only covers household incomes up to 400% of the federal poverty line ([IRS, Rev. Proc. 2026-26](https://www.irs.gov/irb/2026-31_IRB)). HealthCare.gov uses the 2026 poverty guidelines for 2027 plans, which are $15,960 for one person, $21,640 for two and $33,000 for a family of four ([HealthCare.gov](https://www.healthcare.gov/glossary/federal-poverty-level-fpl/)). In the 48 contiguous states, 400% works out to $63,840 for one person, $86,560 for two and $132,000 for four. Alaska and Hawaii have higher guidelines ([HHS](https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines)).
+**There is an income cutoff again.** The IRS's 2027 table only covers household incomes up to 400% of the federal poverty line ([IRS, Rev. Proc. 2026-26](https://www.irs.gov/irb/2026-31_IRB)). HealthCare.gov says the previous year's figures are used to calculate savings for the next year's plans, and lists the 2026 poverty guidelines as $15,960 for one person, $21,640 for two and $33,000 for a family of four ([HealthCare.gov](https://www.healthcare.gov/glossary/federal-poverty-level-fpl/)). Those are the HHS figures for the 48 contiguous states and the District of Columbia. Multiplying them by four, 400% works out to $63,840 for one person, $86,560 for two and $132,000 for four; these dollar amounts are our calculation, not figures published by HHS or HealthCare.gov. Alaska and Hawaii have higher guidelines ([HHS](https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines)).
 
 **Expected contributions are set by income.** For 2027, the IRS table asks households to pay from 2.15% of income at the lowest band up to 10.22% at 300% to 400% of poverty, toward the benchmark plan ([IRS, Rev. Proc. 2026-26](https://www.irs.gov/irb/2026-31_IRB)).
 
@@ -43,7 +48,7 @@ The tax credit that lowers monthly premiums still exists, but it is smaller and 
 
 **Some immigrants lose eligibility.** Starting January 1, 2027, only U.S. citizens, lawful permanent residents, certain Cuban and Haitian entrants and COFA migrants qualify for the credit. Other lawfully present groups, including refugees and people granted asylum, can still buy marketplace coverage but at full price ([Center on Budget and Policy Priorities](https://www.healthreformbeyondthebasics.org/faq-changes-coming-to-aca-marketplace-policies-2/)).
 
-Several other rule changes planned for 2027, including wider catastrophic-plan eligibility and higher out-of-pocket limits for bronze plans, will not take effect as finalized after a federal court in Maryland stayed them on July 16, 2026, CMS said ([CMS](https://www.cms.gov/files/document/statement-re-city-columbus-073126.pdf)). The case is still being litigated.
+Several other rule changes planned for 2027, including wider catastrophic-plan eligibility and higher out-of-pocket limits for bronze plans, will not take effect as finalized after a federal court in Maryland stayed them on July 16, 2026, CMS said ([CMS](https://www.cms.gov/files/document/statement-re-city-columbus-073126.pdf)). CMS said the stay applies while the litigation remains pending.
 
 ## What happens if you do nothing?
 
