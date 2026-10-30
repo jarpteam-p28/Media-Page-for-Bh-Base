@@ -26,6 +26,11 @@ fact_check:
     cut: 0
     flagged: 0
   open_items: 0
+image: /images/health-holistic-trends/2026-10-25-creatine-what-does-it-actually-do-and-is-it-safe-to-take.jpg
+image_credit: Ser Amantio di Nicolao
+image_credit_url: https://commons.wikimedia.org/wiki/File:Colorful_pile_of_dumbbells_at_the_gym_2.jpg
+image_license: CC BY-SA 4.0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Colorful_pile_of_dumbbells_at_the_gym_2.jpg/1280px-Colorful_pile_of_dumbbells_at_the_gym_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ---
 
 Creatine is a compound found in red meat and sold as a gym supplement. For healthy adults, the best-studied form, creatine monohydrate, has solid evidence for modest gains in strength and high-intensity exercise performance, and a good short-term safety record. The evidence for benefits beyond the gym is thinner.
