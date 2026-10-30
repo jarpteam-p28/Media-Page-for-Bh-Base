@@ -4,7 +4,7 @@ title: Is It a Situationship, and How Do You Know When It's Time to Ask for More
 slug: what-is-a-situationship-how-to-tell
 niche: dating-relationships
 voice: narrator
-source_story: https://news.google.com/rss/articles/CBMigAFBVV95cUxOU3h2WTF5dWZoYXZ3RklTSGw0OXdqVTZsX2lzclFxOW5wMnNZMkhrdnQxT3JOOWxhR0ZrSFYySFk3Q1B4cnRoakFMSUJKeFAyLUxZQmxtZGJ4eG1BRVRHU1dvMjI3THNZQTFxUHY5NlBpaHR6alc4T0IwaXljMDlVaw?oc=5
+source_story: https://www.filmink.com.au/roberto-nascimento-comes-out-with-situationship/
 summary: A situationship is a romantic connection with no agreed definition. Here's how to spot one, why they last, and how to ask for clarity.
 image_query: couple sitting apart couch
 status: draft
@@ -41,16 +41,28 @@ takes:
 
     Someone who truly wants you in the light will not need three paragraphs of decoding to say so.'
 - voice: expert
-  text: 'The article is careful about what the evidence covers, and that care is the most useful thing in it. Nobody has tested situationships directly. The research it cites concerns neighboring things.
+  text: 'Nobody has tested situationships directly, and the article says so. The research it cites concerns neighboring things, which is the honest way to use it.
 
 
-    Take the 2006 paper by Stanley, Rhoades and Markman on sliding versus deciding. It was about cohabitation. Couples drifted into shared homes through small steps, never one choice. The mechanism is the interesting part: a default forms when no one decides. Think of a path worn across a lawn. Nobody planned it, but everyone now walks it.
+    Take the 2006 paper by Stanley, Rhoades and Markman on sliding versus deciding. It was about cohabitation: couples moving in together through small steps rather than a clear choice. The mechanism is the useful part. A default forms when no one decides. Think of a path worn across a lawn. Nobody planned it, but everyone now walks it.
 
 
-    The on-and-off research is similar. It describes cycles of breakup and reunion, not undefined arrangements. The article says these studies suggest, but don''t prove, a link. That is the right strength of claim.
-
-
-    I''d add one caution. Several citations are flagged for verification, and they should be checked before publication, particularly the journal for the Dailey paper.'
+    The on-and-off studies, from Dailey''s team in 2009 and Halpern-Meekin''s in 2013, describe cycles of breakup and reunion, not undefined arrangements. The article says they suggest, but don''t prove, a link. That is the right strength of claim.'
+fact_check:
+  done: true
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-30'
+  check1:
+    confirmed: 3
+    corrected: 5
+    removed: 0
+    unresolved: 0
+  check2:
+    ok: 6
+    fixed: 0
+    cut: 2
+    flagged: 0
+  open_items: 0
 ---
 
 A situationship is a romantic or sexual connection that both people treat as real but neither has defined. If you can't say what you are to each other, and asking feels risky, you're probably in one.
