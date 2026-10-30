@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://news.google.com/rss/articles/CBMinAFBVV95cUxNLURKNHprVFhpeVNjUXRSOS0xVXpwLVNJWWJQNzd2eXZQazdqbXJxMDhxcHo0cTdlMThPRWNWLUpTaDNJVE9EWXJvU0RNWnJIaVFFS0piX2NZNFlMUE1iTnhMT0pVSmM5dXFvdmtGZHlhQzdDUHVWbkpRYWFwNFBEQnFZcU9QTkljNDFGM29GV2g0Q0o4S1VzQTJocFM?oc=5
 summary: United Way's ALICE research finds about four in ten US households earn too little to cover basic local costs. Here is how that happens.
 image_query: family kitchen table bills
-status: draft
+status: approved
 takes:
 - voice: expert
   text: The article's most useful move is separating the inflation rate from the price level. A rate is a speed; a level is a distance already covered. When inflation slows, people feel relief in the news and none at the checkout, because the rate describes how fast prices are climbing now, not how far they climbed. That is also why the ALICE count runs well above the share of households in official poverty. The poverty line was built around food costs, and ALICE prices a local budget that includes housing and child care. Two measures, two questions. What nobody has tested directly is whether the line-by-line comparison the article suggests changes outcomes for households that do it. It does make the largest gap visible, though, and housing is usually where it sits.
