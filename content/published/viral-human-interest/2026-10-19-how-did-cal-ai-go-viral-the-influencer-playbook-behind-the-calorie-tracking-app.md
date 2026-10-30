@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://news.google.com/rss/articles/CBMirAFBVV95cUxNQmx0SHM4Y0t3MjdDbzU3d3BhMGUxRi1EaEoxQjJ6OUhYZFctM0Y0VVpjNGhRcUtrVFJVM1J1LW9JeFJtdVlNR1hiTHJDMW5XM1VNeV9McmItS040R3FnYlhhWUJrT0d4Vy0ySldxQk5nelozZURDdmpmSU1feUVZU0VsZGhZMzBNYTZINXk4ajdzdUs2M1NUQmJzM2pxRnFQUjFPMjBTbWFnaEVO?oc=5
 summary: Cal AI, a photo-based calorie counter, grew largely by paying many influencers to post about it. Here is what's reported about how it happened, and what isn't confirmed.
 image_query: phone food photo app
-status: draft
+status: approved
 takes:
 - voice: rosanna
   text: 'Let''s say the quiet part. You''ve probably scrolled past a video like this and wondered if it was an ad. Often, it was. These creators were paid.

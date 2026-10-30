@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://news.google.com/rss/articles/CBMipgFBVV95cUxNcHVKZElXMUhIblBtS2pLOThuSmszNHRMQXBvOFR6ZjBJWHhJd1BCM094dlg3eDRmNmFaUTFJOFJQZHhBRkdyTjNISkhSaGlBVTE3ZWNPZW04eHh6S1JXSUxJVzBmNlN6QklYT2NmSTVfUVdLeS03TmNUWmNTM2tsTENLazJGODVrOUtsajY0d1pBemIyQnBERG5zNUtNNi1iNktLR3pn0gGrAUFVX3lxTE9wa3NJblczOVI5c2t3akxLWkM4NWFqSGVqREFiMHNpc2RvUGJMbHJURk8yaUhBRXlVRnhrYmFFS1kyamo3MVltQWd0NUc0SnhzX3pVZnRDSDVJNFBPRXBDQ0pPTFFMZm9WXzd6RjVjbl9OMlRKVE0zandhOE5kM2w3Y0plQ3RBczQ1UUZxMzlUUWxTQnBINFVobzBZdXJhNnZtVi1NS1NVUDBVbw?oc=5
 summary: 'Protests in Belgium, Italy, Portugal and France point to a squeeze that US households know well: wages that lag prices, and prices that stay high even after inflation cools.'
 image_query: grocery receipt household bills
-status: draft
+status: approved
 takes:
 - voice: expert
   text: 'The article''s most useful move is separating two things people routinely blur: the inflation rate and the price level. A rate is a speed. A level is a location. Think of a car that slowed from 90 to 40 miles an hour. It is still moving away from where it started, and it is not driving back. That is why anger outlasts a falling headline number. I would add one caution. Whether pay has caught up differs by country, industry and contract, and a single national average cannot settle it for any one household. Your own statements will tell you more than either continent''s average.'

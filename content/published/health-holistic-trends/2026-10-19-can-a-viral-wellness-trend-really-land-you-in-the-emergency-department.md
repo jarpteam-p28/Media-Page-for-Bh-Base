@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://news.google.com/rss/articles/CBMie0FVX3lxTE1qUklvR3BuM3g5OWNGU3VpSnA1RFd1cDVaeW1hLW5jRXJUWXB4emFuLXNfeE9HbTFTNEF2R2Fob2JKYmp5aUhxTm9CeVVlZnJUcGJQa1lXX0pHazRqOGE3Y0VkdzhEcmxBQ0JQSVFERFRQb1VOLXIwZFp6MA?oc=5
 summary: Wellness products and practices do send some people to hospital. Here is how it happens, what the data shows, and what to check first.
 image_query: supplement bottles kitchen counter
-status: draft
+status: approved
 takes:
 - voice: expert
   text: 'The article''s most useful move is its caution about what surveillance data can show. The 2015 analysis by Andrew Geller and colleagues counted emergency visits that were linked to supplements. That tells us harm occurs and roughly where. It cannot tell us how likely any single product is to cause it, because nobody knows how many people took the product and felt nothing. The turmeric liver cases work the same way: ten cases is a signal worth checking, not a rate. The same goes for the NSW peptide figures. A jump in emergency presentations is worth taking seriously, but it counts the people who got sick, not the many who took the same products. The pharmacist question is sound because interactions are predictable in a way individual reactions are not; St John''s wort, for example, can weaken some birth control pills.'
