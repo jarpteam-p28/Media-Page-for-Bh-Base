@@ -28,6 +28,11 @@ fact_check:
     cut: 0
     flagged: 0
   open_items: 0
+image: /images/viral-human-interest/2026-10-29-who-is-captain-william-the-12-year-old-behind-the-viral-delta-dream-flight.jpg
+image_credit: Lostabroad
+image_credit_url: https://commons.wikimedia.org/wiki/File:Inside_the_cockpit_of_one_of_the_aircraft_of_the_airplane_graveyard,_Bangkok.jpg
+image_license: CC BY-SA 4.0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Inside_the_cockpit_of_one_of_the_aircraft_of_the_airplane_graveyard%2C_Bangkok.jpg/1280px-Inside_the_cockpit_of_one_of_the_aircraft_of_the_airplane_graveyard%2C_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ---
 
 "Captain William" is William Hobson, a 12-year-old aspiring pilot who, according to ABC News, won people over online with his aviation knowledge and in-flight lingo aboard Delta Air Lines' DREAM Flight in October 2026. The flight is an annual Delta program that takes students on a one-day aviation trip. This year it carried about 160 students from Atlanta to an Airbus aircraft plant in Mobile, Alabama.
