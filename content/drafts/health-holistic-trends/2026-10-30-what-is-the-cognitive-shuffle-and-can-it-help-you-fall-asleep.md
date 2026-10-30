@@ -10,12 +10,27 @@ image_query: dark bedroom pillow
 status: draft
 takes:
 - voice: expert
-  text: The interesting claim here is not that distraction helps. Plenty of techniques distract. The claim is that random, disconnected images mimic the way the mind already drifts at sleep onset, and so push the process along. That is a testable idea, and it has barely been tested. The 2016 poster compared the shuffle with another active technique and found both groups improved, which is a bit like two people taking different routes to the same town during the same week. Without a group that did nothing new, the passing month, the questionnaires and plain expectation could all account for the change. My advice is to treat it as a cheap experiment for an occasional bad night. If bad nights have become the pattern, three nights a week for three months, the shuffle is the wrong tool and CBT-I is the one with the guideline behind it.
+  text: 'The interesting claim here is not that distraction helps. The claim is that random, disconnected images mimic the way the mind already drifts at sleep onset, and so push the process along. That is a testable idea, and it has barely been tested. The 2016 study split 154 students into three groups: the shuffle, structured problem-solving, or both. The shuffle came out about as effective as problem-solving, which is like learning that two routes reach the same town without knowing whether staying put would have got you there too. Nobody had a group that tried nothing new, so the passing semester and expectation could explain the change. Treat it as a cheap experiment for an occasional bad night. If bad nights have become the pattern, three nights a week for three months, the shuffle is the wrong tool and CBT-I is the one with the guideline behind it.'
 image: /images/health-holistic-trends/2026-10-30-what-is-the-cognitive-shuffle-and-can-it-help-you-fall-asleep.jpg
 image_credit: BasilAce
 image_credit_url: https://commons.wikimedia.org/wiki/File:Sleep_mood.jpg
 image_license: CC BY-SA 4.0
 image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Sleep_mood.jpg/1280px-Sleep_mood.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+fact_check:
+  done: true
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-30'
+  check1:
+    confirmed: 7
+    corrected: 11
+    removed: 0
+    unresolved: 0
+  check2:
+    ok: 12
+    fixed: 7
+    cut: 0
+    flagged: 0
+  open_items: 0
 ---
 
 The cognitive shuffle is a bedtime mental exercise: instead of lying awake with the same worries, a person pictures a string of random, unrelated things until sleep arrives. It is free, the studies described here did not report side effects, and some early findings are encouraging. But the research is thin, has been done mostly by the technique's creator and his colleagues, and has not shown that it beats other approaches.
