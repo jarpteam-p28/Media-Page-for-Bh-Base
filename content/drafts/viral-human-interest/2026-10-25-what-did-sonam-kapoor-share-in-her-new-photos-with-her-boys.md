@@ -38,35 +38,41 @@ image_license: Public domain
 image_source: https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg2MzUyNTUtaW1hZ2Uta3d2djh1bHMuanBn.jpg
 ---
 
-Sonam Kapoor, the Bollywood actor, has shared a set of photos with her boys, and NDTV described them as a peek into her life as a mother. The outlet's headline calls the pictures "heartwarming." That is the extent of what the headline itself confirms.
+Sonam Kapoor, the Bollywood actor, has shared a set of photos and videos with her two sons on Instagram, and NDTV described them as a peek into her life as a mother. The outlet's headline calls the pictures "heartwarming." The post was also covered by the news agency IANS and by [India.com](https://www.india.com/entertainment/bollywood/sonam-kapoor-shares-glimpse-of-life-with-her-sons-a-house-in-chaos-and-a-very-full-heart-8539095/) on October 25, 2026.
 
 ## Who is Sonam Kapoor, and why do these photos get attention?
 
-Kapoor is an Indian film actor and a member of one of Bollywood's best-known families. Her father is the actor Anil Kapoor. She married the businessman Anand Ahuja in May 2018 [VERIFY: wedding date, May 8, 2018, against a major outlet].
+Kapoor is an Indian film actor and a member of one of Bollywood's best-known families. Her father is the actor Anil Kapoor. She married the businessman Anand Ahuja in Mumbai on May 8, 2018, according to [The Peninsula](https://thepeninsulaqatar.com/article/09/05/2018/Sonam-Kapoor-marries-Anand-Ahuja-in-big-fat-Punjabi-wedding).
 
-Her son, Vayu, was born in August 2022 [VERIFY: birth date and name against a major outlet]. Because she is a public figure who posts on social media, her family photos are routinely picked up by entertainment outlets. Coverage of this kind rarely involves news in the strict sense. It is a celebrity sharing a personal moment, and readers respond to it.
+The couple's first son, Vayu, was born on August 20, 2022, which they announced on Instagram, [Gulf News reported](https://gulfnews.com/entertainment/bollywood/bollywood-actress-sonam-kapoor-and-husband-anand-ahuja-welcome-baby-boy-1.1660993042651). Their second son was born on March 29, 2026, also announced in a joint Instagram post, [according to Gulf News](https://gulfnews.com/entertainment/sonam-kapoor-and-anand-ahuja-welcome-second-baby-boy-our-family-has-grown-1.500490558). Because she is a public figure who posts on social media, her family photos are routinely picked up by entertainment outlets. Coverage of this kind rarely involves news in the strict sense. It is a celebrity sharing a personal moment, and readers respond to it.
 
 ## What do the photos actually show?
 
-The only source for this story is NDTV's report, and the full text was not available when this draft was written. [VERIFY: open the NDTV article and describe only what it states: the number of photos, the setting, any caption from Kapoor, and where she posted them.]
+The post mixes photos and short videos. One video shows toys scattered across the floor of her home. Her main caption, as quoted by [India.com](https://www.india.com/entertainment/bollywood/sonam-kapoor-shares-glimpse-of-life-with-her-sons-a-house-in-chaos-and-a-very-full-heart-8539095/) and [IANS](https://hiindia.com/sonam-kapoor-gives-a-glimpse-of-her-chaotic-home-says-life-lately-is-all-about-her-boys/), reads: "Toy cars everywhere, a house in chaos, and a very full heart. Life lately is wonderful… just watch where you step."
 
-The phrase "her boys" is also unclear. It could refer to her son and her husband, or to more than one child. [VERIFY: who "her boys" refers to in the NDTV piece, including whether a second child has been publicly confirmed by Kapoor.] Until that is checked, this article does not say how many children she has.
+Text on one photo of her with her younger son reads "Life lately is all about my boys." Other frames show her making cupcakes with her elder son and taking both boys for a walk, and one carries the line "Missing my Anand so much," a reference to her husband.
+
+So "her boys" means her two sons. Several relatives and fellow actors left warm comments under the post, the reports said.
 
 ## Why do posts like this spread so quickly?
 
 Celebrity parenting posts travel because they are short, visual and easy to react to. A photo of a parent with a child needs no explanation, and readers can respond in a second.
 
-There is also a pattern in how public figures handle this. Many choose when and how to show their children, and Kapoor has posted about motherhood on her own terms rather than through paparazzi shots. [VERIFY: whether Kapoor has made public statements about how she shares her child's image, and cite them if so.] That is why a single post can turn into a headline.
+There is also a pattern in how public figures handle this. Many choose when and how to show their children. When Kapoor and Ahuja shared the first picture of Vayu in 2022, his face was hidden, [Gulf News noted](https://gulfnews.com/entertainment/bollywood/bollywood-actress-sonam-kapoor-and-anand-ahuja-reveal-first-picture-of-baby-vayu-1.1663686291357). That is why a single post she chooses to share can turn into a headline.
 
 ## What is still unconfirmed?
 
-Beyond the headline, nothing about the photos' content, captions or date is confirmed here. No quotes from Kapoor are included, because none were available from the source. Anything beyond NDTV's description should be treated as unverified.
+NDTV's own article could not be opened for this report, so the details above come from the IANS and India.com accounts of the same Instagram post. Beyond the captions those outlets quoted, nothing more from Kapoor is included here.
 
 ## Where to go next
 
-Read the original NDTV report and look at the photos in Kapoor's own post, which is the primary source for what she chose to share.
+Look at the photos in Kapoor's own Instagram post, which is the primary source for what she chose to share.
 
 ## Sources
 
-- NDTV, "Sonam Kapoor Gives Fans A Peek Into Motherhood Through Heartwarming Pics With Her Boys," via Google News: https://news.google.com/rss/articles/CBMixAFBVV95cUxQTHdjMUlfSUpyRWJrVHNXbDFYZ1IwWUpxX3BLajI2Q1FSTHlrODJrSVBsT0NwS2d1dVdxQnltc0k5MVZrUHpwanVZdEJQNHoxcmRkaTdwV3VLQVJXTHVjdlJEWlR4VUpOc01uaWc1QVBfalVNRFBJMi1iZm9yczZTR3JNM2J4N1Y4NS1la1Eyc3JEbUk4eURCUWsyMkJJVjdiN2dvTWszaFZZWmRrZWFYMnRnNVFfLVR6a0FtLTdwalY2SUQ40gHMAUFVX3lxTE5Vd1k5c2NrVGFSNWpSd29fYmlTdVN1TXBOZTFqTHVsaVRfZlh5Nkd4QURXRWFESGJQVEt0eXgxZEp6WWhfVkdla0R6MXZUYU85Ry1nZnB5TExfVzY4S01LSGhCSXA4X25XSVhHS1pBTkVWMUZIcEhXMExEU0RIMElQOEFfd0pTaXNFTmJXU3V1b2JER1ZSdHJ0MTdGbGtYalA3UjRUV2N2N0ZaaGpWZFk3YWdXX0k3UTBLNTFpTmw2NXNxRExpR0JMV2U5Vw?oc=5
-- Background facts (marriage date, son's birth) flagged above for verification against a major news outlet before publishing.
+- India.com, "Sonam Kapoor shares glimpse of life with her sons: 'A house in chaos, and a very full heart'" (October 25, 2026): https://www.india.com/entertainment/bollywood/sonam-kapoor-shares-glimpse-of-life-with-her-sons-a-house-in-chaos-and-a-very-full-heart-8539095/
+- IANS, "Sonam Kapoor gives a glimpse of her chaotic home, says life lately is all about her boys" (October 25, 2026), syndicated copy on hi INDiA: https://hiindia.com/sonam-kapoor-gives-a-glimpse-of-her-chaotic-home-says-life-lately-is-all-about-her-boys/
+- Gulf News, on the birth of the couple's second son: https://gulfnews.com/entertainment/sonam-kapoor-and-anand-ahuja-welcome-second-baby-boy-our-family-has-grown-1.500490558
+- Gulf News, on Vayu's birth (August 20, 2022): https://gulfnews.com/entertainment/bollywood/bollywood-actress-sonam-kapoor-and-husband-anand-ahuja-welcome-baby-boy-1.1660993042651
+- Gulf News, on the first picture of Vayu: https://gulfnews.com/entertainment/bollywood/bollywood-actress-sonam-kapoor-and-anand-ahuja-reveal-first-picture-of-baby-vayu-1.1663686291357
+- The Peninsula, on the May 8, 2018 wedding: https://thepeninsulaqatar.com/article/09/05/2018/Sonam-Kapoor-marries-Anand-Ahuja-in-big-fat-Punjabi-wedding
