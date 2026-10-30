@@ -1,0 +1,129 @@
+---
+date: '2026-10-25'
+title: Is It a Situationship, and How Do You Know When It's Time to Ask for More?
+slug: what-is-a-situationship-how-to-tell
+niche: dating-relationships
+voice: narrator
+source_story: https://www.filmink.com.au/roberto-nascimento-comes-out-with-situationship/
+summary: A situationship is a romantic connection with no agreed definition. Here's how to spot one, why they last, and how to ask for clarity.
+image_query: couple sitting apart couch
+status: draft
+takes:
+- voice: rosanna
+  text: 'You already know which one you are. The one who stopped asking.
+
+
+    That''s the part this article says quietly and I''d say out loud. You didn''t stay because you''re weak. You stayed because asking felt risky and not asking felt safe. Safe is a good reason, for a while.
+
+
+    But eight months of safe is a decision. It''s just one you made without saying so.
+
+
+    I''d tell you to take the one-sentence exercise seriously. Write what you want. Write what you''ll do if the answer is no. The second half is the hard one. Don''t skip it.
+
+
+    Timing matters here. Not the other person''s timing. Yours. You get to decide how long you wait.
+
+
+    And if fear, not just awkwardness, is what keeps you quiet, that''s a different conversation. Call the hotline in the article. Say the sentence to a person who can help.'
+- voice: destiny
+  text: 'Some arrangements are built to stay in the half-light. Nobody lights the lamp, because then you''d both have to look at what''s in the room.
+
+
+    The person in a situationship is often warm, easy, magnetic in small doses. The kind who makes a Tuesday night feel like gold and then goes quiet for four days. You learn to read the quiet. You become fluent in it. That fluency is what the article is really warning you about.
+
+
+    I like that it won''t tell you the other person is a villain. Most aren''t. They''re comfortable in the shadow, and shadow is generous to anyone who doesn''t need an answer.
+
+
+    But you do. I can tell, because you''re reading this.
+
+
+    Someone who truly wants you in the light will not need three paragraphs of decoding to say so.'
+- voice: expert
+  text: 'Nobody has tested situationships directly, and the article says so. The research it cites concerns neighboring things, which is the honest way to use it.
+
+
+    Take the 2006 paper by Stanley, Rhoades and Markman on sliding versus deciding. It was about cohabitation: couples moving in together through small steps rather than a clear choice. The mechanism is the useful part. A default forms when no one decides. Think of a path worn across a lawn. Nobody planned it, but everyone now walks it.
+
+
+    The on-and-off studies, from Dailey''s team in 2009 and Halpern-Meekin''s in 2013, describe cycles of breakup and reunion, not undefined arrangements. The article says they suggest, but don''t prove, a link. That is the right strength of claim.'
+fact_check:
+  done: true
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-30'
+  check1:
+    confirmed: 3
+    corrected: 5
+    removed: 0
+    unresolved: 0
+  check2:
+    ok: 6
+    fixed: 0
+    cut: 2
+    flagged: 0
+  open_items: 0
+image: /images/dating-relationships/2026-10-25-is-it-a-situationship-and-how-do-you-know-when-it-s-time-to-ask-for-more.jpg
+image_credit: Luke Chesser lukechesser
+image_credit_url: https://commons.wikimedia.org/wiki/File:Coffee_in_Montreal_(Unsplash).jpg
+image_license: CC0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Coffee_in_Montreal_%28Unsplash%29.jpg/1280px-Coffee_in_Montreal_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+---
+
+A situationship is a romantic or sexual connection that both people treat as real but neither has defined. If you can't say what you are to each other, and asking feels risky, you're probably in one.
+
+It's an informal word for an experience many adults recognize but that has no formal label.
+
+## What counts as a situationship?
+
+There is no clinical definition. Researchers don't treat "situationship" as a diagnostic category, so the term is slang, and its edges are loose.
+
+Most uses share a few features. The two people spend time together regularly and often have some intimacy. There is no stated commitment. And the ambiguity is not a phase on the way to something clearer. It is the arrangement.
+
+That last part separates a situationship from early dating. Three weeks in, not having "the talk" is normal. Eight months in, with no talk and no plan for one, is a different thing.
+
+## Why do these connections last so long?
+
+Part of the answer is inertia. In a [2006 paper in *Family Relations*](https://doi.org/10.1111/j.1741-3729.2006.00418.x), Scott Stanley, Galena Rhoades and Howard Markman described "sliding versus deciding." Couples often move into bigger commitments, such as sharing a home, through a series of small steps rather than a clear choice. The paper was about cohabitation, not situationships. But the mechanism carries over. When no one decides, the default quietly becomes the relationship.
+
+Ambiguity also protects both people in the short term. Nobody has to risk hearing "no" or "not like that." The cost shows up later, usually unevenly.
+
+## Do situationships tend to be stable or on-and-off?
+
+Often they cycle. A [2009 qualitative study](https://doi.org/10.1177/0265407509351035) by René Dailey and colleagues, published in the *Journal of Social and Personal Relationships*, looked at on-again/off-again relationships. Participants described repeated breakups and reunions, along with uncertainty about where they stood. A related line of research by Sarah Halpern-Meekin and colleagues ([2013, *Journal of Adolescent Research*](https://doi.org/10.1177/0743558412464524)) calls this "relationship churning" in young adults.
+
+These studies concern on-and-off romantic relationships generally, not situationships by name. They suggest, but don't prove, that undefined connections can drift into the same stop-start pattern.
+
+## How do you know if it's working for you?
+
+The useful question is not what to call it. It is whether both people want the same thing and are saying so.
+
+A few signs the arrangement may be costing one person more than the other:
+
+- One person avoids questions about the future, and the other has stopped asking.
+- You adjust your expectations to avoid seeming "needy."
+- You feel anxious after messages go unanswered, but relaxed only when they arrive.
+
+None of this means the other person is acting in bad faith. People in situationships are often just avoiding a hard conversation, and sometimes they don't know what they want themselves. Labeling someone's character from the outside rarely helps. Their behavior and your needs are the facts you can work with.
+
+## How do you ask for clarity without an ultimatum?
+
+Start with your own position, not an accusation. "I've realized I want something more defined. Where are you at?" gives the other person room to answer honestly. It also tells you something no amount of text-message analysis can.
+
+Then believe the answer. If they say they don't want a committed relationship, the information is clear even if it's unwelcome. If they say they're unsure, that is also an answer, and you can decide how long you're willing to wait on it.
+
+## When is it more than a situationship?
+
+Ambiguity is uncomfortable. Control is different. If a partner monitors you, threatens you, pressures you sexually, isolates you from friends, or makes you afraid to bring up your needs, that is not a labeling problem. A trained advocate can help you think it through, and the hotline below is confidential.
+
+## One next step
+
+Before you have the conversation, write down in one sentence what you want from this connection, and what you'd do if the answer is no. That sentence is easier to say out loud once it exists on paper.
+
+*This article is educational and is not therapy or professional advice. If you are in an unsafe or abusive relationship, contact the National Domestic Violence Hotline: 1-800-799-7233.*
+
+## Sources
+
+- Stanley, S. M., Rhoades, G. K., & Markman, H. J. (2006). "Sliding versus deciding: Inertia and the premarital cohabitation effect." *Family Relations*, 55(4), 499–509. https://doi.org/10.1111/j.1741-3729.2006.00418.x
+- Dailey, R. M., Rossetto, K. R., Pfiester, A., & Surra, C. A. (2009). "A qualitative analysis of on-again/off-again romantic relationships: 'It's up and down, all around.'" *Journal of Social and Personal Relationships*, 26(4), 443–466. https://doi.org/10.1177/0265407509351035
+- Halpern-Meekin, S., Manning, W. D., Giordano, P. C., & Longmore, M. A. (2013). "Relationship churning in emerging adulthood: On/off relationships and sex with an ex." *Journal of Adolescent Research*, 28(2), 166–188. https://doi.org/10.1177/0743558412464524
