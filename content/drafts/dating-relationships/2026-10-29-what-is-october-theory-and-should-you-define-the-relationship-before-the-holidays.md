@@ -30,6 +30,11 @@ fact_check:
     cut: 0
     flagged: 0
   open_items: 0
+image: /images/dating-relationships/2026-10-29-what-is-october-theory-and-should-you-define-the-relationship-before-the-holidays.jpg
+image_credit: K0nvaliya
+image_credit_url: https://commons.wikimedia.org/wiki/File:Black-headed_gull_(Chroicocephalus_ridibundus).jpg
+image_license: CC BY-SA 4.0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Black-headed_gull_%28Chroicocephalus_ridibundus%29.jpg/1280px-Black-headed_gull_%28Chroicocephalus_ridibundus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ---
 
 October Theory is a social-media idea, not a research finding. It holds that an undefined relationship tends to become serious or quietly end in the run-up to the holidays. There is no study showing that October decides anything. The real pressure is simpler: holidays make it harder to stay vague about where someone fits.
