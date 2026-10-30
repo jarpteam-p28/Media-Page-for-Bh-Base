@@ -4,7 +4,7 @@ title: Which Bills Should You Pay First When Money Is Tight?
 slug: which-bills-to-pay-first-when-money-is-tight
 niche: money-everyday-life
 voice: narrator
-source_story: https://news.google.com/rss/articles/CBMitwFBVV95cUxPX19FQ1VLcmNOWFg1eGVteF9McnBzOGRUZWV0Z0RUSnNwUlR3dF85NVJlaC0ybFJDVGN0RzVsRzM2bXBsNVFJSEV5T3JvaGZtQXEyYmpmN1A2eTA4RVdIRFgteHdLZWxhU201cXBFYlBHZUF4RmN1cUR5dkMzWVpmbHFSMDFxM0w2enByRzhwWHhuNWRrLUxHZTkzRVIzY3hxdnRFbTNuOUEzY1V6bkUycTZrWl8wXzQ?oc=5
+source_story: https://www.washingtonpost.com/business/2026/10/25/economy-is-doing-fine-why-cant-1-4-americans-pay-all-their-bills/
 summary: When money runs short, pay for shelter, food, utilities, and transport first. Cards and medical bills usually come later, with real costs.
 image_query: kitchen table bills
 status: draft
@@ -16,6 +16,21 @@ image_credit: Luigi Novi
 image_credit_url: https://commons.wikimedia.org/w/index.php?curid=36195517
 image_license: CC BY 3.0
 image_source: https://upload.wikimedia.org/wikipedia/commons/8/8e/10.11.14KurtzmanPanelByLuigiNovi6.jpg
+fact_check:
+  done: true
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-30'
+  check1:
+    confirmed: 6
+    corrected: 6
+    removed: 1
+    unresolved: 0
+  check2:
+    ok: 11
+    fixed: 2
+    cut: 0
+    flagged: 0
+  open_items: 0
 ---
 
 When money is tight, pay for the things that keep you housed, fed, warm, and able to get to work first. Debts that can wait longer, such as credit cards and medical bills, come after that.
