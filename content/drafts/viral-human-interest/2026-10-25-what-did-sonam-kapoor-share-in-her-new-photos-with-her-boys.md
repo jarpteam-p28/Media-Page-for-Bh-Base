@@ -35,10 +35,10 @@ takes:
 
     The ones who show you the chaos have already decided exactly how much of it you get to see.'
 image: /images/viral-human-interest/2026-10-25-what-did-sonam-kapoor-share-in-her-new-photos-with-her-boys.jpg
-image_credit: Unknown
-image_credit_url: https://www.rawpixel.com/image/5907050/photo-image-public-domain-kid-person
-image_license: Public domain
-image_source: https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg2MzUyNTUtaW1hZ2Uta3d2djh1bHMuanBn.jpg
+image_credit: https://reddit.com/u/AffectionateMind26
+image_credit_url: https://commons.wikimedia.org/wiki/File:Mumbai_Skyline_Sunrise.jpg
+image_license: CC BY 2.0
+image_source: https://upload.wikimedia.org/wikipedia/commons/d/d7/Mumbai_Skyline_Sunrise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
 fact_check:
   done: true
   method: two independent in-chat checks (no API cost)
