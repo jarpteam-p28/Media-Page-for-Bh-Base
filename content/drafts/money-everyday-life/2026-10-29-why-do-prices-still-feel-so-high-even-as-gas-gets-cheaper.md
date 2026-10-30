@@ -26,6 +26,11 @@ fact_check:
     cut: 0
     flagged: 0
   open_items: 0
+image: /images/money-everyday-life/2026-10-29-why-do-prices-still-feel-so-high-even-as-gas-gets-cheaper.jpg
+image_credit: Ka23 13
+image_credit_url: https://commons.wikimedia.org/wiki/File:Checkout_area_20200509_b.jpg
+image_license: CC BY-SA 4.0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Checkout_area_20200509_b.jpg/1280px-Checkout_area_20200509_b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ---
 
 Prices feel high because most of them still are. In September 2026, overall prices were 3.7% higher than a year earlier, according to the [Bureau of Labor Statistics](https://www.bls.gov/news.release/cpi.nr0.htm), while hourly pay, after inflation, fell. Gas has started to ease in October, which lifted the mood a little, but a small drop from a high level still leaves the bill high.
