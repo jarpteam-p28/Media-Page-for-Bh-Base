@@ -285,11 +285,24 @@ def published_at(candidate: dict) -> float:
         return 0.0
 
 
-def pick_candidate(candidates: list, covered: list) -> dict | None:
-    # Skip anything already covered. Then prefer Reddit items with the most upvotes (real
-    # audience signal), else the most recently published news item. A human can always
-    # override by hand-editing content/drafts/_candidates/<slug>.json before running this.
+def matches_trend(candidate: dict, trending: list) -> bool:
+    # True when every word of some trending search ("ozempic shortage") is in the title.
+    words = title_words(candidate.get("title", ""))
+    return any((tw := title_words(t["term"])) and tw <= words for t in trending)
+
+
+def pick_candidate(candidates: list, covered: list, trending: list = ()) -> dict | None:
+    # Skip anything already covered. Then, in order: Pablo's own story picks
+    # (config/story_picks.yaml); news matching a trending Google/YouTube search; Reddit
+    # items with the most upvotes (real audience signal); else the newest news item.
+    # A human can always override by hand-editing content/drafts/_candidates/<slug>.json.
     fresh = [c for c in candidates if not is_covered(c, covered)]
+    picks = [c for c in fresh if c.get("pick")]
+    if picks:
+        return picks[0]
+    trend_items = [c for c in fresh if matches_trend(c, trending)]
+    if trend_items:
+        return max(trend_items, key=published_at)
     reddit_items = [c for c in fresh if c.get("upvotes") is not None]
     if reddit_items:
         return max(reddit_items, key=lambda c: c.get("upvotes", 0))
@@ -308,8 +321,8 @@ def run():
             print(f"[skip] no candidates file for {slug}, run research_agent.py first", file=sys.stderr)
             continue
 
-        candidates = json.loads(cand_file.read_text())["candidates"]
-        chosen = pick_candidate(candidates, covered)
+        cand_data = json.loads(cand_file.read_text())
+        chosen = pick_candidate(cand_data["candidates"], covered, cand_data.get("trending", []))
         if not chosen:
             print(f"[skip] no new stories for {slug} (everything found was already covered)", file=sys.stderr)
             continue
