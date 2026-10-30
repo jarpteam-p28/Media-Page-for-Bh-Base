@@ -52,10 +52,10 @@ takes:
 
     Nobody has tested that test directly, as far as the article shows.'
 image: /images/dating-relationships/2026-10-29-why-are-we-so-drawn-to-dating-red-flags.jpg
-image_credit: Shixart1985
-image_credit_url: https://commons.wikimedia.org/wiki/File:Elderly_couple_enjoys_coffee_together_in_a_cozy_living_room.jpg
-image_license: CC BY 2.0
-image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Elderly_couple_enjoys_coffee_together_in_a_cozy_living_room.jpg/1280px-Elderly_couple_enjoys_coffee_together_in_a_cozy_living_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+image_credit: Beata Zdyb
+image_credit_url: https://commons.wikimedia.org/wiki/File:Red_Flag_with_shit_on_the_Beach_in_Puerto_de_la_Cruz_de_Tenerife_2025.jpg
+image_license: CC BY-SA 4.0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Red_Flag_with_shit_on_the_Beach_in_Puerto_de_la_Cruz_de_Tenerife_2025.jpg/1280px-Red_Flag_with_shit_on_the_Beach_in_Puerto_de_la_Cruz_de_Tenerife_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 fact_check:
   done: true
   method: two independent in-chat checks (no API cost)
