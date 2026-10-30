@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://www.yahoo.com/news/us/articles/desperate-sf-renters-going-viral-120000655.html
 summary: Apartment hunters in San Francisco are turning their searches into public posts. The reason is a rental market where supply is thin and competition is fierce.
 image_query: city apartment hunting
-status: draft
+status: approved
 takes:
 - voice: rosanna
   text: 'If you''ve ever posted your own plea for a place to live, or thought about it, you''re not the embarrassing one here. The market is.

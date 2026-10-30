@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://news.google.com/rss/articles/CBMisAFBVV95cUxOY3RPNkJUcTdmYmYwUHJnemJNUkM5c09tMkRqQ2R1bklaQmVKM0lYVUpSenU4TFNvak4tS2gwV0ZVRFBCZjZSU0p3dWhnWTJFeHMzelNxUVhnWUlHQ0hWYXlwR0hNcjJGVVBIdlJJc2ZuQ3hvN0k3YWtENHlCZXNBVDloUDlLQ0R6QVY0Y1Y5VlltNUhlYXZLRjd0LW13bzVRWklqOVVwcFNqbkVPRjVvbtIBtgFBVV95cUxOZEpBdDlzY2E5Zi1VdXBBQkJ1M2J3VFJXcjdGbjR2bk12Y2M4TlJscVNFemM1VG9rU21ZQ1cxdmVTNU9aaEExU2JyYlI1QmNvcXB5UkVlOHVvUDRVMTBvZ1BjZ29JZE0zY3VtOFlOMGdXWUtFd0pBaFl6MXVZRlBUeXZ6dDlvNTJQSnliX3lfd0gzaEl6MWZvZ0xMem1qSVlKN0Zkb0VEMGlmNTZqTnFONldldkdwZw?oc=5
 summary: Even when inflation slows, prices don't come back down, and in September 2026 it sped up again in both the US and the euro area. Europe's cost-of-living anger shows why bills still sting, and how to measure your own.
 image_query: grocery receipt budget
-status: draft
+status: approved
 takes:
 - voice: expert
   text: 'A useful way to hold this article''s central point is to separate a level from a rate. Inflation is the speed of a car, not its position. When speed drops from 5% to 2%, you are still moving away from where you started. The article''s grocery example, $100 becoming $105 and then $107.10, shows that cleanly. The figures I lean on are the article''s own, each linked to BLS, Eurostat or the IEA. What I would add is that the wage comparison is the real test. Nobody has a single ''true'' inflation rate, because each household''s basket differs. That is why the three-category exercise with the BLS calculator is sound: it replaces an average with your own rent, groceries and fuel bills, then asks which one outran the calculator''s figure.'
