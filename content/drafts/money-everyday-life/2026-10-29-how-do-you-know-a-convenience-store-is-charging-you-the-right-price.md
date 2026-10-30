@@ -24,15 +24,15 @@ Small overcharges work because they're small. A few cents on a drink or a dollar
 
 ## What was the Pittsburgh-area consumer alert about?
 
-Patch reported that a consumer alert was issued for a convenience store in the Pittsburgh area. [VERIFY: the details of the Patch story, including which agency issued the alert, the store's name and location, the date, and what the alert said. The summary available for this draft contains only the headline, so none of those details are stated here.]
+Patch [reported on Oct. 29, 2026](https://patch.com/pennsylvania/pittsburgh/consumer-alert-issued-pittsburgh-area-convenience-store) that the Allegheny County Health Department issued a consumer alert for McKees Mart, a convenience store on Walnut Street in McKeesport. The alert was about health code violations, not prices. According to Patch, an Oct. 27 inspection found mouse droppings, chewed bags of popcorn, chew holes around electrical outlets, and milk drinks that had not been put in a cooler. The department could order the store closed if the problems are not corrected within 10 days.
 
-The rest of this article covers the general question the headline raises: how pricing at small stores is checked, and what a shopper can do.
+The rest of this article covers a separate question: how pricing at small stores is checked, and what a shopper can do.
 
 ## Who checks whether stores charge the right price?
 
-In the US, this is mostly a state and local job. Many states run weights and measures programs that inspect gas pumps, deli scales, and sometimes checkout scanners. The federal National Institute of Standards and Technology (NIST) publishes model rules, such as Handbook 130 and Handbook 44, that states can adopt. NIST doesn't inspect stores itself.
+In the US, this is mostly a state and local job. Many states run weights and measures programs that inspect gas pumps, deli scales, and sometimes checkout scanners. The federal National Institute of Standards and Technology (NIST) publishes model rules, such as [Handbook 130 and Handbook 44](https://www.nist.gov/pml/owm/publications/nist-handbooks), that states can adopt.
 
-In Pennsylvania, the Department of Agriculture's Bureau of Weights and Measures inspects commercial scales and fuel dispensers. [VERIFY: whether and how the Bureau inspects price scanners in Pennsylvania, and which county-level offices, if any, handle it in Allegheny County.] The state Attorney General's Bureau of Consumer Protection takes complaints about deceptive pricing and other unfair practices.
+In Pennsylvania, the [Department of Agriculture's weights and measures division](https://www.pa.gov/agencies/pda/consumer-protection/weights-measures) inspects fuel pumps, scales, and checkout scanner systems, except where a county or city runs its own inspection program. Allegheny County does: its [Bureau of Weights and Measures](https://www.alleghenycounty.us/Government/Departments-and-Offices/Department-Directory/Weights-and-Measures) inspects gas pumps, commercial scales, and scanners at retail checkout counters. The state Attorney General's Bureau of Consumer Protection also takes consumer complaints.
 
 ## Why do shelf and register prices sometimes differ?
 
@@ -48,17 +48,17 @@ Three habits do most of the work:
 - Read the receipt before you leave the counter, not in the car.
 - Photograph the shelf tag when a price looks surprising. A photo with the item in frame is better evidence than memory.
 
-Fuel works the same way. The price on the pump or the sign should match what you're charged. If you paid at the pump, the receipt shows the rate per gallon.
+Fuel works the same way. The price on the pump or the sign should match what you're charged. If you paid at the pump, the receipt usually shows the rate per gallon.
 
 ## What if the prices don't match?
 
-Ask the cashier to correct it, and point to the tag. Many stores will fix an honest mismatch on the spot. Some state laws or store policies go further, such as giving the item free or at a discount. [VERIFY: whether Pennsylvania has any law that requires a refund or discount for a scanner overcharge. Do not state a rule here until confirmed.]
+Ask the cashier to correct it, and point to the tag. Many stores will fix an honest mismatch on the spot. Some state laws or store policies go further, such as giving the item free or at a discount. In Pennsylvania, the [Bucks County consumer protection office has said](https://levittownnow.com/2014/07/27/consumer-corner-does-pricing-error-allow-for-free-item/) that state law does not require a free item, but that the store should charge the price shown on the shelf tag or sign.
 
-If the store refuses, or the same problem repeats, you can file a complaint. In Pennsylvania, that means the Attorney General's Bureau of Consumer Protection for pricing and deception issues, and the Department of Agriculture for scales and pumps. Include the store address, the date, the receipt, and your photo.
+If the store refuses, or the same problem repeats, you can file a complaint. In Pennsylvania, that means the county weights and measures office where one exists, such as Allegheny County's, or the state Department of Agriculture for scanners, scales, and pumps. The Attorney General's Bureau of Consumer Protection also takes complaints. Include the store address, the date, the receipt, and your photo.
 
 ## Does a consumer alert mean the store did something wrong?
 
-Not necessarily. A consumer alert is a warning to the public, and what it implies depends on the agency and the facts. Some follow a finding. Others follow a pattern of complaints. [VERIFY: what the alert in the Patch story actually said, and whether any violation was found.] A shopper should read the alert itself rather than the headline alone.
+It depends on the alert. A consumer alert is a warning to the public, and what it implies depends on the agency and the facts. The McKees Mart alert followed a health inspection that found violations, according to Patch, and the store can have it removed by showing the problems are fixed. It says nothing about the store's prices. A shopper should read the alert itself rather than the headline alone.
 
 *This article is for general information only and is not financial, tax, or legal advice. Consider speaking with a qualified professional about your own situation.*
 
@@ -66,7 +66,10 @@ Not necessarily. A consumer alert is a warning to the public, and what it implie
 
 ## Sources
 
-- Patch, "Consumer Alert Issued For Pittsburgh-Area Convenience Store" (date unverified): https://news.google.com/rss/articles/CBMingFBVV95cUxPVkpLMXkyVHBwa1g1cEZVNlIzVzU4R3JQejFIaVE4SWlFS2dLUHFyWDYyeElYQTJVUURkSDFueVRnbDZQOFVvYndldzQ5TjlDNksxRzdUc2lBSGJ2QXRUMG9jYlRXNE5sbURvS2k2aVdtOXRodGpLcWwwaXlZUmlzOVZLelhVUlctQmhkLUNkaFBhdkE1UlBzQ083RU1kZw?oc=5
-- NIST Office of Weights and Measures, Handbook 44 and Handbook 130 (model weights and measures rules): https://www.nist.gov/pml/owm
-- Pennsylvania Department of Agriculture, Bureau of Weights and Measures: https://www.agriculture.pa.gov
-- Pennsylvania Office of Attorney General, Bureau of Consumer Protection: https://www.attorneygeneral.gov/protect-yourself/consumer-protection/
+- Patch, "Consumer Alert Issued For Pittsburgh-Area Convenience Store" (Oct. 29, 2026): https://patch.com/pennsylvania/pittsburgh/consumer-alert-issued-pittsburgh-area-convenience-store
+- NIST Office of Weights and Measures, NIST Handbooks (Handbook 44 and Handbook 130): https://www.nist.gov/pml/owm/publications/nist-handbooks
+- NIST Handbook 130 (2026), Section II, state adoption of uniform laws and regulations: https://www.nist.gov/document/2026-hb-130-section-ii
+- Pennsylvania Department of Agriculture, Weights and Measures: https://www.pa.gov/agencies/pda/consumer-protection/weights-measures
+- Allegheny County, Weights and Measures: https://www.alleghenycounty.us/Government/Departments-and-Offices/Department-Directory/Weights-and-Measures
+- LevittownNow, "Consumer Corner: Does Pricing Error Allow for Free Item?" (July 27, 2014), answer from Bucks County Department of Consumer Protection: https://levittownnow.com/2014/07/27/consumer-corner-does-pricing-error-allow-for-free-item/
+- Pennsylvania Office of Attorney General, Bureau of Consumer Protection complaint form: https://www.attorneygeneral.gov/wp-content/uploads/BCP_Complaint_Form.pdf
