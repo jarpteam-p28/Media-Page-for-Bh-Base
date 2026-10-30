@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://news.google.com/rss/articles/CBMipAFBVV95cUxNNFQxcUtsUjN2Vi1VUUN0S1dlVjZSUGJoVERMU0M3bk1YV3NBc3pBNDdpMFczY215S3Y3eUtsN2lVOXZHSDR5N0lhbFhWZHZ5N1NaaGplQ3ViZjRLY2VuTWpHWGI5MTF6UTYwWkFOakY3RnlZcElsbmpsZUxIcGxJdW91N1Z3TzM5eHBqbkRiekhxUDZoWGRoVkJnLUYtdUxNRks2RA?oc=5
 summary: Protests over housing, food prices, low wages, schools and public services have spread across several European countries. Looking back at the 2022 energy crisis, the article explains how a European price squeeze can reach US households, mostly indirectly.
 image_query: city street protest crowd
-status: draft
+status: approved
 takes:
 - voice: expert
   text: 'The article''s most useful idea is the merit-order point: in many European markets the costliest plant needed to meet demand sets the price for every producer. That is why a gas spike reached homes with no gas connection. Think of an auction where the last bidder''s price is paid to everyone. The US link is weaker and harder to measure. The article doesn''t try to size the LNG, trade and shipping effects, and its energy figures are from 2022, so read them as background to today''s protests, not their cause. The exposure check is sound because it asks one answerable question: does your rate move with wholesale prices? Your highest winter bill minus your lowest summer bill is the number to bring to your utility.'

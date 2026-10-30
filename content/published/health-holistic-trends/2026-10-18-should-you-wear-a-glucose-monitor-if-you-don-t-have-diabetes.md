@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://news.google.com/rss/articles/CBMinAFBVV95cUxPTElyb3NRZ05jTjJTNXRTd1NEQl9BNThSY01pTGxqRFhGY1cxTGJqa3hGcklEQndGNGR5cV9HNDF3VWVfeHJwblZ2ckNvYms3c0dvOS03djlnaGJNNUd0akpxS2hISlFybEdoU0RIOXp0YlQ5UHBvVVpjOWMyU1NSTlJjek04WVc3MzczZGUwM1V2TkZqR3pPTFlOVTI?oc=5
 summary: Glucose monitors are now sold over the counter to people without diabetes. What they measure is real. What it means for healthy people is far less clear.
 image_query: wearable glucose sensor arm
-status: draft
+status: approved
 takes:
 - voice: expert
   text: 'The article keeps two questions apart, and that is the useful part. Can a sensor show that people respond differently to the same food? Yes. Zeevi and colleagues reported that in Cell in 2015, with about 800 people without diagnosed type 2 diabetes. Does acting on those readings make a healthy person healthier years later? The evidence so far is limited and indirect, and the article says so. Think of a bathroom scale that updates every five minutes. It is accurate about weight and silent about whether your weight is a problem. A post-meal rise is the body doing its job. Hall and colleagues in 2018 found some people classed as normal at times reached prediabetic-range readings, which is a measurement finding, not a prognosis. I would add that interference is device-specific: high-dose acetaminophen for Dexcom''s G6 and G7, more than 1,000 mg of vitamin C a day for Lingo. Check your own device''s label before you trust a strange number.'

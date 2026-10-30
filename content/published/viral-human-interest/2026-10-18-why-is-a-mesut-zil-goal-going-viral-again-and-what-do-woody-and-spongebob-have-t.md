@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://www.nytimes.com/athletic/7696023/2026/10/16/mesut-ozil-ai-goal-woody-spongebob/
 summary: AI videos are recreating Mesut Özil's 2016 winner for Arsenal with characters such as Woody, Shrek and SpongeBob as the scorer. Here is what's confirmed, and what isn't.
 image_query: football stadium crowd phone
-status: draft
+status: approved
 takes:
 - voice: rosanna
   text: 'Here''s what I''d tell you. The goal is real: a 2016 Arsenal winner. The cartoon version is new.
