@@ -9,9 +9,14 @@
 <meta property="og:description" content="{{DESCRIPTION}}">
 <meta property="og:type" content="article">
 {{OG_IMAGE}}
+<meta property="og:site_name" content="{{SITE_NAME}}">
+<meta name="theme-color" content="#0B1D35">
+<link rel="icon" type="image/png" href="/static/favicon.png">
+<link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
 <style>
   :root {
-    --ink:#111; --quiet:#666; --line:#e2e2e2; --bg:#fff; --soft:#f4f4f4; --brand:#004db3;
+    --ink:#111; --quiet:#5f5a52; --line:#e8e1d6; --bg:#fff; --soft:#faf3e8; --brand:#0B1D35;
+    --navy:#0B1D35; --gold:#D4AF37; --gold-ink:#8a6d12; --cream:#F7E3C6; --brown:#8B5E3C; --link:#1c4f8a;
     --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --serif: Georgia, "Times New Roman", serif;
   }
@@ -21,10 +26,16 @@
   img { display:block; max-width:100%; }
 
   /* Masthead + section bar */
-  .masthead { max-width:1180px; margin:0 auto; padding:18px 16px 10px; display:flex; align-items:flex-end; justify-content:space-between; gap:12px; }
-  .brand { font-family:var(--serif); font-weight:700; font-size:clamp(1.8rem, 5vw, 2.8rem); letter-spacing:-0.5px; color:var(--brand); line-height:1; }
-  .today { color:var(--quiet); font-size:0.8rem; white-space:nowrap; }
-  .sections { border-top:3px solid var(--brand); border-bottom:1px solid var(--line); background:#fff; position:sticky; top:0; z-index:5; }
+  header { background:var(--navy); }
+  .masthead { max-width:1180px; margin:0 auto; padding:14px 16px 12px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
+  .brand { display:flex; align-items:center; gap:12px; min-width:0; }
+  .brand img { flex:0 0 auto; width:clamp(48px, 9vw, 68px); height:auto; border-radius:50%; border:2px solid var(--gold); background:var(--cream); }
+  .brand-name { display:block; font-family:var(--serif); font-weight:700; font-size:clamp(1.6rem, 5vw, 2.6rem); letter-spacing:-0.3px; color:var(--cream); line-height:1; }
+  .brand-name b { color:var(--gold); font-weight:700; }
+  .brand-tag { display:block; margin-top:5px; color:var(--gold); font-size:clamp(0.7rem, 2.2vw, 0.85rem); letter-spacing:1.5px; text-transform:uppercase; }
+  .today { color:#c9c2b6; font-size:0.8rem; white-space:nowrap; text-align:right; }
+  .today strong { display:block; color:var(--gold); font-size:0.75rem; letter-spacing:0.5px; text-transform:uppercase; margin-top:4px; }
+  .sections { border-top:3px solid var(--gold); border-bottom:1px solid var(--line); background:#fff; position:sticky; top:0; z-index:5; }
   .sections nav { max-width:1180px; margin:0 auto; display:flex; overflow-x:auto; scrollbar-width:none; }
   .sections nav::-webkit-scrollbar { display:none; }
   .sections a { flex:0 0 auto; padding:11px 14px; font-weight:700; font-size:0.85rem; border-bottom:4px solid transparent; color:#333; }
@@ -82,7 +93,25 @@
   .hero figcaption a { text-decoration:underline; }
   .body { font-family:var(--serif); font-size:1.12rem; line-height:1.7; overflow-wrap:anywhere; }
   .body h2 { font-family:var(--sans); font-size:1.3rem; line-height:1.25; margin:1.8em 0 0.4em; }
-  .body a { color:var(--brand); text-decoration:underline; }
+  .body a { color:var(--link); text-decoration:underline; }
+  .affiliate { background:#fff8e1; border:1px solid var(--gold); padding:8px 12px; margin:0 0 12px; font-size:0.85rem; line-height:1.45; color:#3d3a35; }
+  .affiliate a { color:var(--link); text-decoration:underline; }
+  .checked { display:flex; gap:10px; align-items:flex-start; background:var(--soft); border:1px solid var(--cream); border-left:4px solid var(--gold); padding:10px 12px; margin:0 0 16px; font-size:0.85rem; line-height:1.45; color:#3d3a35; }
+  .checked .tick { flex:0 0 22px; height:22px; border-radius:50%; background:var(--navy); color:var(--gold); font-weight:700; display:flex; align-items:center; justify-content:center; font-size:0.8rem; }
+  .checked a { color:var(--link); text-decoration:underline; white-space:nowrap; }
+
+  /* About page */
+  .about { max-width:760px; }
+  .about-hero { display:grid; grid-template-columns:200px minmax(0, 1fr); gap:28px; align-items:start; margin-bottom:12px; }
+  .about-sage { width:100%; height:auto; border-radius:6px; background:var(--soft); }
+  .kicker { margin:0; color:var(--gold-ink); font-weight:700; text-transform:uppercase; letter-spacing:1px; font-size:0.8rem; }
+  .about h1 { font-family:var(--serif); font-size:clamp(1.8rem, 5vw, 2.6rem); line-height:1.1; margin:6px 0 12px; color:var(--navy); }
+  .about h2 { font-size:1.3rem; margin:32px 0 10px; padding-top:10px; border-top:3px solid var(--gold); color:var(--navy); }
+  .about p, .about li { font-family:var(--serif); font-size:1.08rem; line-height:1.65; }
+  .lede { font-size:1.2rem !important; font-weight:700; color:#333; }
+  .steps { padding-left:1.3em; }
+  .steps li { margin-bottom:10px; }
+  .publisher { color:var(--quiet); font-size:0.95rem !important; margin-top:28px; }
   .body em { color:#444; }
   .takes { margin-top:40px; border-top:4px solid var(--ink); padding-top:10px; }
   .takes h2 { font-size:1.15rem; text-transform:uppercase; letter-spacing:0.5px; margin:4px 0 4px; }
@@ -97,7 +126,12 @@
   .more { margin-top:44px; }
   .more h2 { font-size:1.05rem; text-transform:uppercase; border-top:4px solid; padding-top:8px; margin:0 0 14px; }
 
-  footer { border-top:3px solid var(--brand); background:var(--soft); text-align:center; padding:24px 16px; font-size:0.8rem; color:var(--quiet); }
+  footer { border-top:3px solid var(--gold); background:var(--navy); color:#c9c2b6; text-align:center; padding:28px 16px 32px; font-size:0.8rem; line-height:1.6; }
+  footer img { width:44px; height:44px; border-radius:50%; border:2px solid var(--gold); background:var(--cream); margin:0 auto 8px; }
+  footer .foot-name { font-family:var(--serif); color:var(--cream); font-size:1.15rem; font-weight:700; margin:0; }
+  footer .foot-trust { color:var(--gold); margin:2px 0 10px; letter-spacing:0.5px; }
+  footer a { color:var(--cream); text-decoration:underline; }
+  footer p { margin:4px auto; max-width:640px; }
 
   @media (max-width: 900px) {
     .home-top, .article-wrap { grid-template-columns:minmax(0, 1fr); }
@@ -107,6 +141,7 @@
   @media (max-width: 560px) {
     .grid-2, .grid-3, .grid-4 { grid-template-columns:1fr; }
     .today { display:none; }
+    .about-hero { grid-template-columns:110px minmax(0, 1fr); gap:16px; }
     .card-small { display:grid; grid-template-columns:120px 1fr; gap:12px; }
     .card-small .card-text { padding-top:0; }
   }
@@ -115,15 +150,22 @@
 <body>
 <header>
   <div class="masthead">
-    <a class="brand" href="/">{{SITE_NAME}}</a>
-    <span class="today" id="today"></span>
+    <a class="brand" href="/"><img src="/static/sage-badge.png" alt="" width="68" height="68"><span><span class="brand-name">The Savvy <b>Rabbit</b></span><span class="brand-tag">{{TAGLINE}}</span></span></a>
+    <div class="today"><span id="today"></span><strong>Every story checked twice</strong></div>
   </div>
   <div class="sections"><nav>{{NAV}}</nav></div>
 </header>
 <main>
 {{CONTENT}}
 </main>
-<footer>&copy; {{YEAR}} {{SITE_NAME}}. Articles are for general information only and are not medical, financial, or professional advice.</footer>
+<footer>
+  <img src="/static/sage-badge.png" alt="" width="44" height="44">
+  <p class="foot-name">{{SITE_NAME}}</p>
+  <p class="foot-trust">{{TAGLINE}} Every story checked twice.</p>
+  <p>Articles are for general information only and are not medical, financial, legal or professional advice. Our columnists are AI-created personas. <a href="/about/">About us and how we check</a>{{LEGAL_LINKS}}</p>
+  <p>Some links may be affiliate links; we may earn a commission at no extra cost to you. Contact: <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a></p>
+  <p>&copy; {{YEAR}} {{SITE_NAME}}, published by {{PUBLISHER}}.</p>
+</footer>
 <script>
   // Today's date in the masthead, and share links built from this page's own URL
   // (so they work on whatever domain the site ends up on).

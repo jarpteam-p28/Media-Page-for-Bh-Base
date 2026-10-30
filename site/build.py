@@ -34,8 +34,13 @@ IMAGES_DIR = ROOT / "content" / "images"
 NICHES_FILE = ROOT / "config" / "niches.yaml"
 TEMPLATE_PATH = ROOT / "site" / "template.html"
 DIST_DIR = ROOT / "dist"
+LEGAL_DIR = ROOT / "content" / "legal"  # privacy, terms, disclaimer (markdown)
+STATIC_DIR = ROOT / "site" / "static"  # logo, mascot and icons, copied as-is to /dist/static
 
-SITE_NAME = "BH Base Media"  # TODO: swap for the real site name once it's chosen
+SITE_NAME = "The Savvy Rabbit"
+TAGLINE = "Smart Reads. Better Living."
+PUBLISHER = "BH Base LLC"
+CONTACT_EMAIL = "bhbasellc@gmail.com"
 
 # One color per section, used for its tab, labels and photo placeholders.
 SECTION_COLORS = {
@@ -135,10 +140,11 @@ def latest_list(articles: list, sections: dict) -> str:
 
 
 def nav_html(sections: dict, active: str = "") -> str:
-    tabs = [f'<a href="/" class="{"active" if not active else ""}" style="--c:#111">Home</a>']
+    tabs = [f'<a href="/" class="{"active" if not active else ""}" style="--c:#0B1D35">Home</a>']
     for s in sections.values():
         cls = "active" if s["slug"] == active else ""
         tabs.append(f'<a href="/{s["slug"]}/" class="{cls}" style="--c:{s["color"]}">{e(s["name"])}</a>')
+    tabs.append(f'<a href="/about/" class="{"active" if active == "about" else ""}" style="--c:#b8922a">About</a>')
     return "".join(tabs)
 
 
@@ -149,7 +155,10 @@ def render(template: str, **kwargs) -> str:
     return out
 
 
-def page(template, sections, *, title, description, content, active="", og_image=""):
+LEGAL_LINKS = []  # (slug, title) of the legal pages that were built; filled in by load_legal_pages()
+
+
+def page(template, sections, *, title, description, content, active="", og_image="/static/sage-badge.png"):
     og = f'<meta property="og:image" content="{e(og_image)}">' if og_image else ""
     return render(
         template,
@@ -157,6 +166,10 @@ def page(template, sections, *, title, description, content, active="", og_image
         DESCRIPTION=e(description),
         OG_IMAGE=og,
         SITE_NAME=e(SITE_NAME),
+        TAGLINE=e(TAGLINE),
+        PUBLISHER=e(PUBLISHER),
+        CONTACT_EMAIL=e(CONTACT_EMAIL),
+        LEGAL_LINKS="".join(f' · <a href="/{s}/">{e(n)}</a>' for s, n in LEGAL_LINKS),
         NAV=nav_html(sections, active),
         YEAR=str(datetime.date.today().year),
         CONTENT=content,
@@ -187,6 +200,98 @@ def takes_html(a: dict) -> str:
             'not professional advice.</p>' + "".join(boxes) + "</section>")
 
 
+def affiliate_note(a: dict) -> str:
+    # Set `affiliate: true` (or `sponsored: true`) in an article's frontmatter when it has
+    # affiliate links or sponsored content. The FTC expects the disclosure BEFORE the links,
+    # so it goes above the photo and body.
+    if a.get("sponsored"):
+        text = "This article is sponsored content."
+    elif a.get("affiliate"):
+        text = ("This article contains affiliate links. If you buy through them, we may earn a "
+                "commission at no extra cost to you.")
+    else:
+        return ""
+    return f'<p class="affiliate">{text} <a href="/affiliate-disclosure/">Learn more</a></p>'
+
+
+def checked_badge(a: dict) -> str:
+    fc = a.get("fact_check") or {}
+    if not fc.get("done"):
+        return ""
+    return ('<p class="checked"><span class="tick">✓</span> <strong>Checked twice.</strong> Two independent '
+            'fact-checks against the original sources, then approved by an editor. '
+            '<a href="/about/#how-we-check">How we check</a></p>')
+
+
+def load_legal_pages():
+    # A page that still has a "[FILL IN" blank (address, contact email...) is not built,
+    # so an unfinished policy never goes live.
+    pages = []
+    for md_path in sorted(LEGAL_DIR.glob("*.md")):
+        _, fm_text, body = md_path.read_text().split("---", 2)
+        fm = yaml.safe_load(fm_text) or {}
+        if "[FILL IN" in body:
+            print(f"[skip] {md_path.name}: still has [FILL IN] blanks, not published")
+            continue
+        pages.append((fm, body))
+        LEGAL_LINKS.append((fm["slug"], fm["title"]))
+    return pages
+
+
+def build_legal(template, sections, fm, body):
+    updated = fm.get("updated")
+    when = f'<p class="byline">Last updated {nice_date(updated)}</p>' if isinstance(updated, datetime.date) else ""
+    content = (f'<div class="about legal"><h1>{e(fm["title"])}</h1>{when}'
+               f'<div class="body">{markdown.markdown(body.strip(), extensions=["extra"])}</div></div>')
+    write(DIST_DIR / fm["slug"], page(template, sections, title=f'{fm["title"]} | {SITE_NAME}',
+                                      description=f'{fm["title"]} for {SITE_NAME}', content=content))
+
+
+def build_about(template, sections):
+    content = f"""
+<div class="about">
+  <div class="about-hero">
+    <img class="about-sage" src="/static/sage-full.jpg" alt="Sage, the Savvy Rabbit mascot, in a navy hoodie with sunglasses pushed up on his head" width="280">
+    <div>
+      <p class="kicker">About us</p>
+      <h1>Smart reads for real life.</h1>
+      <p class="lede">{e(SITE_NAME)} explains the health trends, money news, viral stories and dating questions
+      everyone is talking about, in plain language, with the sources linked.</p>
+      <p>Meet Sage, our mascot. He's the rabbit with one folded ear and his sunglasses pushed up, because he'd
+      rather read the fine print than look cool. He doesn't write the stories. He's here to remind us what
+      we're for: being the savvy friend who checks before sharing.</p>
+    </div>
+  </div>
+  <h2 id="how-we-check">Every story checked twice</h2>
+  <ol class="steps">
+    <li><strong>We start with the news.</strong> Each story begins with something people are reading or searching for this week.</li>
+    <li><strong>We write it plainly.</strong> What happened, what the evidence says, and what it means for you, with links to the original sources.</li>
+    <li><strong>First fact-check.</strong> Every number, date, name and quote is checked against the original source.</li>
+    <li><strong>Second, independent fact-check.</strong> A second check re-opens every source without trusting the first one.</li>
+    <li><strong>An editor approves it.</strong> Nothing is published until a person at {e(PUBLISHER)} signs off.</li>
+  </ol>
+  <h2>Our columnists are AI personas</h2>
+  <p>Under some stories you'll see short takes from Rosanna, Destiny and The Expert. They are AI-created
+  personas, labeled "AI persona" every time. Their takes are opinion, not professional advice.</p>
+  <h2>Not professional advice</h2>
+  <p>Our articles are for general information only. They are not medical, financial, legal or professional
+  advice. Talk to a qualified professional about your own situation.</p>
+  <h2>Corrections</h2>
+  <p>If we get something wrong, we fix it and say so on the story. Spotted a mistake? Email
+  <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>.</p>
+  <h2>Affiliate links</h2>
+  <p>Some links may be affiliate links, which means we may earn a commission if you buy through them, at no
+  extra cost to you. Any article with affiliate links or sponsored content says so at the top.
+  <a href="/affiliate-disclosure/">Read our affiliate disclosure</a>.</p>
+  <h2>Contact</h2>
+  <p>Questions, tips and business inquiries: <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a></p>
+  <p class="publisher">{e(SITE_NAME)} is published by {e(PUBLISHER)}.</p>
+</div>"""
+    write(DIST_DIR / "about", page(template, sections, title=f"About | {SITE_NAME}",
+                                   description=f"How {SITE_NAME} picks, writes and double-checks every story.",
+                                   content=content, active="about"))
+
+
 def build_article(template, sections, articles, a):
     s = sections[a["_niche"]]
     body_html = markdown.markdown(a["_body"], extensions=["extra"])
@@ -204,7 +309,7 @@ def build_article(template, sections, articles, a):
         f'<div class="article-wrap"><div class="article-main">{label(s)}'
         f'<h1>{e(a["title"])}</h1>{standfirst}'
         f'<p class="byline">By {e(SITE_NAME)} Staff · <time datetime="{a["_date"].isoformat()}">'
-        f'{nice_date(a["_date"])}</time></p>'
+        f'{nice_date(a["_date"])}</time></p>{affiliate_note(a)}{checked_badge(a)}'
         f'<div class="share"><a data-share="facebook">Facebook</a><a data-share="x">X</a>'
         f'<a data-share="email">Email</a><button type="button" data-share="copy">Copy link</button></div>'
         f'{hero}<div class="body">{body_html}</div>{takes_html(a)}</div>'
@@ -251,8 +356,8 @@ def build_home(template, sections, articles):
             f'<div class="grid-2">{"".join(card(a, sections, "medium") for a in top)}</div></div>'
             f'{latest_list(articles, sections)}</div>{"".join(blocks)}'
         )
-    write(DIST_DIR, page(template, sections, title=SITE_NAME,
-                         description=f"{SITE_NAME}: health, money, viral and relationship stories, explained clearly.",
+    write(DIST_DIR, page(template, sections, title=f"{SITE_NAME}: {TAGLINE}",
+                         description=f"{SITE_NAME}: health, money, viral and relationship stories, explained clearly and checked twice.",
                          content=content))
 
 
@@ -263,9 +368,11 @@ def main():
 
     if IMAGES_DIR.exists():  # photos saved by agents/image_agent.py
         shutil.copytree(IMAGES_DIR, DIST_DIR / "images")
+    shutil.copytree(STATIC_DIR, DIST_DIR / "static")
 
     template = TEMPLATE_PATH.read_text()
     sections = load_sections()
+    legal_pages = load_legal_pages()
     articles = load_articles(sections)
 
     for a in articles:
@@ -273,6 +380,9 @@ def main():
     for s in sections.values():
         build_section(template, sections, articles, s)
     build_home(template, sections, articles)
+    build_about(template, sections)
+    for fm, body in legal_pages:
+        build_legal(template, sections, fm, body)
 
     print(f"[ok] built {len(articles)} article(s) in {len(sections)} section(s) -> {DIST_DIR}")
 
