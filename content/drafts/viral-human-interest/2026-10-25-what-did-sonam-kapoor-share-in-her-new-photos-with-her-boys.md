@@ -4,38 +4,56 @@ title: What Did Sonam Kapoor Share in Her New Photos With Her Boys?
 slug: sonam-kapoor-motherhood-photos-with-her-boys
 niche: viral-human-interest
 voice: narrator
-source_story: https://news.google.com/rss/articles/CBMixAFBVV95cUxQTHdjMUlfSUpyRWJrVHNXbDFYZ1IwWUpxX3BLajI2Q1FSTHlrODJrSVBsT0NwS2d1dVdxQnltc0k5MVZrUHpwanVZdEJQNHoxcmRkaTdwV3VLQVJXTHVjdlJEWlR4VUpOc01uaWc1QVBfalVNRFBJMi1iZm9yczZTR3JNM2J4N1Y4NS1la1Eyc3JEbUk4eURCUWsyMkJJVjdiN2dvTWszaFZZWmRrZWFYMnRnNVFfLVR6a0FtLTdwalY2SUQ40gHMAUFVX3lxTE5Vd1k5c2NrVGFSNWpSd29fYmlTdVN1TXBOZTFqTHVsaVRfZlh5Nkd4QURXRWFESGJQVEt0eXgxZEp6WWhfVkdla0R6MXZUYU85Ry1nZnB5TExfVzY4S01LSGhCSXA4X25XSVhHS1pBTkVWMUZIcEhXMExEU0RIMElQOEFfd0pTaXNFTmJXU3V1b2JER1ZSdHJ0MTdGbGtYalA3UjRUV2N2N0ZaaGpWZFk3YWdXX0k3UTBLNTFpTmw2NXNxRExpR0JMV2U5Vw?oc=5
-summary: Bollywood actor Sonam Kapoor shared a set of photos with her boys, and NDTV called them a peek into her life as a mother.
+source_story: https://www.ndtv.com/lifestyle/sonam-kapoor-gives-fans-a-peek-into-motherhood-through-heartwarming-pics-with-her-boys-12232978
+summary: Bollywood actor Sonam Kapoor shared photos and a video with her two sons on Instagram. Here is what she posted and what she wrote.
 image_query: mother holding baby
 status: draft
 takes:
 - voice: rosanna
-  text: 'You looked at a pretty picture and felt something. That''s allowed.
+  text: 'You saw the headline and smiled. Fine. Now look at what she actually wrote.
 
 
-    But notice what you actually know. A headline. One outlet. The word "heartwarming." Nothing about what the photos show, what she wrote, or who "her boys" even means. The article says so, and I respect that.
+    Toy cars everywhere. A house in chaos. A very full heart. That''s not a glossy shoot. That''s a mom telling you to watch where you step, and meaning it as good news.
 
 
-    Here''s what I''d tell you. Don''t fill the gaps with a story that feels good. We do it constantly. A smiling parent, a soft caption, and suddenly we think we know a whole life.
+    Here''s what I''d tell you. Don''t hold your messy living room up against her post. She picked these frames. Cupcakes, a walk, a line about missing her husband. You''re seeing the parts she chose, on the day she chose.
 
 
-    She chose what to show. That''s her right. Your part is smaller. Look at her own post, not the recap of it. Then let it be what it is: one moment she decided to share, on one day, with the people she picked.'
+    Her boys are her two sons. That''s all you need to know about them. The rest is theirs.
+
+
+    So let her have the moment. And go easier on your own chaotic house tonight.'
 - voice: destiny
-  text: 'Some people let you in through a door they have opened themselves. Not a window, not a long lens. A door, held ajar, with the light arranged just so.
+  text: 'There is a kind of woman who lets you see the mess on purpose. Toy cars across the floor. A house she calls chaos. A heart she calls very full.
 
 
-    That is what a post like this is. The warmth is real enough to feel, and the choosing is real too. Every frame is a decision about what stays in the quiet and what steps into the gold.
+    That is the door she opened this time. Not a portrait in gold light, but the quiet of an ordinary day: cupcakes with the elder boy, a walk with both, one short line admitting she misses her Anand.
 
 
-    The article is right to hold back. We have a headline and a mood, and that is all. Who the boys are, how many, what she said under the pictures: still in shadow until someone opens the original.
+    Notice what stays in the shadow. The frames are chosen. The words are few. Her two sons appear, and the rest of their lives stays where it belongs, out of view.
 
 
-    The ones who show you a little are rarely showing you everything. They never were.'
+    The ones who show you the chaos have already decided exactly how much of it you get to see.'
 image: /images/viral-human-interest/2026-10-25-what-did-sonam-kapoor-share-in-her-new-photos-with-her-boys.jpg
 image_credit: Unknown
 image_credit_url: https://www.rawpixel.com/image/5907050/photo-image-public-domain-kid-person
 image_license: Public domain
 image_source: https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg2MzUyNTUtaW1hZ2Uta3d2djh1bHMuanBn.jpg
+fact_check:
+  done: true
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-30'
+  check1:
+    confirmed: 3
+    corrected: 8
+    removed: 1
+    unresolved: 0
+  check2:
+    ok: 9
+    fixed: 2
+    cut: 0
+    flagged: 0
+  open_items: 0
 ---
 
 Sonam Kapoor, the Bollywood actor, has shared a set of photos and a video with her two sons on Instagram, and NDTV described them as a peek into her life as a mother. The outlet's headline calls the pictures "heartwarming." The post was also covered by the news agency IANS and by [India.com](https://www.india.com/entertainment/bollywood/sonam-kapoor-shares-glimpse-of-life-with-her-sons-a-house-in-chaos-and-a-very-full-heart-8539095/) on October 25, 2026.
