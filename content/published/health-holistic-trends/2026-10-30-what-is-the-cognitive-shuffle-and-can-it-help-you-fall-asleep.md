@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://www.rnz.co.nz/life/wellbeing/cognitive-shuffling-a-mental-trick-to-help-you-quiet-racing-thoughts-and-fall-asleep
 summary: The cognitive shuffle is a free bedtime trick of picturing random, unrelated things to crowd out racing thoughts. It is low-risk, but the research behind it is small, early and mostly from its creator's own team.
 image_query: dark bedroom pillow
-status: draft
+status: approved
 takes:
 - voice: expert
   text: 'The interesting claim here is not that distraction helps. The claim is that random, disconnected images mimic the way the mind already drifts at sleep onset, and so push the process along. That is a testable idea, and it has barely been tested. The 2016 study split 154 students into three groups: the shuffle, structured problem-solving, or both. The shuffle came out about as effective as problem-solving, which is like learning that two routes reach the same town without knowing whether staying put would have got you there too. Nobody had a group that tried nothing new, so the passing semester and expectation could explain the change. Treat it as a cheap experiment for an occasional bad night. If bad nights have become the pattern, three nights a week for three months, the shuffle is the wrong tool and CBT-I is the one with the guideline behind it.'

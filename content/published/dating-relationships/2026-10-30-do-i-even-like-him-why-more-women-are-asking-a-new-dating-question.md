@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://dailydot.com/tiktoker-says-women-with-careers-apartments-and-trips-of-their-own-now-ask-do-i-even-like-him
 summary: A viral TikTok says women with their own careers and homes now ask "do I even like him?" instead of "will he choose me?" The video is opinion, but survey data on single adults and changing earnings points in a similar direction.
 image_query: woman coffee thinking
-status: draft
+status: approved
 takes:
 - voice: rosanna
   text: You are allowed to ask whether you like him. That is not being picky. That is paying attention. The part I'd push back on is the idea that you need a career and your own lease before the question counts. You were allowed to ask it the whole time. Here's what I'd tell you. If you leave every date replaying whether he liked you, and you can't remember one thing you enjoyed about him, that is your answer showing up early. Write down the three moments from the last date that felt good. If the list is empty, believe the list.

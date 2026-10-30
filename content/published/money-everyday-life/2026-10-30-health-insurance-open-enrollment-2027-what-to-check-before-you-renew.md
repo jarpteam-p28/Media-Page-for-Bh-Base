@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://www.kff.org/affordable-care-act/how-much-and-why-aca-marketplace-premiums-are-going-up-in-2027/
 summary: Open enrollment on HealthCare.gov for 2027 coverage runs November 1, 2026 to January 15, 2027. Insurers asked for a median 15% premium increase, so it pays to check the numbers before letting a plan renew on its own.
 image_query: health insurance paperwork
-status: draft
+status: approved
 takes:
 - voice: expert
   text: 'The most useful number in this article is not the 15%. It is the 400% line. A median increase describes insurers, not households. If your income sits under that line, the tax credit is built to cap your share of the benchmark plan at a set percentage of income, so a rising sticker price is partly absorbed. Above the line, nothing absorbs it. That is why two neighbors on the same plan can open very different renewal letters. The second point people underrate is the income estimate. With the repayment caps gone starting in tax year 2026, an estimate that turns out too low gets settled in full at tax time. A raise, a side job, a spouse going back to work: put it in the application now, while it only changes a monthly bill.'

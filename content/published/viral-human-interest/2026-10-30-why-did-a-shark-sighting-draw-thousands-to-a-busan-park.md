@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://www.koreaherald.com/article/10881053
 summary: A shark about 3 meters long got stuck in a canal at a Busan waterfront park in September 2026, drew more than a million visitors and plenty of memes. It turned out to be an endangered dusky shark, and getting it back to sea has been hard.
 image_query: Busan port waterfront
-status: draft
+status: approved
 takes:
 - voice: rosanna
   text: Here's what I'd tell you. You're allowed to love this story. A shark shows up where it shouldn't, a whole city stops to look, and somebody online worries about whether it's eating. That's not silly. That's people paying attention. But notice the part that's easy to skip. She's not visiting. She's stuck. More than a month in a canal, no sign of regular meals, water getting colder. The crowds were the fun part. The nets, the divers, the three tries are the real story. If you go see something like this, keep your distance and keep it short. Thirty minutes was the ask in Busan. That's a fair trade for a wild animal that never asked to be famous.
