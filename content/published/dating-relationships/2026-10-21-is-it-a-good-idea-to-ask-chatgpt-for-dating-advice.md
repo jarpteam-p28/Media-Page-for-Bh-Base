@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://news.google.com/rss/articles/CBMi9wFBVV95cUxOV1ZfSXAtQ2V6OEJTREhoTzlTbHk5MG5SeXl0YVBob2ItNmJreFBGSjlvZGE2NDFsYzV4WUppbVlGZHFRd0xZZjJ1Z0VvcndsYVBlU0c3bUZQajA1VDhCOHNKQ0hSOE5zN1k3YW05RE9kOW1xSmtPdjhGbTlNaHJ2VFdsZHUwdGxqVXZWODR4eWtFOUp2WUhrcXkzeWpkNHB6T0g4M05vakZET3ViT0hEUnl3SGN1Wkx3RWZLVmlwNktBRlpTekdScDYzRGdVaExWSElTZUxCMy14bUpsSDZfaDRfb1RhcGV6c1VMb2NHR2VINXBTamJF?oc=5
 summary: AI chatbots can help you organize your thoughts about a date or a mixed signal. They are a poor judge of the other person.
 image_query: person texting phone night
-status: draft
+status: approved
 takes:
 - voice: rosanna
   text: 'You already know what you want to hear. That''s why you''re typing it out at 2 a.m.

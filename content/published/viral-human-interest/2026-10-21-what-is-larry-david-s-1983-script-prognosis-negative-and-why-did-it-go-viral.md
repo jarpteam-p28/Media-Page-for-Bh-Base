@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://news.google.com/rss/articles/CBMiowFBVV95cUxPaDNaTTdVbTlOZjlDaDFveWZVa0ZaZDlGblQ5dTl5VGNfd1MyV18xZmJ3TUh0V0k2ckFlRDBtdDRocGhud3lpUV9faFRVN3lJbWY2bU0tMkZYUm9nUzRWdndqNndHSlFIbmNXcklSTmJWdVp5dFowWlBfVzEwbngtZ1E1VTFydFB2SE9tWk0tMXBrMjZrcUtFUThScDRkcEtCaEJZ?oc=5
 summary: 'A 1983 Larry David script called ''Prognosis: Negative'' spread online this spring after a Reddit post and a New York Times report. The Hollywood Reporter says that was only part of the story.'
 image_query: vintage typewriter script pages
-status: draft
+status: approved
 takes:
 - voice: rosanna
   text: 'Here''s what I''d tell you. A famous name plus an old document makes you want to believe the whole story. Don''t. Not yet.

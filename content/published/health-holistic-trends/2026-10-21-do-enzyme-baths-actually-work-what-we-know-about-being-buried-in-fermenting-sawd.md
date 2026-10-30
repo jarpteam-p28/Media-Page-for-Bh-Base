@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://news.google.com/rss/articles/CBMiV0FVX3lxTE9TSG95a1BocG1HVjNaM1ZxZ2pxZV9kaFJkMVJkWkpKd1d3ZGtkWVF1UmhpMzRfc21jTk1HR21hS01KU2VYVHd0N2cySjdDY2NQYUJ2NGdTZw?oc=5
 summary: Enzyme baths bury you in warm, fermenting plant material. The heat is real. The enzyme benefits have not been shown in clinical trials.
 image_query: wooden spa relaxation heat
-status: draft
+status: approved
 takes:
 - voice: expert
   text: The article separates two claims that spas tend to blur. The warmth is the easy part to believe. Whether the enzymes then do something to you is a different question, and the article found no clinical trials of enzyme baths, so any claim about what the enzymes do to your body is untested. I would push back on leaning too hard on the sauna research. Laukkanen's 2015 study was observational and looked at traditional dry Finnish saunas, so it says little about a body buried in sawdust. The risk section matters most, because a buried person cannot easily move or step out. Ask what temperature the bath is kept at before you book.

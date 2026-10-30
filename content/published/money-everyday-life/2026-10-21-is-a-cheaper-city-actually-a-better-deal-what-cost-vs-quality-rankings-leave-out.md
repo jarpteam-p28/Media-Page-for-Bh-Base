@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://news.google.com/rss/articles/CBMimAFBVV95cUxNSHBzODYzcWJXdERROFZBbTgyM2J1TDZDWGcwNkdjd2tvTVNFZWpOQXhOQ05VR1dXdS1ObUNCZFFQbnNKVmlwQ05MbGRsNnZQYnNZa2tBeHBxa1ZtaGtWZ0tuQkhTazdvQ0VIeHVLVXFtYzNkSDJyVUhndEhyRG81Z3F4bG9aMldKUDFHNWNNNkRoNVZGYUZHRA?oc=5
 summary: A Visual Capitalist chart pits quality of life against cost in 99 cities. Here is what such rankings show, and what they miss.
 image_query: city skyline apartment buildings
-status: draft
+status: approved
 takes:
 - voice: expert
   text: The article's most useful point is that a cost-versus-quality chart joins two scores built from different kinds of data. Cost comes from prices for a basket of goods. Quality comes from indexes on safety, pollution, health care and commutes, built from crowdsourced reports rather than a representative survey. Plotting them together gives a tidy dot on a chart, but a dot cannot tell you what a given household will spend. I would add one caution. The article cites the Bureau of Economic Analysis, which says housing rents are often the main driver of regional price gaps. Even so, a price index measures what things cost, not what you earn. Nobody has tested whether a ranking like this predicts that a move leaves a household better off. The MIT Living Wage Calculator at least forces you to put your own county's wage next to the price.
