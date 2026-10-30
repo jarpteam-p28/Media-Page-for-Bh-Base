@@ -19,7 +19,7 @@ Creatine is a compound found in red meat and sold as a gym supplement. For healt
 
 Creatine is a molecule the body makes from amino acids, mostly in the liver and kidneys. It is also eaten directly in meat and fish. Most of the body's supply, roughly 95 percent according to the [International Society of Sports Nutrition](https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/), sits in skeletal muscle.
 
-Supplements are usually synthetic creatine monohydrate powder. Red meat and supplements deliver the same molecule. The difference is dose. Reaching the 3 to 5 grams a day that the [ISSN position stand](https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/) says maintains muscle stores through food alone would take a lot of meat.
+The most commonly studied supplement form, according to the ISSN, is creatine monohydrate. Red meat and supplements deliver the same molecule. The difference is dose. Reaching the 3 to 5 grams a day that the [ISSN position stand](https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/) says maintains muscle stores through food alone would take a lot of meat.
 
 ## How does creatine work?
 
@@ -41,9 +41,9 @@ Work on mood and depression is earlier still. Treat those findings as hypotheses
 
 ## What are the risks and side effects?
 
-The most common complaint is temporary water retention and a bit of weight gain in the first weeks, [according to the ISSN](https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/). Some people report stomach upset; in [one trial of soccer players](https://pubmed.ncbi.nlm.nih.gov/18373286/), diarrhea was more common with a single 10-gram dose than with the same amount split into two 5-gram doses.
+The most common complaint is temporary water retention and a bit of weight gain, mainly during a short high-dose "loading" phase, [according to the ISSN](https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/). Some people report stomach upset; in [one trial of soccer players](https://pubmed.ncbi.nlm.nih.gov/18373286/), diarrhea was more common with a single 10-gram dose than with the same amount split into two 5-gram doses.
 
-Creatine also raises blood levels of creatinine, a waste product doctors use to estimate kidney function. A healthy person on creatine can look as if their kidneys are working poorly on a routine blood test, as [one published case report](https://pubmed.ncbi.nlm.nih.gov/17969491/) described. Anyone who takes it should tell their doctor.
+Creatine can also temporarily raise blood levels of creatinine, a waste product doctors use to estimate kidney function. A healthy person on creatine can look as if their kidneys are working poorly on a routine blood test, as [one published case report](https://pubmed.ncbi.nlm.nih.gov/17969491/) described. Anyone who takes it should tell their doctor.
 
 People with existing kidney disease, or who take medications that can harm the kidneys, should speak with a clinician before using it; a [2019 review](https://pubmed.ncbi.nlm.nih.gov/31859895/) advises against creatine for both groups. Supplements are also loosely regulated: the [FDA does not approve dietary supplements](https://www.fda.gov/food/information-consumers-using-dietary-supplements/questions-and-answers-dietary-supplements) before they are sold, so quality depends on the manufacturer.
 
