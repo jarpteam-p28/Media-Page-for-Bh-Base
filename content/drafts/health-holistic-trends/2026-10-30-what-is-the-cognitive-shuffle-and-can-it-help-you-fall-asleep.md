@@ -18,7 +18,7 @@ image_license: CC BY-SA 4.0
 image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Sleep_mood.jpg/1280px-Sleep_mood.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ---
 
-The cognitive shuffle is a bedtime mental exercise: instead of lying awake with the same worries, a person pictures a string of random, unrelated things until sleep arrives. It is free and has no known downside, and some early studies are encouraging. But the research is thin, has been done mostly by the technique's creator and his colleagues, and has not shown that it beats other approaches.
+The cognitive shuffle is a bedtime mental exercise: instead of lying awake with the same worries, a person pictures a string of random, unrelated things until sleep arrives. It is free, the studies described here did not report side effects, and some early findings are encouraging. But the research is thin, has been done mostly by the technique's creator and his colleagues, and has not shown that it beats other approaches.
 
 ## Why is the cognitive shuffle suddenly everywhere?
 
@@ -32,20 +32,20 @@ Beaudoin has a commercial stake. According to CNN, he owns CogZest and co-founde
 
 ## How is it supposed to work?
 
-One common version, as described in the CNN piece: choose a random, neutral word. Go through its letters, spending about five to eight seconds on each one thinking of as many words as possible that start with it, and picturing them if that helps. The words do not need to connect.
+One common version, as described in the CNN piece: choose a random, neutral word. For each letter, think of as many words as possible that start with it, for about five to eight seconds each, before moving to the next letter, and picture them if that helps. The words do not need to connect.
 
-The idea rests on Beaudoin's "somnolent mentation theory." As people drift off, their thinking normally becomes loose, image-heavy and incoherent. The theory proposes that this jumbled thinking is not just a side effect of falling asleep but actually helps it along, while problem-solving and sense-making keep the brain alert ([Digdon and Beaudoin, CogSci 2015 abstract](https://journalpub.escholarship.org/cognitivesciencesociety/article/25896/galley/15520/download)). The shuffle is meant to imitate that drifting state on purpose and crowd out worry at the same time. This is a hypothesis, not an established mechanism.
+The idea rests on Beaudoin's "somnolent mentation theory." As people drift off, their thinking normally becomes loose and incoherent. The theory proposes that this jumbled thinking is not just a side effect of falling asleep but actually helps it along, while problem-solving and sense-making keep the brain alert ([Digdon and Beaudoin, CogSci 2015 abstract](https://journalpub.escholarship.org/cognitivesciencesociety/article/25896/galley/15520/download)). The shuffle is meant to imitate that drifting state on purpose and crowd out worry at the same time. This is a hypothesis, not an established mechanism.
 
 ## What does the research actually show?
 
 The main study usually cited was presented at SLEEP 2016, a joint meeting of the American Academy of Sleep Medicine and the Sleep Research Society ([SFU news release via EurekAlert](https://www.eurekalert.org/news-releases/577613)). It involved 154 university students, mostly female, who complained of excessive mental arousal at bedtime. According to CNN, they were randomly assigned to one of three groups: the shuffle, done in bed; a standard structured problem-solving exercise, which is done before bedtime and takes about 15 minutes; or both ([RNZ/CNN](https://www.rnz.co.nz/life/wellbeing/cognitive-shuffling-a-mental-trick-to-help-you-quiet-racing-thoughts-and-fall-asleep); [Sleep Review](https://sleepreviewmag.com/sleep-health/parameters/quality/need-better-sleep-consider-cognitive-shuffle/)).
 
-According to the researchers' announcement, the shuffle was as effective as structured problem-solving at reducing pre-sleep arousal, sleep effort and poor sleep quality. CNN reported that the shuffle group described better sleep quality, easier sleep onset and less pre-sleep arousal, with benefits lasting the semester, and noted that the sample was small.
+According to the researchers' announcement, the shuffle was as effective as structured problem-solving at reducing pre-sleep arousal, sleep effort and poor sleep quality. CNN reported that the shuffle group was more likely to see improvements in sleep quality, difficulty falling asleep and pre-sleep arousal, that these benefits lasted throughout the semester, and that the sample was small.
 
 That result has clear limits:
 
-- There was no group that received nothing new, so the improvement cannot be credited to either technique.
-- The outcomes were self-reported questionnaires, not measured sleep.
+- There was no group that received nothing new, so any improvement cannot be credited to either technique.
+- The outcomes reported were pre-sleep arousal, sleep effort and sleep quality; none of the accessible accounts of the study mention measured sleep.
 - The participants were university students, mostly female.
 - The researchers include the technique's creator.
 - Searches for this article did not turn up a full peer-reviewed journal paper reporting the trial.
@@ -54,7 +54,7 @@ A broader 2020 systematic review in *Sleep Medicine Reviews*, which Beaudoin co-
 
 ## Who probably won't be helped by it?
 
-The shuffle is aimed at a busy mind at bedtime. Beaudoin told CNN that someone who drinks a lot of coffee before bed should not expect a mental technique to help them sleep. The article says the technique does not replace good sleep habits, and Beaudoin said cognitive techniques are not a substitute for cognitive behavioral therapy for insomnia, known as CBT-I. Kami McManus, a sleep psychologist at Penn Medicine, advised getting out of bed after about 20 minutes of trying, or sooner if frustrated, doing something calming elsewhere, and then trying again ([RNZ/CNN](https://www.rnz.co.nz/life/wellbeing/cognitive-shuffling-a-mental-trick-to-help-you-quiet-racing-thoughts-and-fall-asleep)). The studies described here did not report on side effects.
+The shuffle is aimed at a busy mind at bedtime. Beaudoin told CNN that someone who drinks a lot of coffee before bed should not expect a mental technique to help them sleep. The article says the technique is not a replacement for proper sleep hygiene, and Beaudoin said cognitive techniques are not a substitute for cognitive behavioral therapy for insomnia, known as CBT-I. Kami McManus, a sleep psychologist at Penn Medicine, advised getting out of bed after about 20 minutes of trying, or sooner if frustrated, doing something calming elsewhere, and then trying again ([RNZ/CNN](https://www.rnz.co.nz/life/wellbeing/cognitive-shuffling-a-mental-trick-to-help-you-quiet-racing-thoughts-and-fall-asleep)). The studies described here did not report on side effects.
 
 Ongoing sleep trouble is a different matter. The American College of Physicians defines chronic insomnia as symptoms on at least three nights a week for at least three months that cause real distress or trouble functioning. Its 2016 guideline, published in *Annals of Internal Medicine*, says CBT-I should be the first-line treatment for adults with chronic insomnia ([ACP](https://www.acponline.org/acp-newsroom/acp-recommends-cognitive-behavioral-therapy-as-initial-treatment-for-chronic-insomnia)). CBT-I combines changing unhelpful thoughts about sleep with behavioral steps such as limiting time in bed.
 
