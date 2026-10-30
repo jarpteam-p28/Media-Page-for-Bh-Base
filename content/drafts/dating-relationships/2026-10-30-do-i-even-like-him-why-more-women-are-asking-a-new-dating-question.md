@@ -10,11 +10,16 @@ image_query: woman coffee thinking
 status: draft
 takes:
 - voice: rosanna
-  text: 'You are allowed to ask whether you like him. That is not being picky. That is paying attention. The part I''d push back on is the idea that you need a career and your own lease before the question counts. You were allowed to ask it the whole time. Here''s what I''d tell you. If you leave every date replaying whether he liked you, and you can''t remember one thing you enjoyed about him, that is your answer showing up early. Write down the three moments from the last date that felt good. If the list is empty, believe the list.'
+  text: You are allowed to ask whether you like him. That is not being picky. That is paying attention. The part I'd push back on is the idea that you need a career and your own lease before the question counts. You were allowed to ask it the whole time. Here's what I'd tell you. If you leave every date replaying whether he liked you, and you can't remember one thing you enjoyed about him, that is your answer showing up early. Write down the three moments from the last date that felt good. If the list is empty, believe the list.
 - voice: destiny
-  text: 'There is a quiet that settles over a woman when she stops auditioning. The video caught that shift, even if a man described it from the outside. She pays her own rent. She books her own trips. So the old question, will he choose me, loses its heat. What is left is sharper. Do I want this? Notice that the numbers in the article do not say women have given up on love. They say fewer single women are out looking, and that many who are not looking enjoy being single. That is not a closed door. That is a woman standing in her own doorway, deciding who gets to come in.'
+  text: There is a quiet that settles over a woman when she stops auditioning. The video caught that shift, even if a man described it from the outside. She pays her own rent. She books her own trips. So the old question, will he choose me, loses its heat. What is left is sharper. Do I want this? Notice that the numbers in the article do not say women have given up on love. They say fewer single women are out looking, and that many who are not looking enjoy being single. That is not a closed door. That is a woman standing in her own doorway, deciding who gets to come in.
 - voice: expert
-  text: 'The article is careful to separate one man''s TikTok from the data, and that separation matters. A video about the women he talks to is a sample of one person''s social circle. The Pew figures are national surveys. They fit the story without proving it. The most interesting piece is the Zentner and Mitura study from 2012, which found that differences between what men and women want in a partner shrink in more gender-equal countries. That is a comparison between nations, not a measurement of any one woman''s thinking, so it cannot tell you why a particular person is asking the question. Nobody has tested the TikTok claim directly. The self-check at the end is useful precisely because it does not depend on that missing study.'
+  text: The article is careful to separate one man's TikTok from the data, and that separation matters. A video about the women he talks to is a sample of one person's social circle. The Pew figures are national surveys. They fit the story without proving it. The most interesting piece is the Zentner and Mitura study from 2012, which found that differences between what men and women want in a partner shrink in more gender-equal countries. That is a comparison between nations, not a measurement of any one woman's thinking, so it cannot tell you why a particular person is asking the question. Nobody has tested the TikTok claim directly. The self-check at the end is useful precisely because it does not depend on that missing study.
+image: /images/dating-relationships/2026-10-30-do-i-even-like-him-why-more-women-are-asking-a-new-dating-question.jpg
+image_credit: Thought Catalog thoughtcatalog
+image_credit_url: https://commons.wikimedia.org/wiki/File:Journaling_over_coffee_(Unsplash).jpg
+image_license: CC0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Journaling_over_coffee_%28Unsplash%29.jpg/1280px-Journaling_over_coffee_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ---
 
 A viral TikTok argues that many women with their own careers, homes and travel budgets have stopped asking "will he choose me?" and started asking "do I even like him?" That is one man's opinion, not a finding. But national survey data on single adults and on who earns what in couples points in a similar direction, and the question itself is a useful one for anyone dating.
@@ -37,7 +42,7 @@ Priorities show up in the data too. In a 2023 Pew survey, 23% of adults said bei
 
 ## Has women's money really changed the picture?
 
-Women's earning power has grown a lot within couples. In 1972, husbands were the sole or primary breadwinner in 85% of opposite-sex marriages. By 2022, that share was 55%. Marriages where husband and wife earn about the same rose from 11% to 29%, and wives were the sole or primary breadwinner in 16% ([Pew Research Center](https://www.pewresearch.org/social-trends/2023/04/13/in-a-growing-share-of-u-s-marriages-husbands-and-wives-earn-about-the-same/)).
+Women's earning power has grown a lot within couples. In 1972, husbands were the sole or primary breadwinner in 85% of opposite-sex marriages. By 2022, that share was 55%. Marriages where husband and wife earn about the same rose from 11% to 29%, and wives were the sole or primary breadwinner in 16%, up from 5% in 1972 ([Pew Research Center](https://www.pewresearch.org/social-trends/2023/04/13/in-a-growing-share-of-u-s-marriages-husbands-and-wives-earn-about-the-same/)).
 
 Old expectations have not fully caught up. In a 2017 Pew survey, 71% of adults said it is very important for a man to be able to support a family financially to be a good husband or partner. Only 32% said the same about a woman ([Pew Research Center](https://www.pewresearch.org/short-reads/2017/09/20/americans-see-men-as-the-financial-providers-even-as-womens-contributions-grow/)).
 
@@ -47,7 +52,7 @@ Research across countries offers a hint about why independence could change what
 
 The opinion is the video's central claim: that women with careers and apartments now ask a different question on dates. Nobody has measured that.
 
-The evidence is narrower. Fewer single women than single men say they are looking. Many singles who are not looking say they enjoy it. Women contribute far more to household income than they did 50 years ago. Those facts fit the TikTok's story, but they would also fit other explanations, such as burnout or simply having full lives.
+The evidence is narrower. Fewer single women than single men say they are looking. Many singles who are not looking say they enjoy it. Wives bring in a much larger share of their marriage's earnings than they did 50 years ago. Those facts fit the TikTok's story, but they would also fit other explanations, such as burnout or simply having full lives.
 
 ## How can someone ask the question calmly?
 
