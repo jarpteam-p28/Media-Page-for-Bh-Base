@@ -9,6 +9,9 @@ on:
     # Sunday, Monday and Thursday at 13:00 UTC: 9am US Eastern in summer time, 8am in winter.
     # (0 = Sunday, 1 = Monday, 4 = Thursday.)
     - cron: "0 13 * * 0,1,4"
+    # Afternoon retry, same days at 19:00 UTC. It only does anything if the morning
+    # run made no drafts (a site was down, a hiccup...); otherwise it stops right away.
+    - cron: "0 19 * * 0,1,4"
   workflow_dispatch: {}      # lets you trigger it manually from the Actions tab too
 
 permissions:
@@ -16,7 +19,26 @@ permissions:
   pull-requests: write
 
 jobs:
+  # Decides whether the afternoon retry is needed: skip it if today's drafts branch exists.
+  check-retry:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+    steps:
+      - id: check
+        run: |
+          today=$(date +%Y-%m-%d)
+          if [ "${{ github.event.schedule }}" = "0 19 * * 0,1,4" ] && \
+             git ls-remote --heads "https://github.com/${{ github.repository }}.git" | grep -q "refs/heads/drafts/$today-"; then
+            echo "The morning run already made today's drafts; no retry needed."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
   research-and-draft:
+    needs: check-retry
+    if: needs.check-retry.outputs.skip != 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -29,6 +51,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run research agent
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}   # optional; YouTube trending is skipped without it
         run: python3 agents/research_agent.py
 
       - name: Run writer agent

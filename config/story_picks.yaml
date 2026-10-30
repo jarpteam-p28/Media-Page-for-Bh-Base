@@ -1,0 +1,21 @@
+# Your own story picks. The robot writes these FIRST on its next run (one per
+# section per run), ahead of anything it finds on Google News.
+#
+# How to add one from your phone: on GitHub open this file, tap the pencil
+# (Edit), copy an example below, remove the "# " from the start of each of its
+# lines, fill it in, then tap "Commit changes".
+#
+#   niche: which section. One of: health-holistic-trends, viral-human-interest,
+#          money-everyday-life, dating-relationships
+#   title: the headline, or the phrase people are using (e.g. a TikTok trend)
+#   url:   optional link (Reddit post, TikTok, news article)
+#   note:  optional, anything you want the writer to know
+#
+# A pick that has been written is remembered (content/state/covered.json) and
+# won't be written twice, so you can delete old picks whenever you like.
+
+picks:
+  # - niche: health-holistic-trends
+  #   title: "The cognitive shuffle trick for falling asleep"
+  #   url: https://www.example.com/article-about-it
+  #   note: "Seen all over TikTok this week"
