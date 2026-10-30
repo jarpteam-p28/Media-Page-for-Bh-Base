@@ -13,15 +13,13 @@ takes:
   text: 'The article is right to separate the gym evidence from everything else. The mechanism is simple enough to hold in your head: muscle uses phosphocreatine to regenerate ATP during short, hard efforts, so the benefit appears in sets and sprints, not in a long easy run. The 2017 position stand from Kreider and colleagues supports that, and it''s the strongest part of the case. The brain material is thinner. The article says the trials were small and mixed, and that is the accurate reading. Mood and depression work is earlier still. One gap matters: the Connecticut study is a placeholder, so I can''t say what it adds, and nobody should treat it as evidence until the original paper is checked. The creatinine point deserves more attention than it gets. Creatine can raise that blood marker without any kidney damage, which a clinician who doesn''t know you take it could misread as a kidney problem. Tell whoever orders your blood work.'
 ---
 
-[VERIFY: The source story's text was not available, only its headline. This draft assumes the "nutrient found in red meat and exercise supplements" is creatine. Confirm the nutrient, the Connecticut research team, and the study's actual findings, then add them to the section below marked "What the Connecticut research adds." If the nutrient is something else (L-carnitine is one possibility), the article needs a rewrite.]
-
 Creatine is a compound found in red meat and sold as a gym supplement. For healthy adults, the best-studied form, creatine monohydrate, has solid evidence for modest gains in strength and high-intensity exercise performance, and a good short-term safety record. The evidence for benefits beyond the gym is thinner.
 
 ## What is creatine, and where does it come from?
 
-Creatine is a molecule the body makes from amino acids, mostly in the liver and kidneys. It is also eaten directly in meat and fish. Most of the body's supply, roughly 95 percent according to the sports-nutrition literature, sits in skeletal muscle. [VERIFY: confirm the ~95% figure against Kreider et al. 2017.]
+Creatine is a molecule the body makes from amino acids, mostly in the liver and kidneys. It is also eaten directly in meat and fish. Most of the body's supply, roughly 95 percent according to the [International Society of Sports Nutrition](https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/), sits in skeletal muscle.
 
-Supplements are usually synthetic creatine monohydrate powder. Red meat and supplements deliver the same molecule. The difference is dose. Reaching the 3 to 5 grams a day used in most studies through food alone would take a lot of meat.
+Supplements are usually synthetic creatine monohydrate powder. Red meat and supplements deliver the same molecule. The difference is dose. Reaching the 3 to 5 grams a day that the [ISSN position stand](https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/) says maintains muscle stores through food alone would take a lot of meat.
 
 ## How does creatine work?
 
@@ -33,36 +31,35 @@ That is the mechanism. It explains why the effect shows up in brief, high-intens
 
 The International Society of Sports Nutrition reviewed the research in a 2017 position stand (Kreider et al., *Journal of the International Society of Sports Nutrition*). It concluded that creatine monohydrate is an effective supplement for increasing high-intensity exercise capacity and lean mass during training. It also found the supplement safe for healthy people at recommended doses.
 
-The effects are modest. Responses vary, and people who already eat plenty of meat tend to gain less than vegetarians, whose muscle stores start lower. [VERIFY: confirm the vegetarian-response claim and cite a specific study.]
+The effects are modest. The [position stand](https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/) notes that vegetarians tend to start with lower muscle creatine stores and may see a larger rise in those stores when they supplement.
 
 ## Does creatine help the brain?
 
-Some researchers think so, since the brain also uses creatine for energy. A 2018 systematic review (Avgerinos et al., *Experimental Gerontology*) found some evidence that supplementation may improve short-term memory and reasoning in healthy people. The review noted that the trials were small and the results mixed. [VERIFY: confirm the journal, year and conclusions.]
+Some researchers think so, since the brain also uses creatine for energy. A 2018 systematic review ([Avgerinos et al., *Experimental Gerontology*](https://pubmed.ncbi.nlm.nih.gov/29704637/)) found some evidence that supplementation may improve short-term memory and reasoning in healthy people. The review covered six trials with 281 people in total, and the effect on other areas of thinking remained unclear.
 
 Work on mood and depression is earlier still. Treat those findings as hypotheses, not recommendations.
 
-## What the Connecticut research adds
-
-[VERIFY: Summarize the Connecticut study from the Hartford Courant story here: who ran it, how many participants, what was measured, and what the authors said about its limits. Do not state any result until it is confirmed against the original paper.]
-
 ## What are the risks and side effects?
 
-The most common complaint is temporary water retention and a bit of weight gain in the first weeks. Some people report stomach upset, especially with large single doses.
+The most common complaint is temporary water retention and a bit of weight gain in the first weeks, [according to the ISSN](https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/). Some people report stomach upset; in [one trial of soccer players](https://pubmed.ncbi.nlm.nih.gov/18373286/), diarrhea was more common with a single 10-gram dose than with the same amount split into two 5-gram doses.
 
-Creatine also raises blood levels of creatinine, a waste product doctors use to estimate kidney function. A healthy person on creatine can look as if their kidneys are working poorly on a routine blood test. Anyone who takes it should tell their doctor.
+Creatine also raises blood levels of creatinine, a waste product doctors use to estimate kidney function. A healthy person on creatine can look as if their kidneys are working poorly on a routine blood test, as [one published case report](https://pubmed.ncbi.nlm.nih.gov/17969491/) described. Anyone who takes it should tell their doctor.
 
-People with existing kidney disease, or who take medications that affect the kidneys, should speak with a clinician before using it. Long-term data in people with medical conditions are limited. Supplements are also loosely regulated, so quality varies. Third-party tested products reduce that risk.
+People with existing kidney disease, or who take medications that can harm the kidneys, should speak with a clinician before using it; a [2019 review](https://pubmed.ncbi.nlm.nih.gov/31859895/) advises against creatine for both groups. Supplements are also loosely regulated: the [FDA does not approve dietary supplements](https://www.fda.gov/food/information-consumers-using-dietary-supplements/questions-and-answers-dietary-supplements) before they are sold, so quality depends on the manufacturer.
 
 Nothing here suggests creatine should replace any prescribed treatment.
 
 ## Should you try it?
 
-If the goal is better performance in strength training, creatine monohydrate is one of the few supplements with real evidence behind it. A common dose in studies is 3 to 5 grams daily. The next step is to take your current medications and any kidney or liver history to your doctor or pharmacist and ask whether it fits.
+If the goal is better performance in strength training, creatine monohydrate is one of the few supplements with real evidence behind it. A common daily amount is 3 to 5 grams. The next step is to take your current medications and any kidney or liver history to your doctor or pharmacist and ask whether it fits.
 
 *This article is for general education only and is not medical advice. Talk to a doctor or other qualified health professional before changing your diet, supplements, medication, or treatment.*
 
 ## Sources
 
-- Kreider RB, et al. "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine." *Journal of the International Society of Sports Nutrition*, 2017. https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0173-z
-- Avgerinos KI, et al. "Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials." *Experimental Gerontology*, 2018. https://pubmed.ncbi.nlm.nih.gov/29704637/ [VERIFY: link and details]
-- Hartford Courant, "CT researchers looked at a nutrient found in red meat and exercise supplements. What they found." (original story; details to be confirmed by a reviewer)
+- Kreider RB, et al. "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine." *Journal of the International Society of Sports Nutrition*, 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/
+- Avgerinos KI, et al. "Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials." *Experimental Gerontology*, 2018. https://pubmed.ncbi.nlm.nih.gov/29704637/
+- Ostojic SM, Ahmetovic Z. "Gastrointestinal distress after creatine supplementation in athletes: are side effects dose dependent?" *Research in Sports Medicine*, 2008. https://pubmed.ncbi.nlm.nih.gov/18373286/
+- Refaie R, et al. "How we estimate GFR: a pitfall of using a serum creatinine-based formula." *Clinical Nephrology*, 2007. https://pubmed.ncbi.nlm.nih.gov/17969491/
+- Vega J, Huidobro E JP. "Effects of creatine supplementation on renal function." *Revista Médica de Chile*, 2019. https://pubmed.ncbi.nlm.nih.gov/31859895/
+- U.S. Food and Drug Administration, "Questions and Answers on Dietary Supplements." https://www.fda.gov/food/information-consumers-using-dietary-supplements/questions-and-answers-dietary-supplements
