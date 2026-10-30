@@ -27,10 +27,10 @@ fact_check:
     flagged: 0
   open_items: 0
 image: /images/health-holistic-trends/2026-10-29-does-oil-pulling-actually-do-anything-for-your-teeth.jpg
-image_credit: Chenspec
-image_credit_url: https://commons.wikimedia.org/wiki/File:Red_symbol_indicating_high_levels_of_saturated_fat_on_a_jar_of_coconut_oil_03.jpg
-image_license: CC BY-SA 4.0
-image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Red_symbol_indicating_high_levels_of_saturated_fat_on_a_jar_of_coconut_oil_03.jpg/1280px-Red_symbol_indicating_high_levels_of_saturated_fat_on_a_jar_of_coconut_oil_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+image_credit: greek food ta mystika
+image_credit_url: https://commons.wikimedia.org/wiki/File:Coconut-oil-on-wooden-spoon.jpg
+image_license: CC0
+image_source: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Coconut-oil-on-wooden-spoon.jpg/1280px-Coconut-oil-on-wooden-spoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 ---
 
 Oil pulling, swishing a spoonful of oil around the mouth for several minutes and then spitting it out, has some research behind it, but not much, and most of that research is weak. Short, small trials suggest it may lower the number of bacteria in saliva. There is no good evidence that it beats a normal routine of brushing with fluoride toothpaste and flossing, and the American Dental Association does not recommend it.
