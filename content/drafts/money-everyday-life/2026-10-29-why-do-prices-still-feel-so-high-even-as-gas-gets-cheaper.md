@@ -10,7 +10,22 @@ image_query: grocery receipt checkout
 status: draft
 takes:
 - voice: expert
-  text: 'The useful idea here is that a falling price and a lower price are different things. Gas dropped about six cents a gallon in two weeks of October, by the EIA''s count, and people noticed. It is still about $1.23 a gallon above a year ago. Moods respond to direction, budgets respond to level, which is why the Conference Board index can rise while Michigan''s barely moves. The figure I would put on the fridge is the BLS one: real hourly pay down 0.7% over the year. That is the gap a household actually lives in. I would push back on one hopeful reading. Grocery prices dipped in September, but diesel kept climbing in October, and trucks move food. Nobody can say yet how much of that reaches the shelf, so treat cheaper groceries as a pause, not a trend.'
+  text: 'The useful idea here is that a falling price and a lower price are different things. Gas dropped about six cents a gallon in two weeks of October, by the EIA''s count, and people noticed. It is still about $1.23 a gallon above a year ago. Moods respond to direction, budgets respond to level, which is why the Conference Board index can rise while Michigan''s barely moves. The figure I would put on the fridge is the BLS one: real hourly pay down 0.7% over the year. That is the gap a household actually lives in. I would push back on one hopeful reading. Grocery prices dipped in September, but diesel climbed again from mid-October, and trucks move food. Nobody can say yet how much of that reaches the shelf, so treat cheaper groceries as a pause, not a trend.'
+fact_check:
+  done: true
+  method: two independent in-chat checks (no API cost)
+  date: '2026-10-30'
+  check1:
+    confirmed: 22
+    corrected: 1
+    removed: 0
+    unresolved: 0
+  check2:
+    ok: 18
+    fixed: 1
+    cut: 0
+    flagged: 0
+  open_items: 0
 ---
 
 Prices feel high because most of them still are. In September 2026, overall prices were 3.7% higher than a year earlier, according to the [Bureau of Labor Statistics](https://www.bls.gov/news.release/cpi.nr0.htm), while hourly pay, after inflation, fell. Gas has started to ease in October, which lifted the mood a little, but a small drop from a high level still leaves the bill high.
