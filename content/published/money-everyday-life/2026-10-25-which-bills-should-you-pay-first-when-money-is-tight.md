@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://www.washingtonpost.com/business/2026/10/25/economy-is-doing-fine-why-cant-1-4-americans-pay-all-their-bills/
 summary: When money runs short, pay for shelter, food, utilities, and transport first. Cards and medical bills usually come later, with real costs.
 image_query: kitchen table bills
-status: draft
+status: approved
 takes:
 - voice: expert
   text: The useful idea in this piece is that bills differ by what the creditor can do to you, not by how much you owe. A secured debt, like a car loan, has collateral behind it, so the lender can take the car. An unsecured debt, like a credit card, has nothing behind it, so the lender has to sue and win a judgment before it can reach your wages. That difference in legal remedy is the whole reason for the ordering. The 120-day mortgage window is the other thing to understand. It exists so a borrower can apply for a modification, and the article rightly says it is time to use, not wait out. What nobody can tell you from a general article is how quickly your landlord or lender will act, because that depends on your state and your contract. The one-page list of consequences is a decent way to find out before the due date arrives.

@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/
 summary: Creatine shows up in red meat and gym supplements. Here's what it does in the body, what the research supports, and who should be careful.
 image_query: protein powder scoop gym
-status: draft
+status: approved
 takes:
 - voice: expert
   text: I'd start where the article starts, with the mechanism. Muscle keeps phosphocreatine on hand to rebuild ATP in the first seconds of a hard effort, so the benefit belongs to a heavy set or a sprint, not a long, easy run. The 2017 position stand from Kreider and colleagues at the International Society of Sports Nutrition is the strongest evidence here. The brain case is thinner. The 2018 review by Avgerinos and colleagues covered six trials and 281 people; short-term memory and reasoning may improve, and everything else is unclear. Nobody should build a habit on that yet. The practical point is the blood test. Creatine can push up creatinine and make healthy kidneys look sluggish on paper. Tell whoever orders your blood work.

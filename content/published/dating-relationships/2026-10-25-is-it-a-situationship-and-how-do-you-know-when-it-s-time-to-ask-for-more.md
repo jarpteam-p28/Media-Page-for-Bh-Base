@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://www.filmink.com.au/roberto-nascimento-comes-out-with-situationship/
 summary: A situationship is a romantic connection with no agreed definition. Here's how to spot one, why they last, and how to ask for clarity.
 image_query: couple sitting apart couch
-status: draft
+status: approved
 takes:
 - voice: rosanna
   text: 'You already know which one you are. The one who stopped asking.

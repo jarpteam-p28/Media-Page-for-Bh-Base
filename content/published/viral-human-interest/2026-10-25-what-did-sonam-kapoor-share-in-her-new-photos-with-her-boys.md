@@ -7,7 +7,7 @@ voice: narrator
 source_story: https://www.ndtv.com/lifestyle/sonam-kapoor-gives-fans-a-peek-into-motherhood-through-heartwarming-pics-with-her-boys-12232978
 summary: Bollywood actor Sonam Kapoor shared photos and a video with her two sons on Instagram. Here is what she posted and what she wrote.
 image_query: mother holding baby
-status: draft
+status: approved
 takes:
 - voice: rosanna
   text: 'You saw the headline and smiled. Fine. Now look at what she actually wrote.
