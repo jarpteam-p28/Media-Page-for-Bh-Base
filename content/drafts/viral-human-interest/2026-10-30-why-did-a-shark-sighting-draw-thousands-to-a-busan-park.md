@@ -15,13 +15,13 @@ takes:
   text: 'Some creatures arrive quietly and leave a mark much larger than themselves. This one slid into a narrow canal in the heat of September and a whole port city turned toward the water. Look at what people did with her. They named her after the place. They made her an ambassador. They built jokes around her, a shark-shaped stadium, a free aquarium. That is how a city tells you what it longs for. She is a dusky shark, endangered, slow to grow, slow to breed. Rare things do not stay on schedule. She left once, under a gold evening sky, and by night she had slipped back in. Some guests know exactly where they feel safe.'
 ---
 
-A large shark wandered into a narrow canal at North Port Waterfront Park in Busan, South Korea, on September 18, 2026, and could not find its way out. Crowds came to watch almost immediately: local authorities put the first weekend at nearly 20,000 visitors, four to five times the park's usual weekend crowd. The shark turned into a meme and an official city mascot. Busan officials say it has now drawn more than 1.7 million visitors.
+A large shark wandered into a narrow canal at North Port Waterfront Park in Busan, South Korea, on September 18, 2026, and could not find its way out. Crowds came to watch almost immediately: South Korean media, citing local authorities, put the first weekend at about 20,000 visitors. The shark turned into a meme and an official city mascot. Busan officials say it has now drawn more than 1.7 million visitors.
 
 ## Where and when was the shark seen?
 
 The shark was first spotted around 9 a.m. on September 18 in an artificial waterway at North Port Waterfront Park, near Busan North Port ([Korea Herald](https://www.koreaherald.com/article/10881053)). It was seen again at 1:05 p.m. on September 19 ([The Star / Korea Herald](https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/20/shark-sighting-leads-to-crowds-at-busan-port-in-south-korea)). The canal is less than a mile long and opens into the century-old port ([Boston Globe / New York Times](https://www.bostonglobe.com/2026/10/17/world/wayward-shark-becomes-celebrity-south-korea/)).
 
-One clarification on timing. The weekend that drew nearly 20,000 people was September 19 and 20. The crowds in October were far larger.
+The weekend that drew about 20,000 people was September 19 and 20. Daily crowds grew much larger in the weeks that followed.
 
 ## How many people came to see it?
 
@@ -41,7 +41,7 @@ The shark's nickname is Bukang-i, a play on "Bukhang," the Korean word for North
 
 Online reaction took off within days. One meme proposed building a shark-shaped baseball stadium in the North Port area. Other posts joked that the park had become a free aquarium ([Kyunghyang Shinmun](https://www.khan.co.kr/en/article/202609211810007)). A Threads post asking whether anyone was feeding the shark went viral, and commenters started calling the poster a "shark mom" ([Herald Business](https://biz.heraldcorp.com/article/10882307)).
 
-Some of what spread was not true. Kyunghyang reported that a post claiming the shark had given birth was false. Busan City said it had not launched the investigation the post described. The Star noted that some circulating videos were AI-generated, and that claims of a September 20 sighting were unverified ([The Star / Korea Herald](https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/20/shark-sighting-leads-to-crowds-at-busan-port-in-south-korea)).
+Some of what spread was not true or not confirmed. Kyunghyang reported that a post claiming the shark had given birth was unverified, and Busan City said it had never conducted the investigation the post described. The Star noted that some circulating videos were AI-generated, and that claims of a September 20 sighting were unverified ([The Star / Korea Herald](https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/20/shark-sighting-leads-to-crowds-at-busan-port-in-south-korea)).
 
 Officials joined in. Busan made the shark an honorary city ambassador, a local distillery released a special-edition bottle, and the city's baseball team sold a keychain of its mascot in a shark suit ([Boston Globe / New York Times](https://www.bostonglobe.com/2026/10/17/world/wayward-shark-becomes-celebrity-south-korea/)).
 
@@ -74,5 +74,5 @@ AP reported that the shark had shown no signs of feeding regularly and that fall
 - The Herald Business, "'Shark mom' worries about feeding stray shark at Busan port, delighting Korean internet" (Sept. 22, 2026): https://biz.heraldcorp.com/article/10882307
 - The Herald Business, "Shark 'Bukang-i' draws over 100,000 visitors to Busan waterfront park on first day of Chuseok holiday" (Sept. 25, 2026): https://biz.heraldcorp.com/article/10884463
 - Korea JoongAng Daily, "One shark draws 52,000 people to Busan waterfront in a single day" (Oct. 4, 2026): https://www.koreajoongangdaily.com/korea/one-shark-draws-52000-people-to-busan-waterfront-in-a-single-day/12904149
-- The Boston Globe (from The New York Times), "Wayward shark becomes celebrity in South Korea" (Oct. 2026): https://www.bostonglobe.com/2026/10/17/world/wayward-shark-becomes-celebrity-south-korea/
+- The Boston Globe (from The New York Times), "A wayward shark becomes a celebrity in South Korea" (Oct. 2026): https://www.bostonglobe.com/2026/10/17/world/wayward-shark-becomes-celebrity-south-korea/
 - The Associated Press via CP24, "A city in South Korea seeks new ways to free a huge grey shark after it slips back into canal" (Oct. 22, 2026): https://www.cp24.com/news/world/2026/10/22/a-city-in-south-korea-seeks-new-ways-to-free-a-huge-grey-shark-after-it-slips-back-into-canal/
